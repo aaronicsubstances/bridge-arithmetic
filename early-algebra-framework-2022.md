@@ -6,14 +6,14 @@ Kieran (2004) framework for early algebraic thinking will be adopted as a very u
 
 Also, articles on the history of a few important milestones in the development of algebra, notably symbolic algebra, abstract algebra, and functions, will be considered.
 
-Hans Freudenthal views on mathematics education as seen in his 1972 book on realistic mathematics approach, and his 1991 article will be considered.
+Hans Freudenthal views on mathematics education (e.g. in his 1991 article) will be considered.
 
 Would like to contribute to the modern-day discussion on how to define mathematics, by saying that I think that not enough recognition is given to the place of counting in the definition of mathematics.
  - argue that counting is the unifying theme of all areas of mathematics.
 
 Would like to extend the early algebra framework in Kieran (2004), based on considerations of the history of algebra, function concept, and the practical challenge of demarcating the
  boundary between algebra and arithmetic:
-  - argue that "global/meta-level activities" include interpreting mathematical notation (which overlaps interpretation of artificial languages), equation solving (which comprises arithmetic equation solving) and function application. And hence 
+  - argue that "global/meta-level activities" include interpreting mathematical notation (which overlaps interpretation of artificial languages), equation solving (which includes arithmetic equation solving) and function application (which includes operator machines). And hence precursors to
  mathematical notation, equations and functions can be introduced in early algebra.
   - introduce the term "definitely arithmetic": includes manipulating counting numbers using only counting techniques.
   - introduce the term "definitely algebra": includes manipulating placeholders for unknown real numbers as if they are known counting numbers.
@@ -37,7 +37,7 @@ Argue that early algebra's tactical goals should be:
 
 ## Operational Goals of Early Algebra
 
-   1. To expose the student to enough variety of examples and exercises, including those for which no or only inferior solutions exist prior to algebra study in JHS,  to counteract the growth of any misconceptions of algebra before it is too late.
+   1. To expose the student to enough variety of examples and exercises, including those for which no or only inferior solutions exist prior to algebra study,  to counteract the growth of any misconceptions of algebra before it is too late.
 
    2. To give the student a few intuitive concepts of arithmetic that can also serve as fallback for the more advanced concepts of arithmetic and algebra.
 
@@ -53,7 +53,7 @@ Argue that early algebra's tactical goals should be:
        9. Equation invariant with respect to addition, subtraction, multiplication and division involving counting numbers.
    
    4. To make the student familiar with some of the global activities of algebra, including
-       1. problem solving (like in Polya's book).
+       1. problem solving (like in Polya's How to Solve It book).
        2. generalizing (like in Mason's 2006 book).
        3. noticing structure (like in Kieran's 2018 article)
        4. interpreting mathematical notation (aka multi-step arithmetic and BODMAS).
@@ -69,6 +69,7 @@ Argue that early algebra's tactical goals should be:
      - procedures and structures that may exist in theory only without regard to the real world (aka theoretical structures), and are created in the imagination of mathematicians to resemble counting to some extent.
   2. Arithmetic comprises the 5 algorithms of addition, subtraction, multiplication, division and comparison performed on real numbers.
      - Note that arithmetic overlaps algebra, given that arithmetic algorithms were developed as part of algebra's historical development.
+     - Mathematics novices see some of the arithmetic operations as existing only in the imagination of mathematicians, and therefore not meant for practical use.
   2. Standard mathemtical notation was created for mathematicians without  consideration for mathematics novices.
   3. The concept of function is the long sought after meeting point of meaning of algebraic expressions between mathematicians and mathematics novices.
   4. Overloading of natural language for arithmetic operators on the different subsets of real numbers is a challenge for those who take language seriously, and can be addressed by temporarily replacing an overloaded operator with multiple functions.
@@ -83,62 +84,64 @@ Argue that early algebra's tactical goals should be:
   1. To make the transition applicable in as many environments as possible, the use of computers and technology is *not* assumed.
 
   2. The advice that mastery of mathematics require working out lots of examples and exercises, should be taken as the single most important determinant of success in mathematics.
-     - That means that the primary school student who rarely works on mathematics risks struggling in the subject in JHS, no matter how good his/her grades currently look like.
+     - That means that the primary school student who rarely works on mathematics risks struggling in the subject later on, no matter how good his/her grades currently look like.
 
   3. Introduce the abacus device for addition and subtraction before standard addition and subtraction algorithms.
      - The abacus can then serve as baselne/reference algorithms for their less resource dependent counterparts.
 
   4. Teach grid multiplication method and chunk division methods before standard multiplication and long division algorithms.
      - They make direct use of the definitions of multiplication and division, thus enforcing the definitions of the arithmetic operations.
-     - They can serve as baseline/reference algorithms for their non-intuitive but faster counterparts, and even allow the latter to be taught in JHS or as part of algebra.
+     - They can serve as baseline/reference algorithms for their non-intuitive but faster counterparts, and even allow the latter to be taught later on as part of algebra.
      - They enforce deeper understanding of place value, and hence the naming and comparison of numbers.
      - Grid multiplication exposes students to the distributive property, which is the basis of expansion and factorization techniques in algebra.
      - Chunking method of division can be used for generating approximate terminating decimal expansions to any number of desired decimal places.
 
-  5. Teach alternative to fraction arithmetic without LCMs, HCFs, equivalent fractions and prime numbers.
-     - Inspired by "Anita's way of adding fractions with different denominators".
+  5. Teach students to make use of their fingers and memory to master the arithmetic tables involving single digit numbers, especially multiplication tables, in the hope that they will eventually memorize the tables.
+     - Given the difficulty and critical importance of the multiplication tables for multiplication and division, students should be introduced to them in parts rather than at once.
+     - Begin with parts of the times table with products less than or equal to 20, and the 5 times table (up to 9), and encourage the students to use their fingers (and segments of fingers, and toes if feasible), and use smaller operand as multiplier.
+     - Next introduce 10 and 11 times table (up to 10) due to their simplicity.
+     - Can then introduce graphical "divide-and-conquer grid" technique (e.g. divide into two halves or four quadrants), as precursor to grid or standard multiplication algorithm, in which operands are small enough so that distributive property and multiplication tables can be applied, even for computing 6, 7, 8 and 9 times tables.
+     - Present integer division as sharing without bias (hence a common quotient) or cheating (hence remainder must be smaller than divisor).
+
+  6. Teach alternative to fraction arithmetic without LCMs, HCFs, equivalent fractions and prime numbers.
+     - Inspired by [Anita's way of adding fractions with different denominators](http://mathpractices.edc.org/pdf/Anitas_Way_to_Add_Fractions_with_Unlike_Denominators.pdf).
      - Can serve as reference for standard fraction arithmetic algorithms.
      - This approach presumes that it is straightforward to
         - perform comparison, addition or subtraction of fractions when one of the operands is a whole number.
         - simplify a complex fraction (ie numerator or denominator is a fraction) by multiplication.
      - So all one has to do is to duplicate at least one of the operands till it becomes a whole number, compare/add/subtract/divide, optionally divide by duplicate count, and simplify any complex fraction result by multiplication.
      - This alternative approach has the convenient feature that it can be demonstrated pictorially to mathematics novices.
-
-  6. Teach students to make use of their fingers and memory to master the arithmetic tables involving single digit numbers, especially multiplication tables, in the hope that they will eventually memorize the tables.
-     - Given the difficulty and critical importance of the multiplication tables for multiplication and division, students should be introduced to them in parts rather than at once to build confidenc, through counting by toes and fingers, memorization, and r.
-     - Begin with parts of the times table with products less than or equal to 20, and the 5 times table (up to 9),and encourage the students to use their fingers (and toes if feasible), and use smaller operand as multiplier.
-     - Next introduce 10 and 11 times table (up to 10) due to their simplicity.
-     - Can then introduce graphical "count by quadrants or tic-tac-toe" technique as precursor to grid or standard multiplication algorithm, in which operands are small enough so that distributive property and multiplication tables can be applied, even for computing 6, 7, 8 and 9 times tables.
-     - Present integer division as sharing without bias (hence a common quotient) or cheating (hence remainder must be smaller than divisor).
-
-  7. Introduce problem solving exercises which connect rational numbers and negative numbers to real life scenarios of students, such as susu-box management, cash-based accounting and sports league tables management.
-     - Those real life scenarios then provide a reference point of meaning for the real numbers.
-     - Not all the arithmetic operations though should be connected in the same manner, because early algebra does not disagree with mathematics novices that some of the arithmetic operations exist primarily in the imagination of mathematicians, and are therefore not meant for practical use.
-     - This implies limiting the arithmetic operations that can be performed in each real number category.
-        - with whole numbers, no limitation.
-        - with nonnegative rational numbers, unlimited comparisons, but addition, subtraction and division limited to operands with the same denominator. And multiplication limited to operands with one of them being a whole number.
-        - with irrational numbers, interpret as rational number approximations.
-        - with negative numbers, unlimited comparisons and addition, but subtraction limited to case of second operand being nonnegative. Thus multiplication or division involving negative numbers is omitted, and negative fractions are presented with magnitude in brackets, e.g. -(3/4), rather than -3/4 or 3/-4.
    
-  8. Leverage simplification of fractions for several benefits, including getting students to notice structures related to multiplication,
+  7. Leverage simplification of fractions for several benefits, including getting students to notice structures related to multiplication,
 division, factors, multiples, and divisors.
      - Students can see pictorially what simplification of fractions is.
+     - Serves as counterpart to simplification of algebraic expressions in the future.
 
-  9. Prefer generalization with large counting numbers and non-counting numbers, to generalization with letters in early algebra.
+  8. Teach negative numbers as "debt quantities", and limit the arithmetic operations that can be performed in each real number category, so as to correspond with the mathematical reality of mathematics novices
+     - with whole numbers, no limitation.
+     - with nonnegative rational numbers, unlimited comparisons, addition, subtraction and division. And multiplication limited to operands with one of them being a whole number.
+     - with irrational numbers, interpret as rational number approximations.
+     - with negative numbers, addition, and subtraction limited to case of second operand being nonnegative. Thus comparison, multiplication or division involving negative numbers is omitted, and negative fractions are presented with magnitude in brackets, e.g. -(3/4), rather than -3/4 or 3/-4.
+
+  9. Introduce curricular activities which connect rational numbers and negative numbers to real life scenarios of students.
+     - Provides a reference point of meaning for the real numbers.
+
+  10. Prefer generalization with large counting numbers and non-counting numbers, to generalization with letters in early algebra.
      - Large counting numbers and non-counting numbers force students to expose the operations they are performing in their heads on paper, and so are sufficient for just about the same purpose that letters would have served in early algebra.
     
-  10. Introduce an alternative mathematical notation based on parse trees in Computer Science and suitable for mathematics novices, in which students have the opportunity to deal with order of operations, perform multi-step arithmetic, and apply functions.
+  11. Introduce an alternative mathematical notation based on parse trees in Computer Science and suitable for mathematics novices, in which students have the opportunity to deal with order of operations, perform multi-step arithmetic, and apply functions.
       - Also serves as a baseline/reference for standard algebraic notation.
-      - The inclusion of functions or operator machines should help forestall the bulk of the common math misconceptions developed prior to the study of algebra.
+      - Can be used as the notation for introducing equation solving.
+      - The inclusion of functions or operator machines should provide several benefits prior to the study of algebra.
   
-  11. Use alternative mathematical notation to introduce equation solving exercises, but with "guess and check" as the main equation solving strategy.
+  12. Introduce equation solving exercises, but with "guess and check" as the main equation solving strategy.
       - "guess and check" also serves as a baselne/reference for future equation solving strategies.
 
-  12. Word problems seem to require familiarity with similar types in the past. Even we advanced mathematicians still get tripped up by completely new word problems (e.g. in "The Algebra of Mohammed Ben Musa"). As such, we can be gracious to ourselves and to our students in understanding our difficulties in word problems.
+  13. Word problems seem to require familiarity with similar types in the past. Even we advanced mathematicians still get tripped up by completely new word problems (e.g. in "The Algebra of Mohammed Ben Musa"). As such, we can be gracious to ourselves and to our students in understanding our difficulties in word problems.
       - Therefore, we can assume that the practical solution to word problems is familiarity with past questions, and lack of caprice on the part of examination question creators.
       - We should not expect students to be able to solve any arbitrary word problem just because its solution eventually employs techniques familiar to the student.
 
-  13. Time is required of teachers, students and education stake holders to really help early algebra students make a smooth transition to algebra.
+  14. Time is required of teachers, students and education stake holders to really help early algebra students make a smooth transition to algebra.
       - Since algebra achievement leads to higher mathematical ability, then some shuffling can be done so that certain content areas usually treated before algebra can be delayed until algebra is being introduced.
       - Also if the student is not prepared to spend some extra time on mathematics compared to subjects which can be "verified easily from the natural world", then he/she will sabotage his progress in mathematics.
 
@@ -177,6 +180,7 @@ division, factors, multiples, and divisors.
   1. Fletcher, J. A. (2008). Developing algebraic thinking through group discussion. *Mathematics Connection, 7*, 25.
   2. Freudenthal, H. (1991). *Revisiting mathematics education*: China lectures. Dordrecht, NL: Kluwer Academic.
   2. Gallardo, A. (2002). The extension of the natural-number domain to the integers in the transition from arithmetic to algebra. *Educational Studies in Mathematics, 49*(2), 171–192.
+  3. Gray, E. M., & Tall, D. O. (1994). Duality, ambiguity, and flexibility: A "proceptual" view of simple arithmetic. *Journal for Research in Mathematics Education, 25*(2), 116–140. https://doi.org/10.2307/749505
   3. Glidden, P. L. (2008). Prospective elementary teachers' understanding of the order of operations. *School Science and Mathematics, 108*(4), 130–136.
   4. Gray, E. M., & Tall, D. O. (1994). Duality, ambiguity, and flexibility: A "proceptual" view of simple arithmetic. *Journal for Research in Mathematics Education, 25*(2), 116–140. 
   5. Gunnarsson, R., Sönnerhed, W.W. & Hernell, B. (2016). Does it help to use mathematically superfluous brackets when teaching the rules for the order of operations? *Educ Stud Math, 92*, 91–105.

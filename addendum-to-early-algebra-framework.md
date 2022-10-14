@@ -34,7 +34,7 @@ In general, the earlier a misconception in algebra can be addressed in early alg
    - subtraction and division are commutative - fix with questions whose answer is undefined like 2 - 4, 4 / 0, as well as give division questions with different results, such as 4 / 3 = 1 r 1 or 1 1/3 whereas 3 / 4 = 0 r 3 or 3/4.
    - order of operations doesn't matter - fix by accepting undefined for arithmetic expressions which can result in more than 1 answer, and which cannot be evaluated using knowledge of parenthesis precedence and commutativity of addition and multiplication alone. E.g. 2 * 3 * 3 and 2 + (3 * 4) cannot be undefined, but 2 + 3 * 4 and 2 * 3 + 4 can be (i.e. either supply undefined or get the correct answer somehow).
    - equal sign always mean compute - fix with equation solving
-   - answers always have to be numbers, or even counting numbers - fix with algorithm generation
+   - answers always have to be numbers, or even counting numbers - fix with generation of mathematical expressions.
    - the rule of "brackets first" cannot be overriden, when sometimes distributive law makes it possible to override - fix  by teaching grid method of multiplication.
 
 ## Ignorance Points (which may lead to misconceptions)
@@ -48,7 +48,7 @@ In general, the earlier a misconception in algebra can be addressed in early alg
 
 ## Curriculum Design Tips
 
-   1. Developing proficiency in arithmetic of whole numbers and positive common fractions.
+   1. Developing proficiency in arithmetic.
        - An alternative to compulsory memorization of time table, is to make the tables available to them during exercises and exams, but give them complex multi-step arithmetic exercises, such that the students themselves realize the need to memorize some parts of the time table due to the frequent lookups.
        - Can teach a first phase of fractions arithmetic in which fractions have the same denominators, there is no multiplication, and division of fractions taught as equivalent to whole number division.
        - Ensure early algebra students can compare any two positive real numbers to determine which is greater, or arrange on number line in correct order.
@@ -68,14 +68,17 @@ In general, the earlier a misconception in algebra can be addressed in early alg
        - allow functions to be specified with tables, conditionals and recursion.
        - introduce a set of functions with consistent names, which will serve as baseline/reference for implicit mathematics operations later on.
 
-   3. Problem solving avenues (aka real world applications of mathematics).
-       - descriptive statistics
+   3. Curricular activities for applying mathematics in the real world.
+       - susu-box management
        - cash-based accounting
-       - soccer premier league standings
+       - sports league standings
        - cooking recipes
        - distance measurement, including anatomy-based (inch, foot, yard)
        - weight/mass measurement, including balances/scales used throughout history.
        - wall clock readings
+       - descriptive statistics
+       - sharing money in ratios (determining whether I received correct amount).
+       - picking largest of 2 or more fractions
   
    4. Ways of adopting textbook "forward-only" exercises for early algebra.
        - Can adapt for generalization by re-asking the question with large counting numbers, non-counting numbers and unknown numbers.
@@ -84,7 +87,18 @@ In general, the earlier a misconception in algebra can be addressed in early alg
    5. Functions to develop
        - LCM - use method of addition rather than multiplication to populate sets of multiples of 2 or more arguments.
        - "of" operator (or "enlarge" or "resize" functions). So if 3 × 4 is read "3 times of 4" (or just "3 times 4"), ie what is triple of 4?, then we can also say "3 of 4", and mean "resize 4 by a factor of 3". And this can lead to use of factors which are not whole numbers but are positive rational numbers, such as in "1/2 of 6" which means "resize 6 by factor of 1/2", ie what is half of 6?
-       - modulo
+       - modulo or remainder
+       - square
+       - cube
+       - absolute value or magnitude
+       - sign
+       - negation
+       - reciprocal
+       - positive rational number multiplication
+       - real number comparison
+       - real number subtraction
+       - real number multiplication
+       - real number division
 
 
    6. Number theory concepts and their level of relevance in basic school
