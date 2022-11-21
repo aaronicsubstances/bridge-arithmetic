@@ -41,14 +41,14 @@ Argue that early algebra's tactical goals should be:
    2. To give the student a few intuitive concepts of arithmetic that can also serve as fallback for the more advanced concepts of arithmetic and algebra.
 
    3. To give the student a firm understanding of the following properties of counting numbers such that, the student will more easily understand the justification of the transformation rules of algebra:
-       1. Addition as a result of counting union of sets; in general assigning a number to a collection of items.
-       2. Subtraction as counting difference of sets; in general undoing addition
-       3. Multiplication as repeated addition; which also holds in general when multiplier is a counting number.
-       4. Division as repeated subtraction and possibly leaving a remainder; in general undoing multiplication (and hence interpretation as repeated subtraction holds when result is a counting number).
-       5. Trichotomy law of counting numbers.
-       6. Commutativity of addition and multiplication
-       7. Associativity of addition and multiplication
-       8. Distributivity of multiplication over addition
+       1. Addition as determining count of a *union* of disjoint sets; in general determining the corresponding number associated with a *combination* of disjoint items where each item has an associated number.
+       2. Subtraction as counting leftover of a set after removing a number of its members; in general undoing addition.
+       3. Multiplication as repeated addition, which also holds when there is a counting number involved to serve as a multiplier.
+       4. Division as repeated subtraction and possibly leaving a remainder, which also holds when result is a counting number; in general, undoing multiplication without leaving a remainder.
+       5. Trichotomy law of counting numbers: given any two counting numbers *a* and *b*, either *a* = *b*, *a* < *b* or *a* > *b*.
+       6. Commutativity and associativity of addition and multiplication
+       7. Distributivity of multiplication over addition
+       8. Equivalence of division without remainder: if *a* and *d* are counting numbers such that *a* divided by *d* leaves no remainder, then the product of *a* and any counting number *c*, when divided by the product of *d* and the same *c* leaves no remainder, and conversely.
        9. Equation invariant with respect to addition, subtraction, multiplication and division involving counting numbers.
    
    4. To make the student familiar with some of the global activities of algebra, including
