@@ -31,8 +31,7 @@ Argue that early algebra's overaching or strategic goals should be:
 
 Argue that early algebra's tactical goals should be:
 
-   1. to introduce a subset of the thinking and practices associated with "definitely algebra" to the study of
- mathematics jumbled in between "definitely arithmetic" and "definitely algebra".
+   1. to introduce students to a subset of the thinking and practices associated with "definitely algebra".
    2. to counteract the development of math misconceptions that can sabotage the future study of "definitely algebra".
 
 ## Operational Goals of Early Algebra
@@ -42,10 +41,10 @@ Argue that early algebra's tactical goals should be:
    2. To give the student a few intuitive concepts of arithmetic that can also serve as fallback for the more advanced concepts of arithmetic and algebra.
 
    3. To give the student a firm understanding of the following properties of counting numbers such that, the student will more easily understand the justification of the transformation rules of algebra:
-       1. Addition as a result of counting union of sets.
+       1. Addition as a result of counting union of sets; in general assigning a number to a collection of items.
        2. Subtraction as counting difference of sets; in general undoing addition
-       3. Multiplication as repeated addition; which also holds in general once multiplier is a counting number.
-       4. Division as repeated subtraction and possibly leaving a remainder; in general undoing multiplication.
+       3. Multiplication as repeated addition; which also holds in general when multiplier is a counting number.
+       4. Division as repeated subtraction and possibly leaving a remainder; in general undoing multiplication (and hence interpretation as repeated subtraction holds when result is a counting number).
        5. Trichotomy law of counting numbers.
        6. Commutativity of addition and multiplication
        7. Associativity of addition and multiplication
@@ -101,7 +100,7 @@ Argue that early algebra's tactical goals should be:
      - Begin with parts of the times table with products less than or equal to 20, and the 5 times table (up to 9), and encourage the students to use their fingers (and segments of fingers, and toes if feasible), and use smaller operand as multiplier.
      - Next introduce 10 and 11 times table (up to 10) due to their simplicity.
      - Can then introduce graphical "divide-and-conquer grid" technique (e.g. divide into two halves or four quadrants), as precursor to grid or standard multiplication algorithm, in which operands are small enough so that distributive property and multiplication tables can be applied, even for computing 6, 7, 8 and 9 times tables.
-     - Present integer division as sharing without bias (hence a common quotient) or cheating (hence remainder must be smaller than divisor).
+     - Present integer division as sharing money without bias (hence a common quotient) or cheating (hence remainder must be smaller than divisor).
 
   6. Teach alternative to fraction arithmetic without LCMs, HCFs, equivalent fractions and prime numbers.
      - Inspired by [Anita's way of adding fractions with different denominators](http://mathpractices.edc.org/pdf/Anitas_Way_to_Add_Fractions_with_Unlike_Denominators.pdf).
@@ -118,17 +117,18 @@ division, factors, multiples, and divisors.
      - Serves as counterpart to simplification of algebraic expressions in the future.
 
   8. Teach negative numbers as "debt quantities", and limit the arithmetic operations that can be performed in each real number category, so as to correspond with the mathematical reality of mathematics novices
+     - with comparision and addition, no limitation.
+     - with multiplication involving whole numbers, no limitation.
      - with whole numbers, no limitation.
-     - with nonnegative rational numbers, unlimited comparisons, addition, subtraction and division. And multiplication limited to operands with one of them being a whole number.
-     - with irrational numbers, interpret as rational number approximations.
-     - with negative numbers, addition, and subtraction limited to case of second operand being nonnegative. Thus comparison, multiplication or division involving negative numbers is omitted, and negative fractions are presented with magnitude in brackets, e.g. -(3/4), rather than -3/4 or 3/-4.
+     - with nonnegative real numbers other than whole numbers, subtraction is also not limited.
+     - with negative real numbers involved, subtraction is limited only to when second operand is nonnegative, and negative fractions are presented with magnitude in brackets, e.g. -(3/4), rather than -3/4 or 3/-4.
 
   9. Introduce curricular activities which connect rational numbers and negative numbers to real life scenarios of students.
      - Provides a reference point of meaning for the real numbers.
 
   10. Prefer generalization with large counting numbers and non-counting numbers, to generalization with letters in early algebra.
-     - Large counting numbers and non-counting numbers force students to expose the operations they are performing in their heads on paper, and so are sufficient for just about the same purpose that letters would have served in early algebra.
-    
+      - Large counting numbers and non-counting numbers force students to expose the operations they are performing in their heads on paper, and so are sufficient for just about the same purpose that letters would have served in early algebra.
+
   11. Introduce an alternative mathematical notation based on parse trees in Computer Science and suitable for mathematics novices, in which students have the opportunity to deal with order of operations, perform multi-step arithmetic, and apply functions.
       - Also serves as a baseline/reference for standard algebraic notation.
       - Can be used as the notation for introducing equation solving.
