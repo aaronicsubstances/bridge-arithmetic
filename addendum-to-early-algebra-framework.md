@@ -86,7 +86,10 @@ In general, the earlier a misconception in algebra can be addressed in early alg
 
    5. Functions to develop
        - LCM - use method of addition rather than multiplication to populate sets of multiples of 2 or more arguments.
-       - "of" operator (or "enlarge" or "resize" functions). So if 3 × 4 is read "3 times of 4" (or just "3 times 4"), ie what is triple of 4?, then we can also say "3 of 4", and mean "resize 4 by a factor of 3". And this can lead to use of factors which are not whole numbers but are positive rational numbers, such as in "1/2 of 6" which means "resize 6 by factor of 1/2", ie what is half of 6?
+       - "of" operator (or "enlarge" or "resize" functions).
+           - So if 3 × 4 is read "3 times of 4" (or just "3 times 4"), ie what is triple of 4?, then we can also say "3 of 4", and mean "resize 4 by a factor of 3". And this can lead to use of factors which are not whole numbers but are positive rational numbers, such as in "1/2 of 6" which means "resize 6 by factor of 1/2", ie what is half of 6?
+           - can be leveraged later to present multiplication beyond whole number arithmetic as something generally different from repeated addition.
+       - create fraction and simplify (given a numerator and a denominator) - can be leveraged later to present division beyond whole number arithmetic as a fraction-creation operation.
        - modulo or remainder
        - square
        - cube
@@ -94,7 +97,6 @@ In general, the earlier a misconception in algebra can be addressed in early alg
        - sign
        - negation
        - reciprocal
-       - positive rational number multiplication
        - real number comparison
        - real number subtraction
        - real number multiplication
