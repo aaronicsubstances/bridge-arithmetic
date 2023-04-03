@@ -7,6 +7,7 @@ Kieran (2004) framework for early algebraic thinking will be adopted as a very u
 Would like to extend the early algebra framework in Kieran (2004), based the history of a few important milestones in the development of algebra, notably symbolic algebra, abstract algebra, and functions by arguing that:
   - generational activities include interpreting standard mathematical notation.
   - global/meta-level activities include function application and equation solving.
+  - despite the fuzzy boundary between arithmetic and algebra, the manipulation of placeholders for unknown real numbers as if they are known counting numbers, aka simplification of algebraic expressions, is definitely beyond the scope of arithmetic and early algebra.
 
 Hans Freudenthal views on mathematics education (e.g. in his 1991 article) will be considered.
 
@@ -35,7 +36,7 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
        2. generalizing (like in Mason's 2006 book).
        3. noticing structure (like in Kieran's 2018 article)
        4. function application
-       5. equation solving, with guess and check as the main solution method.
+       5. equation solving, with balance model and guess and check as the main solution methods.
 
    5. To make students proficient in the operations and functions of arithmetic that tend to be performed frequently, including
        1. arithmetic of single digits
@@ -48,7 +49,7 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
 
   1. A disconnect exists between novices and experts with regards to the appreciation of mathematics.
      - Mathematics novices see some of the arithmetic operations (such as multiplication and division of fractions and negative numbers) as not having practical use.
-     - Standard mathemtical notation was created for mathematicians without  consideration for mathematics novices.
+     - Standard mathemtical notation is a challenge for mathematics novices (Radford, 2002).
      - Overloading of natural language for arithmetic operators on the different subsets of real numbers is a challenge for those who take language seriously, and can be addressed by temporarily replacing an overloaded operator with multiple functions or non-standard operators.
 
   2. The concept of function is the long sought after meeting point of meaning of algebraic expressions between mathematicians and mathematics novices.
@@ -133,9 +134,11 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
   1. Mason, J. (2005). *Developing thinking in algebra.* Sage.
   2. Mills, E. D., & Mereku, D. K. (2016). Students’ performance on the Ghanaian junior high school mathematics national minimum standards in the Effutu Municipality. *African Journal of Educational Studies in Mathematics and Sciences, 12.*
   1. Polya, G. (1957). *How to solve it.* Garden City, NY: Doubleday and Co., Inc.
+  2. Radford, L. (2002). Algebra as tekhnē. Artefacts, Symbols and Equations in the Classroom. *Mediterranean Journal for Research in Mathematics Education, 1*(1), 31-56.
   1. Radford, L. (2014). The progressive development of early embodied algebraic thinking. *Mathematics Education Research Journal, 26*(2), 257-277.
   1. Sfard, A. (1991). On the dual nature of mathematical conceptions: Reflections on processes and objects as different sides of the same coin. *Educational studies in mathematics, 22*(1), 1-36.
   1. Sfard, A., & Linchevski, L. (1994). The gains and the pitfalls of reification — The case of algebra. *Educational Studies in Mathematics, 26*(2–3), 191–228.
   2. Stephens, A. C., Fonger, N., Strachota, S., Isler, I., Blanton, M., Knuth, E., & Murphy Gardiner, A. (2017). A Learning Progression for Elementary Students’ Functional Thinking. *Mathematical Thinking and Learning, 19*(3), 143–166. https://doi.org/10.1080/10986065.2017.1328636
   3. Taback, S. F. (1988). The Wonder and Creativity in “Looking Back” at Problem Solutions. *The Mathematics Teacher, 81*(6), 429–434.
+  4. Vlassis, J. (2002). The balance model: hindrance or support for the solving of linear equations with one unknown. *Educational Studies in Mathematics, 49*(3), 341–359.
   4. Warren, E. (2003). The Role of Arithmetic Structure in the Transition from Arithmetic to Algebra. *Mathematics Education Research Journal, 15*(2), 122-137.
