@@ -4,146 +4,73 @@
 
 Kieran (2004) framework for early algebraic thinking will be adopted as a very useful starting point.
 
-Also, articles on the history of a few important milestones in the development of algebra, notably symbolic algebra, abstract algebra, and functions, will be considered.
+Would like to extend the early algebra framework in Kieran (2004), based the history of a few important milestones in the development of algebra, notably symbolic algebra, abstract algebra, and functions by arguing that:
+  - generational activities include interpreting standard mathematical notation.
+  - global/meta-level activities include function application and equation solving.
 
 Hans Freudenthal views on mathematics education (e.g. in his 1991 article) will be considered.
 
-Would like to contribute to the modern-day discussion on how to define mathematics, by saying that I think that not enough recognition is given to the place of counting in the definition of mathematics.
- - argue that counting is the unifying theme of all areas of mathematics.
+Hewitt's framework of subordination (1996) and his follow-up articles on "arbitrary vs necessary" divide in mathematics, will also be adopted to guide the design of any early algebra curriculum.
 
-Would like to extend the early algebra framework in Kieran (2004), based on considerations of the history of algebra, function concept, and the practical challenge of demarcating the
- boundary between algebra and arithmetic:
-  - argue that "global/meta-level activities" include interpreting mathematical notation (which overlaps interpretation of artificial languages), equation solving (which includes arithmetic equation solving) and function application (which includes operator machines). And hence precursors to
- mathematical notation, equations and functions can be introduced in early algebra.
-  - introduce the term "definitely arithmetic": includes manipulating counting numbers using only counting techniques.
-  - introduce the term "definitely algebra": includes manipulating placeholders for unknown real numbers as if they are known counting numbers.
+## Proposed Goals of Early Algebra Education
 
-Lastly, Hewitt's framework of subordination (1996) and his follow-up articles on "arbitrary vs necessary" divide in mathematics, will also be adopted to guide the design of any early algebra curriculum.
+   1. To build the confidence of students for algebra study.
 
-## Strategic Goals of Early Algebra
+   2. To introduce students to the generational activities of algebra by introducing them to the standard mathematical notation.
 
-Argue that early algebra's overaching or strategic goals should be:
-
-   1. to provide smooth transition from "definitely arithmetic" to "definitely algebra".
-   2. to build the confidence of students for algebra study.
-
-## Tactical Goals of Early Algebra
-
-Argue that early algebra's tactical goals should be:
-
-   1. to introduce students to a subset of the thinking and practices associated with "definitely algebra".
-   2. to counteract the development of math misconceptions that can sabotage the future study of "definitely algebra".
-
-## Operational Goals of Early Algebra
-
-   1. To expose the student to enough variety of examples and exercises, including those for which no or only inferior solutions exist prior to algebra study,  to counteract the growth of any misconceptions of algebra before it is too late.
-
-   2. To give the student a few intuitive concepts of arithmetic that can also serve as fallback for the more advanced concepts of arithmetic and algebra.
-
-   3. To give the student a firm understanding of the following properties of counting numbers such that, the student will more easily understand the justification of the transformation rules of algebra:
-       1. Addition as determining count of a *union* of disjoint sets; in general determining the corresponding number associated with a *combination* of disjoint items where each item has an associated number.
-       2. Subtraction as counting leftover of a set after removing a number of its members; in general undoing addition.
+   3. To give the student a firm understanding of the following subset of the properties of counting numbers such that, the student will more easily understand the rules used in the transformational activities of algebra:
+       1. Addition
+       2. Subtraction as undoing addition in general.
        3. Multiplication as repeated addition, which also holds when there is a counting number involved to serve as a multiplier.
        4. Division as repeated subtraction and possibly leaving a remainder, which also holds when result is a counting number; in general, undoing multiplication without leaving a remainder.
-       5. Trichotomy law of counting numbers: given any two counting numbers *a* and *b*, either *a* = *b*, *a* < *b* or *a* > *b*.
-       6. Commutativity and associativity of addition and multiplication
-       7. Distributivity of multiplication over addition
-       8. Equivalence of division without remainder: if *a* and *d* are counting numbers such that *a* divided by *d* leaves no remainder, then the product of *a* and any counting number *c*, when divided by the product of *d* and the same *c* leaves no remainder, and conversely.
-       9. Equation invariant with respect to addition, subtraction, multiplication and division involving counting numbers.
+       5. Justification for cancelling out (or multiplying top and down): if *d* divides *a* to get *m*, then *cd* divides *ca* to get *m* as well for any counting number *c*, and conversely.
+       6. Trichotomy law of counting numbers: given any two counting numbers *a* and *b*, either *a* = *b*, *a* < *b* or *a* > *b*.
+       7. Equation invariance: same operation done to LHS and RHS maintains equality.
+       8. Commutativity of addition and multiplication
+       9. Associativity of addition and multiplication
+       10. Distributivity of multiplication over addition
    
-   4. To make the student familiar with some of the global activities of algebra, including
-       1. problem solving (like in Polya's How to Solve It book).
+   4. To make the student familiar with the following subset of the global activities of algebra:
+       1. problem solving (like in Polya's How to Solve It book), including the method of trial and error and the habit of cross checking answers.
        2. generalizing (like in Mason's 2006 book).
        3. noticing structure (like in Kieran's 2018 article)
-       4. interpreting mathematical notation (aka multi-step arithmetic and BODMAS).
-       5. function application (aka "operator machines").
-       6. equation solving
+       4. function application
+       5. equation solving, with guess and check as the main solution method.
+
+   5. To make students proficient in the operations and functions of arithmetic that tend to be performed frequently, including
+       1. arithmetic of single digits
+       2. simplification of fractions
+
+   6. To engage students in curricular activities which connect fractions and negative numbers to real life scenarios of students.
 
 
-## Operational Assumptions
+## Assumptions of Early Algebra Proposal
 
-  1. Modern-day mathematics is the study and application of either
-     - counting and counting numbers
-     - procedures and structures that are abstractions of the real world (aka abstract structures), and are built directly or indirectly on counting.
-     - procedures and structures that may exist in theory only without regard to the real world (aka theoretical structures), and are created in the imagination of mathematicians to resemble counting to some extent.
-  2. Arithmetic comprises the 5 algorithms of addition, subtraction, multiplication, division and comparison performed on real numbers.
-     - Note that arithmetic overlaps algebra, given that arithmetic algorithms were developed as part of algebra's historical development.
-     - Mathematics novices see some of the arithmetic operations as existing only in the imagination of mathematicians, and therefore not meant for practical use.
-  2. Standard mathemtical notation was created for mathematicians without  consideration for mathematics novices.
-  3. The concept of function is the long sought after meeting point of meaning of algebraic expressions between mathematicians and mathematics novices.
-  4. Overloading of natural language for arithmetic operators on the different subsets of real numbers is a challenge for those who take language seriously, and can be addressed by temporarily replacing an overloaded operator with multiple functions.
-  5. The history of mathematics development up to symbolic algebra was not an accident, but an indication of how the human mind newly introduced to mathematics works its way up to acquire the mathematical concepts.
+  1. A disconnect exists between novices and experts with regards to the appreciation of mathematics.
+     - Mathematics novices see some of the arithmetic operations (such as multiplication and division of fractions and negative numbers) as not having practical use.
+     - Standard mathemtical notation was created for mathematicians without  consideration for mathematics novices.
+     - Overloading of natural language for arithmetic operators on the different subsets of real numbers is a challenge for those who take language seriously, and can be addressed by temporarily replacing an overloaded operator with multiple functions or non-standard operators.
+
+  2. The concept of function is the long sought after meeting point of meaning of algebraic expressions between mathematicians and mathematics novices.
+
+  3. The history of mathematics development up to symbolic algebra was not an accident, but an indication of how the human mind newly introduced to mathematics works its way up to acquire the mathematical concepts.
      - Hans Freudenthal was inspired by this same history in his opinions on mathematics education.
      - Empathy may then be required on the part of teachers regarding any resistance from students in the acceptance of certain real numbers: zero (ie nothing), one (ie not many), fractions, irrational numbers, negative numbers.
      - May have to introduce the abacus device to students for performing arithmetic with large counting numbers, given that it was the mathematics calculator of history.
      - When introducing early algebra to adults as part of adult education, may want to refocus "early algebra" as "history of mathematics" for them, so they don't feel belittled.
 
-## Curriculum Guidelines
+  4. Absence of computers and technology.
 
-  1. To make the transition applicable in as many environments as possible, the use of computers and technology is *not* assumed.
+  5. Word problems seem to require familiarity with similar types in the past. Even we advanced mathematicians still get tripped up by completely new word problems (e.g. in "The Algebra of Mohammed Ben Musa"). As such, we can be gracious to ourselves and to our students in understanding our difficulties in word problems.
+     - Therefore, we can assume that the practical solution to word problems is familiarity with past questions, and lack of caprice on the part of examination question creators.
+     - We should not expect students to be able to solve any arbitrary word problem just because its solution eventually employs techniques familiar to the student.
 
-  2. The advice that mastery of mathematics require working out lots of examples and exercises, should be taken as the single most important determinant of success in mathematics.
-     - That means that the primary school student who rarely works on mathematics risks struggling in the subject later on, no matter how good his/her grades currently look like.
+  6. Mastery of mathematics requires working out lots of examples and exercises. Therefore
+     - The primary school student who rarely works on mathematics risks struggling in the subject later on, no matter how good his/her grades currently are.
+     - If the student is not prepared to spend some extra time on mathematics compared to subjects which can be "verified easily from the natural world", then he/she will sabotage his progress in mathematics.
 
-  3. Introduce the abacus device for addition and subtraction before standard addition and subtraction algorithms.
-     - The abacus can then serve as baselne/reference algorithms for their less resource dependent counterparts.
-
-  4. Teach grid multiplication method and chunk division methods before standard multiplication and long division algorithms.
-     - They make direct use of the definitions of multiplication and division, thus enforcing the definitions of the arithmetic operations.
-     - They can serve as baseline/reference algorithms for their non-intuitive but faster counterparts, and even allow the latter to be taught later on as part of algebra.
-     - They enforce deeper understanding of place value, and hence the naming and comparison of numbers.
-     - Grid multiplication exposes students to the distributive property, which is the basis of expansion and factorization techniques in algebra.
-     - Chunking method of division can be used for generating approximate terminating decimal expansions to any number of desired decimal places.
-
-  5. Teach students to make use of their fingers and memory to master the arithmetic tables involving single digit numbers, especially multiplication tables, in the hope that they will eventually memorize the tables.
-     - Given the difficulty and critical importance of the multiplication tables for multiplication and division, students should be introduced to them in parts rather than at once.
-     - Begin with parts of the times table with products less than or equal to 20, and the 5 times table (up to 9), and encourage the students to use their fingers (and segments of fingers, and toes if feasible), and use smaller operand as multiplier.
-     - Next introduce 10 and 11 times table (up to 10) due to their simplicity.
-     - Can then introduce graphical "divide-and-conquer grid" technique (e.g. divide into two halves or four quadrants), as precursor to grid or standard multiplication algorithm, in which operands are small enough so that distributive property and multiplication tables can be applied, even for computing 6, 7, 8 and 9 times tables.
-     - Present integer division as sharing money without bias (hence a common quotient) or cheating (hence remainder must be smaller than divisor).
-
-  6. Teach alternative to fraction arithmetic without LCMs, HCFs, equivalent fractions and prime numbers.
-     - Inspired by [Anita's way of adding fractions with different denominators](http://mathpractices.edc.org/pdf/Anitas_Way_to_Add_Fractions_with_Unlike_Denominators.pdf).
-     - Can serve as reference for standard fraction arithmetic algorithms.
-     - This approach presumes that it is straightforward to
-        - perform comparison, addition or subtraction of fractions when one of the operands is a whole number.
-        - simplify a complex fraction (ie numerator or denominator is a fraction) by multiplication.
-     - So all one has to do is to duplicate at least one of the operands till it becomes a whole number, compare/add/subtract/divide, optionally divide by duplicate count, and simplify any complex fraction result by multiplication.
-     - This alternative approach has the convenient feature that it can be demonstrated pictorially to mathematics novices.
-   
-  7. Leverage simplification of fractions for several benefits, including getting students to notice structures related to multiplication,
-division, factors, multiples, and divisors.
-     - Students can see pictorially what simplification of fractions is.
-     - Serves as counterpart to simplification of algebraic expressions in the future.
-
-  8. Teach negative numbers as "debt quantities", and limit the arithmetic operations that can be performed in each real number category, so as to correspond with the mathematical reality of mathematics novices
-     - with comparision and addition, no limitation.
-     - with multiplication involving whole numbers, no limitation.
-     - with whole numbers, no limitation.
-     - with nonnegative real numbers other than whole numbers, subtraction is also not limited.
-     - with negative real numbers involved, subtraction is limited only to when second operand is nonnegative, and negative fractions are presented with magnitude in brackets, e.g. -(3/4), rather than -3/4 or 3/-4.
-
-  9. Introduce curricular activities which connect rational numbers and negative numbers to real life scenarios of students.
-     - Provides a reference point of meaning for the real numbers.
-
-  10. Prefer generalization with large counting numbers and non-counting numbers, to generalization with letters in early algebra.
-      - Large counting numbers and non-counting numbers force students to expose the operations they are performing in their heads on paper, and so are sufficient for just about the same purpose that letters would have served in early algebra.
-
-  11. Introduce an alternative mathematical notation based on parse trees in Computer Science and suitable for mathematics novices, in which students have the opportunity to deal with order of operations, perform multi-step arithmetic, and apply functions.
-      - Also serves as a baseline/reference for standard algebraic notation.
-      - Can be used as the notation for introducing equation solving.
-      - The inclusion of functions or operator machines should provide several benefits prior to the study of algebra.
-  
-  12. Introduce equation solving exercises, but with "guess and check" as the main equation solving strategy.
-      - "guess and check" also serves as a baselne/reference for future equation solving strategies.
-
-  13. Word problems seem to require familiarity with similar types in the past. Even we advanced mathematicians still get tripped up by completely new word problems (e.g. in "The Algebra of Mohammed Ben Musa"). As such, we can be gracious to ourselves and to our students in understanding our difficulties in word problems.
-      - Therefore, we can assume that the practical solution to word problems is familiarity with past questions, and lack of caprice on the part of examination question creators.
-      - We should not expect students to be able to solve any arbitrary word problem just because its solution eventually employs techniques familiar to the student.
-
-  14. Time is required of teachers, students and education stake holders to really help early algebra students make a smooth transition to algebra.
-      - Since algebra achievement leads to higher mathematical ability, then some shuffling can be done so that certain content areas usually treated before algebra can be delayed until algebra is being introduced.
-      - Also if the student is not prepared to spend some extra time on mathematics compared to subjects which can be "verified easily from the natural world", then he/she will sabotage his progress in mathematics.
+  7. Common algebra misconceptions (such as subtraction wrongly seen as absolute difference, or BODMAS applied out of context) arise when students are not exposed to sufficient variety of examples and exercises
+     - Therefore students should be shown examples and exercises for which no or only inferior solutions exist prior to algebra study, to counteract the growth of algebra misconceptions.
 
 ## Useful Web Links
    
