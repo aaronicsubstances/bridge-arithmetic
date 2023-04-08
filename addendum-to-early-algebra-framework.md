@@ -17,15 +17,15 @@ The ability to cross-check answers becomes critical in the study of many science
 
 ## Curriculum Design Tips
 
-  1. Can introduce the abacus device for addition and subtraction as precursor to ot alternative to the standard addition and subtraction algorithms.
+  1. Can introduce the abacus device for addition and subtraction as precursor to the standard addition and subtraction algorithms.
 
-  1. Can teach grid multiplication method and chunk division methods as precursors to or alternatives to the standard multiplication and long division algorithms.
+  1. Can teach grid multiplication method and chunk division methods as precursors to the standard multiplication and long division algorithms.
      - They make direct use of the definitions of multiplication and division, thus enforcing the definitions of the arithmetic operations.
      - They enforce deeper understanding of place value, and hence the naming and comparison of numbers.
      - Grid multiplication exposes students to the distributive property, which is the basis of expansion and factorization techniques in algebra.
      - Chunking method of division can be used for generating approximate terminating decimal expansions to any number of desired decimal places.
 
-  2. Can teach students to make use of their fingers and memory to master the arithmetic tables involving single digit numbers, especially multiplication tables, as precursor to or alternative to memorization of the tables.
+  2. Can teach students to make use of their fingers and memory to master the arithmetic tables involving single digit numbers, especially multiplication tables, as precursor to memorization of the tables.
      - Given the difficulty and critical importance of the multiplication tables for multiplication and division, students should be introduced to them in parts rather than at once.
      - Begin with parts of the times table with products less than or equal to 20, and the 5 times table (up to 9), and encourage the students to use their fingers (and segments of fingers, and toes if feasible), and use smaller operand as multiplier.
      - Next introduce 10 and 11 times table (up to 10) due to their simplicity.
@@ -39,8 +39,6 @@ The ability to cross-check answers becomes critical in the study of many science
         - simplify a complex fraction (ie numerator or denominator is a fraction) by multiplication.
      - So all one has to do is to duplicate at least one of the operands till it becomes a whole number, compare/add/subtract/divide, optionally divide by duplicate count, and simplify any complex fraction result by multiplication.
      - This alternative approach has the convenient feature that it can be demonstrated pictorially to mathematics novices.
-
-  3. Use task of picking larger of multiple monetary or physical amounts to leverage self-interest of students to develop their proficiency in comparing numbers according to the trichotomy law.
  
   4. Leverage simplification of fractions for several benefits, including getting students to notice structures related to multiplication,
 division, factors, multiples, and divisors.
@@ -57,7 +55,7 @@ division, factors, multiples, and divisors.
      - wall clock readings
      - descriptive statistics
      - sharing money in ratios (determining whether I received correct amount).
-     - picking largest of 2 or more fractions
+     - picking largest of large counting numbers or fractions, representing monetary amounts or physical quantities
   
   4. Ways of adopting textbook "forward-only" exercises for early algebra.
      - Can adapt for generalization by re-asking the question with large counting numbers, non-counting numbers and unknown numbers.
@@ -72,5 +70,4 @@ division, factors, multiples, and divisors.
      - Even and odd numbers - crucially important for determining divisibility by 2.
      - Squares and cubes, square roots and cube roots - crucially important to know the values for squares of whole numbers up to 20, and cubes of the single digits.
      - LCM - useful in practice, although it can be substituted by common multiples (CM).
-     - Equivalence of fractions (in decimal or non decimal formats) - very relevant as an alternative to simplifying fractions to relative primes.
      - HCF, generating all factors of a number, and prime numbers - Doesn't seem to be used directly in practice; instead common factors (CF) are rather used.

@@ -2,14 +2,12 @@
 
 ## Literature Review on Early Algebra
 
-Kieran (2004) framework for early algebraic thinking will be adopted as a very useful starting point.
+Kieran (2004) framework for early algebraic thinking will be adopted to serve as the foundation of any early algebra curriculum.
 
 Would like to extend the early algebra framework in Kieran (2004), based the history of a few important milestones in the development of algebra, notably symbolic algebra, abstract algebra, and functions by arguing that:
   - generational activities include interpreting standard mathematical notation.
   - global/meta-level activities include function application and equation solving.
   - despite the fuzzy boundary between arithmetic and algebra, the manipulation of placeholders for unknown real numbers as if they are known counting numbers, aka simplification of algebraic expressions, is definitely beyond the scope of arithmetic and early algebra.
-
-Hans Freudenthal views on mathematics education (e.g. in his 1991 article) will be considered.
 
 Hewitt's framework of subordination (1996) and his follow-up articles on "arbitrary vs necessary" divide in mathematics, will also be adopted to guide the design of any early algebra curriculum.
 
@@ -49,13 +47,12 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
 
   1. A disconnect exists between novices and experts with regards to the appreciation of mathematics.
      - Mathematics novices see some of the arithmetic operations (such as multiplication and division of fractions and negative numbers) as not having practical use.
-     - Standard mathemtical notation is a challenge for mathematics novices (Radford, 2002).
+     - Standard mathemtical notation was not designed with consideration for mathematics novices.
      - Overloading of natural language for arithmetic operators on the different subsets of real numbers is a challenge for those who take language seriously, and can be addressed by temporarily replacing an overloaded operator with multiple functions or non-standard operators.
 
   2. The concept of function is the long sought after meeting point of meaning of algebraic expressions between mathematicians and mathematics novices.
 
   3. The history of mathematics development up to symbolic algebra was not an accident, but an indication of how the human mind newly introduced to mathematics works its way up to acquire the mathematical concepts.
-     - Hans Freudenthal was inspired by this same history in his opinions on mathematics education.
      - Empathy may then be required on the part of teachers regarding any resistance from students in the acceptance of certain real numbers: zero (ie nothing), one (ie not many), fractions, irrational numbers, negative numbers.
      - May have to introduce the abacus device to students for performing arithmetic with large counting numbers, given that it was the mathematics calculator of history.
      - When introducing early algebra to adults as part of adult education, may want to refocus "early algebra" as "history of mathematics" for them, so they don't feel belittled.
@@ -106,7 +103,6 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
   8. Carraher, D. W., Schliemann, A. D., Brizuela, B. M., & Earnest, D. (2006). Arithmetic and algebra in early mathematics education. *Journal for Research in Mathematics Education, 37*(2), 87-115.
   9. DeWolf, M., Bassok, M., & Holyoak, K. J. (2015). From rational numbers to algebra: Separable contributions of decimal magnitude and relational understanding of fractions. *Journal of Experimental Child Psychology, 133*, 72–84.
   1. Fletcher, J. A. (2008). Developing algebraic thinking through group discussion. *Mathematics Connection, 7*, 25.
-  2. Freudenthal, H. (1991). *Revisiting mathematics education*: China lectures. Dordrecht, NL: Kluwer Academic.
   2. Gallardo, A. (2002). The extension of the natural-number domain to the integers in the transition from arithmetic to algebra. *Educational Studies in Mathematics, 49*(2), 171–192.
   3. Gray, E. M., & Tall, D. O. (1994). Duality, ambiguity, and flexibility: A "proceptual" view of simple arithmetic. *Journal for Research in Mathematics Education, 25*(2), 116–140. https://doi.org/10.2307/749505
   3. Glidden, P. L. (2008). Prospective elementary teachers' understanding of the order of operations. *School Science and Mathematics, 108*(4), 130–136.
