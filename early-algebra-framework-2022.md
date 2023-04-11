@@ -59,6 +59,8 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
 
   4. Absence of computers and technology.
 
+  4. Set of real numbers is practically equal to set of rational numbers.
+
   5. Word problems seem to require familiarity with similar types in the past. Even we advanced mathematicians still get tripped up by completely new word problems (e.g. in "The Algebra of Mohammed Ben Musa"). As such, we can be gracious to ourselves and to our students in understanding our difficulties in word problems.
      - Therefore, we can assume that the practical solution to word problems is familiarity with past questions, and lack of caprice on the part of examination question creators.
      - We should not expect students to be able to solve any arbitrary word problem just because its solution eventually employs techniques familiar to the student.

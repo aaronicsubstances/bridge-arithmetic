@@ -25,19 +25,18 @@ The ability to cross-check answers becomes critical in the study of many science
      - Grid multiplication exposes students to the distributive property, which is the basis of expansion and factorization techniques in algebra.
      - Chunking method of division can be used for generating approximate terminating decimal expansions to any number of desired decimal places.
 
-  2. Can teach students to make use of their fingers and memory to master the arithmetic tables involving single digit numbers, especially multiplication tables, as precursor to memorization of the tables.
+  2. Can teach students to make use of their fingers and scrach pads to master the arithmetic tables involving single digit numbers, especially multiplication tables, as precursor to memorization of the tables.
      - Given the difficulty and critical importance of the multiplication tables for multiplication and division, students should be introduced to them in parts rather than at once.
-     - Begin with parts of the times table with products less than or equal to 20, and the 5 times table (up to 9), and encourage the students to use their fingers (and segments of fingers, and toes if feasible), and use smaller operand as multiplier.
-     - Next introduce 10 and 11 times table (up to 10) due to their simplicity.
-     - Can then introduce graphical "divide-and-conquer grid" technique (e.g. divide into four quadrants) for computing 6, 7, 8 and 9 times tables.
+     - Begin with parts of the times table with products less than or equal to 20, and encourage the students to use their fingers (and segments of fingers if feasible), and leverage commutativity by using smaller operand as multiplier.
+     - Next introduce 5, 10 and 11 times table (up to 10) due to their simplicity.
+     - Can then introduce graphical "divide-and-conquer" technique (e.g. divide grid representing desired product into four quadrants) for computing the remaining products contained in the 6, 7, 8 and 9 times tables.
      - Present integer division as sharing money without bias for any recipient (hence a common quotient) or cheating by distributor (hence remainder must be smaller than divisor).
 
-  3. Can teach "duplicate and divide" approach as alternative to fraction arithmetic without LCMs, HCFs, equivalent fractions and prime numbers.
-     - Inspired by [Anita's way of adding fractions with different denominators](http://mathpractices.edc.org/pdf/Anitas_Way_to_Add_Fractions_with_Unlike_Denominators.pdf).
+  3. Can teach "duplicate and divide" approach as precursor to the standard fraction arithmetic algorithms.
      - This approach presumes that it is straightforward to
-        - perform comparison, addition or subtraction of fractions when one of the operands is a whole number.
-        - simplify a complex fraction (ie numerator or denominator is a fraction) by multiplication.
-     - So all one has to do is to duplicate at least one of the operands till it becomes a whole number, compare/add/subtract/divide, optionally divide by duplicate count, and simplify any complex fraction result by multiplication.
+        - perform comparison, addition or subtraction of fractions when the operands have the same denominator, or when at least one of the operands is a whole number.
+        - simplify a complex fraction (ie numerator or denominator is not a whole number) by multiplication.
+     - So all one has to do is to leverage the sameness of denominators or duplicate the operands until at least one of the operands becomes a whole number, compare/add/subtract/divide, optionally divide by duplicate count, and simplify any complex fraction result by multiplication.
      - This alternative approach has the convenient feature that it can be demonstrated pictorially to mathematics novices.
  
   4. Leverage simplification of fractions for several benefits, including getting students to notice structures related to multiplication,

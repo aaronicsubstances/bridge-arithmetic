@@ -8,9 +8,9 @@ The following activities are meant for rational numbers:
   - Multiplication
   - Division
   - Comparison
-  - Simplification of fractions
   - Conversion of fractions from and to decimal expansions
-  - Developing proficiency in arithmetic of single digit counting numbers.
+  - Developing proficiency in arithmetic of single digit whole numbers
+  - Developing proficiency in simplification of fractions
 
 If necessary, can split the activities above into two, use arithmetic to teach one part, and use custom operators and functions to teach the rest as part of algebra activities in the next section.
 
@@ -18,11 +18,11 @@ The activities which can still be taught with arithmetic are:
   - Addition of nonnegative rational numbers
   - Subtraction of nonnegative rational numbers (negative results may be permitted).
   - Multiplication of whole numbers
-  - Division of whole numbers (nonwhole number results may be permitted).
+  - Division of whole numbers (results other than whole numbers may be permitted)
   - Comparison of nonnegative rational numbers
-  - Simplification of nonnegative fractions
   - Conversion of nonnegative fractions from and to decimal expansions
-  - Developing proficiency in arithmetic of single digit counting numbers.
+  - Developing proficiency in arithmetic of single digit whole numbers
+  - Developing proficiency in simplification of nonnegative fractions
 
 The custom operators correspond to the same ones used in arithmetic:
 <pre>
@@ -53,7 +53,7 @@ Algebra activities which are identified as useful for early algebra education ar
   - questions requiring knowledge of commuativity of addition and subtraction - using ordinary subtraction questions and accepting negative sign alone as valid answers.
   - questions requiring knowledge of associativity of addition and subtraction - using expression evaluation.
   - questions requiring knowledge of distributivity of multiplication over addition - using equation solving with balance model.
-  - real world connections relative to student.
+  - math applications to real world of student.
 
 The custom functions (can present them as "formulas") to be developed are mostly those that are used in algebraic expressions:
   - exp, with exponent being a counting number more than 1.
@@ -91,16 +91,16 @@ Some of the functions are defined as follows:
 *real number subtraction*: applies to two rational numbers.
   - Answer is the same as *real number addition* of the first operand with the *negation* function applied to the second operand.
 
-*real number multiplication*: applies to two rational numbers.
+*real number multiplication*: applies to two or more rational numbers.
   - Magnitude of answer is the same as the *resize* function applied to the magnitudes of the operands.
-  - Sign of answer is positive or negative if operands have the same or different signs respectively.
+  - Sign of answer is positive or negative if the number of operands with negative signs is even or odd respectively.
 
 *real number division*: applies to two rational numbers.
   - Magnitude of answer is the same as the *frac* function applied to the magnitudes of the operands.
   - Sign of answer is positive or negative if operands have the same or different signs respectively.
 
-*resize*: applies to two nonnegative rational numbers.
-  - If operands are both whole numbers, then answer is same as *multiplication* of the operands.
+*resize*: applies to two or more nonnegative rational numbers.
+  - If operands are all whole numbers, then answer is same as *multiplication* of the operands.
   - Else answer is the result of applying the *frac* function.
      - The first operand is the result of applying the *resize* function recursively to the numerators of the original operands.
      - The second operand is the result of applying the *resize* function recursively to the denominators of the orignal operands.
