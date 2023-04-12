@@ -30,7 +30,6 @@ The ability to cross-check answers becomes critical in the study of many science
      - Begin with parts of the times table with products less than or equal to 20, and encourage the students to use their fingers (and segments of fingers if feasible), and leverage commutativity by using smaller operand as multiplier.
      - Next introduce 5, 10 and 11 times table (up to 10) due to their simplicity.
      - Can then introduce graphical "divide-and-conquer" technique (e.g. divide grid representing desired product into four quadrants) for computing the remaining products contained in the 6, 7, 8 and 9 times tables.
-     - Present integer division as sharing money without bias for any recipient (hence a common quotient) or cheating by distributor (hence remainder must be smaller than divisor).
 
   3. Can teach "duplicate and divide" approach as precursor to the standard fraction arithmetic algorithms.
      - This approach presumes that it is straightforward to
@@ -55,6 +54,7 @@ division, factors, multiples, and divisors.
      - descriptive statistics
      - sharing money in ratios (determining whether I received correct amount).
      - picking largest of large counting numbers or fractions, representing monetary amounts or physical quantities
+     - integer division from partition perspective - sharing money without bias for any recipient (hence a common quotient) or cheating by distributor (hence remainder must be smaller than divisor).
   
   4. Ways of adopting textbook "forward-only" exercises for early algebra.
      - Can adapt for generalization by re-asking the question with large counting numbers, non-counting numbers and unknown numbers.
