@@ -1,5 +1,18 @@
 # Early Algebra Curriculum Proposal
 
+## Operational Definition of Early Algebra
+
+Early algebra consists of topics pulled down from algebra and topics pulled up from arithmetic, which should be taught in between arithmetic and algebra in order to avoid most of the difficulties involved in the study of algebra.
+
+## Guidelines
+
+  - Due to lack of experimental validation, only existing primary school and secondary school topics are included.
+  - The decision to introduce alternatives to the standard algorithms which will show up on answer sheets is beyond the scope of early algebra.
+  - Early algebra can consist of curricular activities that are done outside of answer sheets, such as calculations done with abacus, as long as those activities are connected to the standard algorithms and can help to visualize the algorithms on answer sheets.
+  - The arithmetic portion of early algebra consists of
+     - demarcating arithmetic topics whose study can be postponed until early algebra study is complete.
+     - curricular activities involving touch and movement, and demonstrating the standard algorithms for addition, subtraction and their repetition counterparts.
+
 ## Arithmetic Activities
 
 The following activities are meant for rational numbers:
@@ -18,9 +31,11 @@ The activities which can still be taught with arithmetic are:
   - Addition of nonnegative rational numbers
   - Subtraction of nonnegative rational numbers (negative results may be permitted).
   - Multiplication of whole numbers
-  - Division of whole numbers (results other than whole numbers may be permitted)
+  - Division of whole numbers by trial and error (results other than whole numbers may be permitted)
+     - Long division can be postponed, and/or can be replaced with division by chunking.
   - Comparison of nonnegative rational numbers
-  - Conversion of nonnegative fractions from and to decimal expansions
+  - Conversion of nonnegative fractions from and to terminating decimal expansions
+     - instead of long division, multiply top and down until denominator becomes a power of 10
   - Developing proficiency in arithmetic of single digit whole numbers
   - Developing proficiency in simplification of nonnegative fractions
 

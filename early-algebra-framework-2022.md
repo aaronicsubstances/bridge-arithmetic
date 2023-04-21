@@ -21,7 +21,7 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
        1. Addition
        2. Subtraction as undoing addition in general.
        3. Multiplication as repeated addition, which also holds when there is a counting number involved to serve as a multiplier.
-       4. Division as repeated subtraction and possibly leaving a remainder, which also holds when result is a counting number; in general, undoing multiplication without leaving a remainder.
+       4. Division as repeated subtraction and possibly leaving a remainder; in general, undoing multiplication without leaving a remainder.
        5. Justification for cancelling out (or multiplying top and down): if *d* divides *a* to get *m*, then *cd* divides *ca* to get *m* as well for any counting number *c*, and conversely.
        6. Trichotomy law of counting numbers: given any two counting numbers *a* and *b*, either *a* = *b*, *a* < *b* or *a* > *b*.
        7. Equation invariance: same operation done to LHS and RHS maintains equality.
@@ -53,7 +53,7 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
   2. The concept of function is the long sought after meeting point of meaning of algebraic expressions between mathematicians and mathematics novices.
 
   3. The history of mathematics development up to symbolic algebra was not an accident, but an indication of how the human mind newly introduced to mathematics works its way up to acquire the mathematical concepts.
-     - Empathy may then be required on the part of teachers regarding any resistance from students in the acceptance of certain real numbers: zero (ie nothing), one (ie not many), fractions, irrational numbers, negative numbers.
+     - Empathy may then be required on the part of teachers regarding any resistance from students in the acceptance of certain real numbers: zero (ie nothing), one (ie not many), fractions, improper fractions, irrational numbers, negative numbers.
      - May have to introduce the abacus device to students for performing arithmetic with large counting numbers, given that it was the mathematics calculator of history.
      - When introducing early algebra to adults as part of adult education, may want to refocus "early algebra" as "history of mathematics" for them, so they don't feel belittled.
 

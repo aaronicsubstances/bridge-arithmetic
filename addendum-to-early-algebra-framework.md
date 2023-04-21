@@ -19,6 +19,8 @@ The ability to cross-check answers becomes critical in the study of many science
 
   1. Can introduce the abacus device for addition and subtraction as precursor to the standard addition and subtraction algorithms.
 
+  3. Can modify standard multiplication algorithm to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition.
+
   1. Can teach grid multiplication method and chunk division methods as precursors to the standard multiplication and long division algorithms.
      - They make direct use of the definitions of multiplication and division, thus enforcing the definitions of the arithmetic operations.
      - They enforce deeper understanding of place value, and hence the naming and comparison of numbers.
