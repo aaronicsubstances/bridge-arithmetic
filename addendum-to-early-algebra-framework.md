@@ -46,6 +46,7 @@ division, factors, multiples, and divisors.
      - Serves as counterpart to simplification of algebraic expressions in the future.
 
   4. Curricular activities for applying mathematics in the real world.
+     - use ruler and compass only to perform rational number arithmetic, through 2D vector addition, flipping and scaling with right-angled triangles.
      - susu-box management
      - cash-based accounting
      - sports league standings
