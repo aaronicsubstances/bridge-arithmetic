@@ -20,7 +20,7 @@ The following activities are meant for rational numbers:
   - Subtraction
   - Multiplication
   - Division
-  - Comparison
+  - Comparison - including identifying whether answer is negative or not, and also comparing magnitude of answer to operands.
   - Conversion of fractions from and to decimal expansions
   - Developing proficiency in arithmetic of single digit whole numbers
   - Developing proficiency in simplification of fractions
@@ -64,11 +64,17 @@ Algebra activities which are identified as useful for early algebra education ar
   - equation solving with balance model
   - equation generation
   - expression generation
-  - expression decomposition - identify last operation and its equivalent custom function, and generate an equivalent expression apply the function and having the maximum possible number of arguments.
-  - questions requiring knowledge of commuativity of addition and subtraction - using ordinary subtraction questions and accepting negative sign alone as valid answers.
-  - questions requiring knowledge of associativity of addition and subtraction - using expression evaluation.
+  - expression decomposition - reverse of expression/equation generation.
+     - Assuming there is a language or pseudocode for describing the generation of expressions.
+     - Then decomposition questions can be of two forms: (1) if final expression step is a + b + c + d = whatever expr, identify a, b,
+     c and d; (2) if some final step = whatever expr, what was that
+     final step? 
+  - questions requiring knowledge of commuativity wrt addition and subtraction - using ordinary subtraction questions and accepting negative sign alone as valid answers.
+  - questions requiring knowledge of associativity wrt addition and subtraction - using expression evaluation.
   - questions requiring knowledge of distributivity of multiplication over addition - using equation solving with balance model.
   - math applications to real world of student.
+
+NB: Equation solving exercises in text books can get us almost all the algebra activities
 
 The custom functions (can present them as "formulas") to be developed are mostly those that are used in algebraic expressions:
   - exp, with exponent being a counting number more than 1.

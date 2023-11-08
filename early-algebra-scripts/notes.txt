@@ -1,0 +1,75 @@
+Options
+--------
+operations
+ - addition
+ - subtraction
+ - multiplication
+ = division
+ - comparison
+ - modulo
+ 
+The following operations can be expressed in terms of those indicated above:
+ - integer division
+ - square
+ - cube
+ - negation
+ 
+NB: modulo and integer division will be combined in questions as "perform division and give me the quotient and the remainder".
+ 
+The following takes expression as their single argument, which will usually be restricted to single operand or single operation from above list
+ - magnitude
+ - sign - or simply "is it negative or not"?
+
+Operand range (numer_start, numer_end, denom_start, denom_end)
+ - start and end of range are inclusive
+ - for each operand or both operands
+ - skipFractionSimplification
+
+
+options for presenting numbers serving as operands or answers
+ - fraction (options: mixed or not)
+ - decimal expansion presentation of operands
+ 
+
+Result range:
+ - subtraction: unrestricted, nonnegative only, positive only
+ - division: unrestricted, cannot be undefined, terminating decimal only, integer only
+ - modulo: unrestricted, no remainder
+
+
+
+
+-May have to be more intentional about single-digit multiplication tables, in order to cover everything.
+
+UI
+options for accepting numbers serving as response to questions:
+ - unrestricted
+ - fraction only (mixed or common or either)
+ - decimal only
+
+question
+-number class - C, W, Q-Q-, Q
+
+aside add, sub, multiply, divide, negate, square, cube
+also add
+-add and multiply with more than 2 args.
+-integer division with remainder: generates two answers.
+-comparison
+ -which is greater
+ -have is answer positive or negative or zero questions, and apply to addition, subtraction, multiplication and division, probably all operations
+ -have questions comparing magnitude of result to that of operands. e.g. 3 * 7? definitely larger than 3, definitely smaller than 3, definitely larger than 7, definitely smaller than 3, definitely smaller than 3 and 7, definitely larger than 3 and 7. 
+
+have a timer which sounds exponentially, every 10 or so mins. or can be set by user.
+mobile offline webiste on my Android
+so just a static 2-level hieerarchical list of tests with a rubric explaining what each topmost section is about.
+-each test begins with a rubric explaining how many times it should be taken, and what problems it helps to solve, and who needs it.
+-each test ends with a score, and a rubric explaining how to interpret score or scores including previous ones. and can include recommendations as to where next to go.
+
+
+action plan for fiverr
+-get someone to generate reactjs website with arithmetic (will have to determine how to randomly generate arithmetic questions)
+-get someone to solve aki-ola jhs questions (will have to determine which ones are algebra-related and scan them for online typists)
+-get someone to type selected algebraic equations into mathml (assuming mathtype is used) in pairs of question and solution.
+-get someone to generate reactjs website with solved questions in section B format
+-(will have to determine section A's questions and possible answers and get someone to type them in mathml, asciimath or tex and insert into website).
+-(may still have to generate some section B questions by hand, with answers, and get someone to type them into MathML and insert into website)
