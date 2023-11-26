@@ -4,6 +4,8 @@
 
 Early algebra consists of topics pulled down from algebra and topics pulled up from arithmetic, which should be taught in between arithmetic and algebra in order to avoid most of the difficulties involved in the study of algebra.
 
+NB: https://www.transum.org/ can get us almost all the early algebra activities
+
 ## Guidelines
 
   - Due to lack of experimental validation, only existing primary school and secondary school topics are included.
@@ -25,7 +27,7 @@ The following activities are meant for rational numbers:
   - Developing proficiency in arithmetic of single digit whole numbers
   - Developing proficiency in simplification of fractions
 
-If necessary, can split the activities above into two, use arithmetic to teach one part, and use custom operators and functions to teach the rest as part of algebra activities in the next section.
+If necessary, can split the activities above into two, use arithmetic to teach one part, and use custom functions to teach the rest as part of algebra activities in the next section.
 
 The activities which can still be taught with arithmetic are:
   - Addition of nonnegative rational numbers
@@ -39,15 +41,6 @@ The activities which can still be taught with arithmetic are:
   - Developing proficiency in arithmetic of single digit whole numbers
   - Developing proficiency in simplification of nonnegative fractions
 
-The custom operators correspond to the same ones used in arithmetic:
-<pre>
-+, -, &#x00D7;, &#x00F7;
-^ (for exponentiation but still with exponent raised)
-> (ie greater-than sign)
-< (ie less-than sign) 
-</pre>
-To differentiate these from the operators of the first half of arithmetic described above, all but the exponentiation operator are encircled.
-
 ## Algebra Activities
 
 Each algebra activity to be listed here can be characterized by
@@ -57,26 +50,33 @@ Each algebra activity to be listed here can be characterized by
 
 Algebra activities which are identified as useful for early algebra education are (some overlap others):
 
-  - expression evaluation
-  - expression evaluation involving custom binary operators
-  - expression evaluation involving custom functions
-  - equation solving with guess and check
-  - equation solving with balance model
-  - equation generation
-  - expression generation
-  - expression decomposition - reverse of expression/equation generation.
-     - Assuming there is a language or pseudocode for describing the generation of expressions.
-     - Then decomposition questions can be of two forms: (1) if final expression step is a + b + c + d = whatever expr, identify a, b,
-     c and d; (2) if some final step = whatever expr, what was that
-     final step? 
+  - expression evaluation (aka "substitution") involving only the four basic arithmetic operators (+, -, &#x00D7;, &#x00F7;)
+     - includes focus on drilling in convention of concatenation for multiplication 
+  - expression evaluation involving powers, roots, exponents and logarithmic (common and natural log) and trigonometry (sin, cos and tan) functions
+     - trig, log and any other function can be defined with tables in which few values defined, and the rest given a default value
+  - equation solving, with multiple strategies:
+     -  with guess and check
+     - with balance model ("stable scales" in terminology of transum.org)
+     - equation solving exercises in popular math text books can also get us expression evaluation activities
+  - equation/expression generation
+     - "substitution with expressions"
+     - "express y in terms of x"
+     - "parametric equations" in terminology of transum.org
+  - equation/expression decomposition - reverse of expression/equation generation in multiple forms:
+     - if final expression step is a + b + c + d = whatever expr, identify a, b,
+     c and d
+     - if some final step = whatever expr, what was that final step?
+  - math applications to real world of student
+     - "word problems"
+
+The early algebra activities identified address the following needs as well:
   - questions requiring knowledge of commuativity wrt addition and subtraction - using ordinary subtraction questions and accepting negative sign alone as valid answers.
   - questions requiring knowledge of associativity wrt addition and subtraction - using expression evaluation.
   - questions requiring knowledge of distributivity of multiplication over addition - using equation solving with balance model.
-  - math applications to real world of student.
 
-NB: Equation solving exercises in text books can get us almost all the algebra activities
 
-The custom functions (can present them as "formulas") to be developed are mostly those that are used in algebraic expressions:
+## Early Algebra Functions
+
   - exp, with exponent being a counting number more than 1.
   - square
   - cube
