@@ -48,9 +48,9 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
   1. A disconnect exists between novices and experts with regards to the appreciation of mathematics.
      - Mathematics novices see some of the arithmetic operations (such as multiplication and division of fractions and negative numbers) as not having practical use.
      - Standard mathemtical notation was not designed with consideration for mathematics novices.
-     - Overloading of natural language for arithmetic operators on the different subsets of real numbers is a challenge for those who take language seriously, and can be addressed by temporarily replacing an overloaded operator with multiple functions or non-standard operators.
 
   2. The concept of function is the long sought after meeting point of meaning of algebraic expressions between mathematicians and mathematics novices.
+     - With function concept, mathematicians do not have to force or shame mathematics novices into seeing the "sense" or "meaning" in arithmetic operations. Mathematics novices can simply see the arithmetic operations as mapping input numbers to an output number. 
 
   3. The history of mathematics development up to symbolic algebra was not an accident, but an indication of how the human mind newly introduced to mathematics works its way up to acquire the mathematical concepts.
      - Empathy may then be required on the part of teachers regarding any resistance from students in the acceptance of certain real numbers: zero (ie nothing), one (ie not many), fractions, improper fractions, irrational numbers, negative numbers.
@@ -85,6 +85,7 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
    9.  https://homes.cs.washington.edu/~hannaneh/papers/algebra.pdf
    10. https://math.stackexchange.com/questions/30046/alternative-notation-for-exponents-logs-and-roots
    11. https://en.wikipedia.org/wiki/Hans_Freudenthal
+   12. https://www.transum.org
 
 
 ## References

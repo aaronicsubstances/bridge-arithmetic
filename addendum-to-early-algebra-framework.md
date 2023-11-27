@@ -47,7 +47,7 @@ division, factors, multiples, and divisors.
 
   4. Curricular activities for applying mathematics in the real world.
      - use ruler and compass only to perform rational number arithmetic, through 2D vector addition, flipping and scaling with right-angled triangles.
-     - susu-box management
+     - susu-box (aka piggy bank) management
      - cash-based accounting
      - sports league standings
      - cooking recipes
