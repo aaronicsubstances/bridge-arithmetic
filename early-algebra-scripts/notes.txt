@@ -24,6 +24,7 @@ Operand range (numer_start, numer_end, denom_start, denom_end)
  - start and end of range are inclusive
  - for each operand or both operands
  - skipFractionSimplification
+ - how about array to choose from, each for numer and denom
 
 
 options for presenting numbers serving as operands or answers
@@ -67,9 +68,8 @@ so just a static 2-level hieerarchical list of tests with a rubric explaining wh
 
 
 action plan for fiverr
--get someone to generate reactjs website with arithmetic (will have to determine how to randomly generate arithmetic questions)
--get someone to solve aki-ola jhs questions (will have to determine which ones are algebra-related and scan them for online typists)
--get someone to type selected algebraic equations into mathml (assuming mathtype is used) in pairs of question and solution.
+-get someone to generate reactjs website with arithmetic (will have to generate arithmetic questions)
+-get someone to type selected algebraic equations from transum.org into mathml (assuming mathtype is used) in pairs of question and solution.
 -get someone to generate reactjs website with solved questions in section B format
 -(will have to determine section A's questions and possible answers and get someone to type them in mathml, asciimath or tex and insert into website).
 -(may still have to generate some section B questions by hand, with answers, and get someone to type them into MathML and insert into website)

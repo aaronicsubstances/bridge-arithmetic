@@ -1,0 +1,90 @@
+mobile math website
+-------------------
+
+CALCULATION
+-----------
+receive addition/subtraction answers in form of sum/denominator
+
+addition
+---------
+3+2
+
+a/b + c/d = (ad+bc)/bd
+
+subtraction
+------------
+4-7
+
+multiply
+--------
+4*9
+1/2 of 6
+3/4 of 12
+600 * 10 (powers of ten) - KNOW
+
+a/b * c/d = ac/bd
+
+division
+---------
+(using both operators dot bar and slash)
+2/6 to common fraction
+4 / 100 to decimal - KNOW
+
+a/b / c/d = ad/bc
+
+modulo
+------
+1188 mod 2 - KNOW (= 0: true or false)
+1748391 mod 5 - KNOW (is it zero or not)
+39393 mod 3 - KNOW (is it zero or not)
+44 mod 10 - KNOW (is it zero or not)
+
+comparison - learning relational symbols
+----------
+2 > 3: true or false
+
+square and cubes
+---------------
+(8/3)*2
+(2/3)^3
+(1/10)^4 - KNOW
+10^3 - KNOW
+
+negate
+------
+-(-9) - KNOW
+-(9-0) - KNOW
+-(+9) - KNOW
+-(9+0) - KNOW
+-(7-6)
+
+rational number formats - applying intdiv
+----------------------
+2+2/3 = ? , ie mixed to common fraction
+8/3 = ? , ie common fraction to mixed
+8/3 = ? , ie fraction to decimal
+
+KNOWLEDGE of SIGN and MAGNITUDE
+----------------------------------
+
+addition and subtraction
+1+2, sign: negative, positive, zero
+     magnitude: 1+2, 1-2, 2-1
+
+multiply
+1*2, sign: 
+     magnitude compared to one of operands
+
+divide
+1/2, sign
+     magnitude compared to first operand
+
+
+goal
+-----
+log in-skip
+exercises/game
+-pick one to do
+-timed and marked
+-system records by downloading or by sharing to send email or whatsapp, etc.
+

@@ -1,0 +1,55 @@
+{
+    "questions": [
+        {
+            "question": "6 \times 2",
+            "isMcq": false,
+            "answer": "12",
+            "numberInputType": "mix,cfr"
+        },
+        {
+            "question": "2 \times 2",
+            "isMcq": null,
+            "answer": "4",
+            "numberInputType": "mix,cfr,dec"
+        },
+        {
+            "question": "4 \times 10",
+            "answer": "40",
+            "numberInputType": ""
+        },
+        {
+            "question": "12 \times 2",
+            "answer": "24",
+            "numberInputType": null
+        },
+        {
+            "question": "11 \times 12",
+            "answer": "132",
+            "numberInputType": "int"
+        },
+        {
+            "question": "8 \times 11",
+            "answer": "88",
+            "numberInputType": "int"
+        },
+        {
+            "question": "10 \times 6",
+            "answer": "60"
+        },
+        {
+            "question": "2 \times 8",
+            "answer": "16",
+            "numberInputType": "dec,cfr"
+        },
+        {
+            "question": "3 \times 12",
+            "answer": "36",
+            "numberInputType": "dec,mix"
+        },
+        {
+            "question": "11 \times 2",
+            "answer": "22",
+            "numberInputType": "dec,int"
+        }
+    ]
+}
