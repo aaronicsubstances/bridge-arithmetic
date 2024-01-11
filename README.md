@@ -61,8 +61,8 @@ Algebra activities which are identified as useful for early algebra education ar
      - aka "express y in terms of x"
      - aka "parametric equations" in terminology of transum.org
   - equation/expression decomposition - reverse of expression/equation generation:
-     - e.g. if y = final expr in terms of x, and y = a + b + c + d (or y = a * b, or y = a / b + c, etc), identify a, b, c and d in terms of x
-     - e.g. if y = final expr in terms of x, what was y in terms of the intermediate variables (say a or b)?
+     - e.g. if y = final expr in terms of x, and given definitions of intermediate variables, and multiple choices of y in terms of the intermediate variables, pick the correct choice of y.
+     - e.g. if y = final expr in terms of x, and without definitions of intermediate variables, but given multiple choices of y in terms of intermediate variables (ie y = a + b + c + d, or y = a * b, or y = sqrt(a), or y = a exponent b, or y = sin(a), y = log a to base b), pick correct choice of y, and identify intermediate variables a, b, c and d in terms of x.
      - NB: the rationale for the existence of this exercise is that, in practice during algebraic expression simplification and equation solving, identifying the last (or "root") step rather than the first step (as suggested by BODMAS) is more important for flexibility in breaking down expressions, and even evaluating multiple parts concurrently.
   - math applications to real world of student
      - aka "word problems"
