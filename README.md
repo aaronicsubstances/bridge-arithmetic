@@ -48,21 +48,23 @@ Each algebra activity to be listed here can be characterized by
 
 Algebra activities which are identified as useful for early algebra education are:
 
-  - expression evaluation (aka "substitution") involving only the four basic arithmetic operators (+, -, &#x00D7;, &#x00F7;)
+  - expression evaluation (aka "substitution") involving only the four basic arithmetic operators (+, -, &#x00D7;, &#x00F7;), squares and cubes.
      - includes focus on drilling in convention of concatenation for multiplication 
-  - expression evaluation involving powers, roots, exponents and logarithmic (common and natural log) and trigonometry (sin, cos and tan) functions
-     - trig, log and any other function can be defined with tables in which few values are defined, and the rest are given a default value
+     - NB: substitution exercises in popular math text books can also get us equation solving activities using guess and check (with possible answers of objective tests as guesses)
+  - expression evaluation involving functions with verbose names which map to the four basic arithmetic operators, squares and cubes.
   - equation solving, with multiple strategies:
      - with guess and check (using possible answers of objective tests as guesses, can have a "None of the above" choice included)
      - with balance model ("stable scales" in terminology of transum.org)
-     - equation solving exercises in popular math text books can also get us expression evaluation activities
+     - NB: equation solving exercises in popular math text books can also get us expression evaluation activities
   - equation/expression generation
-     - aka "substitution with expressions"
-     - aka "express y in terms of x"
+     - e.g. express y in terms of x if y = final expr in terms of intermediate variables, and
+     expressions for intermediate variables in terms of x are given.
      - aka "parametric equations" in terminology of transum.org
+     - NB: can get exercises from expression evaluation exercises, by identifying the last operation, identifying the operands involved as intermediate variables, expressing y in terms of the last operation identified
+     and the intermediate variables, and finally asking for the expression in the evaluation exercise.
   - equation/expression decomposition - reverse of expression/equation generation:
      - e.g. if y = final expr in terms of x, and given definitions of intermediate variables, and multiple choices of y in terms of the intermediate variables, pick the correct choice of y.
-     - e.g. if y = final expr in terms of x, and without definitions of intermediate variables, but given multiple choices of y in terms of intermediate variables (ie y = a + b + c + d, or y = a * b, or y = sqrt(a), or y = a exponent b, or y = sin(a), y = log a to base b), pick correct choice of y, and identify intermediate variables a, b, c and d in terms of x.
+     - e.g. if y = final expr in terms of x, and without definitions of intermediate variables, but given multiple choices of y in terms of intermediate variables (ie y = a + b + c + d, or y = a * b, or y = subtract(a, b), or y = square(a)), pick correct choice of y, and identify intermediate variables a, b, c and d in terms of x.
      - NB: the rationale for the existence of this exercise is that, in practice during algebraic expression simplification and equation solving, identifying the last (or "root") step rather than the first step (as suggested by BODMAS) is more important for flexibility in breaking down expressions, and even evaluating multiple parts concurrently.
   - math applications to real world of student
      - aka "word problems"
