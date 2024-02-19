@@ -24,8 +24,7 @@ The ability to cross-check answers becomes critical in the study of many science
   1. Can teach grid multiplication method and chunk division methods as precursors to the standard multiplication and long division algorithms.
      - They make direct use of the definitions of multiplication and division, thus enforcing the definitions of the arithmetic operations.
      - They enforce deeper understanding of place value, and hence the naming and comparison of numbers.
-     - Grid multiplication exposes students to the distributive property, which is the basis of expansion and factorization techniques in algebra.
-     - Chunking method of division can be used for generating approximate terminating decimal expansions to any number of desired decimal places.
+     - Grid multiplication exposes students directly to the distributive property, which is the basis of expansion and factorization techniques in algebra.
 
   2. Can teach students to make use of their fingers and scrach pads to master the arithmetic tables involving single digit numbers, especially multiplication tables, as precursor to memorization of the tables.
      - Given the difficulty and critical importance of the multiplication tables for multiplication and division, students should be introduced to them in parts rather than at once.
@@ -64,8 +63,6 @@ division, factors, multiples, and divisors.
      - Can adapt for equation solving by "reversing the question".
   
   3. Introduce enough variety of arithmetic expression evaluation exercises in order to avoid using BODMAS mnemonic in unintended situations.
-
-  4. It is important to teach balance model with cross checking during equation solving, so that students will be able to avoid using the model in unintended situations.
 
   5. Number theory concepts and their level of relevance in basic school
      - Divisibility rules - crucially important, esp for 2, 3, 5, 10. Practically 3 and 7 are the "troublesome" single digit primes, but even then given the simplicity of the rule for 3 and knowing about few powers of 7 (ie 49 and 343) is sufficient in practice for almost all fraction simplification needs.

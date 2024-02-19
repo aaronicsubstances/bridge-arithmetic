@@ -4,8 +4,6 @@
 
 Early algebra is a subset of topics in both arithmetic and algebra, which should be taught during the study of arithmetic, and definitely before the study of simplification of algebraic expressions, in order to better ensure success in the study of algebra in secondary school.
 
-NB: https://www.transum.org/ can get us almost all the early algebra activities
-
 ## Guidelines
 
   - Due to lack of experimental validation by the proponents of this proposal, only existing primary school and secondary school topics are included.
@@ -22,22 +20,24 @@ The following activities are meant for rational numbers:
   - Subtraction
   - Multiplication
   - Division
-  - Comparison - including identifying whether answer is negative or not, and also comparing magnitude of answer to operands.
+  - Comparison 
+     - includes predicting whether result of an arithmetic operation is negative or not
+     - includes predicting the result of comparing magnitudes of operands with magnitude of result of an arithmetic operation.
   - Conversion of fractions from and to decimal expansions
   - Developing proficiency in arithmetic of single digit whole numbers
-  - Developing proficiency in simplification of fractions
+  - Developing proficiency in simplification of fractions using divisibility rules
 
 If necessary, can reduce the activities above by excluding long division and negative number arithmetic, to obtain the following:
   - Addition of nonnegative rational numbers
   - Subtraction of nonnegative rational numbers (negative results may be permitted).
   - Multiplication of whole numbers
-  - Division of whole numbers by trial and error
-     - Long division can be replaced with division by chunking in the interim.
+  - Division of whole numbers by trial and error instead of long division
+     - ie keep multiplying divisor by educated guesses, until a guess is found which gives a remainder less than the divisor.
   - Comparison of nonnegative rational numbers
-  - Conversion of nonnegative fractions from and to terminating decimal expansions
-     - instead of long division, multiply top and down until denominator becomes a power of 10
+  - Conversion of nonnegative fractions from and to terminating decimal expansions by multiplication instead of long division
+     - ie keep multiplying top and down by 2 or 5 if denominator is not a power of 10 and its last non-zero digit is 5 or 2 respectively, until denominator becomes a power of 10 to lead to the desired terminating decimal expansion, or until last non-zero digit in denominator is neither 2 or 5 to indicate that decimal expansion will not terminate.
   - Developing proficiency in arithmetic of single digit whole numbers
-  - Developing proficiency in simplification of nonnegative fractions
+  - Developing proficiency in simplification of nonnegative fractions using divisibility rules
 
 ## Algebra Activities
 
@@ -53,14 +53,14 @@ Algebra activities which are identified as useful for early algebra education ar
      - NB: substitution exercises in popular math text books can also get us equation solving activities using guess and check (with possible answers of objective tests as guesses)
   - expression evaluation involving functions with verbose names which map to the four basic arithmetic operators, squares and cubes.
   - expression evaluation involving powers, roots, exponents and logarithmic (common and natural log) and trigonometry (sin, cos and tan) functions
-  - equation solving, with multiple strategies:
-     - with guess and check (using possible answers of objective tests as guesses, can have a "None of the above" choice included)
-     - with balance model ("stable scales" in terminology of transum.org)
+  - equation solving, mainly linear equations
+     - includes univariate polynomial equations, and simultaneous equations in multiple variables
+     - with guess and check strategy included (using possible answers of objective tests as guesses, can have a "None of the above" choice included)
      - NB: equation solving exercises in popular math text books can also get us expression evaluation activities
   - equation/expression generation
      - e.g. express y in terms of x if y = final expr in terms of intermediate variables, and
      expressions for intermediate variables in terms of x are given.
-     - aka "parametric equations" in terminology of transum.org
+     - NB: shares some similarities with parametric equations 
      - NB: can get exercises from expression evaluation exercises, by identifying the last operation, identifying the operands involved as intermediate variables, expressing y in terms of the last operation identified
      and the intermediate variables, and finally asking for the expression in the evaluation exercise.
   - equation/expression decomposition - reverse of expression/equation generation:
@@ -71,6 +71,6 @@ Algebra activities which are identified as useful for early algebra education ar
      - aka "word problems"
 
 The early algebra activities identified address the following needs as well:
-  - questions requiring knowledge of commuativity of addition but not subtraction - using ordinary subtraction questions and accepting "not defined" or "negative" or negative sign as valid answer  (similar to dividing by zero).
+  - questions requiring knowledge of commuativity of addition but not subtraction - using ordinary subtraction questions and accepting "not defined" (similar to dividing by zero) or "negative" or negative sign as valid answer.
   - questions requiring knowledge of associativity of addition but not subtraction - using expression evaluation.
-  - questions requiring knowledge of distributivity of multiplication over addition - using equation solving with balance model.
+  - questions requiring knowledge of distributivity of multiplication over addition - using multiplication questions and demonstrating how any multiplication algorithm is an application of the distributivity property, because it leverages memory of tables to reduce the number of repeated additions suggested by the involvement of a counting number multiplier.

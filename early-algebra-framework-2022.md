@@ -34,7 +34,7 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
        2. generalizing (like in Mason's 2006 book).
        3. noticing structure (like in Kieran's 2018 article)
        4. function application
-       5. equation solving, with balance model and guess and check as the main solution methods.
+       5. equation solving, with guess and check as the main solution method.
 
    5. To make students proficient in the operations and functions of arithmetic that tend to be performed frequently, including
        1. arithmetic of single digits
