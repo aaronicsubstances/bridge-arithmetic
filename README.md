@@ -58,14 +58,9 @@ Algebra activities which are identified as useful for early algebra education ar
      - with guess and check strategy included (using possible answers of objective tests as guesses, can have a "None of the above" choice included)
      - NB: equation solving exercises in popular math text books can also get us expression evaluation activities
   - equation/expression generation
-     - e.g. express y in terms of x if y = final expr in terms of intermediate variables, and
-     expressions for intermediate variables in terms of x are given.
-     - NB: shares some similarities with parametric equations 
-     - NB: can get exercises from expression evaluation exercises, by identifying the last operation, identifying the operands involved as intermediate variables, expressing y in terms of the last operation identified
-     and the intermediate variables, and finally asking for the expression in the evaluation exercise.
-  - equation/expression decomposition - reverse of expression/equation generation:
-     - e.g. if y = final expr in terms of x, and given definitions of intermediate variables, and multiple choices of y in terms of the intermediate variables, pick the correct choice of y.
-     - e.g. if y = final expr in terms of x, and without definitions of intermediate variables, but given multiple choices of y in terms of intermediate variables (ie y = a + b + c + d, or y = a * b, or y = subtraction(a, b), or y = log(a)), pick correct choice of y, and identify intermediate variables a, b, c and d in terms of x.
+     - Can get exercises from expression evaluation exercises, by putting forward the expression evaluation steps (each involving just one operation at a time) as the question, and asking for the expression itself from multiple choices. Can remove need to employ intermediate variables by ensuring that the expression arguments and intermediate results are unique.
+  - equation/expression decomposition
+     - Can get exercises from expression evaluation exercises, by putting forward the expression as the question, and putting forward choices in which each is a last operation equals a final answer, and then asking for the correct choice. Can make the expression complex if there's only one choice with the correct last operation. And can include multiple correct last operations and multiple correct final answers if the last operation can be in multiple positions of addition, subtraction or multiplication.
      - NB: the rationale for the existence of this exercise is that, in practice during algebraic expression simplification and equation solving, identifying the last (or "root") step rather than the first step (as suggested by BODMAS) is more important for flexibility in breaking down expressions, and even evaluating multiple parts concurrently.
   - math applications to real world of student
      - aka "word problems"
