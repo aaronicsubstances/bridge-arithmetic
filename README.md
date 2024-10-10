@@ -7,11 +7,16 @@ Early algebra is a subset of topics in both arithmetic and algebra, which should
 ## Guidelines
 
 - Due to lack of experimental validation by the proponents of this proposal, only existing primary school and secondary school topics are included.
-- The decision to introduce alternatives to the standard algorithms which differ from what teachers expect of students in a given locality, and which will show up on answer sheets, is beyond the scope of this early algebra proposal and left to school authorities.
-- Early algebra can consist of curricular activities that are done outside of answer sheets, such as calculations done with abacus, as long as those activities are connected to the standard algorithms and can help to visualize the algorithms on answer sheets.
-- The arithmetic portion of early algebra consists of
-  - demarcating arithmetic topics whose study may be postponed until early algebra study is complete.
-  - curricular activities involving touch and movement, and demonstrating the standard algorithms for addition, subtraction, multiplication and integer division for counting numbers.
+- The proposal recognizes that it is school authorities who have the final decision to allow alternatives to the standard algorithms which differ from what teachers expect of students in a given locality, and which will show up on answer sheets.
+- The arithmetic portion of the early algebra proposal consists of emphasis on
+  - sequencing arithmetic topics and designing exercises in such a way that a teenager can teach himself, without having to expose his embarassments and failures in math.
+  - addition algorithm
+  - multiplication tables
+  - providing intuitive alternatives to applications of long division algorithm for as long as possible
+  - proficiency in arithmetic calculations, even if it means introducing non-standard arithmetic algorithms to the student.
+  - providing multiple choice questions and questions with full or partial answers, to provide the kind of feedback which helps with self-learning
+  - exposing students to exercises for which no solutions exist at the moment, to counteract development of misconceptions in algebra later on
+  - exposing students to exercises for which only inferior solutions exist at the moment, to serve as cross checking avenues in algebra later on
 
 ## Arithmetic Activities
 
@@ -29,12 +34,11 @@ The following activities are meant for rational numbers:
 - Developing proficiency in arithmetic of single digit whole numbers
 - Developing proficiency in simplification of fractions using divisibility rules
 
-If necessary, can reduce the activities above by excluding long division and negative number arithmetic, to obtain the following:
+If necessary, can start with a reduction of the activities above by excluding long division and negative number arithmetic, to obtain the following:
 
 - Addition of nonnegative rational numbers
 - Subtraction of nonnegative rational numbers (negative results may be permitted).
-  - if permitted by school authorities, adopt the more intuitive algorithm of subtraction by solving addition equation
-    (the automated version of this algorithm is subtraction by method of tens' complements).
+  - if permitted by school authorities, adopt the more intuitive algorithm of subtraction by solving addition equation.
 - Multiplication of whole numbers
   - if permitted by school authorities, adopt the more intuitive algorithm of multiplication by grid method (aka grid multiplication).
 - Division of whole numbers by algorithms other than long division which are more intutive, because they perform the division by directly solving
@@ -83,7 +87,7 @@ Algebra activities which are identified as useful for early algebra education ar
 
 The early algebra activities identified address the following needs as well:
 
-- questions requiring knowledge of commuativity of addition but not subtraction - using ordinary subtraction questions and accepting "undefined" (similar to dividing by zero), "unexpected number", "negative", or negative sign as valid answers.
+- questions requiring knowledge of commutativity of addition but not subtraction - using ordinary subtraction questions and accepting "undefined" (similar to dividing by zero), "unexpected number", "negative", or negative sign as valid answers.
 - questions requiring knowledge of associativity of addition but not subtraction - using expression evaluation.
 - questions requiring knowledge of distributivity of multiplication over addition - using multiplication questions and demonstrating how any multiplication algorithm is an application of the distributivity property, because it leverages memory of tables to reduce the number of repeated additions suggested by the involvement of a counting number multiplier.
 
