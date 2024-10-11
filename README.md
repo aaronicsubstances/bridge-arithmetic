@@ -7,55 +7,85 @@ Early algebra is a subset of topics in both arithmetic and algebra, which should
 ## Guidelines
 
 - Due to lack of experimental validation by the proponents of this proposal, only existing primary school and secondary school topics are included.
-- The proposal recognizes that it is school authorities who have the final decision to allow alternatives to the standard algorithms which differ from what teachers expect of students in a given locality, and which will show up on answer sheets.
-- The arithmetic portion of the early algebra proposal consists of emphasis on
-  - sequencing arithmetic topics and designing exercises in such a way that a teenager can teach himself, without having to expose his embarassments and failures in math.
-  - addition algorithm
-  - multiplication tables
-  - providing intuitive alternatives to applications of long division algorithm for as long as possible
-  - proficiency in arithmetic calculations, even if it means introducing non-standard arithmetic algorithms to the student.
-  - providing multiple choice questions and questions with full or partial answers, to provide the kind of feedback which helps with self-learning
-  - exposing students to exercises for which no solutions exist at the moment, to counteract development of misconceptions in algebra later on
-  - exposing students to exercises for which only inferior solutions exist at the moment, to serve as cross checking avenues in algebra later on
+- The proposal recognizes that it is school authorities who have the final decision to allow alternatives to the standard algorithms, which differ from what teachers expect of students in a given locality, and which will show up on answer sheets.
+- The arithmetic portion of the early algebra proposal consists of counteracting development of misconceptions in algebra, and helping students to be able to learn on their own if necessary. The details are as follows:
+  - exercises for which no solutions exist at the moment, to counteract development of misconceptions in algebra later on
+  - exercises for which only inferior solutions exist at the moment in the form of trial and error, to counteract any misconceptions around cross checking. This is because cross checking is an activity that becomes
+    far more important once the student leaves arithmetic study and enters advanced math study, starting with algebra.
+  - training students in formula or function application once a definition is given with examples. This training has two goals:
+     - serves to counteract misconception in algebra (and even arithmetic involving fractions and negative numbers) that math is always intuitive
+     - makes it possible to present arithmetic algorithms to students in the language of formula application.
+  - helping students to be responsible for memorization and proficiency in math
+  - summary of arithmetic algorithms and tables which can serve as a reference for a teenager to use to solve exercises on his own, ie during a stage when he is not practising for memorization and proficiency.
+  - fallback arithmetic algorithms that students can be introduced to if necessary (and if permitted by school authorities).
+  - exercises which are designed in such a way that a teenager can teach himself with them, without having to expose his embarassments and failures in math to the teacher and others.
+    E.g. multiple choice questions, exercises with hints.
 
 ## Arithmetic Activities
 
-The following activities are meant for rational numbers:
+The following activities are assumed to constitute arithmetic for rational numbers as taught in school:
 
 - Addition
 - Subtraction
 - Multiplication
 - Division
+- Exponentiation involving counting number exponents
 - Comparison
-  - includes predicting whether result of an arithmetic operation is negative or not
-  - includes predicting the result of comparing magnitudes of operands with magnitude of result of an arithmetic operation.
 - Conversion of fractions from and to decimal expansions
 - Conversion of fractions and decimal expansions to rounded decimal expansions
-- Developing proficiency in arithmetic of single digit whole numbers
+- Developing proficiency in arithmetic of multidigit whole numbers
 - Developing proficiency in simplification of fractions using divisibility rules
 
-If necessary, can start with a reduction of the activities above by excluding long division and negative number arithmetic, to obtain the following:
+The remainder of this section are arithmetic parts of early algebra proposal.
 
-- Addition of nonnegative rational numbers
-- Subtraction of nonnegative rational numbers (negative results may be permitted).
-  - if permitted by school authorities, adopt the more intuitive algorithm of subtraction by solving addition equation.
+Exercises Exposing Misconceptions
+- Subtraction
+  - asking questions in which result can be negative, and accepting "undefined", "unexpected number", "negative",
+    or negative sign as valid answers, to show that subtraction is not commutative even before teaching negative numbers.
+- Division
+  - asking questions in which there is division by zero and division which yields zero, and accepting "undefined" as possible result.
+  - asking questions in which quotient can be zero, to show that division is not commutative even before teaching fractions.
+- Exposing students to calculations involving number 0 in operands or answers, before teaching fractions and negative numbers.
+- Requiring students to master calculations involving number 10 when used in calculations other than as the first operand of subtraction and division, at all levels of arithmetic study.
+
+Fallback algorithms:
+- Subtraction of whole numbers
+  - subtraction by solving addition equation.
 - Multiplication of whole numbers
-  - if permitted by school authorities, adopt the more intuitive algorithm of multiplication by grid method (aka grid multiplication).
-- Division of whole numbers by algorithms other than long division which are more intutive, because they perform the division by directly solving
-  the division algorithm equation.
-  - by trial and error: keep multiplying divisor by educated guesses, until a guess is found which gives a nonnegative remainder less than the divisor. One benefit of being aware of this algorithm is that, it is always present as a step in the other more efficient algorithms for division.
-  - if permitted by school authorities, adopt the more efficient approach of division by chunking (aka division by partial quotients method).
-- Comparison of nonnegative rational numbers
+  - multiplication by grid method (aka grid multiplication).
+- Division of whole numbers by algorithms other than long division which directly solve the division algorithm equation.
+  - by trial and error: keep multiplying divisor by educated guesses, until a guess is found which gives a nonnegative remainder less than the divisor.
+    One benefit of being aware of this algorithm is that, it is always present as a step in the other more efficient algorithms for division.
+  - division by chunking (aka division by partial quotients method).
 - Conversion of nonnegative fractions from and to terminating decimal expansions by multiplication instead of long division
-  - ie keep multiplying top and down by 2 or 5 if denominator is not a power of 10 and its last non-zero digit is 5 or even number respectively, until denominator becomes a power of 10 to lead to the desired terminating decimal expansion, or until last non-zero digit in denominator is neither even number nor 5 to indicate that decimal expansion will not terminate.
-- Conversion of terminating decimal expansions to rounded decimal expansions
+  - ie keep multiplying top and down by 2 or 5 if denominator is not a power of 10 and its last non-zero digit is 5 or even number respectively,
+    until denominator becomes a power of 10 to lead to the desired terminating decimal expansion,
+    or until last non-zero digit in denominator is neither 5 nor even number, which indicates that decimal expansion will not terminate.
 - Conversion of fractions to rounded decimal expansions without long division
-  - ie given a number of decimal places to round to, say 3 decimal places, multiply the fraction by a multiple of 10 which is 1 followed by at least 3 zeros (e.g. 1000), and then convert to mixed fraction. Divide the whole number part of the mixed fraction by the multiple of 10 used (1000 in this example), and then determine the digits making up the rounded decimal expansion.
-    Finally, if some of the digits of the whole number part are absent in the rounded decimal expansion, then discard the fractional part and be done (actually fractional part can always be discarded if the number of zeros in the multiple used exceeds the desired number of decimal places. e.g. if 10,000 was used instead of 1,000).
-    Else use the fractional part to determine whether to add a 1 to the last digit of the whole number part in the rounded decimal expansion, depending on
-    whether it is greater than or equal to 1/2.
-- Developing proficiency in arithmetic of single digit whole numbers
-- Developing proficiency in simplification of nonnegative fractions using divisibility rules
+  - ie given a number of decimal places to round to, say 3 decimal places, multiply the fraction by a multiple of 10 which is 1 followed by more than 3 zeros (e.g. 10,000), and then convert to mixed fraction.
+    Discard the fractional part, and divide the whole number part of the mixed fraction by the multiple of 10 used (10,000 in this example), and then determine the digits making up the rounded decimal expansion.
+
+Formulas or Functions to be used for training students in function application are listed next. Note that these functions have been
+selected to directly be of benefit in the study of algebra.
+- Addition of rational numbers: addition(a/b, c/d) = a/b + c/d = (ad + bc)/bd
+- Subtraction of rational numbers: subtraction(a/b, c/d) = a/b - c/d = (ad - bc)/bd
+- Multiplication of rational numbers: multiplication(a/b, c/d) = a/b * c/d = ac/bd
+- Division of rational numbers: division(a/b, c/d) = (a/b) / (c/d) = ad/bc
+- Absolute value: digits(a) = |a| = { (-a) if a is negative; otherwise a }
+- Absolute value: digits(a+b) = |a+b| = { |a|+|b| if a and b have the same sign; |a|-|b| if |a| is greater than |b|; otherwise |b| - |a| }
+- Absolute value: digits(a-b) = |a-b| = |a + (-b)|
+- Signum function: sign(a) = { '+' if a is postive; '-' if a is negative; otherwise '0' }
+- Signum function: sign(a+b) = { sign(a) if a and b have the same sign; sign(a) if |a| is greater than |b|; otherwise sign(b) }
+- Signum function: sign(a-b) = sign(a + (-b))
+- Maximum function: maximum(a, b) = { a if a is greater than b; otherwise b }
+- Minimum function: minimum(a, b) = { a if a is lesser than b; otherwise b }
+- Square function: square(a) = a^2 = a * a
+- Cube function: cube(a) = a^3 = a * a * a
+
+Exercises Leveraging Technology
+- Comparison
+  - predicting whether result of an arithmetic operation is negative or not
+  - predicting the result of comparing magnitudes of operands with magnitude of result of an arithmetic operation.
 
 ## Algebra Activities
 
@@ -87,7 +117,6 @@ Algebra activities which are identified as useful for early algebra education ar
 
 The early algebra activities identified address the following needs as well:
 
-- questions requiring knowledge of commutativity of addition but not subtraction - using ordinary subtraction questions and accepting "undefined" (similar to dividing by zero), "unexpected number", "negative", or negative sign as valid answers.
 - questions requiring knowledge of associativity of addition but not subtraction - using expression evaluation.
 - questions requiring knowledge of distributivity of multiplication over addition - using multiplication questions and demonstrating how any multiplication algorithm is an application of the distributivity property, because it leverages memory of tables to reduce the number of repeated additions suggested by the involvement of a counting number multiplier.
 
