@@ -13,8 +13,9 @@ Early algebra is a subset of topics in both arithmetic and algebra, which should
   - exercises for which only inferior solutions exist at the moment in the form of trial and error, to counteract any misconceptions around cross checking. This is because cross checking is an activity that becomes
     far more important once the student leaves arithmetic study and enters advanced math study, starting with algebra.
   - training students in formula or function application once a definition is given with examples. This training has two goals:
-     - serves to counteract misconception in algebra (and even arithmetic involving fractions and negative numbers) that math is always intuitive
-     - makes it possible to present arithmetic algorithms to students in the language of formula application.
+    - serves to counteract misconception in algebra (and even arithmetic involving fractions and negative numbers), that the operations to be performed in arithmetic expressions are intutive or can always be known beforehand. This is because arithmetic expressions can involve function application, and some math operators are actually notational shortcuts for
+      functions.
+    - makes it possible to present arithmetic algorithms to students in the language of formula application.
   - helping students to be responsible for memorization and proficiency in math
   - summary of arithmetic algorithms and tables which can serve as a reference for a teenager to use to solve exercises on his own, ie during a stage when he is not practising for memorization and proficiency.
   - fallback arithmetic algorithms that students can be introduced to if necessary (and if permitted by school authorities).
@@ -23,7 +24,7 @@ Early algebra is a subset of topics in both arithmetic and algebra, which should
 
 ## Arithmetic Activities
 
-The following activities are assumed to constitute arithmetic for rational numbers as taught in school:
+The following activities are assumed to constitute arithmetic for rational numbers as taught in school or online (e.g. https://www.transum.org):
 
 - Addition
 - Subtraction
@@ -39,16 +40,29 @@ The following activities are assumed to constitute arithmetic for rational numbe
 The remainder of this section are arithmetic parts of early algebra proposal.
 
 Exercises Exposing Misconceptions
+
 - Subtraction
   - asking questions in which result can be negative, and accepting "undefined", "unexpected number", "negative",
     or negative sign as valid answers, to show that subtraction is not commutative even before teaching negative numbers.
 - Division
   - asking questions in which there is division by zero and division which yields zero, and accepting "undefined" as possible result.
-  - asking questions in which quotient can be zero, to show that division is not commutative even before teaching fractions.
-- Exposing students to calculations involving number 0 in operands or answers, before teaching fractions and negative numbers.
-- Requiring students to master calculations involving number 10 when used in calculations other than as the first operand of subtraction and division, at all levels of arithmetic study.
+  - asking questions in which quotient can be zero, to show that division is not commutative before teaching fractions.
+- Exposing students to calculations involving number 0 in operands or answers, before and after teaching fractions and negative numbers.
+
+Mental exercises serving same purpose as recall of multiplication tables. Suitable for use with technology. The noteworthy thing about these mental exercises is that, they completely cover all the algorithms for
+fractions and integers, aside the algorithms for counting numbers.
+
+- mastering calculation shortcuts involving number 10 when used in calculations other than as the first operand of subtraction and division.
+- recalling formula or function for addition, subtraction, multiplication and division of fractions, using the fraction operands in the placeholders of the expression for the formula.
+- predicting sign of an arithmetic operation: whether it is negative or not
+- predicting expression for the magnitude of an arithmetic operation
+- (optional) comparing magnitudes of operands with magnitude of result of an arithmetic operation.
+  - for addition and subtraction, compare the larger of the magnitude of the operands with the magnitude of the result
+  - for multiiplication, compare the magnitude of the first or second operand with the magnitude of the result
+  - for division and exponentiation, compare the magnitude of the first operand with the magnitude of the result
 
 Fallback algorithms:
+
 - Subtraction of whole numbers
   - subtraction by solving addition equation.
 - Multiplication of whole numbers
@@ -67,9 +81,10 @@ Fallback algorithms:
 
 Formulas or Functions to be used for training students in function application are listed next. Note that these functions have been
 selected to directly be of benefit in the study of algebra.
+
 - Addition of rational numbers: addition(a/b, c/d) = a/b + c/d = (ad + bc)/bd
 - Subtraction of rational numbers: subtraction(a/b, c/d) = a/b - c/d = (ad - bc)/bd
-- Multiplication of rational numbers: multiplication(a/b, c/d) = a/b * c/d = ac/bd
+- Multiplication of rational numbers: multiplication(a/b, c/d) = a/b \* c/d = ac/bd
 - Division of rational numbers: division(a/b, c/d) = (a/b) / (c/d) = ad/bc
 - Absolute value: digits(a) = |a| = { (-a) if a is negative; otherwise a }
 - Absolute value: digits(a+b) = |a+b| = { |a|+|b| if a and b have the same sign; |a|-|b| if |a| is greater than |b|; otherwise |b| - |a| }
@@ -79,13 +94,8 @@ selected to directly be of benefit in the study of algebra.
 - Signum function: sign(a-b) = sign(a + (-b))
 - Maximum function: maximum(a, b) = { a if a is greater than b; otherwise b }
 - Minimum function: minimum(a, b) = { a if a is lesser than b; otherwise b }
-- Square function: square(a) = a^2 = a * a
-- Cube function: cube(a) = a^3 = a * a * a
-
-Exercises Leveraging Technology
-- Comparison
-  - predicting whether result of an arithmetic operation is negative or not
-  - predicting the result of comparing magnitudes of operands with magnitude of result of an arithmetic operation.
+- Square function: square(a) = a^2 = a \* a
+- Cube function: cube(a) = a^3 = a \* a \* a
 
 ## Algebra Activities
 
@@ -100,7 +110,7 @@ Algebra activities which are identified as useful for early algebra education ar
 - expression evaluation (aka "substitution") involving only the four basic arithmetic operators (+, -, &#x00D7;, &#x00F7;)
   - includes focus on drilling in convention of concatenation for multiplication
   - NB: substitution exercises in popular math text books can also get us equation solving activities using guess and check (with possible answers of objective tests as guesses)
-- expression evaluation involving functions with verbose names which map to the four basic arithmetic operators, squares and cubes.
+- expression evaluation involving functions with verbose names which map to the functions identified in the arithmetic part of early algebra.
 - expression evaluation involving powers, roots, exponents and logarithmic (common and natural log) and trigonometry (sin, cos and tan) functions
 - equation solving, mainly linear equations
   - includes univariate polynomial equations, and simultaneous equations in multiple variables
@@ -113,10 +123,8 @@ Algebra activities which are identified as useful for early algebra education ar
   - NB: the rationale for the existence of this exercise is that, in practice during algebraic expression simplification and equation solving, identifying the last (or "root") step rather than the first step (as suggested by BODMAS) is more important for flexibility in breaking down expressions, and even evaluating multiple parts concurrently.
 - math applications to real world of student
   - aka "word problems"
-  - can make use of https://www.transum.org
 
 The early algebra activities identified address the following needs as well:
 
 - questions requiring knowledge of associativity of addition but not subtraction - using expression evaluation.
 - questions requiring knowledge of distributivity of multiplication over addition - using multiplication questions and demonstrating how any multiplication algorithm is an application of the distributivity property, because it leverages memory of tables to reduce the number of repeated additions suggested by the involvement of a counting number multiplier.
-
