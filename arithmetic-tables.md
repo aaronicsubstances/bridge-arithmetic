@@ -836,9 +836,6 @@ E.g. Out of the numbers 43, 58, 75, 90, 1027 and 2934; it is 75, 90 and 2934 tha
             <li>Taking 2934, 2 + 9 + 3 + 4 = 18, which is known to be a multiple of 3; so 2934 is divisible by 3</li>
           </ol>
 
-NB: This rule can be generalized to both 3 and 9:
-          A number is divisible by 3 or 9 if and only if the sum of its digits is divisible by 3 or 9.
-
 ### Dividing with 5
 A number is divisible by 5 if and only if its last digit is divisible by 5. In other words,
           if a number can be divided by 5 without leaving a remainder, then it has to mean that its last digit is either 0 or 5.
@@ -864,6 +861,26 @@ E.g. Out of the numbers 42, 58, 77, 161, 187 and 343; it is 42, 77, 161 and 343 
             (could have stopped test upon getting difference of 14)</li>
             <li>Taking 187, 18 - (2 &times; 7) = 4, which is not 0 or 7; so 187 is not divisible by 7</li>
             <li>Taking 343, 34 - (2 &times; 3) = 28, which is a known multiple of 7; so 343 is divisible by 7</li>
+          </ol>
+
+### Dividing with 9
+A number is divisible by 9 if and only if the sum of its digits is divisible by 9. In other words,
+          if a number can be divided by 9 without leaving a remainder, then it has to mean that when you add its digits together, you will
+          get a number which is divisible by 9. And you can repeat the rule on each successive sum of digits until you get one of the multiples of 9
+          in the multiplication table, or until you get a single digit which will be 0 or 9 if and only if the starting number is
+          divisible by 9.
+
+E.g. Out of the numbers 43, 58, 75, 90, 1027 and 2934; it is 90 and 2934 that are divisible by 9.
+          <ol>
+            <li>Taking 43, 4 + 3 = 7, which is not 0 or 9; so 43 is not divisible by 9</li>
+            <li>Taking 58, 5 + 8 = 13. Then taking 13, 1 + 3 = 4, which is not 0 or 9; so 58 is not divisible by 9
+            (could have stopped test upon getting sum of 13)</li>
+            <li>Taking 75, 7 + 5 = 12. Then taking 12, 1 + 2 = 3, which is not 0 or 9; so 75 is not divisible by 9
+            (could have stopped test upon getting sum of 12)</li>
+            <li>Taking 90, 9 + 0 = 9; and so getting 9 means 90 is divisible by 9 (test could have been avoided by ignoring the trailing zeros, and recognizing
+          that 9 is a known multiple of 9)</li>
+            <li>Taking 1027, 1 + 0 + 2 + 7 = 10, which is known not to be a multiple of 9; so 1027 is not divisible by 9</li>
+            <li>Taking 2934, 2 + 9 + 3 + 4 = 18, which is known to be a multiple of 9; so 2934 is divisible by 9</li>
           </ol>
 
 ### Dividing with 10
