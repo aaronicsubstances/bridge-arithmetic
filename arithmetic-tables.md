@@ -825,17 +825,15 @@ A number is divisible by 3 if and only if the sum of its digits is divisible by 
 
 E.g. Out of the numbers 43, 58, 75, 90, 1027 and 2934; it is 75, 90 and 2934 that are divisible by 3.
           <ol>
-            <li>Taking 43, 4 + 3 = 7; and since 7 is neither of 0, 3, 6 or 9, 43 is not divisible by 3.</li>
-            <li>Taking 58, 5 + 8 = 13. Then taking 13, 1 + 3 = 4; and 4 is neither of 0, 3, 6 or 9, 58 is not divisible by 3. Alternatively the test could have been
-          stopped when the first sum of 13 was obtained, since 13 is known not to be a multiple of 3.</li>
-            <li>Taking 75, 7 + 5 = 12. Then taking 12, 1 + 2 = 3; and so getting 3 means 75 is divisible by 3. Alternatively the test could have been stopped when the first sum of 12
-          was obtained, since 12 is a known multiple of 3.</li>
-            <li>Taking 90, 9 + 0 = 9; and so getting 9 means 90 is divisible by 3. Alternatively the test could have been avoided by ignoring the trailing zeros, and recognizing
-          that 9 is a known multiple of 3.</li>
-            <li>Taking 1027, 1 + 0 + 2 + 7 = 10. Then taking 10, 1 + 0 = 1; and since 1 is neither of 0, 3, 6, or 9, 1027 is not divisible by 3. Alternatively the test could have
-          been stopped when the first sum of 10 was obtained, since 10 is known not to be a multiple of 3.</li>
-            <li>Taking 2934, 2 + 9 + 3 + 4 = 18. Then taking 18, 1 + 8 = 9; and so getting 9 means 2934 is divisible by 3. Alternatively the test could have been stopped when
-          the first sum of 18 was obtained, since 18 is a known multiple of 3.</li>
+            <li>Taking 43, 4 + 3 = 7, which is not 0, 3, 6 or 9; so 43 is not divisible by 3</li>
+            <li>Taking 58, 5 + 8 = 13. Then taking 13, 1 + 3 = 4, which is not 0, 3, 6 or 9; so 58 is not divisible by 3
+            (could have stopped test upon getting sum of 13)</li>
+            <li>Taking 75, 7 + 5 = 12. Then taking 12, 1 + 2 = 3; and so getting 3 means 75 is divisible by 3
+            (could have stopped test upon getting sum of 12)</li>
+            <li>Taking 90, 9 + 0 = 9; and so getting 9 means 90 is divisible by 3 (test could have been avoided by ignoring the trailing zeros, and recognizing
+          that 9 is a known multiple of 3)</li>
+            <li>Taking 1027, 1 + 0 + 2 + 7 = 10, which is known not to be a multiple of 3; so 1027 is not divisible by 3</li>
+            <li>Taking 2934, 2 + 9 + 3 + 4 = 18, which is known to be a multiple of 3; so 2934 is divisible by 3</li>
           </ol>
 
 NB: This rule can be generalized to both 3 and 9:
@@ -848,9 +846,28 @@ A number is divisible by 5 if and only if its last digit is divisible by 5. In o
 E.g. Out of the numbers 43, 58, 75, 90, 1027 and 2934; it is 75 and 90 that are divisible by 5, because their last digits
           of 5 and 0 respectively, are one of 0 or 5.
 
+### Dividing with 7
+A number is divisible by 7 if and only if the difference between twice of its last digit and the rest is divisible by 7. In other words,
+          if a number can be divided by 7 without leaving a remainder, then it has to mean that when you double its last digit, and subtract from the number
+          formed by the remaining digits (or subtract the other way round to avoid negatives), you will
+          get a number which is divisible by 7. And you can repeat the rule on each successive difference obtained until you get one of the multiples of 7
+          in the multiplication table, or until you get a single digit which will be 0 or 7 if and only if the starting number is
+          divisible by 7.
+
+E.g. Out of the numbers 42, 58, 77, 161, 187 and 343; it is 42, 77, 161 and 343 that are divisible by 7.
+          <ol>
+            <li>Taking 42, 4 - (2 &times; 2) = 0; so 42 is divisible by 7</li>
+            <li>Taking 58, (2 &times; 8) - 5 = 11; Then taking 11, (2 &times; 1) - 1 = 1, which is not 0 or 7; so 58 is not divisible by 7
+            (could have stopped test upon getting difference of 11)</li>
+            <li>Taking 77, (2 &times; 7) - 7 = 7; so 77 is divisible by 7</li>
+            <li>Taking 161, 16 - (2 &times; 1) = 14; Then taking 14, (2 &times; 4) - 1 = 7; so 161 is divisible by 7
+            (could have stopped test upon getting difference of 14)</li>
+            <li>Taking 187, 18 - (2 &times; 7) = 4, which is not 0 or 7; so 187 is not divisible by 7</li>
+            <li>Taking 343, 34 - (2 &times; 3) = 28, which is a known multiple of 7; so 343 is divisible by 7</li>
+          </ol>
+
 ### Dividing with 10
-A number is divisible by 10 if and only if its last digit is divisible by 10. In other words,
-          if a number can be divided by 10 without leaving a remainder, then it has to mean that its last digit is 0.
+A number is divisible by 10 if and only if its last digit is 0, which is equivalent to the number being divisible by both 2 and 5.
 
 E.g. Out of the numbers 43, 58, 75, 90, 1027 and 2934; it is 90 that is divisible by 10, because its last digit
           is 0.
@@ -858,16 +875,36 @@ E.g. Out of the numbers 43, 58, 75, 90, 1027 and 2934; it is 90 that is divisibl
 NB: This rule can be generalized to any power of 10, ie a number which is 1 followed by zeros, e.g. 10, 100, 1000: 
           A number is divisible by a power of 10 if and only if there are enough trailing zeros in
           the number to cancel out the zeros in the power of 10.
+### Dividing with 11
+A number is divisible by 11 if and only if the difference between its last digit and the rest is divisible by 11. In other words,
+          if a number can be divided by 11 without leaving a remainder, then it has to mean that when you subtract its last digit from the number
+          formed by the remaining digits (or subtract the other way round to avoid negatives), you will
+          get a number which is divisible by 11. And you can repeat the rule on each successive difference obtained until you get one of the multiples of 11
+          in the multiplication table, or until you get a single digit which will be 0 if and only if the starting number is
+          divisible by 11.
 
-## Rule for Testing whether a Number in 1-120 is Prime or Composite
+E.g. Out of the numbers 42, 58, 77, 161, 187 and 343; it is 77 and 187 that are divisible by 11.
+          <ol>
+            <li>Taking 42, 4 - 2 = 2, which is not 0; so 42 is not divisible by 11</li>
+            <li>Taking 58, 8 - 5 = 3, which is not 0; so 58 is not divisible by 11</li>
+            <li>Taking 77, 7 - 7 = 0; so 77 is divisible by 11</li>
+            <li>Taking 161, 16 - 1 = 15; Then taking 15, 5 - 1 = 4, which is not 0; so 161 is not divisible by 11
+            (could have stopped test upon getting difference of 15)</li>
+            <li>Taking 187, 18 - 7 = 11, which is a known multiple of 11; so 187 is divisible by 11</li>
+            <li>Taking 343, 34 - 3 = 31, which is known not to be a multiple of 11; so 343 is not divisible by 11</li>
+          </ol>
+
+
+## Rule for Testing whether a Number in 1-200 is Prime or Composite
 A *prime number* is a number greater than 1 that is not divisible by any number apart from itself and 1.
 The first 10 prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23 and 29.
 If a number is greater than 1 and is not a prime number, then it is a called a *composite number*.
 
-A sufficient test for determining whether a number in the range of 10-120 is prime or composite, is this:
-If a number between 10 and 120 is not divisible by 2, 3, 5 and 7 (which are the first 4 prime numbers), then the number is definitely a prime number.
-Else the number is definitely a composite number. Note that the only composite numbers less than 120 which are not divisible by 2, 3 and 5, and which
-are not one of the multiples of 7 in the multiplication tables, are 91 (=7 &times; 13) and 119 (=7 &times; 17).
+A sufficient test for determining whether a number in the range of 12-200 is prime or composite, is this:
+If a number between 12 and 200 is not 169 (which is a perfect square whose square root is 13)
+and is not divisible by 2, 3, 5, 7 and 11 (which are the first 5 prime numbers),
+then the number is definitely a prime number.
+Else the number is definitely a composite number.
 
 ## Tables for Factorisations of 1-100
 NB: In the table below, <ol>
