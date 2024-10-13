@@ -68,5 +68,4 @@ division, factors, multiples, and divisors.
      - Divisibility rules - crucially important, esp for 2, 3, 5, 10. Practically 3 and 7 are the "troublesome" single digit primes, but even then given the simplicity of the rule for 3 and knowing about few powers of 7 (ie 49 and 343) is sufficient in practice for almost all fraction simplification needs.
      - Even and odd numbers - crucially important for determining divisibility by 2.
      - Squares and cubes, square roots and cube roots - crucially important to know the values for squares of whole numbers up to 20, and cubes of the single digits.
-     - LCM - useful in practice, although it can be substituted by common multiples (CM).
-     - HCF, generating all factors of a number, and prime numbers - Doesn't seem to be used directly in practice; instead common factors (CF) are rather used.
+     - HCF, LCM, generating all factors of a number - Doesn't seem to be used directly in practice; instead common factors (CF) and common multiples (CM) are used.

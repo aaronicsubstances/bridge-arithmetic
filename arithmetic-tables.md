@@ -814,6 +814,8 @@ A number is divisible by 2 if and only if its last digit is divisible by 2. In o
 E.g. Out of the numbers 43, 58, 75, 90, 1027 and 2934; it is 58, 90 and 2934 that are divisible by 2, because their last digits
           of 8, 0 and 4 respectively, are divisible by 2.
 
+NB: If a number is divisible by 2 it is called an *even* number; else it is called an *odd* number
+
 ### Dividing with 3
 A number is divisible by 3 if and only if the sum of its digits is divisible by 3. In other words,
           if a number can be divided by 3 without leaving a remainder, then it has to mean that when you add its digits together, you will
@@ -857,10 +859,18 @@ NB: This rule can be generalized to any power of 10, ie a number which is 1 foll
           A number is divisible by a power of 10 if and only if there are enough trailing zeros in
           the number to cancel out the zeros in the power of 10.
 
-## Tables for Factorization of 1-100
+## Rule for Testing whether a Number in 1-120 is Prime or Composite
+A *prime number* is a number greater than 1 that is not divisible by any number apart from itself and 1.
+The first 10 prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23 and 29.
+If a number is greater than 1 and is not a prime number, then it is a called a *composite number*.
+
+A sufficient test for determining whether a number in the range of 10-120 is prime or composite, is this:
+If a number between 10 and 120 is not divisible by 2, 3, 5 and 7 (which are the first 4 prime numbers), then the number is definitely a prime number.
+Else the number is definitely a composite number. Note that the only composite numbers less than 120 which are not divisible by 2, 3 and 5, and which
+are not one of the multiples of 7 in the multiplication tables, are 91 (=7 &times; 13) and 119 (=7 &times; 17).
+
+## Tables for Factorisations of 1-100
 NB: In the table below, <ol>
-<li>Any number identified as a prime number is a number which has only 2 factors: itself and 1.</li>
-<li>Any number identified as a composite number is a number which has more than 2 factors, including 1.</li>
 <li>The numbers 1, 3, 5, 7 and 9 and any number whose last digit is 1, 3, 5, 7 or 9, have the additional description of odd numbers</li>
 <li>The numbers 2, 4, 6 and 8 and any number whose last digit is 2, 4, 6, 8 or 0, have the additional description of even numbers</li>
 <li>Multiples for numbers less than 13 are not listed because they can be found in the multiplication tables.</li>
@@ -879,15 +889,15 @@ NB: In the table below, <ol>
 <li>a perfect square: square root of 1 = 1</li>
 <li>a perfect cube: cube root of 1 = 1</li>
 <li>neither a prime number nor a composite number</li></ul>
-<u>Factorisations</u><br>1 = 1 &times; 1
+Factorisations:<br>1 = 1 &times; 1
 </td>
       <td>2 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>2 = 2 &times; 1
+Factorisations:<br>2 = 2 &times; 1
 </td>
       <td>3 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>3 = 3 &times; 1
+Factorisations:<br>3 = 3 &times; 1
 </td>
     </tr>
   </tbody>
@@ -905,15 +915,15 @@ NB: In the table below, <ol>
       <td>4 is<ul>
 <li>a perfect square: square root of 4 = 2</li>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>4 = 2 &times; 2
+Factorisations:<br>4 = 2 &times; 2
 </td>
       <td>5 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>5 = 5 &times; 1
+Factorisations:<br>5 = 5 &times; 1
 </td>
       <td>6 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>6 = 3 &times; 2
+Factorisations:<br>6 = 3 &times; 2
 </td>
     </tr>
   </tbody>
@@ -930,17 +940,17 @@ NB: In the table below, <ol>
     <tr>
       <td>7 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>7 = 7 &times; 1
+Factorisations:<br>7 = 7 &times; 1
 </td>
       <td>8 is<ul>
 <li>a perfect cube: cube root of 8 = 2</li>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>8 = 4 &times; 2
+Factorisations:<br>8 = 4 &times; 2
 </td>
       <td>9 is<ul>
 <li>a perfect square: square root of 9 = 3</li>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>9 = 3 &times; 3
+Factorisations:<br>9 = 3 &times; 3
 </td>
     </tr>
   </tbody>
@@ -957,15 +967,15 @@ NB: In the table below, <ol>
     <tr>
       <td>10 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>10 = 5 &times; 2
+Factorisations:<br>10 = 5 &times; 2
 </td>
       <td>11 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>11 = 11 &times; 1
+Factorisations:<br>11 = 11 &times; 1
 </td>
       <td>12 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>12 = 6 &times; 2<br>
+Factorisations:<br>12 = 6 &times; 2<br>
 12 = 4 &times; 3
 </td>
     </tr>
@@ -983,8 +993,8 @@ NB: In the table below, <ol>
     <tr>
       <td>13 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>13 = 13 &times; 1
-<br><br><u>Some Multiples</u><br>13 &times; 2 = 26<br>
+Factorisations:<br>13 = 13 &times; 1
+<br><br>Some Multiples:<br>13 &times; 2 = 26<br>
 13 &times; 3 = 39<br>
 13 &times; 4 = 52<br>
 13 &times; 5 = 65<br>
@@ -993,8 +1003,8 @@ NB: In the table below, <ol>
 </td>
       <td>14 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>14 = 7 &times; 2
-<br><br><u>Some Multiples</u><br>14 &times; 2 = 28<br>
+Factorisations:<br>14 = 7 &times; 2
+<br><br>Some Multiples:<br>14 &times; 2 = 28<br>
 14 &times; 3 = 42<br>
 14 &times; 4 = 56<br>
 14 &times; 5 = 70<br>
@@ -1003,8 +1013,8 @@ NB: In the table below, <ol>
 </td>
       <td>15 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>15 = 5 &times; 3
-<br><br><u>Some Multiples</u><br>15 &times; 2 = 30<br>
+Factorisations:<br>15 = 5 &times; 3
+<br><br>Some Multiples:<br>15 &times; 2 = 30<br>
 15 &times; 3 = 45<br>
 15 &times; 4 = 60<br>
 15 &times; 5 = 75<br>
@@ -1026,9 +1036,9 @@ NB: In the table below, <ol>
       <td>16 is<ul>
 <li>a perfect square: square root of 16 = 4</li>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>16 = 8 &times; 2<br>
+Factorisations:<br>16 = 8 &times; 2<br>
 16 = 4 &times; 4
-<br><br><u>Some Multiples</u><br>16 &times; 2 = 32<br>
+<br><br>Some Multiples:<br>16 &times; 2 = 32<br>
 16 &times; 3 = 48<br>
 16 &times; 4 = 64<br>
 16 &times; 5 = 80<br>
@@ -1036,17 +1046,17 @@ NB: In the table below, <ol>
 </td>
       <td>17 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>17 = 17 &times; 1
-<br><br><u>Some Multiples</u><br>17 &times; 2 = 34<br>
+Factorisations:<br>17 = 17 &times; 1
+<br><br>Some Multiples:<br>17 &times; 2 = 34<br>
 17 &times; 3 = 51<br>
 17 &times; 4 = 68<br>
 17 &times; 5 = 85
 </td>
       <td>18 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>18 = 9 &times; 2<br>
+Factorisations:<br>18 = 9 &times; 2<br>
 18 = 6 &times; 3
-<br><br><u>Some Multiples</u><br>18 &times; 2 = 36<br>
+<br><br>Some Multiples:<br>18 &times; 2 = 36<br>
 18 &times; 3 = 54<br>
 18 &times; 4 = 72<br>
 18 &times; 5 = 90
@@ -1066,25 +1076,25 @@ NB: In the table below, <ol>
     <tr>
       <td>19 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>19 = 19 &times; 1
-<br><br><u>Some Multiples</u><br>19 &times; 2 = 38<br>
+Factorisations:<br>19 = 19 &times; 1
+<br><br>Some Multiples:<br>19 &times; 2 = 38<br>
 19 &times; 3 = 57<br>
 19 &times; 4 = 76<br>
 19 &times; 5 = 95
 </td>
       <td>20 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>20 = 10 &times; 2<br>
+Factorisations:<br>20 = 10 &times; 2<br>
 20 = 5 &times; 4
-<br><br><u>Some Multiples</u><br>20 &times; 2 = 40<br>
+<br><br>Some Multiples:<br>20 &times; 2 = 40<br>
 20 &times; 3 = 60<br>
 20 &times; 4 = 80<br>
 20 &times; 5 = 100
 </td>
       <td>21 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>21 = 7 &times; 3
-<br><br><u>Some Multiples</u><br>21 &times; 2 = 42<br>
+Factorisations:<br>21 = 7 &times; 3
+<br><br>Some Multiples:<br>21 &times; 2 = 42<br>
 21 &times; 3 = 63<br>
 21 &times; 4 = 84
 </td>
@@ -1103,24 +1113,24 @@ NB: In the table below, <ol>
     <tr>
       <td>22 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>22 = 11 &times; 2
-<br><br><u>Some Multiples</u><br>22 &times; 2 = 44<br>
+Factorisations:<br>22 = 11 &times; 2
+<br><br>Some Multiples:<br>22 &times; 2 = 44<br>
 22 &times; 3 = 66<br>
 22 &times; 4 = 88
 </td>
       <td>23 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>23 = 23 &times; 1
-<br><br><u>Some Multiples</u><br>23 &times; 2 = 46<br>
+Factorisations:<br>23 = 23 &times; 1
+<br><br>Some Multiples:<br>23 &times; 2 = 46<br>
 23 &times; 3 = 69<br>
 23 &times; 4 = 92
 </td>
       <td>24 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>24 = 12 &times; 2<br>
+Factorisations:<br>24 = 12 &times; 2<br>
 24 = 8 &times; 3<br>
 24 = 6 &times; 4
-<br><br><u>Some Multiples</u><br>24 &times; 2 = 48<br>
+<br><br>Some Multiples:<br>24 &times; 2 = 48<br>
 24 &times; 3 = 72<br>
 24 &times; 4 = 96
 </td>
@@ -1140,22 +1150,22 @@ NB: In the table below, <ol>
       <td>25 is<ul>
 <li>a perfect square: square root of 25 = 5</li>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>25 = 5 &times; 5
-<br><br><u>Some Multiples</u><br>25 &times; 2 = 50<br>
+Factorisations:<br>25 = 5 &times; 5
+<br><br>Some Multiples:<br>25 &times; 2 = 50<br>
 25 &times; 3 = 75<br>
 25 &times; 4 = 100
 </td>
       <td>26 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>26 = 13 &times; 2
-<br><br><u>Some Multiples</u><br>26 &times; 2 = 52<br>
+Factorisations:<br>26 = 13 &times; 2
+<br><br>Some Multiples:<br>26 &times; 2 = 52<br>
 26 &times; 3 = 78
 </td>
       <td>27 is<ul>
 <li>a perfect cube: cube root of 27 = 3</li>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>27 = 9 &times; 3
-<br><br><u>Some Multiples</u><br>27 &times; 2 = 54<br>
+Factorisations:<br>27 = 9 &times; 3
+<br><br>Some Multiples:<br>27 &times; 2 = 54<br>
 27 &times; 3 = 81
 </td>
     </tr>
@@ -1173,21 +1183,21 @@ NB: In the table below, <ol>
     <tr>
       <td>28 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>28 = 7 &times; 4
-<br><br><u>Some Multiples</u><br>28 &times; 2 = 56<br>
+Factorisations:<br>28 = 7 &times; 4
+<br><br>Some Multiples:<br>28 &times; 2 = 56<br>
 28 &times; 3 = 84
 </td>
       <td>29 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>29 = 29 &times; 1
-<br><br><u>Some Multiples</u><br>29 &times; 2 = 58<br>
+Factorisations:<br>29 = 29 &times; 1
+<br><br>Some Multiples:<br>29 &times; 2 = 58<br>
 29 &times; 3 = 87
 </td>
       <td>30 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>30 = 10 &times; 3<br>
+Factorisations:<br>30 = 10 &times; 3<br>
 30 = 6 &times; 5
-<br><br><u>Some Multiples</u><br>30 &times; 2 = 60<br>
+<br><br>Some Multiples:<br>30 &times; 2 = 60<br>
 30 &times; 3 = 90
 </td>
     </tr>
@@ -1205,20 +1215,20 @@ NB: In the table below, <ol>
     <tr>
       <td>31 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>31 = 31 &times; 1
-<br><br><u>Some Multiples</u><br>31 &times; 2 = 62<br>
+Factorisations:<br>31 = 31 &times; 1
+<br><br>Some Multiples:<br>31 &times; 2 = 62<br>
 31 &times; 3 = 93
 </td>
       <td>32 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>32 = 8 &times; 4
-<br><br><u>Some Multiples</u><br>32 &times; 2 = 64<br>
+Factorisations:<br>32 = 8 &times; 4
+<br><br>Some Multiples:<br>32 &times; 2 = 64<br>
 32 &times; 3 = 96
 </td>
       <td>33 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>33 = 11 &times; 3
-<br><br><u>Some Multiples</u><br>33 &times; 2 = 66<br>
+Factorisations:<br>33 = 11 &times; 3
+<br><br>Some Multiples:<br>33 &times; 2 = 66<br>
 33 &times; 3 = 99
 </td>
     </tr>
@@ -1236,21 +1246,21 @@ NB: In the table below, <ol>
     <tr>
       <td>34 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>34 = 17 &times; 2
-<br><br><u>Some Multiples</u><br>34 &times; 2 = 68
+Factorisations:<br>34 = 17 &times; 2
+<br><br>Some Multiples:<br>34 &times; 2 = 68
 </td>
       <td>35 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>35 = 7 &times; 5
-<br><br><u>Some Multiples</u><br>35 &times; 2 = 70
+Factorisations:<br>35 = 7 &times; 5
+<br><br>Some Multiples:<br>35 &times; 2 = 70
 </td>
       <td>36 is<ul>
 <li>a perfect square: square root of 36 = 6</li>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>36 = 12 &times; 3<br>
+Factorisations:<br>36 = 12 &times; 3<br>
 36 = 9 &times; 4<br>
 36 = 6 &times; 6
-<br><br><u>Some Multiples</u><br>36 &times; 2 = 72
+<br><br>Some Multiples:<br>36 &times; 2 = 72
 </td>
     </tr>
   </tbody>
@@ -1267,18 +1277,18 @@ NB: In the table below, <ol>
     <tr>
       <td>37 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>37 = 37 &times; 1
-<br><br><u>Some Multiples</u><br>37 &times; 2 = 74
+Factorisations:<br>37 = 37 &times; 1
+<br><br>Some Multiples:<br>37 &times; 2 = 74
 </td>
       <td>38 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>38 = 19 &times; 2
-<br><br><u>Some Multiples</u><br>38 &times; 2 = 76
+Factorisations:<br>38 = 19 &times; 2
+<br><br>Some Multiples:<br>38 &times; 2 = 76
 </td>
       <td>39 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>39 = 13 &times; 3
-<br><br><u>Some Multiples</u><br>39 &times; 2 = 78
+Factorisations:<br>39 = 13 &times; 3
+<br><br>Some Multiples:<br>39 &times; 2 = 78
 </td>
     </tr>
   </tbody>
@@ -1295,19 +1305,19 @@ NB: In the table below, <ol>
     <tr>
       <td>40 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>40 = 10 &times; 4<br>
+Factorisations:<br>40 = 10 &times; 4<br>
 40 = 8 &times; 5
-<br><br><u>Some Multiples</u><br>40 &times; 2 = 80
+<br><br>Some Multiples:<br>40 &times; 2 = 80
 </td>
       <td>41 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>41 = 41 &times; 1
-<br><br><u>Some Multiples</u><br>41 &times; 2 = 82
+Factorisations:<br>41 = 41 &times; 1
+<br><br>Some Multiples:<br>41 &times; 2 = 82
 </td>
       <td>42 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>42 = 7 &times; 6
-<br><br><u>Some Multiples</u><br>42 &times; 2 = 84
+Factorisations:<br>42 = 7 &times; 6
+<br><br>Some Multiples:<br>42 &times; 2 = 84
 </td>
     </tr>
   </tbody>
@@ -1324,18 +1334,18 @@ NB: In the table below, <ol>
     <tr>
       <td>43 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>43 = 43 &times; 1
-<br><br><u>Some Multiples</u><br>43 &times; 2 = 86
+Factorisations:<br>43 = 43 &times; 1
+<br><br>Some Multiples:<br>43 &times; 2 = 86
 </td>
       <td>44 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>44 = 11 &times; 4
-<br><br><u>Some Multiples</u><br>44 &times; 2 = 88
+Factorisations:<br>44 = 11 &times; 4
+<br><br>Some Multiples:<br>44 &times; 2 = 88
 </td>
       <td>45 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>45 = 9 &times; 5
-<br><br><u>Some Multiples</u><br>45 &times; 2 = 90
+Factorisations:<br>45 = 9 &times; 5
+<br><br>Some Multiples:<br>45 &times; 2 = 90
 </td>
     </tr>
   </tbody>
@@ -1352,19 +1362,19 @@ NB: In the table below, <ol>
     <tr>
       <td>46 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>46 = 23 &times; 2
-<br><br><u>Some Multiples</u><br>46 &times; 2 = 92
+Factorisations:<br>46 = 23 &times; 2
+<br><br>Some Multiples:<br>46 &times; 2 = 92
 </td>
       <td>47 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>47 = 47 &times; 1
-<br><br><u>Some Multiples</u><br>47 &times; 2 = 94
+Factorisations:<br>47 = 47 &times; 1
+<br><br>Some Multiples:<br>47 &times; 2 = 94
 </td>
       <td>48 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>48 = 12 &times; 4<br>
+Factorisations:<br>48 = 12 &times; 4<br>
 48 = 8 &times; 6
-<br><br><u>Some Multiples</u><br>48 &times; 2 = 96
+<br><br>Some Multiples:<br>48 &times; 2 = 96
 </td>
     </tr>
   </tbody>
@@ -1382,17 +1392,17 @@ NB: In the table below, <ol>
       <td>49 is<ul>
 <li>a perfect square: square root of 49 = 7</li>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>49 = 7 &times; 7
-<br><br><u>Some Multiples</u><br>49 &times; 2 = 98
+Factorisations:<br>49 = 7 &times; 7
+<br><br>Some Multiples:<br>49 &times; 2 = 98
 </td>
       <td>50 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>50 = 10 &times; 5
-<br><br><u>Some Multiples</u><br>50 &times; 2 = 100
+Factorisations:<br>50 = 10 &times; 5
+<br><br>Some Multiples:<br>50 &times; 2 = 100
 </td>
       <td>51 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>51 = 17 &times; 3
+Factorisations:<br>51 = 17 &times; 3
 </td>
     </tr>
   </tbody>
@@ -1409,15 +1419,15 @@ NB: In the table below, <ol>
     <tr>
       <td>52 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>52 = 13 &times; 4
+Factorisations:<br>52 = 13 &times; 4
 </td>
       <td>53 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>53 = 53 &times; 1
+Factorisations:<br>53 = 53 &times; 1
 </td>
       <td>54 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>54 = 9 &times; 6
+Factorisations:<br>54 = 9 &times; 6
 </td>
     </tr>
   </tbody>
@@ -1434,15 +1444,15 @@ NB: In the table below, <ol>
     <tr>
       <td>55 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>55 = 11 &times; 5
+Factorisations:<br>55 = 11 &times; 5
 </td>
       <td>56 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>56 = 8 &times; 7
+Factorisations:<br>56 = 8 &times; 7
 </td>
       <td>57 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>57 = 19 &times; 3
+Factorisations:<br>57 = 19 &times; 3
 </td>
     </tr>
   </tbody>
@@ -1459,15 +1469,15 @@ NB: In the table below, <ol>
     <tr>
       <td>58 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>58 = 29 &times; 2
+Factorisations:<br>58 = 29 &times; 2
 </td>
       <td>59 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>59 = 59 &times; 1
+Factorisations:<br>59 = 59 &times; 1
 </td>
       <td>60 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>60 = 12 &times; 5<br>
+Factorisations:<br>60 = 12 &times; 5<br>
 60 = 10 &times; 6
 </td>
     </tr>
@@ -1485,15 +1495,15 @@ NB: In the table below, <ol>
     <tr>
       <td>61 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>61 = 61 &times; 1
+Factorisations:<br>61 = 61 &times; 1
 </td>
       <td>62 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>62 = 31 &times; 2
+Factorisations:<br>62 = 31 &times; 2
 </td>
       <td>63 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>63 = 9 &times; 7
+Factorisations:<br>63 = 9 &times; 7
 </td>
     </tr>
   </tbody>
@@ -1511,15 +1521,15 @@ NB: In the table below, <ol>
       <td>64 is<ul>
 <li>a perfect square: square root of 64 = 8</li>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>64 = 8 &times; 8
+Factorisations:<br>64 = 8 &times; 8
 </td>
       <td>65 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>65 = 13 &times; 5
+Factorisations:<br>65 = 13 &times; 5
 </td>
       <td>66 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>66 = 11 &times; 6
+Factorisations:<br>66 = 11 &times; 6
 </td>
     </tr>
   </tbody>
@@ -1536,15 +1546,15 @@ NB: In the table below, <ol>
     <tr>
       <td>67 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>67 = 67 &times; 1
+Factorisations:<br>67 = 67 &times; 1
 </td>
       <td>68 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>68 = 17 &times; 4
+Factorisations:<br>68 = 17 &times; 4
 </td>
       <td>69 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>69 = 23 &times; 3
+Factorisations:<br>69 = 23 &times; 3
 </td>
     </tr>
   </tbody>
@@ -1561,15 +1571,15 @@ NB: In the table below, <ol>
     <tr>
       <td>70 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>70 = 10 &times; 7
+Factorisations:<br>70 = 10 &times; 7
 </td>
       <td>71 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>71 = 71 &times; 1
+Factorisations:<br>71 = 71 &times; 1
 </td>
       <td>72 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>72 = 12 &times; 6<br>
+Factorisations:<br>72 = 12 &times; 6<br>
 72 = 9 &times; 8
 </td>
     </tr>
@@ -1587,15 +1597,15 @@ NB: In the table below, <ol>
     <tr>
       <td>73 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>73 = 73 &times; 1
+Factorisations:<br>73 = 73 &times; 1
 </td>
       <td>74 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>74 = 37 &times; 2
+Factorisations:<br>74 = 37 &times; 2
 </td>
       <td>75 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>75 = 15 &times; 5
+Factorisations:<br>75 = 15 &times; 5
 </td>
     </tr>
   </tbody>
@@ -1612,15 +1622,15 @@ NB: In the table below, <ol>
     <tr>
       <td>76 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>76 = 19 &times; 4
+Factorisations:<br>76 = 19 &times; 4
 </td>
       <td>77 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>77 = 11 &times; 7
+Factorisations:<br>77 = 11 &times; 7
 </td>
       <td>78 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>78 = 13 &times; 6
+Factorisations:<br>78 = 13 &times; 6
 </td>
     </tr>
   </tbody>
@@ -1637,16 +1647,16 @@ NB: In the table below, <ol>
     <tr>
       <td>79 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>79 = 79 &times; 1
+Factorisations:<br>79 = 79 &times; 1
 </td>
       <td>80 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>80 = 10 &times; 8
+Factorisations:<br>80 = 10 &times; 8
 </td>
       <td>81 is<ul>
 <li>a perfect square: square root of 81 = 9</li>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>81 = 9 &times; 9
+Factorisations:<br>81 = 9 &times; 9
 </td>
     </tr>
   </tbody>
@@ -1663,15 +1673,15 @@ NB: In the table below, <ol>
     <tr>
       <td>82 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>82 = 41 &times; 2
+Factorisations:<br>82 = 41 &times; 2
 </td>
       <td>83 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>83 = 83 &times; 1
+Factorisations:<br>83 = 83 &times; 1
 </td>
       <td>84 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>84 = 12 &times; 7
+Factorisations:<br>84 = 12 &times; 7
 </td>
     </tr>
   </tbody>
@@ -1688,15 +1698,15 @@ NB: In the table below, <ol>
     <tr>
       <td>85 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>85 = 17 &times; 5
+Factorisations:<br>85 = 17 &times; 5
 </td>
       <td>86 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>86 = 43 &times; 2
+Factorisations:<br>86 = 43 &times; 2
 </td>
       <td>87 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>87 = 29 &times; 3
+Factorisations:<br>87 = 29 &times; 3
 </td>
     </tr>
   </tbody>
@@ -1713,15 +1723,15 @@ NB: In the table below, <ol>
     <tr>
       <td>88 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>88 = 11 &times; 8
+Factorisations:<br>88 = 11 &times; 8
 </td>
       <td>89 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>89 = 89 &times; 1
+Factorisations:<br>89 = 89 &times; 1
 </td>
       <td>90 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>90 = 10 &times; 9
+Factorisations:<br>90 = 10 &times; 9
 </td>
     </tr>
   </tbody>
@@ -1738,15 +1748,15 @@ NB: In the table below, <ol>
     <tr>
       <td>91 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>91 = 13 &times; 7
+Factorisations:<br>91 = 13 &times; 7
 </td>
       <td>92 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>92 = 23 &times; 4
+Factorisations:<br>92 = 23 &times; 4
 </td>
       <td>93 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>93 = 31 &times; 3
+Factorisations:<br>93 = 31 &times; 3
 </td>
     </tr>
   </tbody>
@@ -1763,15 +1773,15 @@ NB: In the table below, <ol>
     <tr>
       <td>94 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>94 = 47 &times; 2
+Factorisations:<br>94 = 47 &times; 2
 </td>
       <td>95 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>95 = 19 &times; 5
+Factorisations:<br>95 = 19 &times; 5
 </td>
       <td>96 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>96 = 12 &times; 8
+Factorisations:<br>96 = 12 &times; 8
 </td>
     </tr>
   </tbody>
@@ -1788,15 +1798,15 @@ NB: In the table below, <ol>
     <tr>
       <td>97 is<ul>
 <li>a prime number</li></ul>
-<u>Factorisations</u><br>97 = 97 &times; 1
+Factorisations:<br>97 = 97 &times; 1
 </td>
       <td>98 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>98 = 14 &times; 7
+Factorisations:<br>98 = 14 &times; 7
 </td>
       <td>99 is<ul>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>99 = 11 &times; 9
+Factorisations:<br>99 = 11 &times; 9
 </td>
     </tr>
   </tbody>
@@ -1812,7 +1822,7 @@ NB: In the table below, <ol>
       <td>100 is<ul>
 <li>a perfect square: square root of 100 = 10</li>
 <li>a composite number</li></ul>
-<u>Factorisations</u><br>100 = 10 &times; 10
+Factorisations:<br>100 = 10 &times; 10
 </td>
     </tr>
   </tbody>
