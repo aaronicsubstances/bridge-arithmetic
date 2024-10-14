@@ -9,18 +9,13 @@ Early algebra is a subset of topics in both arithmetic and algebra, which should
 - Due to lack of experimental validation by the proponents of this proposal, only existing primary school and secondary school topics are included.
 - The proposal recognizes that it is school authorities who have the final decision to allow alternatives to the standard algorithms, which differ from what teachers expect of students in a given locality, and which will show up on answer sheets.
 - The arithmetic portion of the early algebra proposal consists of counteracting development of misconceptions in algebra, and helping students to be able to learn on their own if necessary. The details are as follows:
-  - exercises for which no solutions exist at the moment, to counteract development of misconceptions in algebra later on
-  - exercises for which only inferior solutions exist at the moment in the form of trial and error, to counteract any misconceptions around cross checking. This is because cross checking is an activity that becomes
-    far more important once the student leaves arithmetic study and enters advanced math study, starting with algebra.
-  - training students in formula or function application once a definition is given with examples. This training has two goals:
-    - serves to counteract misconception in algebra (and even arithmetic involving fractions and negative numbers), that the operations to be performed in arithmetic expressions are intutive or can always be known beforehand. This is because arithmetic expressions can involve function application, and some math operators are actually notational shortcuts for
-      functions.
-    - makes it possible to present arithmetic algorithms to students in the language of formula application.
+  - exercises for which no solutions or only inferior solutions exist at the moment, to counteract development of misconceptions in algebra later on.
+  - making students aware that numbers come in kinds or types (e.g. whole numbers, integers, non-integers), that numbers have parts (e.g. sign, whole number part), and that numbers can be presented in different formats (e.g. fraction, decimal expansion).
   - helping students to be responsible for memorization and proficiency in math
   - summary of arithmetic algorithms and tables which can serve as a reference for a teenager to use to solve exercises on his own, ie during a stage when he is not practising for memorization and proficiency.
   - fallback arithmetic algorithms that students can be introduced to if necessary (and if permitted by school authorities).
   - exercises which are designed in such a way that a teenager can teach himself with them, without having to expose his embarassments and failures in math to the teacher and others.
-    E.g. multiple choice questions, exercises with hints.
+    E.g. exercises with detailed solutions, multiple choice questions, exercises with hints.
 
 ## Arithmetic Activities
 
@@ -30,12 +25,12 @@ The following activities are assumed to constitute arithmetic for rational numbe
 - Subtraction
 - Multiplication
 - Division
-- Exponentiation involving counting number exponents
+- Exponentiation involving whole number exponents
 - Comparison
 - Conversion of fractions from and to decimal expansions
 - Conversion of fractions and decimal expansions to rounded decimal expansions
-- Developing proficiency in arithmetic of multidigit whole numbers
-- Developing proficiency in simplification of fractions using divisibility rules
+- Developing proficiency in arithmetic of whole numbers
+- Developing proficiency in simplification of fractions
 
 The remainder of this section are arithmetic parts of early algebra proposal.
 
@@ -50,16 +45,10 @@ Exercises Exposing Misconceptions
 - Exposing students to calculations involving number 0 in operands or answers, before and after teaching fractions and negative numbers.
 
 Mental exercises serving same purpose as recall of multiplication tables. Suitable for use with technology. The noteworthy thing about these mental exercises is that, they completely cover all the algorithms for
-fractions and integers, aside the algorithms for counting numbers.
+fractions and integers, aside the algorithms for whole numbers.
 
-- mastering calculation shortcuts involving number 10 when used in calculations other than as the first operand of subtraction and division.
-- recalling formula or function for addition, subtraction, multiplication and division of fractions, using the fraction operands in the placeholders of the expression for the formula.
-- predicting sign of an arithmetic operation: whether it is negative or not
-- predicting expression for the magnitude of an arithmetic operation
-- (optional) comparing magnitudes of operands with magnitude of result of an arithmetic operation.
-  - for addition and subtraction, compare the larger of the magnitude of the operands with the magnitude of the result
-  - for multiiplication, compare the magnitude of the first or second operand with the magnitude of the result
-  - for division and exponentiation, compare the magnitude of the first operand with the magnitude of the result
+- recalling formula for addition and subtraction, multiplication and division, and comparison of numbers involving a fraction, by generating unsimplified expressions which result from substituting the fraction operands into the appropriate formula.
+- recalling algorithm for addition and subtraction, multiplication and division, and comparison of integers and non-fractions, by generating simplified expression of the results.
 
 Fallback algorithms:
 
@@ -79,24 +68,6 @@ Fallback algorithms:
   - ie given a number of decimal places to round to, say 3 decimal places, multiply the fraction by a multiple of 10 which is 1 followed by more than 3 zeros (e.g. 10,000), and then convert to mixed fraction.
     Discard the fractional part, and divide the whole number part of the mixed fraction by the multiple of 10 used (10,000 in this example), and then determine the digits making up the rounded decimal expansion.
 
-Formulas or Functions to be used for training students in function application are listed next. Note that these functions have been
-selected to directly be of benefit in the study of algebra.
-
-- Addition of rational numbers: addition(a/b, c/d) = a/b + c/d = (ad + bc)/bd
-- Subtraction of rational numbers: subtraction(a/b, c/d) = a/b - c/d = (ad - bc)/bd
-- Multiplication of rational numbers: multiplication(a/b, c/d) = a/b \* c/d = ac/bd
-- Division of rational numbers: division(a/b, c/d) = (a/b) / (c/d) = ad/bc
-- Absolute value: digits(a) = |a| = { (-a) if a is negative; otherwise a }
-- Absolute value: digits(a+b) = |a+b| = { |a|+|b| if a and b have the same sign; |a|-|b| if |a| is greater than |b|; otherwise |b| - |a| }
-- Absolute value: digits(a-b) = |a-b| = |a + (-b)|
-- Signum function: sign(a) = { '+' if a is postive; '-' if a is negative; otherwise '0' }
-- Signum function: sign(a+b) = { sign(a) if a and b have the same sign; sign(a) if |a| is greater than |b|; otherwise sign(b) }
-- Signum function: sign(a-b) = sign(a + (-b))
-- Maximum function: maximum(a, b) = { a if a is greater than b; otherwise b }
-- Minimum function: minimum(a, b) = { a if a is lesser than b; otherwise b }
-- Square function: square(a) = a^2 = a \* a
-- Cube function: cube(a) = a^3 = a \* a \* a
-
 ## Algebra Activities
 
 Each algebra activity to be listed here can be characterized by
@@ -108,9 +79,10 @@ Each algebra activity to be listed here can be characterized by
 Algebra activities which are identified as useful for early algebra education are:
 
 - expression evaluation (aka "substitution") involving only the four basic arithmetic operators (+, -, &#x00D7;, &#x00F7;)
+  - they end up demonstrating associativity of addition and multiplication
   - includes focus on drilling in convention of concatenation for multiplication
   - NB: substitution exercises in popular math text books can also get us equation solving activities using guess and check (with possible answers of objective tests as guesses)
-- expression evaluation involving functions with verbose names which map to the functions identified in the arithmetic part of early algebra.
+- expression evaluation involving functions with verbose names which map to the four basic arithmetic operations, squares and cubes.
 - expression evaluation involving powers, roots, exponents and logarithmic (common and natural log) and trigonometry (sin, cos and tan) functions
 - equation solving, mainly linear equations
   - includes univariate polynomial equations, and simultaneous equations in multiple variables
@@ -123,8 +95,3 @@ Algebra activities which are identified as useful for early algebra education ar
   - NB: the rationale for the existence of this exercise is that, in practice during algebraic expression simplification and equation solving, identifying the last (or "root") step rather than the first step (as suggested by BODMAS) is more important for flexibility in breaking down expressions, and even evaluating multiple parts concurrently.
 - math applications to real world of student
   - aka "word problems"
-
-The early algebra activities identified address the following needs as well:
-
-- questions requiring knowledge of associativity of addition but not subtraction - using expression evaluation.
-- questions requiring knowledge of distributivity of multiplication over addition - using multiplication questions and demonstrating how any multiplication algorithm is an application of the distributivity property, because it leverages memory of tables to reduce the number of repeated additions suggested by the involvement of a counting number multiplier.

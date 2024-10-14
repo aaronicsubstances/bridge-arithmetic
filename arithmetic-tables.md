@@ -806,34 +806,44 @@
 
 
 ## Divisibility Rules
+*Divisibility* of a number by another number means that when the first number is divided by the second number,
+no remainder will be left. In that case the first number is said to be *divisible* by the second number.
+The purpose of divisibility rules is to be able to avoid having to perform an actual division to determine whether
+a number can be divided by another number without leaving a remainder in certain situations.
+An important use of such rules is in the simplification of fractions.
+Note that these rules are meant to be used together with multiplication tables and table of factorizations, to determine
+divisibility without having to perform a division.
+
 ### Dividing with 2
 A number is divisible by 2 if and only if its last digit is divisible by 2. In other words,
           if a number can be divided by 2 without leaving a remainder, then it has to mean that its last digit is
           one of 0, 2, 4, 6 or 8.
 
 E.g. Out of the numbers 43, 58, 75, 90, 1027 and 2934; it is 58, 90 and 2934 that are divisible by 2, because their last digits
-          of 8, 0 and 4 respectively, are divisible by 2.
+          are 8, 0 and 4 respectively.
 
 NB: If a number is divisible by 2 it is called an *even* number; else it is called an *odd* number
 
 ### Dividing with 3
 A number is divisible by 3 if and only if the sum of its digits is divisible by 3. In other words,
           if a number can be divided by 3 without leaving a remainder, then it has to mean that when you add its digits together, you will
-          get a number which is divisible by 3. And you can repeat the rule on each successive sum of digits until you get one of the multiples of 3
+          get a number which is divisible by 3. And you can repeat the rule on each successive sum of digits obtained, until you get one of the multiples of 3
           in the multiplication table, or until you get a single digit which will be 0, 3, 6 or 9 if and only if the starting number is
           divisible by 3.
 
-E.g. Out of the numbers 43, 58, 75, 90, 1027 and 2934; it is 75, 90 and 2934 that are divisible by 3.
+E.g. Out of the numbers 24, 43, 58, 75, 90, 1027 and 2934; it is 24, 75, 90 and 2934 that are divisible by 3.
           <ol>
+            <li>Taking 24, 2 + 4 = 6; and so getting 6 means 24 is divisible by 3
+            (could have avoided test by recognizing that 24 is a known multiple of 3)</li>
             <li>Taking 43, 4 + 3 = 7, which is not 0, 3, 6 or 9; so 43 is not divisible by 3</li>
             <li>Taking 58, 5 + 8 = 13. Then taking 13, 1 + 3 = 4, which is not 0, 3, 6 or 9; so 58 is not divisible by 3
             (could have stopped test upon getting sum of 13)</li>
             <li>Taking 75, 7 + 5 = 12. Then taking 12, 1 + 2 = 3; and so getting 3 means 75 is divisible by 3
             (could have stopped test upon getting sum of 12)</li>
-            <li>Taking 90, 9 + 0 = 9; and so getting 9 means 90 is divisible by 3 (test could have been avoided by ignoring the trailing zeros, and recognizing
-          that 9 is a known multiple of 3)</li>
+            <li>Taking 90, 9 + 0 = 9; and so getting 9 means 90 is divisible by 3
+            (could have avoided test by ignoring the trailing zeros, and recognizing that 9 is a known multiple of 3)</li>
             <li>Taking 1027, 1 + 0 + 2 + 7 = 10, which is known not to be a multiple of 3; so 1027 is not divisible by 3</li>
-            <li>Taking 2934, 2 + 9 + 3 + 4 = 18, which is known to be a multiple of 3; so 2934 is divisible by 3</li>
+            <li>Taking 2934, 2 + 9 + 3 + 4 = 18, which is a known multiple of 3; so 2934 is divisible by 3</li>
           </ol>
 
 ### Dividing with 5
@@ -841,50 +851,57 @@ A number is divisible by 5 if and only if its last digit is divisible by 5. In o
           if a number can be divided by 5 without leaving a remainder, then it has to mean that its last digit is either 0 or 5.
 
 E.g. Out of the numbers 43, 58, 75, 90, 1027 and 2934; it is 75 and 90 that are divisible by 5, because their last digits
-          of 5 and 0 respectively, are one of 0 or 5.
+          are 5 and 0 respectively.
 
 ### Dividing with 7
-A number is divisible by 7 if and only if the difference between twice of its last digit and the rest is divisible by 7. In other words,
-          if a number can be divided by 7 without leaving a remainder, then it has to mean that when you double its last digit, and subtract from the number
+A number is divisible by 7 if and only if the difference between double of its last digit and the rest is divisible by 7. In other words,
+          if a number can be divided by 7 without leaving a remainder, then it has to mean that when you subtract double of its last digit from the number
           formed by the remaining digits (or subtract the other way round to avoid negatives), you will
-          get a number which is divisible by 7. And you can repeat the rule on each successive difference obtained until you get one of the multiples of 7
+          get a number which is divisible by 7. And you can repeat the rule on each successive difference obtained, until you get one of the multiples of 7
           in the multiplication table, or until you get a single digit which will be 0 or 7 if and only if the starting number is
           divisible by 7.
 
 E.g. Out of the numbers 42, 58, 77, 161, 187 and 343; it is 42, 77, 161 and 343 that are divisible by 7.
           <ol>
-            <li>Taking 42, 4 - (2 &times; 2) = 0; so 42 is divisible by 7</li>
+            <li>Taking 42, 4 - (2 &times; 2) = 0; so 42 is divisible by 7
+            (could have avoided test by recognizing that 42 is a known multiple of 7)</li>
             <li>Taking 58, (2 &times; 8) - 5 = 11; Then taking 11, (2 &times; 1) - 1 = 1, which is not 0 or 7; so 58 is not divisible by 7
-            (could have stopped test upon getting difference of 11)</li>
-            <li>Taking 77, (2 &times; 7) - 7 = 7; so 77 is divisible by 7</li>
+            (could have stopped test upon getting difference of 11, or could have avoided test altogether by recognizing that 58 is known not
+            to be a multiple of 7)</li>
+            <li>Taking 77, (2 &times; 7) - 7 = 7; so 77 is divisible by 7
+            (could have avoided test by recognizing that 77 is a known multiple of 7)</li>
             <li>Taking 161, 16 - (2 &times; 1) = 14; Then taking 14, (2 &times; 4) - 1 = 7; so 161 is divisible by 7
             (could have stopped test upon getting difference of 14)</li>
             <li>Taking 187, 18 - (2 &times; 7) = 4, which is not 0 or 7; so 187 is not divisible by 7</li>
-            <li>Taking 343, 34 - (2 &times; 3) = 28, which is a known multiple of 7; so 343 is divisible by 7</li>
+            <li>Taking 343, 34 - (2 &times; 3) = 28, which is a known multiple of 7; so 343 is divisible by 7
+            (could have avoided test by recognizing that 343 is the cube of 7)</li>
           </ol>
 
 ### Dividing with 9
 A number is divisible by 9 if and only if the sum of its digits is divisible by 9. In other words,
           if a number can be divided by 9 without leaving a remainder, then it has to mean that when you add its digits together, you will
-          get a number which is divisible by 9. And you can repeat the rule on each successive sum of digits until you get one of the multiples of 9
+          get a number which is divisible by 9. And you can repeat the rule on each successive sum of digits obtained, until you get one of the multiples of 9
           in the multiplication table, or until you get a single digit which will be 0 or 9 if and only if the starting number is
           divisible by 9.
 
 E.g. Out of the numbers 43, 58, 75, 90, 1027 and 2934; it is 90 and 2934 that are divisible by 9.
           <ol>
-            <li>Taking 43, 4 + 3 = 7, which is not 0 or 9; so 43 is not divisible by 9</li>
+            <li>Taking 43, 4 + 3 = 7, which is not 0 or 9; so 43 is not divisible by 9
+            (could have avoided test by recognizing that 43 is known not to be a multiple of 9)</li>
             <li>Taking 58, 5 + 8 = 13. Then taking 13, 1 + 3 = 4, which is not 0 or 9; so 58 is not divisible by 9
-            (could have stopped test upon getting sum of 13)</li>
+            (could have stopped test upon getting sum of 13, or could have avoided test altogether by recognizing that
+            58 is known not to be a multiple of 9)</li>
             <li>Taking 75, 7 + 5 = 12. Then taking 12, 1 + 2 = 3, which is not 0 or 9; so 75 is not divisible by 9
-            (could have stopped test upon getting sum of 12)</li>
-            <li>Taking 90, 9 + 0 = 9; and so getting 9 means 90 is divisible by 9 (test could have been avoided by ignoring the trailing zeros, and recognizing
-          that 9 is a known multiple of 9)</li>
+            (could have stopped test upon getting sum of 12, or could have avoided test altogether by recognizing that
+            75 is known not to be a multiple of 9)</li>
+            <li>Taking 90, 9 + 0 = 9; and so getting 9 means 90 is divisible by 9 (could have avoided test by recognizing
+          that 90 is a known multiple of 9)</li>
             <li>Taking 1027, 1 + 0 + 2 + 7 = 10, which is known not to be a multiple of 9; so 1027 is not divisible by 9</li>
-            <li>Taking 2934, 2 + 9 + 3 + 4 = 18, which is known to be a multiple of 9; so 2934 is divisible by 9</li>
+            <li>Taking 2934, 2 + 9 + 3 + 4 = 18, which is a known multiple of 9; so 2934 is divisible by 9</li>
           </ol>
 
 ### Dividing with 10
-A number is divisible by 10 if and only if its last digit is 0, which is equivalent to the number being divisible by both 2 and 5.
+A number is divisible by 10 if and only if its last digit is 0.
 
 E.g. Out of the numbers 43, 58, 75, 90, 1027 and 2934; it is 90 that is divisible by 10, because its last digit
           is 0.
@@ -896,15 +913,18 @@ NB: This rule can be generalized to any power of 10, ie a number which is 1 foll
 A number is divisible by 11 if and only if the difference between its last digit and the rest is divisible by 11. In other words,
           if a number can be divided by 11 without leaving a remainder, then it has to mean that when you subtract its last digit from the number
           formed by the remaining digits (or subtract the other way round to avoid negatives), you will
-          get a number which is divisible by 11. And you can repeat the rule on each successive difference obtained until you get one of the multiples of 11
+          get a number which is divisible by 11. And you can repeat the rule on each successive difference obtained, until you get one of the multiples of 11
           in the multiplication table, or until you get a single digit which will be 0 if and only if the starting number is
           divisible by 11.
 
 E.g. Out of the numbers 42, 58, 77, 161, 187 and 343; it is 77 and 187 that are divisible by 11.
           <ol>
-            <li>Taking 42, 4 - 2 = 2, which is not 0; so 42 is not divisible by 11</li>
-            <li>Taking 58, 8 - 5 = 3, which is not 0; so 58 is not divisible by 11</li>
-            <li>Taking 77, 7 - 7 = 0; so 77 is divisible by 11</li>
+            <li>Taking 42, 4 - 2 = 2, which is not 0; so 42 is not divisible by 11
+            (could have avoided test by recognizing that 42 is known not to be a multiple of 11)</li>
+            <li>Taking 58, 8 - 5 = 3, which is not 0; so 58 is not divisible by 11
+            (could have avoided test by recognizing that 58 is known not to be a multiple of 11)</li>
+            <li>Taking 77, 7 - 7 = 0; so 77 is divisible by 11
+            (could have avoided test by recognizing that 77 is a known multiple of 11)</li>
             <li>Taking 161, 16 - 1 = 15; Then taking 15, 5 - 1 = 4, which is not 0; so 161 is not divisible by 11
             (could have stopped test upon getting difference of 15)</li>
             <li>Taking 187, 18 - 7 = 11, which is a known multiple of 11; so 187 is divisible by 11</li>
