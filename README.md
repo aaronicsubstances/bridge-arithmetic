@@ -10,7 +10,7 @@ Early algebra is a subset of topics in both arithmetic and algebra, which should
 - The proposal recognizes that it is school authorities who have the final decision to allow alternatives to the standard algorithms, which differ from what teachers expect of students in a given locality, and which will show up on answer sheets.
 - The arithmetic portion of the early algebra proposal consists of counteracting development of misconceptions in algebra, and helping students to be able to learn on their own if necessary. The details are as follows:
   - exercises for which no solutions or only inferior solutions exist at the moment, to counteract development of misconceptions in algebra later on.
-  - making students aware that numbers come in kinds or types (e.g. whole numbers, integers, non-integers), that numbers have parts (e.g. sign, whole number part), and that numbers can be presented in different formats (e.g. fraction, decimal expansion).
+  - making students aware that numbers come in kinds or types (e.g. whole numbers, fractions, signed numbers), that numbers have parts (e.g. sign, magnitude, numerator, denominator), and that numbers can be presented in different formats (e.g. common fraction, mixed fraction, decimal expansion).
   - helping students to be responsible for memorization and proficiency in math
   - summary of arithmetic algorithms and tables which can serve as a reference for a teenager to use to solve exercises on his own, ie during a stage when he is not practising for memorization and proficiency.
   - fallback arithmetic algorithms that students can be introduced to if necessary (and if permitted by school authorities).
@@ -43,12 +43,6 @@ Exercises Exposing Misconceptions
   - asking questions in which there is division by zero and division which yields zero, and accepting "undefined" as possible result.
   - asking questions in which quotient can be zero, to show that division is not commutative before teaching fractions.
 - Exposing students to calculations involving number 0 in operands or answers, before and after teaching fractions and negative numbers.
-
-Mental exercises serving same purpose as recall of multiplication tables. Suitable for use with technology. The noteworthy thing about these mental exercises is that, they completely cover all the algorithms for
-fractions and integers, aside the algorithms for whole numbers.
-
-- recalling formula for addition and subtraction, multiplication and division, and comparison of numbers involving a fraction, by generating unsimplified expressions which result from substituting the fraction operands into the appropriate formula.
-- recalling algorithm for addition and subtraction, multiplication and division, and comparison of integers and non-fractions, by generating simplified expression of the results.
 
 Fallback algorithms:
 
