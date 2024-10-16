@@ -1902,3 +1902,42 @@ Factorisations:<br>100 = 10 &times; 10
   </tbody>
 </table>
 
+
+## Integer and Signed Number Procedures
+### Addition and Subtraction
+
+Given an addition or subtraction problem involving signed numbers (like 3 + -2, -2 &minus; 5), first ensure that the second operand is not negative by using the following identities:
+
+1. a + -b = a &minus; b ; E.g. 3 + -2 = 3 - 2 ; -10 + -3 = -10 &minus; 3
+1. a &minus; -b = a + b ; E.g. 3 &minus; -2 = 3 + 2 ; -6 &minus; -4 = -6 + 4
+
+After that finish the calculation by applying one of the following cases, which are based on the operation and whether the first operand is negative or positive:
+
+1. First operand is negative, minus positive number: The magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be negative. E.g. -2 &minus; 5 = -7 ; -10 + -3 = -10 &minus; 3 = -13
+2. First operand is positive, plus positive number: The magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be positive. E.g. 3 &minus; -2 = 3 + 2 = 5
+3. First operand is negative, plus positive number: The magnitude of the answer will be the larger magnitude minus the smaller magnitude; and the sign of the answer will be the sign of the operand with the larger magnitude. E.g. -3 + 2 = -1 ; -2 + 3 = 1 ; -6 &minus; -4 = -6 + 4 = -2
+4. First operand is positive, minus positive number: The magnitude of the answer will be the larger magnitude minus the smaller magnitude; and the sign of the answer will be the sign of the operand with the larger magnitude. E.g. 3 &minus; 2 = 1 ; 1 &minus; 4 = -3 ; 3 + -2 = 3 &minus; 2 = 1 ; 2 + -3 = 2 &minus; 3 = -1
+
+The number line can be used to visualize and remember these cases in the following way, after ensuring that the second operand is positive.
+
+1. Start from zero, and locate the first operand on the number line to the left or right of zero depending on whether it is negative or positive respectively. Note this as an initial movement to the left or right.
+1. Next, interpret an addition as a movement to the right and interpret a subtraction as a movement to the left.
+2. Then if the initial movement and the movement suggested by the operation agree, add the magnitudes of the operands, else subtract the smaller magnitude from the larger magnitude.
+3. Where magnitudes were added, then the sign is obvious from the number line visualization. Else the sign of the answer will be the same as the sign of the operand with the larger magnitude.
+
+### Multiplication Identities
+
+1. -a &times; -b = a &times; b ; E.g. -2 &times; -3 = 6
+2. -a &times; b = -(a &times; b) ; E.g. -2 &times; 3 = -6
+3. a &times; -b = -(a &times; b) ; E.g. 2 &times; -3 = -6
+
+### Division Identities
+
+1. -a &#xF7; -b = a &#xF7; b ; E.g. -10 &#xF7; -2 = 5
+2. -a &#xF7; b = -(a &#xF7; b) ; E.g. -10 &#xF7; 2 = -5
+3. a &#xF7; -b = -(a &#xF7; b) ; E.g. 10 &#xF7; -2 = -5
+
+### Comparison
+
+1. Positive numbers and zero are considered larger than negative numbers. E.g. 10 > 5, 5 < 10, 5 > -10, -10 < 5, 4 > 0, 0 < 4, 0 > -4, -4 < 0
+2. A negative number is considered larger than another negative number if it has a *smaller* magnitude than the other negative number. E.g. 10 > 5, 5 < 10, -5 > -10, -10 < -5
