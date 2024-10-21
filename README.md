@@ -8,16 +8,18 @@ Early algebra is a subset of topics in both arithmetic and algebra, which should
 
 - Due to lack of experimental validation by the proponents of this proposal, only existing primary school and secondary school topics are included.
 - The proposal recognizes that it is school authorities who have the final decision to allow alternatives to the standard algorithms, which differ from what teachers expect of students in a given locality, and which will show up on answer sheets.
-- The arithmetic portion of the early algebra proposal consists of counteracting development of misconceptions in algebra, and helping students to be able to learn on their own if necessary. The details are as follows:
+- The goals of the early algebra proposal is to help students to be able to learn on their own if necessary. The details are as follows:
   - exercises for which no solutions or only inferior solutions exist at the moment, to counteract development of misconceptions in algebra later on.
-  - making students aware that numbers come in kinds or types (e.g. whole numbers, fractions, signed numbers), that numbers have parts (e.g. sign, magnitude, numerator, denominator), and that numbers can be presented in different formats (e.g. common fraction, mixed fraction, decimal expansion).
-  - helping students to be responsible for memorization and proficiency in math
-  - summary of arithmetic algorithms and tables which can serve as a reference for a teenager to use to solve exercises on his own, ie during a stage when he is not practising for memorization and proficiency.
-  - fallback arithmetic algorithms that students can be introduced to if necessary (and if permitted by school authorities).
   - exercises which are designed in such a way that a teenager can teach himself with them, without having to expose his embarassments and failures in math to the teacher and others.
     E.g. exercises with detailed solutions, multiple choice questions, exercises with hints.
+  - helping students to be responsible for memorization and proficiency in math
 
 ## Arithmetic Activities
+
+- The arithmetic portion of the early algebra proposal consists of counteracting development of misconceptions in algebra. The details are as follows:
+  - making students aware that numbers come in kinds or types (e.g. whole numbers, fractions, signed numbers), that numbers have parts (e.g. sign, magnitude, numerator, denominator), and that numbers can be presented in different formats (e.g. common fraction, mixed fraction, decimal expansion).
+  - summary of arithmetic algorithms and tables which can serve as a reference for a teenager to use to solve exercises on his own, ie during a stage when he is not practising for memorization and proficiency.
+  - fallback arithmetic algorithms that students can be introduced to if necessary (and if permitted by school authorities).
 
 The following activities are assumed to constitute arithmetic for rational numbers as taught in school or online (e.g. https://www.transum.org):
 
@@ -50,17 +52,15 @@ Fallback algorithms:
   - subtraction by solving addition equation.
 - Multiplication of whole numbers
   - multiplication by grid method (aka grid multiplication).
-- Division of whole numbers by algorithms other than long division which directly solve the division algorithm equation.
+- Division of whole numbers
   - by trial and error: keep multiplying divisor by educated guesses, until a guess is found which gives a nonnegative remainder less than the divisor.
     One benefit of being aware of this algorithm is that, it is always present as a step in the other more efficient algorithms for division.
   - division by chunking (aka division by partial quotients method).
-- Conversion of nonnegative fractions from and to terminating decimal expansions by multiplication instead of long division
-  - ie keep multiplying top and down by 2 or 5 if denominator is not a power of 10 and its last non-zero digit is 5 or even number respectively,
-    until denominator becomes a power of 10 to lead to the desired terminating decimal expansion,
-    or until last non-zero digit in denominator is neither 5 nor even number, which indicates that decimal expansion will not terminate.
-- Conversion of fractions to rounded decimal expansions without long division
-  - ie given a number of decimal places to round to, say 3 decimal places, multiply the fraction by a multiple of 10 which is 1 followed by more than 3 zeros (e.g. 10,000), and then convert to mixed fraction.
-    Discard the fractional part, and divide the whole number part of the mixed fraction by the multiple of 10 used (10,000 in this example), and then determine the digits making up the rounded decimal expansion.
+- Conversion of fractions to exact or rounded decimal expansions without long division. The algorithm works this way:
+  - begin by using division by chunking to obtain an initial whole number and remainder. The initial whole number will form the initial digits of the decimal expansion.
+  - if remainder is nonzero, multiply the whole number and remainder by 10, perform division by chunking on the remainder. Add the resulting whole number to the current digits of the decimal expansion by addition. Also take note of the number of times multiplications by 10 is being performed.
+  - repeat previous step until either remainder becomes zero, the desired number of digits in the decimal expansion is obtained (in the case of rounding), or the digits in the decimal expansion repeat (in the case of finding exact non-terminating decimal expansions).
+  - the final answer results from dividing the decimal expansion obtained by a power of 10 whose zero count equals the number of multiplications by 10 made.
 
 ## Algebra Activities
 
