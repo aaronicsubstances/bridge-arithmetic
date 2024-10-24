@@ -973,8 +973,8 @@ Factorisations:<br>2 = 2 &times; 1
       <td>3 is<ul>
 <li>a prime number</li></ul>
 Factorisations:<br>3 = 3 &times; 1
-<br><br>Some Decimal Expansions:<br>1/3 = 0.<strong>3</strong>333&hellip;<br>
-2/3 = 0.<strong>6</strong>666&hellip;
+<br><br>Some Decimal Expansions:<br>1/3 = 0.<strong>3</strong>333...<br>
+2/3 = 0.<strong>6</strong>666...
 </td>
     </tr>
   </tbody>
@@ -1008,11 +1008,11 @@ Factorisations:<br>5 = 5 &times; 1
       <td>6 is<ul>
 <li>a composite number</li></ul>
 Factorisations:<br>6 = 3 &times; 2
-<br><br>Some Decimal Expansions:<br>1/6 = 0.1<strong>6</strong>666&hellip;<br>
-2/6 = 0.<strong>3</strong>333&hellip;<br>
+<br><br>Some Decimal Expansions:<br>1/6 = 0.1<strong>6</strong>666...<br>
+2/6 = 0.<strong>3</strong>333...<br>
 3/6 = 0.5<br>
-4/6 = 0.<strong>6</strong>666&hellip;<br>
-5/6 = 0.8<strong>3</strong>333&hellip;
+4/6 = 0.<strong>6</strong>666...<br>
+5/6 = 0.8<strong>3</strong>333...
 </td>
     </tr>
   </tbody>
@@ -1030,12 +1030,12 @@ Factorisations:<br>6 = 3 &times; 2
       <td>7 is<ul>
 <li>a prime number</li></ul>
 Factorisations:<br>7 = 7 &times; 1
-<br><br>Some Decimal Expansions:<br>1/7 = 0.<strong>142857</strong>142857&hellip;<br>
-2/7 = 0.<strong>285714</strong>285714&hellip;<br>
-3/7 = 0.<strong>428571</strong>428571&hellip;<br>
-4/7 = 0.<strong>571428</strong>571428&hellip;<br>
-5/7 = 0.<strong>714285</strong>714285&hellip;<br>
-6/7 = 0.<strong>857142</strong>857142&hellip;
+<br><br>Some Decimal Expansions:<br>1/7 = 0.<strong>142857</strong>142857...<br>
+2/7 = 0.<strong>285714</strong>285714...<br>
+3/7 = 0.<strong>428571</strong>428571...<br>
+4/7 = 0.<strong>571428</strong>571428...<br>
+5/7 = 0.<strong>714285</strong>714285...<br>
+6/7 = 0.<strong>857142</strong>857142...
 </td>
       <td>8 is<ul>
 <li>a perfect cube: cube root of 8 = 2</li>
@@ -1053,14 +1053,14 @@ Factorisations:<br>8 = 4 &times; 2
 <li>a perfect square: square root of 9 = 3</li>
 <li>a composite number</li></ul>
 Factorisations:<br>9 = 3 &times; 3
-<br><br>Some Decimal Expansions:<br>1/9 = 0.<strong>1</strong>111&hellip;<br>
-2/9 = 0.<strong>2</strong>222&hellip;<br>
-3/9 = 0.<strong>3</strong>333&hellip;<br>
-4/9 = 0.<strong>4</strong>444&hellip;<br>
-5/9 = 0.<strong>5</strong>555&hellip;<br>
-6/9 = 0.<strong>6</strong>666&hellip;<br>
-7/9 = 0.<strong>7</strong>777&hellip;<br>
-8/9 = 0.<strong>8</strong>888&hellip;
+<br><br>Some Decimal Expansions:<br>1/9 = 0.<strong>1</strong>111...<br>
+2/9 = 0.<strong>2</strong>222...<br>
+3/9 = 0.<strong>3</strong>333...<br>
+4/9 = 0.<strong>4</strong>444...<br>
+5/9 = 0.<strong>5</strong>555...<br>
+6/9 = 0.<strong>6</strong>666...<br>
+7/9 = 0.<strong>7</strong>777...<br>
+8/9 = 0.<strong>8</strong>888...
 </td>
     </tr>
   </tbody>
@@ -1091,32 +1091,32 @@ Factorisations:<br>10 = 5 &times; 2
       <td>11 is<ul>
 <li>a prime number</li></ul>
 Factorisations:<br>11 = 11 &times; 1
-<br><br>Some Decimal Expansions:<br>1/11 = 0.<strong>09</strong>0909&hellip;<br>
-2/11 = 0.<strong>18</strong>1818&hellip;<br>
-3/11 = 0.<strong>27</strong>2727&hellip;<br>
-4/11 = 0.<strong>36</strong>3636&hellip;<br>
-5/11 = 0.<strong>45</strong>4545&hellip;<br>
-6/11 = 0.<strong>54</strong>5454&hellip;<br>
-7/11 = 0.<strong>63</strong>6363&hellip;<br>
-8/11 = 0.<strong>72</strong>7272&hellip;<br>
-9/11 = 0.<strong>81</strong>8181&hellip;<br>
-10/11 = 0.<strong>90</strong>9090&hellip;
+<br><br>Some Decimal Expansions:<br>1/11 = 0.<strong>09</strong>0909...<br>
+2/11 = 0.<strong>18</strong>1818...<br>
+3/11 = 0.<strong>27</strong>2727...<br>
+4/11 = 0.<strong>36</strong>3636...<br>
+5/11 = 0.<strong>45</strong>4545...<br>
+6/11 = 0.<strong>54</strong>5454...<br>
+7/11 = 0.<strong>63</strong>6363...<br>
+8/11 = 0.<strong>72</strong>7272...<br>
+9/11 = 0.<strong>81</strong>8181...<br>
+10/11 = 0.<strong>90</strong>9090...
 </td>
       <td>12 is<ul>
 <li>a composite number</li></ul>
 Factorisations:<br>12 = 6 &times; 2<br>
 12 = 4 &times; 3
-<br><br>Some Decimal Expansions:<br>1/12 = 0.08<strong>3</strong>333&hellip;<br>
-2/12 = 0.1<strong>6</strong>666&hellip;<br>
+<br><br>Some Decimal Expansions:<br>1/12 = 0.08<strong>3</strong>333...<br>
+2/12 = 0.1<strong>6</strong>666...<br>
 3/12 = 0.25<br>
-4/12 = 0.<strong>3</strong>333&hellip;<br>
-5/12 = 0.41<strong>6</strong>666&hellip;<br>
+4/12 = 0.<strong>3</strong>333...<br>
+5/12 = 0.41<strong>6</strong>666...<br>
 6/12 = 0.5<br>
-7/12 = 0.58<strong>3</strong>333&hellip;<br>
-8/12 = 0.<strong>6</strong>666&hellip;<br>
+7/12 = 0.58<strong>3</strong>333...<br>
+8/12 = 0.<strong>6</strong>666...<br>
 9/12 = 0.75<br>
-10/12 = 0.8<strong>3</strong>333&hellip;<br>
-11/12 = 0.91<strong>6</strong>666&hellip;
+10/12 = 0.8<strong>3</strong>333...<br>
+11/12 = 0.91<strong>6</strong>666...
 </td>
     </tr>
   </tbody>
@@ -1969,7 +1969,7 @@ Factorisations:<br>100 = 10 &times; 10
 </table>
 
 
-## Signed Number Procedures
+## Integer and Signed Number Procedures
 ### Addition and Subtraction
 
 Given an addition or subtraction problem involving signed numbers (like 3 + -2, -2 &minus; 5), first ensure that the second operand is not negative by using the following identities:
@@ -1982,14 +1982,18 @@ After that finish the calculation by applying one of the following cases, which 
 1. First operand is negative, minus positive number: The magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be negative. E.g. -2 &minus; 5 = -7 ; -10 + -3 = -10 &minus; 3 = -13
 2. First operand is positive, plus positive number: The magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be positive. E.g. 3 &minus; -2 = 3 + 2 = 5
 3. First operand is negative, plus positive number: The magnitude of the answer will be the larger magnitude minus the smaller magnitude; and the sign of the answer will be the sign of the operand with the larger magnitude. E.g. -3 + 2 = -1 ; -2 + 3 = 1 ; -6 &minus; -4 = -6 + 4 = -2
-4. First operand is positive, minus positive number: The magnitude of the answer will be the larger magnitude minus the smaller magnitude; and the sign of the answer will be the sign of the operand with the larger magnitude. E.g. 3 &minus; 2 = 1 ; 1 &minus; 4 = -3 ; 3 + -2 = 3 &minus; 2 = 1 ; 2 + -3 = 2 &minus; 3 = -1
+4. First operand is positive, minus positive number: The magnitude of the answer will be the larger magnitude minus the smaller magnitude.
+   If the first operand has the larger magnitude, then its sign will be the sign of the answer. Else the sign of the answer will be the opposite of the sign of the first operand.
+   E.g. 3 &minus; 2 = 1 ; 1 &minus; 4 = -3 ; 3 + -2 = 3 &minus; 2 = 1 ; 2 + -3 = 2 &minus; 3 = -1
 
 The number line can be used to visualize and remember these cases in the following way, after ensuring that the second operand is positive.
 
 1. Start from zero, and locate the first operand on the number line to the left or right of zero depending on whether it is negative or positive respectively. Note this as an initial movement to the left or right.
 1. Next, interpret an addition as a movement to the right and interpret a subtraction as a movement to the left.
 2. Then if the initial movement and the movement suggested by the operation agree, add the magnitudes of the operands, else subtract the smaller magnitude from the larger magnitude.
-3. Where magnitudes were added, then the sign is obvious from the number line visualization. Else the sign of the answer will be the same as the sign of the operand with the larger magnitude.
+3. If magnitudes were added or the magnitude of the first operand is larger than (or equal to) that of the second operand, then the sign of the answer is the same as that of the first operand.
+   Else it means magnitudes were subtracted and the second operand has the larger magnitude, and so the sign of the answer will be the
+    opposite of the sign of the first operand.
 
 ### Multiplication Identities
 
