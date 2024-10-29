@@ -33,7 +33,7 @@ The following activities are assumed to constitute arithmetic for rational numbe
 - Multiplication
 - Division
 - Powers and Roots
-- Comparison
+- Comparison and Number Line
 - Conversion of fractions from and to decimal expansions
 - Conversion of fractions and decimal expansions to rounded decimal expansions
 - Developing proficiency in arithmetic of whole numbers
