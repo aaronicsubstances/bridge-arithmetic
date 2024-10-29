@@ -1660,6 +1660,7 @@ Factorisations:<br>63 = 9 &times; 7
     <tr>
       <td>64 is<ul>
 <li>a perfect square: square root of 64 = 8</li>
+<li>a perfect cube: cube root of 64 = 4</li>
 <li>a composite number</li></ul>
 Factorisations:<br>64 = 8 &times; 8
 </td>
@@ -1973,21 +1974,12 @@ Factorisations:<br>100 = 10 &times; 10
 
 ### Addition and Subtraction
 
-Given an addition or subtraction problem involving signed numbers (like 3 + -2, -2 &minus; 5), first ensure that the second operand is not negative by using the following identities:
+Given an addition or subtraction problem involving signed numbers (like 3 + -2, -2 &minus; 5), first ensure that the second operand is not negative by using the following:
 
 1. a + -b = a &minus; b ; E.g. 3 + -2 = 3 - 2 ; -10 + -3 = -10 &minus; 3
 1. a &minus; -b = a + b ; E.g. 3 &minus; -2 = 3 + 2 ; -6 &minus; -4 = -6 + 4
 
-After that finish the calculation by applying one of the following cases, which are based on the operation and whether the first operand is negative or positive:
-
-1. First operand is negative, minus positive number: The magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be negative. E.g. -2 &minus; 5 = -7 ; -10 + -3 = -10 &minus; 3 = -13
-2. First operand is positive, plus positive number: The magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be positive. E.g. 3 &minus; -2 = 3 + 2 = 5
-3. First operand is negative, plus positive number: The magnitude of the answer will be the larger magnitude minus the smaller magnitude; and the sign of the answer will be the sign of the operand with the larger magnitude. E.g. -3 + 2 = -1 ; -2 + 3 = 1 ; -6 &minus; -4 = -6 + 4 = -2
-4. First operand is positive, minus positive number: The magnitude of the answer will be the larger magnitude minus the smaller magnitude.
-   If the first operand has the larger magnitude, then its sign will be the sign of the answer. Else the sign of the answer will be the opposite of the sign of the first operand.
-   E.g. 3 &minus; 2 = 1 ; 1 &minus; 4 = -3 ; 3 + -2 = 3 &minus; 2 = 1 ; 2 + -3 = 2 &minus; 3 = -1
-
-The number line can be used to visualize and remember these cases in the following way, after ensuring that the second operand is positive.
+After that finish the calculation by employing the number line in the following way:
 
 1. Start from zero, and locate the first operand on the number line to the left or right of zero depending on whether it is negative or positive respectively. Note this as an initial movement to the left or right.
 1. Next, interpret an addition as a movement to the right and interpret a subtraction as a movement to the left.
@@ -1995,22 +1987,39 @@ The number line can be used to visualize and remember these cases in the followi
 3. Else subtract the smaller magnitude from the larger magnitude. If the second movement is big enough to fully reverse the initial movement, then the sign of the answer will be the opposite of the destination of the initial movement.
 Else the sign of the answer will be where the initial movement landed.
 
-### Multiplication
+Examples:
 
-1. -a &times; -b = a &times; b ; E.g. -2 &times; -3 = 6
-2. -a &times; b = -(a &times; b) ; E.g. -2 &times; 3 = -6
-3. a &times; -b = -(a &times; b) ; E.g. 2 &times; -3 = -6
-
-### Division
-
-1. -a &#xF7; -b = a &#xF7; b ; E.g. -10 &#xF7; -2 = 5
-2. -a &#xF7; b = -(a &#xF7; b) ; E.g. -10 &#xF7; 2 = -5
-3. a &#xF7; -b = -(a &#xF7; b) ; E.g. 10 &#xF7; -2 = -5
+1. -2 &minus; 5 = -7 ; -10 + -3 = -10 &minus; 3 = -13 ; In these cases first operand is negative, minus positive number. So the magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be negative.
+2. 3 &minus; -2 = 3 + 2 = 5 ; Here the first operand is positive, plus positive number. So the magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be positive.
+3. -3 + 2 = -1 ; -2 + 3 = 1 ; -6 &minus; -4 = -6 + 4 = -2 ; In these cases the first operand is negative, plus positive number. So the magnitude of the answer will be the larger magnitude minus the smaller magnitude;
+and the sign of the answer will be the sign of the operand with the larger magnitude.
+4. 3 &minus; 2 = 1 ; 1 &minus; 4 = -3 ; 3 + -2 = 3 &minus; 2 = 1 ; 2 + -3 = 2 &minus; 3 = -1 ; In these cases the first operand is positive, minus positive number. Therefore the magnitude of the answer will be the larger magnitude minus the smaller magnitude.
+If the first operand has the larger magnitude, then its sign will be the sign of the answer. Else the sign of the answer will be the opposite of the sign of the first operand. 
 
 ### Comparison
 
-1. Positive numbers and zero are considered larger than negative numbers. E.g. 10 > 5, 5 < 10, 5 > -10, -10 < 5, 4 > 0, 0 < 4, 0 > -4, -4 < 0
-2. A negative number is considered larger than another negative number if it has a *smaller* magnitude than the other negative number. E.g. 10 > 5, 5 < 10, -5 > -10, -10 < -5
+In summary,
+
+1. Positive numbers and zero are considered larger than negative numbers.
+2. A negative number is considered larger than another negative number if it has a *smaller* magnitude than the other negative number.
+
+Explanation of summary: To compare integers and signed numbers, employ subtraction and check the sign of the result.
+
+Examples:
+
+1. 10 > 5, 5 < 10, 4 > 0, 0 < 4
+2. 5 > -10, because 5 &minus; -10 = 5 + 10, 15 which is positive ; -10 < 5, because -10 - 5 = -15 which is negative.
+3. 0 > -4, because 0 &minus; -4 = 0 + 4 = 4 ; -4 < 0, because -4 &minus; 0 = -4 which is negative 
+4. -5 > -10, because -5 &minus; -10 = -5 + 10 = 5 which is positive; -10 < -5, because -10 &minus; -5 = -10 + 5 = -5 which is negative
+          
+### Multiplication and Division
+
+1. -a &times; -b = a &times; b ; E.g. -2 &times; -3 = 6
+1. -a &div; -b = a &div; b ; E.g. -10 &div; -2 = 5
+2. -a &times; b = -(a &times; b) ; E.g. -2 &times; 3 = -6
+2. -a &div; b = -(a &div; b) ; E.g. -10 &div; 2 = -5
+3. a &times; -b = -(a &times; b) ; E.g. 2 &times; -3 = -6
+3. a &div; -b = -(a &div; b) ; E.g. 10 &div; -2 = -5
 
 ## Fraction Procedures
 
@@ -2023,41 +2032,40 @@ Summary: to add or subtract fractions, get the denominators to be the same, and 
    - -3/4 + 1/4 = (-3 + 1)/4 = -2/4 = -1/2
 2. Same denominators. a/e &minus; c/e = (a &minus; c)/e ; E.g.
    - 3/4 - 1/4 = (3 - 1)/4 = 2/4 = 1/2
-3. Different denominators. *Can use cross multiply to make denominators the same.* a/b + c/d = (a &#xD7; d)/(b &#xD7; d) + (b &#xD7; c)/(b &#xD7; d) = (a &#xD7; d + b &#xD7; c)/(b &#xD7; d) ; E.g.
-   - 5/4 + 3/5 = (5 &#xD7; 5 + 4 &#xD7; 3)/(4 &#xD7; 5) = (25 + 12)/20 = 37/20
-4. Different denominators. *Can use cross multiply to make denominators the same.* a/b &minus; c/d = (a &#xD7; d)/(b &#xD7; d) &minus; (b &#xD7; c)/(b &#xD7; d) = (a &#xD7; d &minus; b &#xD7; c)/(b &#xD7; d) ; E.g.
-   - 3/2 - 5/4 = (3 &#xD7; 4 - 2 &#xD7; 5)/(2 &#xD7; 4) = (12 - 10)/8 = 2/8 = 1/4
-   - -3/2 - 5/4 = (-3 &#xD7; 4 - 2 &#xD7; 5)/(2 &#xD7; 4) = (-12 - 10)/8 = -22/8 = -11/4
+3. Different denominators. *Can use cross multiply to make denominators the same.* a/b + c/d = (a &times; d)/(b &times; d) + (b &times; c)/(b &times; d) = (a &times; d + b &times; c)/(b &times; d) ; E.g.
+   - 5/4 + 3/5 = (5 &times; 5 + 4 &times; 3)/(4 &times; 5) = (25 + 12)/20 = 37/20
+4. Different denominators. *Can use cross multiply to make denominators the same.* a/b &minus; c/d = (a &times; d)/(b &times; d) &minus; (b &times; c)/(b &times; d) = (a &times; d &minus; b &times; c)/(b &times; d) ; E.g.
+   - 3/2 - 5/4 = (3 &times; 4 - 2 &times; 5)/(2 &times; 4) = (12 - 10)/8 = 2/8 = 1/4
+   - -3/2 - 5/4 = (-3 &times; 4 - 2 &times; 5)/(2 &times; 4) = (-12 - 10)/8 = -22/8 = -11/4
 
-### Multiplication
-          
-Summary: to multiply fractions, multiply numerators, divided by multiplication of denominators. And unlike the rest (addition, subtraction, division and comparison),
-this operation *cannot* use cross multiply.
+### Comparison
 
-1. a/b &#xD7; c/d = (a &#xD7; c)/(b &#xD7; d) ;  E.g.
-   - 3/5 &#xD7; 7/5 = (3 &#xD7; 7)/(5 &#xD7; 5) = 21/25
-   - 5/4 &#xD7; 3/15 = (5 &#xD7; 3)/(4 &#xD7; 15) = 1/4
-   - 5/4 &#xD7; -3/5 = (5 &#xD7; -3)/(4 &#xD7; 5) = -15/20 = -3/4
-   - 5/4 &#xD7; -3 = 5/4 &#xD7; -3/1 = (5 &#xD7; -3)/(4 &#xD7; 1) = -15/4
-   - 7 &#xD7; 2/3 = 7/1 &#xD7; 2/3 = (7 &#xD7; 2)/(1 &#xD7; 3) = 14/3
+Summary: To compare fractions, employ subtraction and check the sign of the result.
+
+1. a/b vrs c/d, which is larger? *Use cross multiply.* Equivalent to (a &times; d) vrs (b &times; c), which is larger? E.g.
+   - 3/4 vrs 2/3, which is larger? Equivalent to (3 &times; 3) vrs (4 &times; 2), which is larger? Equivalent to 9 vrs 8, which is larger? And so since 9 > 8, 3/4 > 2/3
+   - 2/4 vrs 1/2, which is larger? Equivalent to (2 &times; 2) vrs (4 &times; 1), which is larger? Equivalent to 4 vrs 4, which is larger? And so since 4 = 4, 2/4 = 1/2
+   - 1/4 vrs 2/7, which is larger? Equivalent to (1 &times; 7) vrs (4 &times; 2), which is larger? Equivalent to 7 vrs 8, which is larger? And so since 7 < 8, 1/4 < 2/7
+   - -11/4 vrs -20/7, which is larger? Equivalent to (-11 &times; 7) vrs (4 &times; -20), which is larger? Equivalent to -77 vrs -80, which is larger? And so since -77 > -80, -11/4 > -20/7
 
 ### Division
           
 Summary: to divide fractions, get the denominators to be the same, and then divide the numerators.
 
-1. Same denominators. a/e &#xF7; c/e = a/c ; E.g.
-   - 4/5 &#xF7; 3/5 = 4/3
-2. Different denominators. *Can use cross multiply to make denominators the same.* a/b &#xF7; c/d = (a &#xD7; d)/(b &#xD7; d) &#xF7; (b &#xD7; c)/(b &#xD7; d) = (a &#xD7; d)/(b &#xD7; c) ; E.g.
-   - 4/5 &#xF7; 3/15 = (4 &#xD7; 15)/(5 &#xD7; 3) = 60/15 = 4
-   - -4/5 &#xF7; -3/4 = (-4 &#xD7; 4)/(5 &#xD7; -3) = -16/-15 = 16/15
+1. Same denominators. a/e &div; c/e = a/c ; E.g.
+   - 4/5 &div; 3/5 = 4/3
+2. Different denominators. *Can use cross multiply to make denominators the same.* a/b &div; c/d = (a &times; d)/(b &times; d) &div; (b &times; c)/(b &times; d) = (a &times; d)/(b &times; c) ; E.g.
+   - 4/5 &div; 3/15 = (4 &times; 15)/(5 &times; 3) = 60/15 = 4
+   - -4/5 &div; -3/4 = (-4 &times; 4)/(5 &times; -3) = -16/-15 = 16/15
 
-### Comparison
+### Multiplication
           
-Summary: To compare fractions, divide them without simplifying, and compare the numerator with the denominator.
+Summary: to multiply fractions, multiply numerators, divided by multiplication of denominators. And unlike the rest (addition, subtraction, comparison and division), the formula for
+this operation *does not* use cross multiply.
 
-1. a/b vrs c/d, which is larger? *Use cross multiply.* Equivalent to (a &#xD7; d) vrs (b &#xD7; c), which is larger? E.g.
-   - 3/4 vrs 2/3, which is larger? Equivalent to (3 &#xD7; 3) vrs (4 &#xD7; 2), which is larger? Equivalent to 9 vrs 8, which is larger? And so since 9 > 8, 3/4 > 2/3
-   - 2/4 vrs 1/2, which is larger? Equivalent to (2 &#xD7; 2) vrs (4 &#xD7; 1), which is larger? Equivalent to 4 vrs 4, which is larger? And so since 4 = 4, 2/4 = 1/2
-   - 1/4 vrs 2/7, which is larger? Equivalent to (1 &#xD7; 7) vrs (4 &#xD7; 2), which is larger? Equivalent to 7 vrs 8, which is larger? And so since 7 < 8, 1/4 < 2/7
-   - -11/4 vrs -20/7, which is larger? Equivalent to (-11 &#xD7; 7) vrs (4 &#xD7; -20), which is larger? Equivalent to -77 vrs -80, which is larger? And so since -77 > -80, -11/4 > -20/7
-
+1. a/b &times; c/d = (a &times; c)/(b &times; d) ;  E.g.
+   - 3/5 &times; 7/5 = (3 &times; 7)/(5 &times; 5) = 21/25
+   - 5/4 &times; 3/15 = (5 &times; 3)/(4 &times; 15) = 1/4
+   - 5/4 &times; -3/5 = (5 &times; -3)/(4 &times; 5) = -15/20 = -3/4
+   - 5/4 &times; -3 = 5/4 &times; -3/1 = (5 &times; -3)/(4 &times; 1) = -15/4
+   - 7 &times; 2/3 = 7/1 &times; 2/3 = (7 &times; 2)/(1 &times; 3) = 14/3
