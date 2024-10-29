@@ -19,7 +19,14 @@ The ability to cross-check answers becomes critical in the study of many science
 
 1. Can introduce the abacus device for addition as precursor to the standard addition procedure.
 
-2. Can modify standard multiplication procedure to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition. Note also that any multiplication procedure is an application of the distributive property of multiplication over addition.
+2. Can modify standard multiplication procedure to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition. Note also that this multiplication procedure is an application of the distributive property of multiplication over addition.
+
+3. If misconceptions about commutativity of the four basic arithmetic operations prove too enduring to be rooted out by proficiency in arithmetic of non-whole numbers alone, then these exercises may be employed in experiments to try forestalling the misconceptions:
+   - asking subtraction questions in which result can be negative, and accepting "undefined", "unexpected number", "negative",
+    or actual negative result as valid answers, to show that subtraction is not commutative even before teaching integer arithmetic.
+   - asking division questions in which there is division by zero and division which yields zero, and accepting "undefined" as possible result.
+   - asking division questions in which quotient can be zero, to show that division is not commutative before teaching fractions.
+   - exposing students to calculations involving number zero in operands or answers, before and after teaching integers and fractions.
 
 6. Leverage simplification of fractions for several benefits, including getting students to notice structures related to multiplication,
    division, factors, multiples, and divisors.

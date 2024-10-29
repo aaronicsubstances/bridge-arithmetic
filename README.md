@@ -64,18 +64,6 @@ Early algebra proposal for adults depends on using formulas to perform arithmeti
   - if remainder is nonzero, multiply the whole number and remainder by 10, perform division by chunking on the remainder. Add the resulting whole number to the current digits of the decimal expansion by addition. Also take note of the number of times multiplication by 10 is being performed.
   - repeat previous step until either remainder becomes zero, the desired number of digits in the decimal expansion is obtained (in the case of rounding), or the digits in the decimal expansion repeat (in the case of finding exact non-terminating decimal expansions).
   - the final answer results from dividing the decimal expansion obtained by a power of 10 whose zero count equals the number of multiplications by 10 made.
-  
-### Exercises Exposing Misconceptions
-
-If misconceptions about commutativity of the four basic arithmetic operations prove too enduring to be rooted out by proficiency in arithmetic of non-whole numbers alone, then these exercises may be employed in experiments to try forestalling the misconceptions:
-
-- Subtraction
-  - asking questions in which result can be negative, and accepting "undefined", "unexpected number", "negative",
-    or actual negative result as valid answers, to show that subtraction is not commutative even before teaching integer arithmetic.
-- Division
-  - asking questions in which there is division by zero and division which yields zero, and accepting "undefined" as possible result.
-  - asking questions in which quotient can be zero, to show that division is not commutative before teaching fractions.
-- Exposing students to calculations involving number zero in operands or answers, before and after teaching integers and fractions.
 
 ## Algebra Topics
 
