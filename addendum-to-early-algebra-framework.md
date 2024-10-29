@@ -17,9 +17,9 @@ The ability to cross-check answers becomes critical in the study of many science
 
 ## Curriculum Design Tips
 
-1. Can introduce the abacus device for addition as precursor to the standard addition algorithm.
+1. Can introduce the abacus device for addition as precursor to the standard addition procedure.
 
-2. Can modify standard multiplication algorithm to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition.
+2. Can modify standard multiplication procedure to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition. Note also that any multiplication procedure is an application of the distributive property of multiplication over addition.
 
 6. Leverage simplification of fractions for several benefits, including getting students to notice structures related to multiplication,
    division, factors, multiples, and divisors.
@@ -46,7 +46,7 @@ The ability to cross-check answers becomes critical in the study of many science
    - Can adapt for generalization by re-asking the question with large whole numbers, non-whole numbers and unknown numbers.
    - Can adapt for equation solving by "reversing the question".
 
-9. Introduce enough variety of arithmetic expression evaluation exercises in order to avoid using BODMAS mnemonic in unintended situations.
+9. Introduce enough variety of arithmetic expression evaluation exercises in order to avoid using BODMAS mnemonic in unintended situations. Note also that they end up demonstrating associativity of addition and multiplication.
 
 10. HCF, LCM, generating all factors of a number do not seem to be used directly in practice; instead common factors (CF) and common multiples (CM) are used.
 

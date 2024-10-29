@@ -1,25 +1,30 @@
 # Early Algebra Curriculum Proposal
 
-## Operational Definition of Early Algebra
+## What is Early Algebra?
 
-Early algebra is a subset of topics in both arithmetic and algebra, which should be taught during the study of arithmetic, and definitely before the study of simplification of algebraic expressions, in order to better ensure success in the study of algebra in secondary school.
+Early algebra refers to the subset of arithmetic and algebra topics taught in primary and secondary schools, which excludes the topic of simplification of algebraic expressions and other susbsequent topics. For pre-teens or students in primary school, the topic of arithmetic of whole numbers is excluded as well.
+
+These are the early algebra topics for pre-teens:
+
+- Arithmetic of non-whole numbers. This includes arithmetic involving zero, and also arithmetic yielding non-whole number results even if the operands were all whole numbers.
+- Exponentiation
+- Evaluation of arithmetic expressions
+- Equation solving by guess and check
+
+For teens and adults, this proposal permits the introduction of less optimal but more intuitive arithmetic procedures to the students. It also permits the presentation of the early algebra topics in a different arrangement from that for pre-teens, in order to better suit the challenges and opportunities presented by teens and adults.
+
+## Goals
+
+The goal of early algebra for students is proficiency in evaluation of arithmetic expressions involving rational numbers.
+
+For students who are teens or adults, there is an additional goal which is to be able to practice and become proficient in early algebra alone, with almost no supervision.
 
 ## Guidelines
 
 - Due to lack of experimental validation by the proponents of this proposal, only existing primary school and secondary school topics are included.
-- The proposal recognizes that it is school authorities who have the final decision to allow alternatives to the standard algorithms, which differ from what teachers expect of students in a given locality, and which will show up on answer sheets.
-- The goals of the early algebra proposal is to help students to be able to learn on their own if necessary. The details are as follows:
-  - exercises for which no solutions or only inferior solutions exist at the moment, to counteract development of misconceptions in algebra later on.
-  - exercises which are designed in such a way that a teenager can teach himself with them, without having to expose his embarassments and failures in math to the teacher and others.
-    E.g. exercises with detailed solutions, multiple choice questions, exercises with hints.
-  - helping students to be responsible for memorization and proficiency in math
+- The proposal recognizes that it is school authorities who have the final decision to allow alternatives to the standard procedures, which differ from what teachers expect of students in a given locality, to show up on answer sheets.
 
-## Arithmetic Activities
-
-- The arithmetic portion of the early algebra proposal consists of counteracting development of misconceptions in algebra. The details are as follows:
-  - making students aware that numbers come in kinds or types (e.g. whole numbers, fractions, signed numbers), that numbers have parts (e.g. sign, magnitude, numerator, denominator), and that numbers can be presented in different formats (e.g. common fraction, mixed fraction, decimal expansion).
-  - summary of arithmetic algorithms and tables which can serve as a reference for a teenager to use to solve exercises on his own, ie during a stage when he is not practising for memorization and proficiency.
-  - fallback arithmetic algorithms that students can be introduced to if necessary (and if permitted by school authorities).
+## Arithmetic Topics
 
 The following activities are assumed to constitute arithmetic for rational numbers as taught in school or online (e.g. https://www.transum.org):
 
@@ -34,58 +39,50 @@ The following activities are assumed to constitute arithmetic for rational numbe
 - Developing proficiency in arithmetic of whole numbers
 - Developing proficiency in simplification of fractions
 
-The remainder of this section are arithmetic parts of early algebra proposal.
+The arithmetic parts of early algebra proposal for adults seek to leverage memorization to quickly increase confidence in the study of arithmetic. For this reason the arithmetic parts is recorded in the form of tables, worked examples, formulas, demonstrations of arithmetic procedures, multi-choice questions, and exercises with detailed solutions. Some of these parts are as follows:
 
-Exercises Exposing Misconceptions
+### Rational Number Categorizations
 
-- Subtraction
-  - asking questions in which result can be negative, and accepting "undefined", "unexpected number", "negative",
-    or negative sign as valid answers, to show that subtraction is not commutative even before teaching negative numbers.
-- Division
-  - asking questions in which there is division by zero and division which yields zero, and accepting "undefined" as possible result.
-  - asking questions in which quotient can be zero, to show that division is not commutative before teaching fractions.
-- Exposing students to calculations involving number 0 in operands or answers, before and after teaching fractions and negative numbers.
+Early algebra proposal for adults depends on using formulas to perform arithmetic operations whenever possible. And these formulas depend on the perspective taken of the operands involved. Therefore the proposal requires making students aware that
 
-Fallback algorithms:
+- numbers come in kinds or types, i.e. whole numbers, non-whole numbers.
+- numbers have parts or perspectives, i.e. sign, magnitude, numerator, denominator.
+- numbers can be presented in different formats, i.e. common fraction, mixed fraction, decimal expansion, standard form.
+
+### Alternative Arithmetic Procedures
 
 - Subtraction of whole numbers
-  - subtraction by solving addition equation.
+  - subtraction by solving addition equation by guess and check of digits.
 - Multiplication of whole numbers
   - multiplication by grid method (aka grid multiplication).
 - Division of whole numbers
   - by trial and error: keep multiplying divisor by educated guesses, until a guess is found which gives a nonnegative remainder less than the divisor.
-    One benefit of being aware of this algorithm is that, it is always present as a step in the other more efficient algorithms for division.
+    One benefit of being aware of this procedure is that, it is always present as a step in the other more efficient procedures for division.
   - division by chunking (aka division by partial quotients method).
-- Conversion of fractions to exact or rounded decimal expansions without long division. The algorithm works this way:
+- Conversion of fractions to exact or rounded decimal expansions without long division. The procedure works this way:
   - begin by using division by chunking to obtain an initial whole number and remainder. The initial whole number will form the initial digits of the decimal expansion.
-  - if remainder is nonzero, multiply the whole number and remainder by 10, perform division by chunking on the remainder. Add the resulting whole number to the current digits of the decimal expansion by addition. Also take note of the number of times multiplications by 10 is being performed.
+  - if remainder is nonzero, multiply the whole number and remainder by 10, perform division by chunking on the remainder. Add the resulting whole number to the current digits of the decimal expansion by addition. Also take note of the number of times multiplication by 10 is being performed.
   - repeat previous step until either remainder becomes zero, the desired number of digits in the decimal expansion is obtained (in the case of rounding), or the digits in the decimal expansion repeat (in the case of finding exact non-terminating decimal expansions).
   - the final answer results from dividing the decimal expansion obtained by a power of 10 whose zero count equals the number of multiplications by 10 made.
+  
+### Exercises Exposing Misconceptions
 
-## Algebra Activities
+If misconceptions about commutativity of the four basic arithmetic operations prove too enduring to be rooted out by proficiency in arithmetic of non-whole numbers alone, then these exercises may be employed in experiments to try forestalling the misconceptions:
 
-Each algebra activity to be listed here can be characterized by
+- Subtraction
+  - asking questions in which result can be negative, and accepting "undefined", "unexpected number", "negative",
+    or actual negative result as valid answers, to show that subtraction is not commutative even before teaching integer arithmetic.
+- Division
+  - asking questions in which there is division by zero and division which yields zero, and accepting "undefined" as possible result.
+  - asking questions in which quotient can be zero, to show that division is not commutative before teaching fractions.
+- Exposing students to calculations involving number zero in operands or answers, before and after teaching integers and fractions.
 
-- whether or not it is a word problem
-- whether or not it supplies multiple choices out of which correct answer must be chosen.
-- the kind of response or result expected: a rational number, an expression or an equation.
+## Algebra Topics
 
-Algebra activities which are identified as useful for early algebra education are:
+Algebra parts of early algebra proposal are arithmetic expression evaluation and equation solving by guess and check.
 
-- expression evaluation (aka "substitution") involving only the four basic arithmetic operators (+, -, &#x00D7;, &#x00F7;)
-  - they end up demonstrating associativity of addition and multiplication
-  - includes focus on drilling in convention of concatenation for multiplication
-  - NB: substitution exercises in popular math text books can also get us equation solving activities using guess and check (with possible answers of objective tests as guesses)
-- expression evaluation involving functions with verbose names which map to the four basic arithmetic operations, squares and cubes.
-- expression evaluation involving powers, roots, exponents and logarithmic (common and natural log) and trigonometry (sin, cos and tan) functions
-- equation solving, mainly linear equations
-  - includes univariate polynomial equations, and simultaneous equations in multiple variables
-  - with guess and check strategy included (using possible answers of objective tests as guesses, can have a "None of the above" choice included)
-  - NB: equation solving exercises in popular math text books can also get us expression evaluation activities
-- equation/expression generation
-  - Can get exercises from expression evaluation exercises, by putting forward the expression evaluation steps (each involving just one operation at a time) as the question, and asking for the expression itself from multiple choices. Can remove need to employ intermediate variables by ensuring that the expression arguments and intermediate results are unique.
-- equation/expression decomposition
-  - Can get exercises from expression evaluation exercises, by putting forward the expression as the question, and putting forward choices in which each is a last operation equals a final answer, and then asking for the correct choice. Can make the expression complex if there's only one choice with the correct last operation. And can include multiple correct last operations and multiple correct final answers if the last operation can be in multiple positions of addition, subtraction or multiplication.
-  - NB: the rationale for the existence of this exercise is that, in practice during algebraic expression simplification and equation solving, identifying the last (or "root") step rather than the first step (as suggested by BODMAS) is more important for flexibility in breaking down expressions, and even evaluating multiple parts concurrently.
-- math applications to real world of student
-  - aka "word problems"
+- expression evaluation (aka "substitution") involving only the four basic arithmetic operations
+  - includes drilling in convention of concatenation for multiplication
+  - can include powers, roots, exponents, logarithms, trigonometry and factorial functions
+- equation solving with guess and check involving mainly linear equations
+  - can include univariate polynomial equations, and simultaneous equations in multiple variables

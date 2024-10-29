@@ -1970,6 +1970,7 @@ Factorisations:<br>100 = 10 &times; 10
 
 
 ## Integer and Signed Number Procedures
+
 ### Addition and Subtraction
 
 Given an addition or subtraction problem involving signed numbers (like 3 + -2, -2 &minus; 5), first ensure that the second operand is not negative by using the following identities:
@@ -1990,10 +1991,9 @@ The number line can be used to visualize and remember these cases in the followi
 
 1. Start from zero, and locate the first operand on the number line to the left or right of zero depending on whether it is negative or positive respectively. Note this as an initial movement to the left or right.
 1. Next, interpret an addition as a movement to the right and interpret a subtraction as a movement to the left.
-2. Then if the initial movement and the movement suggested by the operation agree, add the magnitudes of the operands, else subtract the smaller magnitude from the larger magnitude.
-3. If magnitudes were added or the magnitude of the first operand is larger than (or equal to) that of the second operand, then the sign of the answer is the same as that of the first operand.
-   Else it means magnitudes were subtracted and the second operand has the larger magnitude, and so the sign of the answer will be the
-    opposite of the sign of the first operand.
+2. Then if the initial movement and the movement suggested by the operation agree, add the magnitudes of the operands. The sign of the answer will be obvious from where the initial movement landed.
+3. Else subtract the smaller magnitude from the larger magnitude. If the second movement is big enough to fully reverse the initial movement, then the sign of the answer will be the opposite of the destination of the initial movement.
+Else the sign of the answer will be where the initial movement landed.
 
 ### Multiplication Identities
 
@@ -2011,3 +2011,42 @@ The number line can be used to visualize and remember these cases in the followi
 
 1. Positive numbers and zero are considered larger than negative numbers. E.g. 10 > 5, 5 < 10, 5 > -10, -10 < 5, 4 > 0, 0 < 4, 0 > -4, -4 < 0
 2. A negative number is considered larger than another negative number if it has a *smaller* magnitude than the other negative number. E.g. 10 > 5, 5 < 10, -5 > -10, -10 < -5
+
+## Fraction Procedures
+
+### Addition and Subtraction
+
+1. a/e + c/e = (a + c)/e ; E.g.
+  - 3/4 + 1/4 = (3 + 1)/4 = 4/4 = 1
+  - -3/4 + 1/4 = (-3 + 1)/4 = -2/4 = -1/2
+2. a/e - c/e = (a - c)/e ; E.g.
+  - 3/4 - 1/4 = (3 - 1)/4 = 2/4 = 1/2
+3. a/b + c/d = (a &#xD7; d + b &#xD7; c)/(b &#xD7; d) ; E.g.
+  - 5/4 + 3/5 = (5 &#xD7; 5 + 4 &#xD7; 3)/(4 &#xD7; 5) = (25 + 12)/20 = 37/20
+4. a/b - c/d = (a &#xD7; d - b &#xD7; c)/(b &#xD7; d) ; E.g.
+  - 3/2 - 5/4 = (3 &#xD7; 4 - 2 &#xD7; 5)/(2 &#xD7; 4) = (12 - 10)/8 = 2/8 = 1/4
+  - -3/2 - 5/4 = (-3 &#xD7; 4 - 2 &#xD7; 5)/(2 &#xD7; 4) = (-12 - 10)/8 = -22/8 = -11/4
+
+### Multiplication
+
+1. a/b &#xD7; c/d = (a &#xD7; c)/(b &#xD7; d) ; E.g.
+  - 3/5 &#xD7; 7/5 = (3 &#xD7; 7)/(5 &#xD7; 5) = 21/25
+  - 5/4 &#xD7; 3/15 = (5 &#xD7; 3)/(4 &#xD7; 15) = 1/4
+  - 5/4 &#xD7; -3/5 = (5 &#xD7; -3)/(4 &#xD7; 5) = -15/20 = -3/4
+
+### Division
+
+1. a/e &#xF7; c/e = a/c ; E.g.
+  - 4/5 &#xF7; 3/5 = 4/3
+2. a/b &#xF7; c/d = (a &#xD7; d)/(b &#xD7; c) ; E.g.
+  - 4/5 &#xF7; 3/15 = (4 &#xD7; 15)/(5 &#xD7; 3) = 4
+  - -4/5 &#xF7; -3/4 = (-4 &#xD7; 4)/(5 &#xD7; -3) = -16/-15 = 16/15
+
+### Comparison
+
+1. a/b vrs c/d, which is larger? Equivalent to (a &#xD7; d) vrs (b &#xD7; c), which is larger? E.g.
+  - 3/4 vrs 2/3, which is larger? Equivalent to (3 &#xD7; 3) vrs (4 &#xD7; 2), which is larger? Equivalent to 9 vrs 8, which is larger? And so since 9 > 8, 3/4 > 2/3
+  - 2/4 vrs 1/2, which is larger? Equivalent to (2 &#xD7; 2) vrs (4 &#xD7; 1), which is larger? Equivalent to 4 vrs 4, which is larger? And so since 4 = 4, 2/4 > 1/2
+  - 1/4 vrs 2/7, which is larger? Equivalent to (1 &#xD7; 7) vrs (4 &#xD7; 2), which is larger? Equivalent to 7 vrs 8, which is larger? And so since 7 < 8, 1/4 < 2/7
+  - -11/4 vrs -20/7, which is larger? Equivalent to (-11 &#xD7; 7) vrs (4 &#xD7; -20), which is larger? Equivalent to -77 vrs -80, which is larger? And so since -77 > -80, -11/4 > -20/7
+
