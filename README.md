@@ -7,7 +7,7 @@ Early algebra refers to the subset of arithmetic and algebra topics taught in pr
 These are the early algebra topics for pre-teens:
 
 - Arithmetic of non-whole numbers. This includes arithmetic involving zero, and also arithmetic yielding non-whole number results even if the operands were all whole numbers.
-- Exponentiation
+- Powers and Roots
 - Evaluation of arithmetic expressions
 - Equation solving by guess and check
 
@@ -32,7 +32,7 @@ The following activities are assumed to constitute arithmetic for rational numbe
 - Subtraction
 - Multiplication
 - Division
-- Exponentiation involving whole number exponents
+- Powers and Roots
 - Comparison
 - Conversion of fractions from and to decimal expansions
 - Conversion of fractions and decimal expansions to rounded decimal expansions
@@ -71,6 +71,6 @@ Algebra parts of early algebra proposal are arithmetic expression evaluation and
 
 - expression evaluation (aka "substitution") involving only the four basic arithmetic operations
   - includes drilling in convention of concatenation for multiplication
-  - can include powers, roots, exponents, logarithms, trigonometry and factorial functions
+  - can include powers, roots, trigonometry, logarithms, and factorial
 - equation solving with guess and check involving mainly linear equations
   - can include univariate polynomial equations, and simultaneous equations in multiple variables
