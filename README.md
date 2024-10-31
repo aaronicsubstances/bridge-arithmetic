@@ -1,4 +1,4 @@
-# Early Algebra Curriculum Proposal
+# Early Algebra Highlighting Proposal
 
 ## What is Early Algebra?
 
@@ -6,7 +6,7 @@ Early algebra refers to the subset of arithmetic and algebra topics taught in pr
 
 These are the early algebra topics for pre-teens:
 
-- Arithmetic of non-whole numbers. This includes arithmetic involving zero, and also arithmetic yielding non-whole number results even if the operands were all whole numbers.
+- Arithmetic of non-whole numbers. This includes arithmetic involving zero, and also arithmetic yielding non-whole number results even if the operands are all whole numbers.
 - Powers and Roots
 - Evaluation of arithmetic expressions
 - Equation solving by guess and check
@@ -30,8 +30,8 @@ The following activities are assumed to constitute arithmetic for rational numbe
 
 - Addition
 - Subtraction
-- Multiplication
-- Division
+- Multiplication and *of* operator
+- Division and Ratios
 - Powers and Roots
 - Comparison and Number Line
 - Conversion of fractions from and to decimal expansions

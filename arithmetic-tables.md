@@ -1972,6 +1972,12 @@ Factorisations:<br>100 = 10 &times; 10
 
 ## Integer and Signed Number Procedures
 
+### Some Terminology
+
+1. *Integer*: a signed whole number, i.e. zero, positive or negative whole number. E.g. 0, -1 and 7 are integers; 4/3 and 1/2 are not integers.
+2. *Signed Number*: a custom name for integers and other numbers which have a decimal expansion. Basically refers to all numbers
+studied in pre-algebra and early algebra.
+
 ### Addition and Subtraction
 
 Given an addition or subtraction problem involving signed numbers (like 3 + -2, -2 &minus; 5), first ensure that the second operand is not negative by using the following:
@@ -1989,21 +1995,26 @@ Else the sign of the answer will be where the initial movement landed.
 
 Examples:
 
-1. -2 &minus; 5 = -7 ; -10 + -3 = -10 &minus; 3 = -13 ; In these cases first operand is negative, minus positive number. So the magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be negative.
-2. 3 &minus; -2 = 3 + 2 = 5 ; Here the first operand is positive, plus positive number. So the magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be positive.
-3. -3 + 2 = -1 ; -2 + 3 = 1 ; -6 &minus; -4 = -6 + 4 = -2 ; In these cases the first operand is negative, plus positive number. So the magnitude of the answer will be the larger magnitude minus the smaller magnitude;
+1. -2 &minus; 5 = -7 ; -10 + -3 = -10 &minus; 3 = -13 ; -3/4 &minus; 1/4 = -1 ; In these cases first operand is negative, minus positive number. So the magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be negative.
+2. 3 &minus; -2 = 3 + 2 = 5 ; 3/4 + 1/4 = 1; Here the first operand is positive, plus positive number. So the magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be positive.
+3. -3 + 2 = -1 ; -2 + 3 = 1 ; -6 &minus; -4 = -6 + 4 = -2 ; -3/4 + 1/4 = -1/2; -1/4 + 3/4 = 1/2; In these cases the first operand is negative, plus positive number. So the magnitude of the answer will be the larger magnitude minus the smaller magnitude;
 and the sign of the answer will be the sign of the operand with the larger magnitude.
-4. 3 &minus; 2 = 1 ; 1 &minus; 4 = -3 ; 3 + -2 = 3 &minus; 2 = 1 ; 2 + -3 = 2 &minus; 3 = -1 ; In these cases the first operand is positive, minus positive number. Therefore the magnitude of the answer will be the larger magnitude minus the smaller magnitude.
+4. 3 &minus; 2 = 1 ; 1 &minus; 4 = -3 ; 3 + -2 = 3 &minus; 2 = 1 ; 2 + -3 = 2 &minus; 3 = -1 ; 3/4 &minus; 1/4 = 1/2; 1/4 &minus; 3/4 = -1/2; In these cases the first operand is positive, minus positive number. Therefore the magnitude of the answer will be the larger magnitude minus the smaller magnitude.
 If the first operand has the larger magnitude, then its sign will be the sign of the answer. Else the sign of the answer will be the opposite of the sign of the first operand. 
 
 ### Comparison
 
-In summary,
+Procedure:
 
 1. Positive numbers and zero are considered larger than negative numbers.
 2. A negative number is considered larger than another negative number if it has a *smaller* magnitude than the other negative number.
+So even though 2 < 3, -2 > -3.
 
-Explanation of summary: To compare integers and signed numbers, employ subtraction and check the sign of the result.
+Explanation of procedure:
+- To compare any numbers say a and b, we compute a &minus; b and check the sign of the result.
+- If the sign is positive, then a > b (a is greater than b).
+- If the sign is negative, then a < b (a is less than b).
+- If the subtraction result was zero, then a = b
 
 Examples:
 
@@ -2021,51 +2032,132 @@ Examples:
 3. a &times; -b = -(a &times; b) ; E.g. 2 &times; -3 = -6
 3. a &div; -b = -(a &div; b) ; E.g. 10 &div; -2 = -5
 
+### Negation
+          
+1. -(a) = -1 &times; a = -a ; E.g. -(2) = -2 ; -(0) = 0
+2. -(-a) = -1 &times; -a = a ; E.g. -(-2) = 2 ; ---2 = -(-(-2)) = -2
+
+
+
 ## Fraction Procedures
 
-### Addition and Subtraction
-          
-Summary: to add or subtract fractions, get the denominators to be the same, and then add or subtract the numerators.
+### Some Terminology
 
-1. Same denominators. a/e + c/e = (a + c)/e ; E.g.
+1. *Proper fraction*: a fraction in which the numerator is smaller than the denominator. E.g. 1/2, 1/3, 2/3
+2. *Improper fraction*: a fraction in which the numerator is bigger than the denominator. E.g. 3/2, 4/3, 5/3
+3. *Simple fraction*: a proper or improper fraction in which the numerator and denominator are whole numbers. E.g. 1/2 is a simple fraction, 1/(3/2) and (2/3)/5 are not simple fractions.
+3. *Mixed fraction*: a fraction which is expressed in terms of a whole number part and a proper fraction part. E.g. 2 1/2, 5 3/4
+4. *Ratio*: an expression involving positive numbers used to determine how to share a nonnegative number among two or more entities through repeated subtractions.
+*A ratio of two positive numbers is defined in mathematics as being equivalent to a fraction*.
+   - A ratio for sharing between two entities is expressed as a &ratio; b (read as "a is to b")
+   - E.g. Kofi and Kwame share a collection of 100 pencils in the ratio of 2 &ratio; 3 (read as "2 is to 3"), means that
+    for every 2 pencils that Kofi takes out of the collection, Kwame gets to take 3 pencils.
+   - Similarly a ratio for sharing among 3 entities is expressed as a &ratio; b &ratio; c (read as "a is to b is to c").
+   - E.g. Ama, Yaa and Akos share a collection of 24 canned drinks in the ratio 2 &ratio; 3 &ratio; 1 (reas as "2 is to 3 is to 1"), means that
+    for every 2 cans that Ama takes out of the collection, Yaa gets to take 3 cans and Akos gets to take 1 can.
+5. *of* operator: a/b of c/d = a &times; (c/d &div; b). The *of* operator is equivalent to multiplication of fractions in mathematics. E.g.
+   - 3 of 4 = 4 + 4 + 4 = 12 ; 4 of 3 = 3 + 3 + 3 + 3 = 12
+   - 4 of 1/2 = 1/2 + 1/2 + 1/2 + 1/2 = 2
+   - 1/2 of 4 = 4/2 = 2 ; 1/3 of 5 = 5/3
+   - 2/3 of 6 = 2 &times; (6/3) = 2 &times; 2 = 4 ; 3/5 of 7/10 = 3 &times; (7/10 &div; 5) = 3 &times; 7/50 = 21/50
+6. *Cross multiplication*: given two fractions a/b and c/d, cross multiplication refers to the action of multiplying
+a by d, and separately multiplying b by c to obtain two products (a &times; d) and (b &times; c). Cross multiplication is a heavily used step
+in fraction arithmetic.
+
+### Addition and Subtraction
+
+Procedures:
+
+1. a/b + c/d = (a &times; d + b &times; c)/(b &times; d)
+1. a/b &minus; c/d = (a &times; d &minus; b &times; c)/(b &times; d)
+1. If the denominators are the same, then the formulas simplify to become:
+    1. a/e + c/e = (a + c)/e
+    2. a/e &minus; c/e = (a &minus; c)/e
+
+Explanation of Procedures:
+
+1. To add or subtract fractions, get the denominators to be the same, and then add or subtract the numerators.
+2. So in general when denominators are not the same, cross multiplication technique is used to make the denominators the same.
+3. So a/b &plusmn; c/d = (a &times; d)/(b &times; d) &plusmn; (b &times; c)/(b &times; d) = (a &times; d &plusmn; b &times; c)/(b &times; d)
+
+Examples:
+
+1. Same denominators:
    - 3/4 + 1/4 = (3 + 1)/4 = 4/4 = 1
    - -3/4 + 1/4 = (-3 + 1)/4 = -2/4 = -1/2
-2. Same denominators. a/e &minus; c/e = (a &minus; c)/e ; E.g.
    - 3/4 - 1/4 = (3 - 1)/4 = 2/4 = 1/2
-3. Different denominators. *Can use cross multiply to make denominators the same.* a/b + c/d = (a &times; d)/(b &times; d) + (b &times; c)/(b &times; d) = (a &times; d + b &times; c)/(b &times; d) ; E.g.
+3. Different denominators: *Use cross multiply*.
    - 5/4 + 3/5 = (5 &times; 5 + 4 &times; 3)/(4 &times; 5) = (25 + 12)/20 = 37/20
-4. Different denominators. *Can use cross multiply to make denominators the same.* a/b &minus; c/d = (a &times; d)/(b &times; d) &minus; (b &times; c)/(b &times; d) = (a &times; d &minus; b &times; c)/(b &times; d) ; E.g.
    - 3/2 - 5/4 = (3 &times; 4 - 2 &times; 5)/(2 &times; 4) = (12 - 10)/8 = 2/8 = 1/4
    - -3/2 - 5/4 = (-3 &times; 4 - 2 &times; 5)/(2 &times; 4) = (-12 - 10)/8 = -22/8 = -11/4
 
 ### Comparison
 
-Summary: To compare fractions, employ subtraction and check the sign of the result.
+Procedure: To compare a/b and c/d to see which is larger, compare (a &times; d) and (b &times; c) to see which is larger
 
-1. a/b vrs c/d, which is larger? *Use cross multiply.* Equivalent to (a &times; d) vrs (b &times; c), which is larger? E.g.
+Explanation of Procedure:
+
+1. As is the case for all numbers, to compare a/b and c/d, compute a/b &minus; c/d and check the sign by comparing with zero.
+2. The general result for subtraction gives (a &times; d &minus; b &times; c)/(b &times; d)
+3. Because the subtraction result is being compared with zero, its sign can be completely determined by the sign of the numerator alone: (a &times; d &minus; b &times; c).
+4. And since that numerator is a subtraction expression, we can interpret it as a comparison between (a &times; d) and (b &times; c)
+
+Examples: *Use cross multiply*.
+
    - 3/4 vrs 2/3, which is larger? Equivalent to (3 &times; 3) vrs (4 &times; 2), which is larger? Equivalent to 9 vrs 8, which is larger? And so since 9 > 8, 3/4 > 2/3
    - 2/4 vrs 1/2, which is larger? Equivalent to (2 &times; 2) vrs (4 &times; 1), which is larger? Equivalent to 4 vrs 4, which is larger? And so since 4 = 4, 2/4 = 1/2
    - 1/4 vrs 2/7, which is larger? Equivalent to (1 &times; 7) vrs (4 &times; 2), which is larger? Equivalent to 7 vrs 8, which is larger? And so since 7 < 8, 1/4 < 2/7
    - -11/4 vrs -20/7, which is larger? Equivalent to (-11 &times; 7) vrs (4 &times; -20), which is larger? Equivalent to -77 vrs -80, which is larger? And so since -77 > -80, -11/4 > -20/7
 
-### Division
-          
-Summary: to divide fractions, get the denominators to be the same, and then divide the numerators.
-
-1. Same denominators. a/e &div; c/e = a/c ; E.g.
-   - 4/5 &div; 3/5 = 4/3
-2. Different denominators. *Can use cross multiply to make denominators the same.* a/b &div; c/d = (a &times; d)/(b &times; d) &div; (b &times; c)/(b &times; d) = (a &times; d)/(b &times; c) ; E.g.
-   - 4/5 &div; 3/15 = (4 &times; 15)/(5 &times; 3) = 60/15 = 4
-   - -4/5 &div; -3/4 = (-4 &times; 4)/(5 &times; -3) = -16/-15 = 16/15
-
 ### Multiplication
           
-Summary: to multiply fractions, multiply numerators, divided by multiplication of denominators. And unlike the rest (addition, subtraction, comparison and division), the formula for
-this operation *does not* use cross multiply.
+Procedure:
 
-1. a/b &times; c/d = (a &times; c)/(b &times; d) ;  E.g.
-   - 3/5 &times; 7/5 = (3 &times; 7)/(5 &times; 5) = 21/25
-   - 5/4 &times; 3/15 = (5 &times; 3)/(4 &times; 15) = 1/4
+1. a/b &times; c/d = (a &times; c)/(b &times; d)
+2. a/b of c/d = a/b &times; c/d
+
+Explanation of Procedure:
+
+1. Multiplication of fractions a/b and c/d is defined as solving the following problem:
+find a fraction x such that x &ratio; c/d = a &ratio; b, and x &ratio; a/b = c &ratio; d
+1. And the solution, x = (a &times; c)/(b &times; d)
+2. It happens that (a &times; c)/(b &times; d) = a &times; (c/d &div; b), which is the definition of a/b of c/d
+3. Hence a/b of c/d = a/b &times; c/d = (a &times; c)/(b &times; d)
+
+Examples:
+   - 3/5 of 7/5 = (3 &times; 7)/(5 &times; 5) = 21/25
+   - 5/4 of 3/15 = (5 &times; 3)/(4 &times; 15) = 1/4
    - 5/4 &times; -3/5 = (5 &times; -3)/(4 &times; 5) = -15/20 = -3/4
    - 5/4 &times; -3 = 5/4 &times; -3/1 = (5 &times; -3)/(4 &times; 1) = -15/4
    - 7 &times; 2/3 = 7/1 &times; 2/3 = (7 &times; 2)/(1 &times; 3) = 14/3
+
+### Division
+
+Procedure:
+
+1. a/b &div; c/d = (a &times; d)/(b &times; c)
+1. If the denominators are the same, then the formula simplifies to become: a/e &div; c/e = a/c
+
+Explanation of Procedure:
+
+1. Division of fractions takes advantage of the fact that a positive fraction is equivalent to a ratio between the numerator and the denominator
+2. Division of fractions (whether simple or non-simple) is defined as being equivalent to creating a ratio from the operands, even if the operands are fractions or negative.
+3. So a/b &div; c/d = a/b &ratio; c/d
+2. Multiplying through the ratio by b results in: a &ratio; b &times; c/d
+2. Multiplying through the ratio by d results in: a &times; d &ratio; b &times; c
+3. Converting the ratio back to fraction yields: (a &times; d) &ratio; (b &times; c) = (a &times; d)/(b &times; c)
+3: If there are non-simple fractions involved, then the multiplications in the formula will involve divisions, which can in turn lead to
+multiplication of fractions and a cycle of performing multiplications and divisions of fractions will occur. However the cycle will end
+because the fractions in each step will be decreasing in complexity, until simple fractions are encountered, or until the following are encountered:
+   - having a multiplication in which there is a whole number operand. Cycle ends since multiplication of whole numbers (by repeated addition) can then be used.
+   - having a division in which the second operand is a whole number. Cycle ends since multiplication (to get equivalent fraction) and division of whole numbers can then be used.
+
+Examples:
+
+1. Same denominators:
+   - 4/5 &div; 3/5 = 4/3
+2. Different denominators: *Use cross multiply*.
+   - 4/5 &div; 3/15 = (4 &times; 15)/(5 &times; 3) = 60/15 = 4
+   - -4/5 &div; -3/4 = (-4 &times; 4)/(5 &times; -3) = -16/-15 = 16/15
+
+

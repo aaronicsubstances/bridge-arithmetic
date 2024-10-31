@@ -23,7 +23,7 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
        3. Multiplication as repeated addition, which also holds when there is a counting number involved to serve as a multiplier.
        4. Division as repeated subtraction and possibly leaving a remainder; in general, undoing multiplication without leaving a remainder.
        5. Justification for cancelling out (or multiplying top and down): if *d* divides *a* to get *m*, then *cd* divides *ca* to get *m* as well for any counting number *c*, and conversely.
-       6. Trichotomy law of counting numbers: given any two counting numbers *a* and *b*, either *a* = *b*, *a* < *b* or *a* > *b*.
+       6. Trichotomy law of counting numbers: given any two counting numbers *a* and *b*, either *a* = *b*, *a* < *b* or *a* > *b*. Also, *a* < *b* means that b&minus;a is a counting number; *a* > *b* means that a&minus;b is a counting number; and a = b means that a&minus;b is less than any counting number.
        7. Equation invariance: same operation done to LHS and RHS maintains equality.
        8. Commutativity of addition and multiplication
        9. Associativity of addition and multiplication
@@ -36,9 +36,7 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
        4. function application
        5. equation solving, with guess and check as the main solution method.
 
-   5. To make students proficient in the operations and functions of arithmetic that tend to be performed frequently, including
-       1. arithmetic of single digits
-       2. simplification of fractions
+   5. To make students proficient in arithmetic.
 
    6. To engage students in curricular activities which connect fractions and negative numbers to real life scenarios of students.
 
@@ -46,7 +44,7 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
 ## Assumptions of Early Algebra Proposal
 
   1. A disconnect exists between novices and experts with regards to the appreciation of mathematics.
-     - Mathematics novices see some of the arithmetic operations (such as multiplication and division of fractions and negative numbers) as not having practical use.
+     - Mathematics novices see some of the arithmetic operations (such as multiplication and division of negative numbers) as not having practical use.
      - Standard mathemtical notation was not designed with consideration for mathematics novices.
 
   2. The concept of function is the long sought after meeting point of meaning of algebraic expressions between mathematicians and mathematics novices.
@@ -54,8 +52,6 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
 
   3. The history of mathematics development up to symbolic algebra was not an accident, but an indication of how the human mind newly introduced to mathematics works its way up to acquire the mathematical concepts.
      - Empathy may then be required on the part of teachers regarding any resistance from students in the acceptance of certain real numbers: zero (ie nothing), one (ie not many), fractions, improper fractions, irrational numbers, negative numbers.
-     - May have to introduce the abacus device to students for performing arithmetic with large counting numbers, given that it was the mathematics calculator of history.
-     - When introducing early algebra to adults as part of adult education, may want to refocus "early algebra" as "history of mathematics" for them, so they don't feel belittled.
 
   4. Absence of computers and technology.
 
