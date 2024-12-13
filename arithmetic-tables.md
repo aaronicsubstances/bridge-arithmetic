@@ -2055,7 +2055,7 @@ Examples:
    - Similarly a ratio for sharing among 3 entities is expressed as a &ratio; b &ratio; c (read as "a is to b is to c").
    - E.g. Ama, Yaa and Akos share a collection of 24 canned drinks in the ratio 2 &ratio; 3 &ratio; 1 (reas as "2 is to 3 is to 1"), means that
     for every 2 cans that Ama takes out of the collection, Yaa gets to take 3 cans and Akos gets to take 1 can.
-5. *of* operator: a/b of c/d = a &times; (c/d &div; b). The *of* operator is equivalent to multiplication of fractions in mathematics. E.g.
+5. *of* operator: a/b of c/d = a &times; (c/d &div; b). *The *of* operator is equivalent to multiplication of fractions in mathematics.* E.g.
    - 3 of 4 = 4 + 4 + 4 = 12 ; 4 of 3 = 3 + 3 + 3 + 3 = 12
    - 4 of 1/2 = 1/2 + 1/2 + 1/2 + 1/2 = 2
    - 1/2 of 4 = 4/2 = 2 ; 1/3 of 5 = 5/3
@@ -2093,13 +2093,16 @@ Examples:
 
 ### Comparison
 
-Procedure: To compare a/b and c/d to see which is larger, compare (a &times; d) and (b &times; c) to see which is larger
+Procedure: To compare a/b and c/d to see which is larger,
+ensure denominators b and d are positive (by multiplying fractions by -1 if necessary),
+and then compare (a &times; d) and (b &times; c) to see which is larger
 
 Explanation of Procedure:
 
 1. As is the case for all numbers, to compare a/b and c/d, compute a/b &minus; c/d and check the sign by comparing with zero.
 2. The general result for subtraction gives (a &times; d &minus; b &times; c)/(b &times; d)
-3. Because the subtraction result is being compared with zero, its sign can be completely determined by the sign of the numerator alone: (a &times; d &minus; b &times; c).
+3. After ensuring b and d are positive, and because the subtraction result is being compared with zero,
+the sign of the subtraction result can be completely determined by the sign of the numerator alone: (a &times; d &minus; b &times; c).
 4. And since that numerator is a subtraction expression, we can interpret it as a comparison between (a &times; d) and (b &times; c)
 
 Examples: *Use cross multiply*.
@@ -2108,6 +2111,10 @@ Examples: *Use cross multiply*.
    - 2/4 vrs 1/2, which is larger? Equivalent to (2 &times; 2) vrs (4 &times; 1), which is larger? Equivalent to 4 vrs 4, which is larger? And so since 4 = 4, 2/4 = 1/2
    - 1/4 vrs 2/7, which is larger? Equivalent to (1 &times; 7) vrs (4 &times; 2), which is larger? Equivalent to 7 vrs 8, which is larger? And so since 7 < 8, 1/4 < 2/7
    - -11/4 vrs -20/7, which is larger? Equivalent to (-11 &times; 7) vrs (4 &times; -20), which is larger? Equivalent to -77 vrs -80, which is larger? And so since -77 > -80, -11/4 > -20/7
+   - 11/-4 vrs 20/7, which is larger? First ensure denominators are all positive by multiplying top and down of 11/-4 by -1 to get -11/4.
+   So now it is -11/4 vrs 20/7. Equivalent to (-11 &times; 7) vrs (4 &times; 20), which is larger? Equivalent to -77 vrs 80, which is larger? And so since -77 < 80, 11/-4 < 20/7.
+   Alternatively, comparison test could have been made quicker by observing that 11/-4 is a negative number and 20/7 is a positive number. So since all negative numbers are considered less
+   than positive numbers, 11/-4 < 20/7.
 
 ### Multiplication
           
@@ -2120,7 +2127,7 @@ Explanation of Procedure:
 
 1. Multiplication of fractions a/b and c/d is defined as solving the following problem:
 find a fraction x such that x &ratio; c/d = a &ratio; b, and x &ratio; a/b = c &ratio; d
-1. And the solution, x = (a &times; c)/(b &times; d)
+1. And the solution, which is a result of how division of fractions is defined, is x = (a &times; c)/(b &times; d)
 2. It happens that (a &times; c)/(b &times; d) = a &times; (c/d &div; b), which is the definition of a/b of c/d
 3. Hence a/b of c/d = a/b &times; c/d = (a &times; c)/(b &times; d)
 
@@ -2146,7 +2153,7 @@ Explanation of Procedure:
 2. Multiplying through the ratio by b results in: a &ratio; b &times; c/d
 2. Multiplying through the ratio by d results in: a &times; d &ratio; b &times; c
 3. Converting the ratio back to fraction yields: (a &times; d) &ratio; (b &times; c) = (a &times; d)/(b &times; c)
-3: If there are non-simple fractions involved, then the multiplications in the formula will involve divisions, which can in turn lead to
+3. If there are non-simple fractions involved, then the multiplications in the formula will involve divisions, which can in turn lead to
 multiplication of fractions and a cycle of performing multiplications and divisions of fractions will occur. However the cycle will end
 because the fractions in each step will be decreasing in complexity, until simple fractions are encountered, or until the following are encountered:
    - having a multiplication in which there is a whole number operand. Cycle ends since multiplication of whole numbers (by repeated addition) can then be used.
