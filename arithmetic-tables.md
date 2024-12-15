@@ -963,16 +963,16 @@ NB: In the table below, <ol>
 <li>a perfect square: square root of 1 = 1</li>
 <li>a perfect cube: cube root of 1 = 1</li>
 <li>neither a prime number nor a composite number</li></ul>
-Factorisations:<br>1 = 1 &times; 1
+Some Factorisations:<br>1 = 1 &times; 1
 </td>
       <td>2 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>2 = 2 &times; 1
+Some Factorisations:<br>2 = 1 &times; 2
 <br><br>Some Decimal Expansions:<br>1/2 = 0.5
 </td>
       <td>3 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>3 = 3 &times; 1
+Some Factorisations:<br>3 = 1 &times; 3
 <br><br>Some Decimal Expansions:<br>1/3 = 0.<strong>3</strong>333...<br>
 2/3 = 0.<strong>6</strong>666...
 </td>
@@ -992,14 +992,14 @@ Factorisations:<br>3 = 3 &times; 1
       <td>4 is<ul>
 <li>a perfect square: square root of 4 = 2</li>
 <li>a composite number</li></ul>
-Factorisations:<br>4 = 2 &times; 2
+Some Factorisations:<br>4 = 2 &times; 2
 <br><br>Some Decimal Expansions:<br>1/4 = 0.25<br>
 2/4 = 0.5<br>
 3/4 = 0.75
 </td>
       <td>5 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>5 = 5 &times; 1
+Some Factorisations:<br>5 = 1 &times; 5
 <br><br>Some Decimal Expansions:<br>1/5 = 0.2<br>
 2/5 = 0.4<br>
 3/5 = 0.6<br>
@@ -1007,7 +1007,7 @@ Factorisations:<br>5 = 5 &times; 1
 </td>
       <td>6 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>6 = 3 &times; 2
+Some Factorisations:<br>6 = 2 &times; 3
 <br><br>Some Decimal Expansions:<br>1/6 = 0.1<strong>6</strong>666...<br>
 2/6 = 0.<strong>3</strong>333...<br>
 3/6 = 0.5<br>
@@ -1029,7 +1029,7 @@ Factorisations:<br>6 = 3 &times; 2
     <tr>
       <td>7 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>7 = 7 &times; 1
+Some Factorisations:<br>7 = 1 &times; 7
 <br><br>Some Decimal Expansions:<br>1/7 = 0.<strong>142857</strong>142857...<br>
 2/7 = 0.<strong>285714</strong>285714...<br>
 3/7 = 0.<strong>428571</strong>428571...<br>
@@ -1040,7 +1040,7 @@ Factorisations:<br>7 = 7 &times; 1
       <td>8 is<ul>
 <li>a perfect cube: cube root of 8 = 2</li>
 <li>a composite number</li></ul>
-Factorisations:<br>8 = 4 &times; 2
+Some Factorisations:<br>8 = 2 &times; 4
 <br><br>Some Decimal Expansions:<br>1/8 = 0.125<br>
 2/8 = 0.25<br>
 3/8 = 0.375<br>
@@ -1052,7 +1052,7 @@ Factorisations:<br>8 = 4 &times; 2
       <td>9 is<ul>
 <li>a perfect square: square root of 9 = 3</li>
 <li>a composite number</li></ul>
-Factorisations:<br>9 = 3 &times; 3
+Some Factorisations:<br>9 = 3 &times; 3
 <br><br>Some Decimal Expansions:<br>1/9 = 0.<strong>1</strong>111...<br>
 2/9 = 0.<strong>2</strong>222...<br>
 3/9 = 0.<strong>3</strong>333...<br>
@@ -1077,7 +1077,7 @@ Factorisations:<br>9 = 3 &times; 3
     <tr>
       <td>10 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>10 = 5 &times; 2
+Some Factorisations:<br>10 = 2 &times; 5
 <br><br>Some Decimal Expansions:<br>1/10 = 0.1<br>
 2/10 = 0.2<br>
 3/10 = 0.3<br>
@@ -1090,7 +1090,7 @@ Factorisations:<br>10 = 5 &times; 2
 </td>
       <td>11 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>11 = 11 &times; 1
+Some Factorisations:<br>11 = 1 &times; 11
 <br><br>Some Decimal Expansions:<br>1/11 = 0.<strong>09</strong>0909...<br>
 2/11 = 0.<strong>18</strong>1818...<br>
 3/11 = 0.<strong>27</strong>2727...<br>
@@ -1104,8 +1104,8 @@ Factorisations:<br>11 = 11 &times; 1
 </td>
       <td>12 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>12 = 6 &times; 2<br>
-12 = 4 &times; 3
+Some Factorisations:<br>12 = 2 &times; 6<br>
+12 = 3 &times; 4
 <br><br>Some Decimal Expansions:<br>1/12 = 0.08<strong>3</strong>333...<br>
 2/12 = 0.1<strong>6</strong>666...<br>
 3/12 = 0.25<br>
@@ -1133,7 +1133,7 @@ Factorisations:<br>12 = 6 &times; 2<br>
     <tr>
       <td>13 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>13 = 13 &times; 1
+Some Factorisations:<br>13 = 1 &times; 13
 <br><br>Some Multiples:<br>13 &times; 2 = 26<br>
 13 &times; 3 = 39<br>
 13 &times; 4 = 52<br>
@@ -1143,7 +1143,7 @@ Factorisations:<br>13 = 13 &times; 1
 </td>
       <td>14 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>14 = 7 &times; 2
+Some Factorisations:<br>14 = 2 &times; 7
 <br><br>Some Multiples:<br>14 &times; 2 = 28<br>
 14 &times; 3 = 42<br>
 14 &times; 4 = 56<br>
@@ -1153,7 +1153,7 @@ Factorisations:<br>14 = 7 &times; 2
 </td>
       <td>15 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>15 = 5 &times; 3
+Some Factorisations:<br>15 = 3 &times; 5
 <br><br>Some Multiples:<br>15 &times; 2 = 30<br>
 15 &times; 3 = 45<br>
 15 &times; 4 = 60<br>
@@ -1176,7 +1176,7 @@ Factorisations:<br>15 = 5 &times; 3
       <td>16 is<ul>
 <li>a perfect square: square root of 16 = 4</li>
 <li>a composite number</li></ul>
-Factorisations:<br>16 = 8 &times; 2<br>
+Some Factorisations:<br>16 = 2 &times; 8<br>
 16 = 4 &times; 4
 <br><br>Some Multiples:<br>16 &times; 2 = 32<br>
 16 &times; 3 = 48<br>
@@ -1186,7 +1186,7 @@ Factorisations:<br>16 = 8 &times; 2<br>
 </td>
       <td>17 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>17 = 17 &times; 1
+Some Factorisations:<br>17 = 1 &times; 17
 <br><br>Some Multiples:<br>17 &times; 2 = 34<br>
 17 &times; 3 = 51<br>
 17 &times; 4 = 68<br>
@@ -1194,8 +1194,8 @@ Factorisations:<br>17 = 17 &times; 1
 </td>
       <td>18 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>18 = 9 &times; 2<br>
-18 = 6 &times; 3
+Some Factorisations:<br>18 = 2 &times; 9<br>
+18 = 3 &times; 6
 <br><br>Some Multiples:<br>18 &times; 2 = 36<br>
 18 &times; 3 = 54<br>
 18 &times; 4 = 72<br>
@@ -1216,7 +1216,7 @@ Factorisations:<br>18 = 9 &times; 2<br>
     <tr>
       <td>19 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>19 = 19 &times; 1
+Some Factorisations:<br>19 = 1 &times; 19
 <br><br>Some Multiples:<br>19 &times; 2 = 38<br>
 19 &times; 3 = 57<br>
 19 &times; 4 = 76<br>
@@ -1224,8 +1224,8 @@ Factorisations:<br>19 = 19 &times; 1
 </td>
       <td>20 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>20 = 10 &times; 2<br>
-20 = 5 &times; 4
+Some Factorisations:<br>20 = 2 &times; 10<br>
+20 = 4 &times; 5
 <br><br>Some Multiples:<br>20 &times; 2 = 40<br>
 20 &times; 3 = 60<br>
 20 &times; 4 = 80<br>
@@ -1233,7 +1233,7 @@ Factorisations:<br>20 = 10 &times; 2<br>
 </td>
       <td>21 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>21 = 7 &times; 3
+Some Factorisations:<br>21 = 3 &times; 7
 <br><br>Some Multiples:<br>21 &times; 2 = 42<br>
 21 &times; 3 = 63<br>
 21 &times; 4 = 84
@@ -1253,23 +1253,23 @@ Factorisations:<br>21 = 7 &times; 3
     <tr>
       <td>22 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>22 = 11 &times; 2
+Some Factorisations:<br>22 = 2 &times; 11
 <br><br>Some Multiples:<br>22 &times; 2 = 44<br>
 22 &times; 3 = 66<br>
 22 &times; 4 = 88
 </td>
       <td>23 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>23 = 23 &times; 1
+Some Factorisations:<br>23 = 1 &times; 23
 <br><br>Some Multiples:<br>23 &times; 2 = 46<br>
 23 &times; 3 = 69<br>
 23 &times; 4 = 92
 </td>
       <td>24 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>24 = 12 &times; 2<br>
-24 = 8 &times; 3<br>
-24 = 6 &times; 4
+Some Factorisations:<br>24 = 2 &times; 12<br>
+24 = 3 &times; 8<br>
+24 = 4 &times; 6
 <br><br>Some Multiples:<br>24 &times; 2 = 48<br>
 24 &times; 3 = 72<br>
 24 &times; 4 = 96
@@ -1290,21 +1290,21 @@ Factorisations:<br>24 = 12 &times; 2<br>
       <td>25 is<ul>
 <li>a perfect square: square root of 25 = 5</li>
 <li>a composite number</li></ul>
-Factorisations:<br>25 = 5 &times; 5
+Some Factorisations:<br>25 = 5 &times; 5
 <br><br>Some Multiples:<br>25 &times; 2 = 50<br>
 25 &times; 3 = 75<br>
 25 &times; 4 = 100
 </td>
       <td>26 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>26 = 13 &times; 2
+Some Factorisations:<br>26 = 2 &times; 13
 <br><br>Some Multiples:<br>26 &times; 2 = 52<br>
 26 &times; 3 = 78
 </td>
       <td>27 is<ul>
 <li>a perfect cube: cube root of 27 = 3</li>
 <li>a composite number</li></ul>
-Factorisations:<br>27 = 9 &times; 3
+Some Factorisations:<br>27 = 3 &times; 9
 <br><br>Some Multiples:<br>27 &times; 2 = 54<br>
 27 &times; 3 = 81
 </td>
@@ -1323,20 +1323,20 @@ Factorisations:<br>27 = 9 &times; 3
     <tr>
       <td>28 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>28 = 7 &times; 4
+Some Factorisations:<br>28 = 4 &times; 7
 <br><br>Some Multiples:<br>28 &times; 2 = 56<br>
 28 &times; 3 = 84
 </td>
       <td>29 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>29 = 29 &times; 1
+Some Factorisations:<br>29 = 1 &times; 29
 <br><br>Some Multiples:<br>29 &times; 2 = 58<br>
 29 &times; 3 = 87
 </td>
       <td>30 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>30 = 10 &times; 3<br>
-30 = 6 &times; 5
+Some Factorisations:<br>30 = 3 &times; 10<br>
+30 = 5 &times; 6
 <br><br>Some Multiples:<br>30 &times; 2 = 60<br>
 30 &times; 3 = 90
 </td>
@@ -1355,19 +1355,19 @@ Factorisations:<br>30 = 10 &times; 3<br>
     <tr>
       <td>31 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>31 = 31 &times; 1
+Some Factorisations:<br>31 = 1 &times; 31
 <br><br>Some Multiples:<br>31 &times; 2 = 62<br>
 31 &times; 3 = 93
 </td>
       <td>32 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>32 = 8 &times; 4
+Some Factorisations:<br>32 = 4 &times; 8
 <br><br>Some Multiples:<br>32 &times; 2 = 64<br>
 32 &times; 3 = 96
 </td>
       <td>33 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>33 = 11 &times; 3
+Some Factorisations:<br>33 = 3 &times; 11
 <br><br>Some Multiples:<br>33 &times; 2 = 66<br>
 33 &times; 3 = 99
 </td>
@@ -1386,19 +1386,19 @@ Factorisations:<br>33 = 11 &times; 3
     <tr>
       <td>34 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>34 = 17 &times; 2
+Some Factorisations:<br>34 = 2 &times; 17
 <br><br>Some Multiples:<br>34 &times; 2 = 68
 </td>
       <td>35 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>35 = 7 &times; 5
+Some Factorisations:<br>35 = 5 &times; 7
 <br><br>Some Multiples:<br>35 &times; 2 = 70
 </td>
       <td>36 is<ul>
 <li>a perfect square: square root of 36 = 6</li>
 <li>a composite number</li></ul>
-Factorisations:<br>36 = 12 &times; 3<br>
-36 = 9 &times; 4<br>
+Some Factorisations:<br>36 = 3 &times; 12<br>
+36 = 4 &times; 9<br>
 36 = 6 &times; 6
 <br><br>Some Multiples:<br>36 &times; 2 = 72
 </td>
@@ -1417,17 +1417,17 @@ Factorisations:<br>36 = 12 &times; 3<br>
     <tr>
       <td>37 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>37 = 37 &times; 1
+Some Factorisations:<br>37 = 1 &times; 37
 <br><br>Some Multiples:<br>37 &times; 2 = 74
 </td>
       <td>38 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>38 = 19 &times; 2
+Some Factorisations:<br>38 = 2 &times; 19
 <br><br>Some Multiples:<br>38 &times; 2 = 76
 </td>
       <td>39 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>39 = 13 &times; 3
+Some Factorisations:<br>39 = 3 &times; 13
 <br><br>Some Multiples:<br>39 &times; 2 = 78
 </td>
     </tr>
@@ -1445,18 +1445,18 @@ Factorisations:<br>39 = 13 &times; 3
     <tr>
       <td>40 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>40 = 10 &times; 4<br>
-40 = 8 &times; 5
+Some Factorisations:<br>40 = 4 &times; 10<br>
+40 = 5 &times; 8
 <br><br>Some Multiples:<br>40 &times; 2 = 80
 </td>
       <td>41 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>41 = 41 &times; 1
+Some Factorisations:<br>41 = 1 &times; 41
 <br><br>Some Multiples:<br>41 &times; 2 = 82
 </td>
       <td>42 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>42 = 7 &times; 6
+Some Factorisations:<br>42 = 6 &times; 7
 <br><br>Some Multiples:<br>42 &times; 2 = 84
 </td>
     </tr>
@@ -1474,17 +1474,17 @@ Factorisations:<br>42 = 7 &times; 6
     <tr>
       <td>43 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>43 = 43 &times; 1
+Some Factorisations:<br>43 = 1 &times; 43
 <br><br>Some Multiples:<br>43 &times; 2 = 86
 </td>
       <td>44 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>44 = 11 &times; 4
+Some Factorisations:<br>44 = 4 &times; 11
 <br><br>Some Multiples:<br>44 &times; 2 = 88
 </td>
       <td>45 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>45 = 9 &times; 5
+Some Factorisations:<br>45 = 5 &times; 9
 <br><br>Some Multiples:<br>45 &times; 2 = 90
 </td>
     </tr>
@@ -1502,18 +1502,18 @@ Factorisations:<br>45 = 9 &times; 5
     <tr>
       <td>46 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>46 = 23 &times; 2
+Some Factorisations:<br>46 = 2 &times; 23
 <br><br>Some Multiples:<br>46 &times; 2 = 92
 </td>
       <td>47 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>47 = 47 &times; 1
+Some Factorisations:<br>47 = 1 &times; 47
 <br><br>Some Multiples:<br>47 &times; 2 = 94
 </td>
       <td>48 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>48 = 12 &times; 4<br>
-48 = 8 &times; 6
+Some Factorisations:<br>48 = 4 &times; 12<br>
+48 = 6 &times; 8
 <br><br>Some Multiples:<br>48 &times; 2 = 96
 </td>
     </tr>
@@ -1532,17 +1532,17 @@ Factorisations:<br>48 = 12 &times; 4<br>
       <td>49 is<ul>
 <li>a perfect square: square root of 49 = 7</li>
 <li>a composite number</li></ul>
-Factorisations:<br>49 = 7 &times; 7
+Some Factorisations:<br>49 = 7 &times; 7
 <br><br>Some Multiples:<br>49 &times; 2 = 98
 </td>
       <td>50 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>50 = 10 &times; 5
+Some Factorisations:<br>50 = 5 &times; 10
 <br><br>Some Multiples:<br>50 &times; 2 = 100
 </td>
       <td>51 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>51 = 17 &times; 3
+Some Factorisations:<br>51 = 3 &times; 17
 </td>
     </tr>
   </tbody>
@@ -1559,15 +1559,15 @@ Factorisations:<br>51 = 17 &times; 3
     <tr>
       <td>52 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>52 = 13 &times; 4
+Some Factorisations:<br>52 = 4 &times; 13
 </td>
       <td>53 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>53 = 53 &times; 1
+Some Factorisations:<br>53 = 1 &times; 53
 </td>
       <td>54 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>54 = 9 &times; 6
+Some Factorisations:<br>54 = 6 &times; 9
 </td>
     </tr>
   </tbody>
@@ -1584,15 +1584,15 @@ Factorisations:<br>54 = 9 &times; 6
     <tr>
       <td>55 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>55 = 11 &times; 5
+Some Factorisations:<br>55 = 5 &times; 11
 </td>
       <td>56 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>56 = 8 &times; 7
+Some Factorisations:<br>56 = 7 &times; 8
 </td>
       <td>57 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>57 = 19 &times; 3
+Some Factorisations:<br>57 = 3 &times; 19
 </td>
     </tr>
   </tbody>
@@ -1609,16 +1609,16 @@ Factorisations:<br>57 = 19 &times; 3
     <tr>
       <td>58 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>58 = 29 &times; 2
+Some Factorisations:<br>58 = 2 &times; 29
 </td>
       <td>59 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>59 = 59 &times; 1
+Some Factorisations:<br>59 = 1 &times; 59
 </td>
       <td>60 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>60 = 12 &times; 5<br>
-60 = 10 &times; 6
+Some Factorisations:<br>60 = 5 &times; 12<br>
+60 = 6 &times; 10
 </td>
     </tr>
   </tbody>
@@ -1635,15 +1635,15 @@ Factorisations:<br>60 = 12 &times; 5<br>
     <tr>
       <td>61 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>61 = 61 &times; 1
+Some Factorisations:<br>61 = 1 &times; 61
 </td>
       <td>62 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>62 = 31 &times; 2
+Some Factorisations:<br>62 = 2 &times; 31
 </td>
       <td>63 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>63 = 9 &times; 7
+Some Factorisations:<br>63 = 7 &times; 9
 </td>
     </tr>
   </tbody>
@@ -1662,15 +1662,15 @@ Factorisations:<br>63 = 9 &times; 7
 <li>a perfect square: square root of 64 = 8</li>
 <li>a perfect cube: cube root of 64 = 4</li>
 <li>a composite number</li></ul>
-Factorisations:<br>64 = 8 &times; 8
+Some Factorisations:<br>64 = 8 &times; 8
 </td>
       <td>65 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>65 = 13 &times; 5
+Some Factorisations:<br>65 = 5 &times; 13
 </td>
       <td>66 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>66 = 11 &times; 6
+Some Factorisations:<br>66 = 6 &times; 11
 </td>
     </tr>
   </tbody>
@@ -1687,15 +1687,15 @@ Factorisations:<br>66 = 11 &times; 6
     <tr>
       <td>67 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>67 = 67 &times; 1
+Some Factorisations:<br>67 = 1 &times; 67
 </td>
       <td>68 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>68 = 17 &times; 4
+Some Factorisations:<br>68 = 4 &times; 17
 </td>
       <td>69 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>69 = 23 &times; 3
+Some Factorisations:<br>69 = 3 &times; 23
 </td>
     </tr>
   </tbody>
@@ -1712,16 +1712,16 @@ Factorisations:<br>69 = 23 &times; 3
     <tr>
       <td>70 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>70 = 10 &times; 7
+Some Factorisations:<br>70 = 7 &times; 10
 </td>
       <td>71 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>71 = 71 &times; 1
+Some Factorisations:<br>71 = 1 &times; 71
 </td>
       <td>72 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>72 = 12 &times; 6<br>
-72 = 9 &times; 8
+Some Factorisations:<br>72 = 6 &times; 12<br>
+72 = 8 &times; 9
 </td>
     </tr>
   </tbody>
@@ -1738,15 +1738,15 @@ Factorisations:<br>72 = 12 &times; 6<br>
     <tr>
       <td>73 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>73 = 73 &times; 1
+Some Factorisations:<br>73 = 1 &times; 73
 </td>
       <td>74 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>74 = 37 &times; 2
+Some Factorisations:<br>74 = 2 &times; 37
 </td>
       <td>75 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>75 = 15 &times; 5
+Some Factorisations:<br>75 = 5 &times; 15
 </td>
     </tr>
   </tbody>
@@ -1763,15 +1763,15 @@ Factorisations:<br>75 = 15 &times; 5
     <tr>
       <td>76 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>76 = 19 &times; 4
+Some Factorisations:<br>76 = 4 &times; 19
 </td>
       <td>77 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>77 = 11 &times; 7
+Some Factorisations:<br>77 = 7 &times; 11
 </td>
       <td>78 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>78 = 13 &times; 6
+Some Factorisations:<br>78 = 6 &times; 13
 </td>
     </tr>
   </tbody>
@@ -1788,16 +1788,16 @@ Factorisations:<br>78 = 13 &times; 6
     <tr>
       <td>79 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>79 = 79 &times; 1
+Some Factorisations:<br>79 = 1 &times; 79
 </td>
       <td>80 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>80 = 10 &times; 8
+Some Factorisations:<br>80 = 8 &times; 10
 </td>
       <td>81 is<ul>
 <li>a perfect square: square root of 81 = 9</li>
 <li>a composite number</li></ul>
-Factorisations:<br>81 = 9 &times; 9
+Some Factorisations:<br>81 = 9 &times; 9
 </td>
     </tr>
   </tbody>
@@ -1814,15 +1814,15 @@ Factorisations:<br>81 = 9 &times; 9
     <tr>
       <td>82 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>82 = 41 &times; 2
+Some Factorisations:<br>82 = 2 &times; 41
 </td>
       <td>83 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>83 = 83 &times; 1
+Some Factorisations:<br>83 = 1 &times; 83
 </td>
       <td>84 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>84 = 12 &times; 7
+Some Factorisations:<br>84 = 7 &times; 12
 </td>
     </tr>
   </tbody>
@@ -1839,15 +1839,15 @@ Factorisations:<br>84 = 12 &times; 7
     <tr>
       <td>85 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>85 = 17 &times; 5
+Some Factorisations:<br>85 = 5 &times; 17
 </td>
       <td>86 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>86 = 43 &times; 2
+Some Factorisations:<br>86 = 2 &times; 43
 </td>
       <td>87 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>87 = 29 &times; 3
+Some Factorisations:<br>87 = 3 &times; 29
 </td>
     </tr>
   </tbody>
@@ -1864,15 +1864,15 @@ Factorisations:<br>87 = 29 &times; 3
     <tr>
       <td>88 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>88 = 11 &times; 8
+Some Factorisations:<br>88 = 8 &times; 11
 </td>
       <td>89 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>89 = 89 &times; 1
+Some Factorisations:<br>89 = 1 &times; 89
 </td>
       <td>90 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>90 = 10 &times; 9
+Some Factorisations:<br>90 = 9 &times; 10
 </td>
     </tr>
   </tbody>
@@ -1889,15 +1889,15 @@ Factorisations:<br>90 = 10 &times; 9
     <tr>
       <td>91 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>91 = 13 &times; 7
+Some Factorisations:<br>91 = 7 &times; 13
 </td>
       <td>92 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>92 = 23 &times; 4
+Some Factorisations:<br>92 = 4 &times; 23
 </td>
       <td>93 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>93 = 31 &times; 3
+Some Factorisations:<br>93 = 3 &times; 31
 </td>
     </tr>
   </tbody>
@@ -1914,15 +1914,15 @@ Factorisations:<br>93 = 31 &times; 3
     <tr>
       <td>94 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>94 = 47 &times; 2
+Some Factorisations:<br>94 = 2 &times; 47
 </td>
       <td>95 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>95 = 19 &times; 5
+Some Factorisations:<br>95 = 5 &times; 19
 </td>
       <td>96 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>96 = 12 &times; 8
+Some Factorisations:<br>96 = 8 &times; 12
 </td>
     </tr>
   </tbody>
@@ -1939,15 +1939,15 @@ Factorisations:<br>96 = 12 &times; 8
     <tr>
       <td>97 is<ul>
 <li>a prime number</li></ul>
-Factorisations:<br>97 = 97 &times; 1
+Some Factorisations:<br>97 = 1 &times; 97
 </td>
       <td>98 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>98 = 14 &times; 7
+Some Factorisations:<br>98 = 7 &times; 14
 </td>
       <td>99 is<ul>
 <li>a composite number</li></ul>
-Factorisations:<br>99 = 11 &times; 9
+Some Factorisations:<br>99 = 9 &times; 11
 </td>
     </tr>
   </tbody>
@@ -1963,11 +1963,92 @@ Factorisations:<br>99 = 11 &times; 9
       <td>100 is<ul>
 <li>a perfect square: square root of 100 = 10</li>
 <li>a composite number</li></ul>
-Factorisations:<br>100 = 10 &times; 10
+Some Factorisations:<br>100 = 10 &times; 10
 </td>
     </tr>
   </tbody>
 </table>
+
+
+## General Procedure for Finding Factors of a Number
+
+
+If possible, first find the prime factorization of the number for which factors are to be found, by making use of the table of factorizations.
+This involves starting with a factorization for the given number, and then replacing each factor in the factorization with one of the factor's own factorizations as well,
+until all numbers in the factorization are prime numbers.
+E.g.
+- 5 = 5
+- 12 = 3 &times; 4 = 3 &times; 2 &times; 2
+- 19 = 19
+- 20 = 2 &times; 10 = 2 &times; 2 &times; 5
+- 60 = 4 &times; 15 = 2 &times; 2 &times; 5 &times; 3  
+
+The identification and use of prime numbers is strictly speaking, not necessary to find factors; just that it greatly helps to reduce the steps involved.
+
+To find factors of a number, 
+1. Start with 1 and the number itself.
+2. *If the number itself can be determined to be prime, then the search is over.*
+3. Else incrementally look for the next number
+between the numbers in the latest factorization found which divides the given number.
+4. *Where a prime factorization was computed for the given number, the previous step
+is equivalent to finding the next number which can be expressed as a product of some of the prime factors of the given number.*
+3. If such a number is not found, then the search is over.
+3. Else determine the countepart number, which is the result of dividing the given number by the found number.
+4. *Where a prime factorization was computed for the given number, the division can be replaced with a multiplication of the prime factors which were
+left over from expressing the found number as a product of prime factors.*
+4. *If the counterpart number can be determined to be prime, then the search is over.*
+5. Else search continues, but will now be restricted to the interval between the latest found number and its counterpart.
+
+*All of the numbers in the factorizations generated constitute the set of factors of the given number.*
+
+E.g. to find the factors of 12, and not make use of knowledge of primes
+- *Found*: 1 &times; 12
+- Searching from 2 to 11: Does 2 divide 12? Yes, and 12 &div; 2 = 6
+- *Found*: 2 &times; 6
+- Searching from 3 to 5: Does 3 divinde 12? Yes, and 12 &div; 3 = 4
+- *Found*: 3 &times; 4
+- No integer exists between 3 and 4, so search ends.
+
+So set of factors of 12 are: {1, 12, 2, 6, 3, 4}, or {1, 2, 3, 4, 6, 12}
+
+E.g. to find the factors of 26, and not make use of knowledge of primes
+- *Found*: 1 &times; 26
+- Searching from 2 to 11: Does 2 divide 26? Yes, and 26 &div; 2 = 13
+- *Found*: 2 &times; 13
+- Searching from 3 to 12: Does 3 divide 26? No. Does 4 divide 26? No.
+Does 5 divide 26? No. Does 6 divide 26? No. Does 7 divide 26? No.
+Does 8 divide 26? No. Does 9 divide 26? No. Does 10 divide 26? No.
+Does 11 divide 26? No. Does 12 divide 26? No.
+- No factor was found between 3 and 12, so search ends.
+
+So set of factors of 26 are: {1, 26, 2, 13}, or {1, 2, 13, 26}
+
+E.g. to find the factors of 12, and make use of knowledge of primes
+- *Found*: 1 &times; 12
+- Prime factorization of 12 = 6 &times; 2 = 2 &times; 3 &times; 2
+- Search continues since 12 is not a prime number.
+- Searching from 2 to 11: Can 2 be computed from the prime factors of 12? Yes, and the product of the
+unused prime factors is 2 &times; 3 = 6, which should be the result of 12 &div; 2.
+- *Found*: 2 &times; 6
+- Search continues since 6 is not a prime number.
+- Searching from 3 to 5: Can 3 be computed from the prime factors of 12? Yes, and the product of the
+unused prime factors is 2 &times; 2 = 4, which should be the result of 12 &div; 3.
+- *Found*: 3 &times; 4
+- Search could have continued since 4 is not a prime number. However no integer exists between 3 and 4, so search ends.
+
+So set of factors of 12 are once again: {1, 12, 2, 6, 3, 4}, or {1, 2, 3, 4, 6, 12}
+
+E.g. to find the factors of 26, and make use of knowledge of primes
+- *Found*: 1 &times; 26
+- Prime factorization of 26 = 2 &times; 13
+- Search continues since 26 is not a prime number.
+- Searching from 2 to 11: Can 2 be computed from the prime factors of 26? Yes, and the
+unused prime factors is just 13, which should be the result of 26 &div; 2.
+- *Found*: 2 &times; 13
+- Since 13 is a prime number, search ends.
+
+So set of factors of 26 are once again: {1, 26, 2, 13}, or {1, 2, 13, 26}
+
 
 
 ## Integer and Signed Number Procedures
