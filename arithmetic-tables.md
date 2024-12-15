@@ -1983,10 +1983,9 @@ E.g.
 - 20 = 2 &times; 10 = 2 &times; 2 &times; 5
 - 60 = 4 &times; 15 = 2 &times; 2 &times; 5 &times; 3  
 
-The identification and use of prime numbers is strictly speaking, not necessary to find factors; just that it greatly helps to reduce the steps involved.
-
 To find factors of a number, 
 1. Start with 1 and the number itself.
+3. *It is recommended to find prime factorization of the given number, in order to speed up subsequent steps in the procedure.*
 2. *If the number itself can be determined to be prime, then the search is over.*
 3. Else incrementally look for the next number
 between the numbers in the latest factorization found which divides the given number.
@@ -2005,49 +2004,47 @@ E.g. to find the factors of 12, and not make use of knowledge of primes
 - *Found*: 1 &times; 12
 - Searching from 2 to 11: Does 2 divide 12? Yes, and 12 &div; 2 = 6
 - *Found*: 2 &times; 6
-- Searching from 3 to 5: Does 3 divinde 12? Yes, and 12 &div; 3 = 4
+- Searching from 3 to 5: Does 3 divide 12? Yes, and 12 &div; 3 = 4
 - *Found*: 3 &times; 4
 - No integer exists between 3 and 4, so search ends.
 
-So set of factors of 12 are: {1, 12, 2, 6, 3, 4}, or {1, 2, 3, 4, 6, 12}
+So set of factors of 12 is: {1, 12, 2, 6, 3, 4}, or {1, 2, 3, 4, 6, 12}
 
 E.g. to find the factors of 26, and not make use of knowledge of primes
 - *Found*: 1 &times; 26
-- Searching from 2 to 11: Does 2 divide 26? Yes, and 26 &div; 2 = 13
+- Searching from 2 to 25: Does 2 divide 26? Yes, and 26 &div; 2 = 13
 - *Found*: 2 &times; 13
 - Searching from 3 to 12: Does 3 divide 26? No. Does 4 divide 26? No.
-Does 5 divide 26? No. Does 6 divide 26? No. Does 7 divide 26? No.
-Does 8 divide 26? No. Does 9 divide 26? No. Does 10 divide 26? No.
-Does 11 divide 26? No. Does 12 divide 26? No.
+Does 5 divide 26? No. 6? No. 7? No. 8? No. 9? No. 10? No. 11? No. 12? No.
 - No factor was found between 3 and 12, so search ends.
 
-So set of factors of 26 are: {1, 26, 2, 13}, or {1, 2, 13, 26}
+So set of factors of 26 is: {1, 26, 2, 13}, or {1, 2, 13, 26}
 
 E.g. to find the factors of 12, and make use of knowledge of primes
 - *Found*: 1 &times; 12
 - Prime factorization of 12 = 6 &times; 2 = 2 &times; 3 &times; 2
 - Search continues since 12 is not a prime number.
 - Searching from 2 to 11: Can 2 be computed from the prime factors of 12? Yes, and the product of the
-unused prime factors is 2 &times; 3 = 6, which should be the result of 12 &div; 2.
+leftover prime factors is 2 &times; 3 = 6.
 - *Found*: 2 &times; 6
 - Search continues since 6 is not a prime number.
 - Searching from 3 to 5: Can 3 be computed from the prime factors of 12? Yes, and the product of the
-unused prime factors is 2 &times; 2 = 4, which should be the result of 12 &div; 3.
+leftover prime factors is 2 &times; 2 = 4.
 - *Found*: 3 &times; 4
 - Search could have continued since 4 is not a prime number. However no integer exists between 3 and 4, so search ends.
 
-So set of factors of 12 are once again: {1, 12, 2, 6, 3, 4}, or {1, 2, 3, 4, 6, 12}
+So set of factors of 12 is once again: {1, 12, 2, 6, 3, 4}, or {1, 2, 3, 4, 6, 12}
 
 E.g. to find the factors of 26, and make use of knowledge of primes
 - *Found*: 1 &times; 26
 - Prime factorization of 26 = 2 &times; 13
 - Search continues since 26 is not a prime number.
-- Searching from 2 to 11: Can 2 be computed from the prime factors of 26? Yes, and the
-unused prime factors is just 13, which should be the result of 26 &div; 2.
+- Searching from 2 to 25: Can 2 be computed from the prime factors of 26? Yes, and the
+leftover prime factors is just 13.
 - *Found*: 2 &times; 13
 - Since 13 is a prime number, search ends.
 
-So set of factors of 26 are once again: {1, 26, 2, 13}, or {1, 2, 13, 26}
+So set of factors of 26 is once again: {1, 26, 2, 13}, or {1, 2, 13, 26}
 
 
 
