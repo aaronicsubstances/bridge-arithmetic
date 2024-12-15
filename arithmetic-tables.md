@@ -2002,9 +2002,9 @@ left over from expressing the found number as a product of prime factors.*
 
 E.g. to find the factors of 12, and not make use of knowledge of primes
 - *Found*: 1 &times; 12
-- Searching from 2 to 11: Does 2 divide 12? Yes, and 12 &div; 2 = 6
+- Searching between 1 and 12: Does 2 divide 12? Yes, and 12 &div; 2 = 6
 - *Found*: 2 &times; 6
-- Searching from 3 to 5: Does 3 divide 12? Yes, and 12 &div; 3 = 4
+- Searching between 2 and 6: Does 3 divide 12? Yes, and 12 &div; 3 = 4
 - *Found*: 3 &times; 4
 - No integer exists between 3 and 4, so search ends.
 
@@ -2012,11 +2012,11 @@ So set of factors of 12 is: {1, 12, 2, 6, 3, 4}, or {1, 2, 3, 4, 6, 12}
 
 E.g. to find the factors of 26, and not make use of knowledge of primes
 - *Found*: 1 &times; 26
-- Searching from 2 to 25: Does 2 divide 26? Yes, and 26 &div; 2 = 13
+- Searching between 1 and 26: Does 2 divide 26? Yes, and 26 &div; 2 = 13
 - *Found*: 2 &times; 13
-- Searching from 3 to 12: Does 3 divide 26? No. Does 4 divide 26? No.
+- Searching between 2 and 13: Does 3 divide 26? No. Does 4 divide 26? No.
 Does 5 divide 26? No. 6? No. 7? No. 8? No. 9? No. 10? No. 11? No. 12? No.
-- No factor was found between 3 and 12, so search ends.
+- No factor was found between 2 and 13, so search ends.
 
 So set of factors of 26 is: {1, 26, 2, 13}, or {1, 2, 13, 26}
 
@@ -2024,11 +2024,11 @@ E.g. to find the factors of 12, and make use of knowledge of primes
 - *Found*: 1 &times; 12
 - Prime factorization of 12 = 6 &times; 2 = 2 &times; 3 &times; 2
 - Search continues since 12 is not a prime number.
-- Searching from 2 to 11: Can 2 be computed from the prime factors of 12? Yes, and the product of the
+- Searching between 1 and 12: Can 2 be computed from the prime factors of 12? Yes, and the product of the
 leftover prime factors is 2 &times; 3 = 6.
 - *Found*: 2 &times; 6
 - Search continues since 6 is not a prime number.
-- Searching from 3 to 5: Can 3 be computed from the prime factors of 12? Yes, and the product of the
+- Searching between 2 and 6: Can 3 be computed from the prime factors of 12? Yes, and the product of the
 leftover prime factors is 2 &times; 2 = 4.
 - *Found*: 3 &times; 4
 - Search could have continued since 4 is not a prime number. However no integer exists between 3 and 4, so search ends.
@@ -2039,8 +2039,8 @@ E.g. to find the factors of 26, and make use of knowledge of primes
 - *Found*: 1 &times; 26
 - Prime factorization of 26 = 2 &times; 13
 - Search continues since 26 is not a prime number.
-- Searching from 2 to 25: Can 2 be computed from the prime factors of 26? Yes, and the
-leftover prime factors is just 13.
+- Searching between 1 and 26: Can 2 be computed from the prime factors of 26? Yes, and the
+leftover prime factor is 13.
 - *Found*: 2 &times; 13
 - Since 13 is a prime number, search ends.
 
