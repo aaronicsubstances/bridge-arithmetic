@@ -55,7 +55,7 @@ The ability to cross-check answers becomes critical in the study of many science
 
 9. Introduce enough variety of arithmetic expression evaluation exercises in order to avoid using BODMAS mnemonic in unintended situations. Note also that they end up demonstrating associativity of addition and multiplication.
 
-10. HCF, LCM, generating all factors of a number do not seem to be used directly in practice; instead common factors (CF) and common multiples (CM) are used.
+10. HCF and LCM do not seem to be used directly in practice; instead common factors (CF) and common multiples (CM) are used.
 
 11. Quadratic factorization
     - instead of looking for factors of ac which add up to b, can rather teach almighty formula and use product of roots by -a as the desired factors.

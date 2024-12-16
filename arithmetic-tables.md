@@ -1091,32 +1091,11 @@ Some Factorisations:<br>10 = 2 &times; 5
       <td>11 is<ul>
 <li>a prime number</li></ul>
 Some Factorisations:<br>11 = 1 &times; 11
-<br><br>Some Decimal Expansions:<br>1/11 = 0.<strong>09</strong>0909...<br>
-2/11 = 0.<strong>18</strong>1818...<br>
-3/11 = 0.<strong>27</strong>2727...<br>
-4/11 = 0.<strong>36</strong>3636...<br>
-5/11 = 0.<strong>45</strong>4545...<br>
-6/11 = 0.<strong>54</strong>5454...<br>
-7/11 = 0.<strong>63</strong>6363...<br>
-8/11 = 0.<strong>72</strong>7272...<br>
-9/11 = 0.<strong>81</strong>8181...<br>
-10/11 = 0.<strong>90</strong>9090...
 </td>
       <td>12 is<ul>
 <li>a composite number</li></ul>
 Some Factorisations:<br>12 = 2 &times; 6<br>
 12 = 3 &times; 4
-<br><br>Some Decimal Expansions:<br>1/12 = 0.08<strong>3</strong>333...<br>
-2/12 = 0.1<strong>6</strong>666...<br>
-3/12 = 0.25<br>
-4/12 = 0.<strong>3</strong>333...<br>
-5/12 = 0.41<strong>6</strong>666...<br>
-6/12 = 0.5<br>
-7/12 = 0.58<strong>3</strong>333...<br>
-8/12 = 0.<strong>6</strong>666...<br>
-9/12 = 0.75<br>
-10/12 = 0.8<strong>3</strong>333...<br>
-11/12 = 0.91<strong>6</strong>666...
 </td>
     </tr>
   </tbody>
@@ -1970,7 +1949,7 @@ Some Factorisations:<br>100 = 10 &times; 10
 </table>
 
 
-## General Procedure for Finding Factors of a Number
+## Procedure for Finding Factors of a Number
 
 
 If possible, first find the prime factorization of the number for which factors are to be found, by making use of the table of factorizations.
@@ -1983,7 +1962,8 @@ E.g.
 - 20 = 2 &times; 10 = 2 &times; 2 &times; 5
 - 60 = 4 &times; 15 = 2 &times; 2 &times; 5 &times; 3  
 
-To find factors of a number, 
+To find factors of a number,
+
 1. Start with 1 and the number itself.
 3. *It is recommended to find prime factorization of the given number, in order to speed up subsequent steps in the procedure.*
 2. *If the number itself can be determined to be prime, then the search is over.*
@@ -2133,7 +2113,7 @@ Examples:
    - Similarly a ratio for sharing among 3 entities is expressed as a &ratio; b &ratio; c (read as "a is to b is to c").
    - E.g. Ama, Yaa and Akos share a collection of 24 canned drinks in the ratio 2 &ratio; 3 &ratio; 1 (reas as "2 is to 3 is to 1"), means that
     for every 2 cans that Ama takes out of the collection, Yaa gets to take 3 cans and Akos gets to take 1 can.
-5. *of* operator: a/b of c/d = a &times; (c/d &div; b). *The *of* operator is equivalent to multiplication of fractions in mathematics.* E.g.
+5. *of* operator: a/b of c/d = a &times; (c/d &div; b). *The "of" operator is equivalent to multiplication of fractions in mathematics.* E.g.
    - 3 of 4 = 4 + 4 + 4 = 12 ; 4 of 3 = 3 + 3 + 3 + 3 = 12
    - 4 of 1/2 = 1/2 + 1/2 + 1/2 + 1/2 = 2
    - 1/2 of 4 = 4/2 = 2 ; 1/3 of 5 = 5/3

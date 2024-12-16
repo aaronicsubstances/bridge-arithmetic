@@ -38,6 +38,7 @@ The following activities are assumed to constitute arithmetic for rational numbe
 - Conversion of fractions and decimal expansions to rounded decimal expansions
 - Developing proficiency in arithmetic of whole numbers
 - Developing proficiency in simplification of fractions
+- Divisibility Rules and Prime Factorization
 
 The arithmetic parts of early algebra proposal for adults seek to leverage memorization to quickly increase confidence in the study of arithmetic. For this reason the arithmetic parts is recorded in the form of tables, worked examples, formulas, demonstrations of arithmetic procedures, multi-choice questions, and exercises with detailed solutions. Some of these parts are as follows:
 
@@ -67,10 +68,12 @@ Early algebra proposal for adults depends on using formulas to perform arithmeti
 
 ## Algebra Topics
 
-Algebra parts of early algebra proposal are arithmetic expression evaluation and equation solving by guess and check.
+Algebra parts of early algebra proposal are arithmetic expression evaluation and equation solving.
 
 - expression evaluation (aka "substitution") involving only the four basic arithmetic operations
   - includes drilling in convention of concatenation for multiplication
-  - can include powers, roots, trigonometry, logarithms, and factorial
+  - can include powers, roots, trigonometry and logarithms
 - equation solving with guess and check involving mainly linear equations
-  - can include univariate polynomial equations, and simultaneous equations in multiple variables
+  - introduce guess and check as a last resort strategy
+  - can include quadratic equations, and simultaneous equations in two variables
+- precursor to quadratic expression factorization and quadratic equation solving, which is finding two integers which add up to a given value, and which have another given value as their product.
