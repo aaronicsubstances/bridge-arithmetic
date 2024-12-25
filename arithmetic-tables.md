@@ -2152,7 +2152,7 @@ Examples:
 ### Comparison
 
 Procedure: To compare a/b and c/d to see which is larger,
-ensure denominators b and d are positive (by multiplying fractions by -1 if necessary),
+ensure denominators b and d are positive (by multiplying fractions by -1/-1 if necessary),
 and then compare (a &times; d) and (b &times; c) to see which is larger
 
 Explanation of Procedure:
