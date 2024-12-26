@@ -30,9 +30,9 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
        10. Distributivity of multiplication over addition
    
    4. To make the student familiar with the following subset of the global activities of algebra:
-       1. problem solving (like in Polya's How to Solve It book), including the method of trial and error and the habit of cross checking answers.
-       2. generalizing (like in Mason's 2006 book).
-       3. noticing structure (like in Kieran's 2018 article)
+       1. problem solving (like in Polya's How to Solve It book), through the method of trial and error and the habit of cross checking answers.
+       2. generalizing (like in Mason's 2006 book), through evaluation of algebraic expressions.
+       3. noticing structure (like in Kieran's 2018 article), through factorization of whole numbers and simplification of fractions
        4. function application
        5. equation solving, with guess and check as the main solution method.
 

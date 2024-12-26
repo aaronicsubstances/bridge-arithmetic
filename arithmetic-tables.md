@@ -2033,8 +2033,7 @@ So set of factors of 26 is once again: {1, 26, 2, 13}, or {1, 2, 13, 26}
 ### Some Terminology
 
 1. *Integer*: a signed whole number, i.e. zero, positive or negative whole number. E.g. 0, -1 and 7 are integers; 4/3 and 1/2 are not integers.
-2. *Signed Number*: a custom name for integers and other numbers which have a decimal expansion. Basically refers to all numbers
-studied in pre-algebra and early algebra.
+2. *Signed Number*: a custom name in this document for whole numbers, fractions and decimal expansions which have a positive or negative sign. Basically refers to all numbers studied in junior high school.
 
 ### Addition and Subtraction
 
@@ -2105,7 +2104,7 @@ Examples:
 2. *Improper fraction*: a fraction in which the numerator is bigger than the denominator. E.g. 3/2, 4/3, 5/3
 3. *Simple fraction*: a proper or improper fraction in which the numerator and denominator are whole numbers. E.g. 1/2 is a simple fraction, 1/(3/2) and (2/3)/5 are not simple fractions.
 3. *Mixed fraction*: a fraction which is expressed in terms of a whole number part and a proper fraction part. E.g. 2 1/2, 5 3/4
-4. *Ratio*: an expression involving positive numbers used to determine how to share a nonnegative number among two or more entities through repeated subtractions.
+4. *Ratio*: an expression involving positive numbers used to determine how to share a nonnegative number among two or more entities through repeated subtractions of whole numbers or parts of whole numbers.
 *A ratio of two positive numbers is defined in mathematics as being equivalent to a fraction*.
    - A ratio for sharing between two entities is expressed as a &ratio; b (read as "a is to b")
    - E.g. Kofi and Kwame share a collection of 100 pencils in the ratio of 2 &ratio; 3 (read as "2 is to 3"), means that
@@ -2183,7 +2182,7 @@ Procedure:
 
 Explanation of Procedure:
 
-1. Multiplication of fractions a/b and c/d is defined as solving the following problem:
+1. Multiplication of fractions a/b and c/d can be defined as solving the following problem involving ratios:
 find a fraction x such that x &ratio; c/d = a &ratio; b, and x &ratio; a/b = c &ratio; d
 1. And the solution, which is a result of how division of fractions is defined, is x = (a &times; c)/(b &times; d)
 2. It happens that (a &times; c)/(b &times; d) = a &times; (c/d &div; b), which is the definition of a/b of c/d

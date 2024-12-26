@@ -2,20 +2,20 @@
 
 ## What is Early Algebra?
 
-Early algebra refers to arithmetic and the subset of algebra topics taught in primary and secondary schools, which excludes the topic of simplification of algebraic expressions and other susbsequent topics in algebra. For pre-teens or students in primary school, the curriculum activities of arithmetic of small whole numbers by means other than the general arithmetic procedures (e.g. by manual counting) is excluded as well.
+Early algebra refers to arithmetic and the subset of algebra topics taught in primary and secondary schools. It excludes the topics of simplification of algebraic expressions and other susbsequent topics in algebra. For pre-teens or students in primary school, the curriculum activities of arithmetic of small whole numbers by means other than applying procedures (e.g. by manual counting) are excluded as well.
 
 These are the early algebra topics for pre-teens:
 
 - Arithmetic, especially of large whole numbes and of non-whole numbers.
 - Powers and Roots
-- Evaluation of arithmetic expressions
+- Evaluation of algebraic expressions
 - Equation solving by guess and check
 
 For teens and adults, this proposal permits the introduction of less optimal but more intuitive arithmetic procedures to the students. It also permits the presentation of the early algebra topics in a different arrangement from that for pre-teens, in order to better suit the challenges and opportunities presented by teens and adults.
 
 ## Goals
 
-The goal of early algebra for students is proficiency in evaluation of arithmetic expressions involving rational numbers.
+The goal of early algebra for students is proficiency in evaluation of algebraic expressions involving rational numbers.
 
 For students who are teens or adults, there is an additional goal which is to be able to practice and become proficient in early algebra by themselves, with almost no supervision.
 
@@ -58,12 +58,12 @@ Early algebra proposal for adults depends on using formulas to perform arithmeti
   - multiplication by grid method (aka grid multiplication).
 - Division of whole numbers
   - by trial and error: keep multiplying divisor by educated guesses, until a guess is found which gives a nonnegative remainder less than the divisor.
-    One benefit of being aware of this procedure is that, it is always present as a step in the other more efficient procedures for division.
+    One benefit of being aware of this procedure is that, it is always present as a step in all other more efficient procedures for division.
   - division by chunking (aka division by partial quotients method).
 
 ## Algebra Topics
 
-Algebra parts of early algebra proposal are arithmetic expression evaluation and equation solving.
+Algebra parts of early algebra proposal are algebraic expression evaluation and equation solving.
 
 - expression evaluation (aka "substitution") mainly involving only the four basic arithmetic operations
   - includes drilling in convention of concatenation for multiplication
