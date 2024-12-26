@@ -21,7 +21,9 @@ The ability to cross-check answers becomes critical in the study of many science
 
 2. Can modify standard multiplication procedure to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition. Note also that this multiplication procedure is an application of the distributive property of multiplication over addition.
 
-3. If misconceptions about commutativity of the four basic arithmetic operations prove too enduring to be rooted out by proficiency in arithmetic of non-whole numbers alone, then these exercises may be employed in experiments to try forestalling the misconceptions:
+3. Can modify standard long division procedure to be easier to recall, by placing a digit on top of each digit of the dividend. In the case of long division beyond the decimal places available in the dividend, manually add a zero (preceded by adding  a decimal point if necessary) to the dividend, for each digit in the partial quotient answer generated after the decimal point. Overall, this means that the modification is meant to ensure a one-to-one correspondence between the digits and optional decimal point of the dividend, and the digits and optional decimal point of the quotient answer above it.
+
+4. If misconceptions about commutativity of the four basic arithmetic operations prove too enduring to be rooted out by proficiency in arithmetic of non-whole numbers alone, then these exercises may be employed in experiments to try forestalling the misconceptions:
    - asking subtraction questions in which result can be negative, and accepting "undefined", "unexpected number", "negative",
     or actual negative result as valid answers, to show that subtraction is not commutative even before teaching integer arithmetic.
    - asking division questions in which there is division by zero and division which yields zero, and accepting "undefined" as possible result.
