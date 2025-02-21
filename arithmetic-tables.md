@@ -2033,7 +2033,8 @@ So set of factors of 26 is once again: {1, 26, 2, 13}, or {1, 2, 13, 26}
 ### Some Terminology
 
 1. *Integer*: a signed whole number, i.e. zero, positive or negative whole number. E.g. 0, -1 and 7 are integers; 4/3 and 1/2 are not integers.
-2. *Signed Number*: a custom name in this document for whole numbers, fractions and decimal expansions which have a positive or negative sign. Basically refers to all numbers studied in junior high school.
+2. *Signed Number*: another name used in this document for real numbers. Real numbers are a set of numbers containing all integers and some non-integers. All numbers studied in junior high school are signed numbers.
+3. *Magnitude of a signed number*: the part of a signed number without the sign. Equivalent to making a number positive. So magnitude of 0 is 0, magnitude of -1 is 1, magnitude of 3/4 is 3/4, magnitude of -1/2 is 1/2, magnitude of 4.5 is 4.5, magnitude of -0.65 is 0.65; 
 
 ### Addition and Subtraction
 
@@ -2067,12 +2068,6 @@ Procedure:
 2. A negative number is considered larger than another negative number if it has a *smaller* magnitude than the other negative number.
 So even though 2 < 3, -2 > -3.
 
-Explanation of procedure:
-- To compare any numbers say a and b, we compute a &minus; b and check the sign of the result.
-- If the sign is positive, then a > b (a is greater than b).
-- If the sign is negative, then a < b (a is less than b).
-- If the subtraction result was zero, then a = b
-
 Examples:
 
 1. 10 > 5, 5 < 10, 4 > 0, 0 < 4
@@ -2105,14 +2100,13 @@ Examples:
 3. *Simple fraction*: a proper or improper fraction in which the numerator and denominator are whole numbers. E.g. 1/2 is a simple fraction, 1/(3/2) and (2/3)/5 are not simple fractions.
 3. *Mixed fraction*: a fraction which is expressed in terms of a whole number part and a proper fraction part. E.g. 2 1/2, 5 3/4
 4. *Ratio*: an expression involving positive numbers used to determine how to share a nonnegative number among two or more entities through repeated subtractions of whole numbers or parts of whole numbers.
-*A ratio of two positive numbers is defined in mathematics as being equivalent to a fraction*.
    - A ratio for sharing between two entities is expressed as a &ratio; b (read as "a is to b")
    - E.g. Kofi and Kwame share a collection of 100 pencils in the ratio of 2 &ratio; 3 (read as "2 is to 3"), means that
     for every 2 pencils that Kofi takes out of the collection, Kwame gets to take 3 pencils.
    - Similarly a ratio for sharing among 3 entities is expressed as a &ratio; b &ratio; c (read as "a is to b is to c").
    - E.g. Ama, Yaa and Akos share a collection of 24 canned drinks in the ratio 2 &ratio; 3 &ratio; 1 (reas as "2 is to 3 is to 1"), means that
     for every 2 cans that Ama takes out of the collection, Yaa gets to take 3 cans and Akos gets to take 1 can.
-5. *of* operator: a/b of c/d = a &times; (c/d &div; b). *The "of" operator is equivalent to multiplication of fractions in mathematics.* E.g.
+5. *of* operator: a/b of c/d = a &times; (c/d &div; b). E.g.
    - 3 of 4 = 4 + 4 + 4 = 12 ; 4 of 3 = 3 + 3 + 3 + 3 = 12
    - 4 of 1/2 = 1/2 + 1/2 + 1/2 + 1/2 = 2
    - 1/2 of 4 = 4/2 = 2 ; 1/3 of 5 = 5/3
@@ -2120,6 +2114,9 @@ Examples:
 6. *Cross multiplication*: given two fractions a/b and c/d, cross multiplication refers to the action of multiplying
 a by d, and separately multiplying b by c to obtain two products (a &times; d) and (b &times; c). Cross multiplication is a heavily used step
 in fraction arithmetic.
+7. *A fraction is treated in mathematics as being equivalent to division of the numerator by the denominator*, even if the numerator and denominator is not a whole number.
+8. *A ratio of two numbers is treated in mathematics as being equivalent to a fraction*, even if one of the two numbers is not a whole number.
+9. *The "of" operator is equivalent to multiplication of fractions in mathematics.*
 
 ### Addition and Subtraction
 
@@ -2130,12 +2127,6 @@ Procedures:
 1. If the denominators are the same, then the formulas simplify to become:
     1. a/e + c/e = (a + c)/e
     2. a/e &minus; c/e = (a &minus; c)/e
-
-Explanation of Procedures:
-
-1. To add or subtract fractions, get the denominators to be the same, and then add or subtract the numerators.
-2. So in general when denominators are not the same, cross multiplication technique is used to make the denominators the same.
-3. So a/b &plusmn; c/d = (a &times; d)/(b &times; d) &plusmn; (b &times; c)/(b &times; d) = (a &times; d &plusmn; b &times; c)/(b &times; d)
 
 Examples:
 
@@ -2151,16 +2142,8 @@ Examples:
 ### Comparison
 
 Procedure: To compare a/b and c/d to see which is larger,
-ensure denominators b and d are positive (by multiplying fractions by -1/-1 if necessary),
+ensure denominators b and d have the same sign (by multiplying one fraction by -1/-1 if necessary),
 and then compare (a &times; d) and (b &times; c) to see which is larger
-
-Explanation of Procedure:
-
-1. As is the case for all numbers, to compare a/b and c/d, compute a/b &minus; c/d and check the sign by comparing with zero.
-2. The general result for subtraction gives (a &times; d &minus; b &times; c)/(b &times; d)
-3. After ensuring b and d are positive, and because the subtraction result is being compared with zero,
-the sign of the subtraction result can be completely determined by the sign of the numerator alone: (a &times; d &minus; b &times; c).
-4. And since that numerator is a subtraction expression, we can interpret it as a comparison between (a &times; d) and (b &times; c)
 
 Examples: *Use cross multiply*.
 
@@ -2177,16 +2160,8 @@ Examples: *Use cross multiply*.
           
 Procedure:
 
-1. a/b &times; c/d = (a &times; c)/(b &times; d)
-2. a/b of c/d = a/b &times; c/d
-
-Explanation of Procedure:
-
-1. Multiplication of fractions a/b and c/d can be defined as solving the following problem involving ratios:
-find a fraction x such that x &ratio; c/d = a &ratio; b, and x &ratio; a/b = c &ratio; d
-1. And the solution, which is a result of how division of fractions is defined, is x = (a &times; c)/(b &times; d)
-2. It happens that (a &times; c)/(b &times; d) = a &times; (c/d &div; b), which is the definition of a/b of c/d
-3. Hence a/b of c/d = a/b &times; c/d = (a &times; c)/(b &times; d)
+1. a/b &times; c/d = (a &times; c)/(b &times; d);
+NB: a/b of c/d is same as a/b &times; c/d
 
 Examples:
    - 3/5 of 7/5 = (3 &times; 7)/(5 &times; 5) = 21/25
@@ -2201,20 +2176,6 @@ Procedure:
 
 1. a/b &div; c/d = (a &times; d)/(b &times; c)
 1. If the denominators are the same, then the formula simplifies to become: a/e &div; c/e = a/c
-
-Explanation of Procedure:
-
-1. Division of fractions takes advantage of the fact that a positive fraction is equivalent to a ratio between the numerator and the denominator
-2. Division of fractions (whether simple or non-simple) is defined as being equivalent to creating a ratio from the operands, even if the operands are fractions or negative.
-3. So a/b &div; c/d = a/b &ratio; c/d
-2. Multiplying through the ratio by b results in: a &ratio; b &times; c/d
-2. Multiplying through the ratio by d results in: a &times; d &ratio; b &times; c
-3. Converting the ratio back to fraction yields: (a &times; d) &ratio; (b &times; c) = (a &times; d)/(b &times; c)
-3. If there are non-simple fractions involved, then the multiplications in the formula will involve divisions, which can in turn lead to
-multiplication of fractions and a cycle of performing multiplications and divisions of fractions will occur. However the cycle will end
-because the fractions in each step will be decreasing in complexity, until simple fractions are encountered, or until the following are encountered:
-   - having a multiplication in which there is a whole number operand. Cycle ends since multiplication of whole numbers (by repeated addition) can then be used.
-   - having a division in which the second operand is a whole number. Cycle ends since multiplication (to get equivalent fraction) and division of whole numbers can then be used.
 
 Examples:
 
