@@ -26,7 +26,7 @@ For students who are teens or adults, there is an additional goal which is to be
 
 ## Arithmetic Topics
 
-The following activities are assumed to constitute arithmetic for rational numbers as taught in school or online (e.g. https://www.transum.org):
+The following activities are assumed to constitute arithmetic for rational numbers as taught in school or online:
 
 - Addition
 - Subtraction

@@ -100,3 +100,11 @@ multiplication of fractions and a cycle of performing multiplications and divisi
 because the fractions in each step will be decreasing in complexity, until simple fractions are encountered, or until the following are encountered:
    - having a multiplication in which there is a whole number operand. Cycle ends since multiplication of whole numbers (by repeated addition) can then be used.
    - having a division in which the second operand is a whole number. Cycle ends since multiplication (to get equivalent fraction) and division of whole numbers can then be used.
+
+ 
+
+## Useful Weblinks
+
+- https://www.transum.org
+
+- https://www.youtube.com/@MathwithMrJ
