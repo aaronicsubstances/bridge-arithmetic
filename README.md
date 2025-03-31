@@ -59,10 +59,7 @@ NB: can serve as crosschecking avenues to the ones approved in school.
 - Multiplication of whole numbers
   - multiplication by grid method (aka grid multiplication).
 - Division of whole numbers
-  - by trial and error: keep multiplying divisor by educated guesses, until a guess is found which gives a nonnegative remainder less than the divisor.
-    One benefit of being aware of this procedure is that, it is always present as a step in all other more efficient procedures for division.
   - division by chunking (aka division by partial quotients method).
-  - division by decimal expansion (terminating and repeating), and in the case of repeating decimals, division with rounding to desired number of decimal places.
 
 ## Algebra Topics
 

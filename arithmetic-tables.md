@@ -2064,17 +2064,18 @@ If the first operand has the larger magnitude, then its sign will be the sign of
 
 Procedure:
 
+1. *Consider numbers as represent cash amounts*, in which a positive number means owning money, a negative number means owing money, zero means neither owing or owning money, and "larger than" means "more desirable than".
 1. Positive numbers and zero are considered larger than negative numbers.
 2. A negative number is considered larger than another negative number if it has a *smaller* magnitude than the other negative number.
-So even though 2 < 3, -2 > -3.
+So even though 2 < 3, -2 > -3, like how owing 2 is more desirable than owing 3.
 
 Examples:
 
 1. 10 > 5, 5 < 10, 4 > 0, 0 < 4
-2. 5 > -10, because 5 &minus; -10 = 5 + 10, 15 which is positive ; -10 < 5, because -10 - 5 = -15 which is negative.
-3. 0 > -4, because 0 &minus; -4 = 0 + 4 = 4 ; -4 < 0, because -4 &minus; 0 = -4 which is negative 
-4. -5 > -10, because -5 &minus; -10 = -5 + 10 = 5 which is positive; -10 < -5, because -10 &minus; -5 = -10 + 5 = -5 which is negative
-          
+2. 5 > -10, like how owning 5 is more desirable than owing 10 ; -10 < 5.
+3. 0 > -4, like how neither owing or owning money is more desirable than owing 4. ; -4 < 0.
+4. -5 > -10, like how owing 5 is more desirable than owing 10.; -10 < -5.
+
 ### Multiplication and Division
 
 1. -a &times; -b = a &times; b ; E.g. -2 &times; -3 = 6
