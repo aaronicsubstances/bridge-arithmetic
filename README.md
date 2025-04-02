@@ -64,7 +64,7 @@ NB: can serve as crosschecking avenues to the ones approved in school.
   - conversion of fraction to decimal, by first converting fraction to the form (A+b/d)/10^n, where A, b, d, and n are whole numbers, b/d is zero or a proper fraction (ie b is less than d). Additionally, where b is not zero, d divides a number consisting of only the digit 9 (ie has the form -1 + 10^m, m being a counting number), and the result of dividing the string of nines (usually the number 999,999) by d produces the critical decimal expansion needed to finish off the conversion.
     - use of 999,999 to recall repeating decimal expansions works for all cases in which repeating part of decimal expansion length is 1, 2, 3 or 6. And this covers all practical cases in JHS. Because within the range of numbers from 1 to 100, the primes having different lengths are those larger than or equal to 17 (all exceed 6 in length except 41 which has length of 5). And also because the composite numbers in 1 to 100 range with different lengths are odd numbers which are not multiples of 5, starting with 49 upwards (all exceed 6 in length), except 63, 77, 91 and 99.
     - technique of multiplication of purely repeating decimals corresponding to unit fractions (like 1/3 and unlike 1/6) by whole numbers, can be used recall repeating decimal expansions for other proper fractions based on the same denominator.
-	- fallback to truncation to 6 decimal places if a decimal expansion cannot be recalled or computed.
+	- fallback to rounding to 3 decimal places if a decimal expansion cannot be recalled or computed.
 
 
 ## Algebra Topics
