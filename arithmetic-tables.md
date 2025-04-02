@@ -2090,6 +2090,10 @@ Examples:
 1. -(a) = -1 &times; a = -a ; E.g. -(2) = -2 ; -(0) = 0
 2. -(-a) = -1 &times; -a = a ; E.g. -(-2) = 2 ; ---2 = -(-(-2)) = -2
 
+### Powers and Roots
+
+1. Square roots of negative numbers are undefined, ie are not real numbers. E.g. the square root of -4 is undefined; the square root of -9 is undefined.
+2. Other than square roots of negative numbers, powers and roots of integers work as expected. E.g. the square of -2 is 4, not -4; the square of -3 is 9; the cube root of -8 is -2; the cube root of -27 is -3.
 
 
 ## Fraction Procedures
