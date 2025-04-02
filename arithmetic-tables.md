@@ -948,6 +948,7 @@ NB: In the table below, <ol>
 <li>The numbers 1, 3, 5, 7 and 9 and any number whose last digit is 1, 3, 5, 7 or 9, have the additional description of odd numbers</li>
 <li>The numbers 2, 4, 6 and 8 and any number whose last digit is 2, 4, 6, 8 or 0, have the additional description of even numbers</li>
 <li>Multiples for numbers less than 13 are not listed because they can be found in the multiplication tables.</li>
+<li>Decimal expansions are listed for numbers less than 17, as well as decimal expansions for unit fractions whose denominator divide 1,000,000, 999,999 or 99,999.</li>
 </ol>
 <table>
   <thead>
@@ -1091,11 +1092,32 @@ Some Factorisations:<br>10 = 2 &times; 5
       <td>11 is<ul>
 <li>a prime number</li></ul>
 Some Factorisations:<br>11 = 1 &times; 11
+<br><br>Some Decimal Expansions:<br>1/11 = 0.<strong>09</strong>0909...<br>
+2/11 = 0.<strong>18</strong>1818...<br>
+3/11 = 0.<strong>27</strong>2727...<br>
+4/11 = 0.<strong>36</strong>3636...<br>
+5/11 = 0.<strong>45</strong>4545...<br>
+6/11 = 0.<strong>54</strong>5454...<br>
+7/11 = 0.<strong>63</strong>6363...<br>
+8/11 = 0.<strong>72</strong>7272...<br>
+9/11 = 0.<strong>81</strong>8181...<br>
+10/11 = 0.<strong>90</strong>9090...
 </td>
       <td>12 is<ul>
 <li>a composite number</li></ul>
 Some Factorisations:<br>12 = 2 &times; 6<br>
 12 = 3 &times; 4
+<br><br>Some Decimal Expansions:<br>1/12 = 0.08<strong>3</strong>333...<br>
+2/12 = 0.1<strong>6</strong>666...<br>
+3/12 = 0.25<br>
+4/12 = 0.<strong>3</strong>333...<br>
+5/12 = 0.41<strong>6</strong>666...<br>
+6/12 = 0.5<br>
+7/12 = 0.58<strong>3</strong>333...<br>
+8/12 = 0.<strong>6</strong>666...<br>
+9/12 = 0.75<br>
+10/12 = 0.8<strong>3</strong>333...<br>
+11/12 = 0.91<strong>6</strong>666...
 </td>
     </tr>
   </tbody>
@@ -1119,6 +1141,18 @@ Some Factorisations:<br>13 = 1 &times; 13
 13 &times; 5 = 65<br>
 13 &times; 6 = 78<br>
 13 &times; 7 = 91
+<br><br>Some Decimal Expansions:<br>1/13 = 0.<strong>076923</strong>076923...<br>
+2/13 = 0.<strong>153846</strong>153846...<br>
+3/13 = 0.<strong>230769</strong>230769...<br>
+4/13 = 0.<strong>307692</strong>307692...<br>
+5/13 = 0.<strong>384615</strong>384615...<br>
+6/13 = 0.<strong>461538</strong>461538...<br>
+7/13 = 0.<strong>538461</strong>538461...<br>
+8/13 = 0.<strong>615384</strong>615384...<br>
+9/13 = 0.<strong>692307</strong>692307...<br>
+10/13 = 0.<strong>769230</strong>769230...<br>
+11/13 = 0.<strong>846153</strong>846153...<br>
+12/13 = 0.<strong>923076</strong>923076...
 </td>
       <td>14 is<ul>
 <li>a composite number</li></ul>
@@ -1129,6 +1163,19 @@ Some Factorisations:<br>14 = 2 &times; 7
 14 &times; 5 = 70<br>
 14 &times; 6 = 84<br>
 14 &times; 7 = 98
+<br><br>Some Decimal Expansions:<br>1/14 = 0.0<strong>714285</strong>714285...<br>
+2/14 = 0.<strong>142857</strong>142857...<br>
+3/14 = 0.2<strong>142857</strong>142857...<br>
+4/14 = 0.<strong>285714</strong>285714...<br>
+5/14 = 0.3<strong>571428</strong>571428...<br>
+6/14 = 0.<strong>428571</strong>428571...<br>
+7/14 = 0.5<br>
+8/14 = 0.<strong>571428</strong>571428...<br>
+9/14 = 0.6<strong>428571</strong>428571...<br>
+10/14 = 0.<strong>714285</strong>714285...<br>
+11/14 = 0.7<strong>857142</strong>857142...<br>
+12/14 = 0.<strong>857142</strong>857142...<br>
+13/14 = 0.9<strong>285714</strong>285714...
 </td>
       <td>15 is<ul>
 <li>a composite number</li></ul>
@@ -1138,6 +1185,20 @@ Some Factorisations:<br>15 = 3 &times; 5
 15 &times; 4 = 60<br>
 15 &times; 5 = 75<br>
 15 &times; 6 = 90
+<br><br>Some Decimal Expansions:<br>1/15 = 0.0<strong>6</strong>666...<br>
+2/15 = 0.1<strong>3</strong>333...<br>
+3/15 = 0.2<br>
+4/15 = 0.2<strong>6</strong>666...<br>
+5/15 = 0.<strong>3</strong>333...<br>
+6/15 = 0.4<br>
+7/15 = 0.4<strong>6</strong>666...<br>
+8/15 = 0.5<strong>3</strong>333...<br>
+9/15 = 0.6<br>
+10/15 = 0.<strong>6</strong>666...<br>
+11/15 = 0.7<strong>3</strong>333...<br>
+12/15 = 0.8<br>
+13/15 = 0.8<strong>6</strong>666...<br>
+14/15 = 0.9<strong>3</strong>333...
 </td>
     </tr>
   </tbody>
@@ -1162,6 +1223,21 @@ Some Factorisations:<br>16 = 2 &times; 8<br>
 16 &times; 4 = 64<br>
 16 &times; 5 = 80<br>
 16 &times; 6 = 96
+<br><br>Some Decimal Expansions:<br>1/16 = 0.0625<br>
+2/16 = 0.125<br>
+3/16 = 0.1875<br>
+4/16 = 0.25<br>
+5/16 = 0.3125<br>
+6/16 = 0.375<br>
+7/16 = 0.4375<br>
+8/16 = 0.5<br>
+9/16 = 0.5625<br>
+10/16 = 0.625<br>
+11/16 = 0.6875<br>
+12/16 = 0.75<br>
+13/16 = 0.8125<br>
+14/16 = 0.875<br>
+15/16 = 0.9375
 </td>
       <td>17 is<ul>
 <li>a prime number</li></ul>
@@ -1209,6 +1285,7 @@ Some Factorisations:<br>20 = 2 &times; 10<br>
 20 &times; 3 = 60<br>
 20 &times; 4 = 80<br>
 20 &times; 5 = 100
+<br><br>Some Decimal Expansions:<br>1/20 = 0.05
 </td>
       <td>21 is<ul>
 <li>a composite number</li></ul>
@@ -1216,6 +1293,7 @@ Some Factorisations:<br>21 = 3 &times; 7
 <br><br>Some Multiples:<br>21 &times; 2 = 42<br>
 21 &times; 3 = 63<br>
 21 &times; 4 = 84
+<br><br>Some Decimal Expansions:<br>1/21 = 0.<strong>047619</strong>047619...
 </td>
     </tr>
   </tbody>
@@ -1273,6 +1351,7 @@ Some Factorisations:<br>25 = 5 &times; 5
 <br><br>Some Multiples:<br>25 &times; 2 = 50<br>
 25 &times; 3 = 75<br>
 25 &times; 4 = 100
+<br><br>Some Decimal Expansions:<br>1/25 = 0.04
 </td>
       <td>26 is<ul>
 <li>a composite number</li></ul>
@@ -1286,6 +1365,7 @@ Some Factorisations:<br>26 = 2 &times; 13
 Some Factorisations:<br>27 = 3 &times; 9
 <br><br>Some Multiples:<br>27 &times; 2 = 54<br>
 27 &times; 3 = 81
+<br><br>Some Decimal Expansions:<br>1/27 = 0.<strong>037</strong>037...
 </td>
     </tr>
   </tbody>
@@ -1343,12 +1423,14 @@ Some Factorisations:<br>31 = 1 &times; 31
 Some Factorisations:<br>32 = 4 &times; 8
 <br><br>Some Multiples:<br>32 &times; 2 = 64<br>
 32 &times; 3 = 96
+<br><br>Some Decimal Expansions:<br>1/32 = 0.03125
 </td>
       <td>33 is<ul>
 <li>a composite number</li></ul>
 Some Factorisations:<br>33 = 3 &times; 11
 <br><br>Some Multiples:<br>33 &times; 2 = 66<br>
 33 &times; 3 = 99
+<br><br>Some Decimal Expansions:<br>1/33 = 0.<strong>03</strong>0303...
 </td>
     </tr>
   </tbody>
@@ -1398,6 +1480,7 @@ Some Factorisations:<br>36 = 3 &times; 12<br>
 <li>a prime number</li></ul>
 Some Factorisations:<br>37 = 1 &times; 37
 <br><br>Some Multiples:<br>37 &times; 2 = 74
+<br><br>Some Decimal Expansions:<br>1/37 = 0.<strong>027</strong>027...
 </td>
       <td>38 is<ul>
 <li>a composite number</li></ul>
@@ -1427,11 +1510,13 @@ Some Factorisations:<br>39 = 3 &times; 13
 Some Factorisations:<br>40 = 4 &times; 10<br>
 40 = 5 &times; 8
 <br><br>Some Multiples:<br>40 &times; 2 = 80
+<br><br>Some Decimal Expansions:<br>1/40 = 0.025
 </td>
       <td>41 is<ul>
 <li>a prime number</li></ul>
 Some Factorisations:<br>41 = 1 &times; 41
 <br><br>Some Multiples:<br>41 &times; 2 = 82
+<br><br>Some Decimal Expansions:<br>1/41 = 0.<strong>02439</strong>02439...
 </td>
       <td>42 is<ul>
 <li>a composite number</li></ul>
@@ -1518,6 +1603,7 @@ Some Factorisations:<br>49 = 7 &times; 7
 <li>a composite number</li></ul>
 Some Factorisations:<br>50 = 5 &times; 10
 <br><br>Some Multiples:<br>50 &times; 2 = 100
+<br><br>Some Decimal Expansions:<br>1/50 = 0.02
 </td>
       <td>51 is<ul>
 <li>a composite number</li></ul>
@@ -1623,6 +1709,7 @@ Some Factorisations:<br>62 = 2 &times; 31
       <td>63 is<ul>
 <li>a composite number</li></ul>
 Some Factorisations:<br>63 = 7 &times; 9
+<br><br>Some Decimal Expansions:<br>1/63 = 0.<strong>015873</strong>015873...
 </td>
     </tr>
   </tbody>
@@ -1642,6 +1729,7 @@ Some Factorisations:<br>63 = 7 &times; 9
 <li>a perfect cube: cube root of 64 = 4</li>
 <li>a composite number</li></ul>
 Some Factorisations:<br>64 = 8 &times; 8
+<br><br>Some Decimal Expansions:<br>1/64 = 0.015625
 </td>
       <td>65 is<ul>
 <li>a composite number</li></ul>
@@ -1747,6 +1835,7 @@ Some Factorisations:<br>76 = 4 &times; 19
       <td>77 is<ul>
 <li>a composite number</li></ul>
 Some Factorisations:<br>77 = 7 &times; 11
+<br><br>Some Decimal Expansions:<br>1/77 = 0.<strong>012987</strong>012987...
 </td>
       <td>78 is<ul>
 <li>a composite number</li></ul>
@@ -1772,6 +1861,7 @@ Some Factorisations:<br>79 = 1 &times; 79
       <td>80 is<ul>
 <li>a composite number</li></ul>
 Some Factorisations:<br>80 = 8 &times; 10
+<br><br>Some Decimal Expansions:<br>1/80 = 0.0125
 </td>
       <td>81 is<ul>
 <li>a perfect square: square root of 81 = 9</li>
@@ -1869,6 +1959,7 @@ Some Factorisations:<br>90 = 9 &times; 10
       <td>91 is<ul>
 <li>a composite number</li></ul>
 Some Factorisations:<br>91 = 7 &times; 13
+<br><br>Some Decimal Expansions:<br>1/91 = 0.<strong>010989</strong>010989...
 </td>
       <td>92 is<ul>
 <li>a composite number</li></ul>
@@ -1927,6 +2018,7 @@ Some Factorisations:<br>98 = 7 &times; 14
       <td>99 is<ul>
 <li>a composite number</li></ul>
 Some Factorisations:<br>99 = 9 &times; 11
+<br><br>Some Decimal Expansions:<br>1/99 = 0.<strong>01</strong>0101...
 </td>
     </tr>
   </tbody>
@@ -1943,6 +2035,7 @@ Some Factorisations:<br>99 = 9 &times; 11
 <li>a perfect square: square root of 100 = 10</li>
 <li>a composite number</li></ul>
 Some Factorisations:<br>100 = 10 &times; 10
+<br><br>Some Decimal Expansions:<br>1/100 = 0.01
 </td>
     </tr>
   </tbody>
