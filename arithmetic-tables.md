@@ -932,14 +932,14 @@ E.g. Out of the numbers 42, 58, 77, 161, 187 and 343; it is 77 and 187 that are 
           </ol>
 
 
-## Rule for Testing whether a Number in 1-200 is Prime or Composite
+## Rule for Testing whether a Number in 1-150 is Prime or Composite
 A *prime number* is a number greater than 1 that is not divisible by any number apart from itself and 1.
 The first 10 prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23 and 29.
 If a number is greater than 1 and is not a prime number, then it is a called a *composite number*.
+The number 1 is neither prime nor composite.
 
-A sufficient test for determining whether a number in the range of 12-200 is prime or composite, is this:
-If a number between 12 and 200 is not 169 (which is a perfect square whose square root is 13)
-and is not divisible by 2, 3, 5, 7 and 11 (which are the first 5 prime numbers),
+A sufficient test for determining whether a number in the range of 12-150 is prime or composite, is this:
+If a number between 12 and 150 is not divisible by each of the prime numbers less than 12 (i.e. 2, 3, 5, 7, 11),
 then the number is definitely a prime number.
 Else the number is definitely a composite number.
 
