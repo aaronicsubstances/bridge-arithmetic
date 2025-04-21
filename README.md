@@ -60,7 +60,7 @@ NB: can serve as crosschecking avenues to the ones approved in school.
   - multiplication by grid method (aka grid multiplication).
 - Alternative to long division
   - division by chunking (aka division by partial quotients method)
-  - conversion of fraction to decimal, by repeated multiplication of mixed/proper fraction by 10, until there is no proper fraction or repetition of proper fraction occurs.
+  - conversion of fraction to decimal, by repeated multiplication of mixed/proper fraction by 10, until either there is no proper fraction in multiplication result (in which case decimal expansion terminates), or the proper fraction in the multiplication result is the same as one of the mixed/proper fractions being multiplied by 10 (in which case decimal expansion will repeat indefinitely). In the case of repeating decimal expansion, multiplications by 10 will be continued until the proper fraction is found again in the multiplication result (in order to discover the repeating part of the decimal expansion).
 
 
 ## Algebra Topics
