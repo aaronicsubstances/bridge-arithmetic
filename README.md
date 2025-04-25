@@ -21,7 +21,7 @@ For students who are teens or adults, there is an additional goal which is to be
 
 ## Guidelines
 
-- Due to lack of experimental validation by the proponents of this proposal, only existing primary school and secondary school topics are included.
+- The proposal is based on the belief in the sufficiency of existing primary school and secondary school topics for teaching early algebra.
 - The proposal recognizes that it is school authorities who have the final decision to allow alternatives to the standard procedures, which differ from what teachers expect of students in a given locality, to show up on answer sheets.
 
 ## Arithmetic Topics
