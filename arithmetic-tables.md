@@ -1904,85 +1904,6 @@ Some Factorisations:<br>100 = 10 &times; 10
 </table>
 
 
-## Procedure for Finding Factors of a Number
-
-
-If possible, first find the prime factorization of the number for which factors are to be found, by making use of the table of factorizations.
-This involves starting with a factorization for the given number, and then replacing each factor in the factorization with one of the factor's own factorizations as well,
-until all numbers in the factorization are prime numbers.
-E.g.
-- 5 = 5
-- 12 = 3 &times; 4 = 3 &times; 2 &times; 2
-- 19 = 19
-- 20 = 2 &times; 10 = 2 &times; 2 &times; 5
-- 60 = 4 &times; 15 = 2 &times; 2 &times; 5 &times; 3  
-
-To find factors of a number,
-
-1. Start with 1 and the number itself.
-3. *It is recommended to find prime factorization of the given number, in order to speed up subsequent steps in the procedure.*
-2. *If the number itself can be determined to be prime, then the search is over.*
-3. Else incrementally look for the next number
-between the numbers in the latest factorization found which divides the given number.
-4. *Where a prime factorization was computed for the given number, the previous step
-is equivalent to finding the next number which can be expressed as a product of some of the prime factors of the given number.*
-3. If such a number is not found, then the search is over.
-3. Else determine the countepart number, which is the result of dividing the given number by the found number.
-4. *Where a prime factorization was computed for the given number, the division can be replaced with a multiplication of the prime factors which were
-left over from expressing the found number as a product of prime factors.*
-4. *If the counterpart number can be determined to be prime, then the search is over.*
-5. Else search continues, but will now be restricted to the interval between the latest found number and its counterpart.
-
-*All of the numbers in the factorizations generated constitute the set of factors of the given number.*
-
-E.g. to find the factors of 12, and not make use of knowledge of primes
-- *Found*: 1 &times; 12
-- Searching between 1 and 12: Does 2 divide 12? Yes, and 12 &div; 2 = 6
-- *Found*: 2 &times; 6
-- Searching between 2 and 6: Does 3 divide 12? Yes, and 12 &div; 3 = 4
-- *Found*: 3 &times; 4
-- No integer exists between 3 and 4, so search ends.
-
-So set of factors of 12 is: {1, 12, 2, 6, 3, 4}, or {1, 2, 3, 4, 6, 12}
-
-E.g. to find the factors of 26, and not make use of knowledge of primes
-- *Found*: 1 &times; 26
-- Searching between 1 and 26: Does 2 divide 26? Yes, and 26 &div; 2 = 13
-- *Found*: 2 &times; 13
-- Searching between 2 and 13: Does 3 divide 26? No. Does 4 divide 26? No.
-Does 5 divide 26? No. 6? No. 7? No. 8? No. 9? No. 10? No. 11? No. 12? No.
-- No factor was found between 2 and 13, so search ends.
-
-So set of factors of 26 is: {1, 26, 2, 13}, or {1, 2, 13, 26}
-
-E.g. to find the factors of 12, and make use of knowledge of primes
-- *Found*: 1 &times; 12
-- Prime factorization of 12 = 6 &times; 2 = 2 &times; 3 &times; 2
-- Search continues since 12 is not a prime number.
-- Searching between 1 and 12: Can 2 be computed from the prime factors of 12? Yes, and the product of the
-leftover prime factors is 2 &times; 3 = 6.
-- *Found*: 2 &times; 6
-- Search continues since 6 is not a prime number.
-- Searching between 2 and 6: Can 3 be computed from the prime factors of 12? Yes, and the product of the
-leftover prime factors is 2 &times; 2 = 4.
-- *Found*: 3 &times; 4
-- Search could have continued since 4 is not a prime number. However no integer exists between 3 and 4, so search ends.
-
-So set of factors of 12 is once again: {1, 12, 2, 6, 3, 4}, or {1, 2, 3, 4, 6, 12}
-
-E.g. to find the factors of 26, and make use of knowledge of primes
-- *Found*: 1 &times; 26
-- Prime factorization of 26 = 2 &times; 13
-- Search continues since 26 is not a prime number.
-- Searching between 1 and 26: Can 2 be computed from the prime factors of 26? Yes, and the
-leftover prime factor is 13.
-- *Found*: 2 &times; 13
-- Since 13 is a prime number, search ends.
-
-So set of factors of 26 is once again: {1, 26, 2, 13}, or {1, 2, 13, 26}
-
-
-
 ## Integer and Signed Number Procedures
 
 ### Some Terminology
@@ -2019,17 +1940,17 @@ If the first operand has the larger magnitude, then its sign will be the sign of
 
 Procedure:
 
-1. *Consider numbers as represent cash amounts*, in which a positive number means owning money, a negative number means owing money, zero means neither owing or owning money, and "larger than" means "more desirable than".
+1. *Consider numbers as representing cash amounts*, in which a positive number means owning money, a negative number means owing money, zero means neither owing or owning money, "larger than" means "better than", and "smaller than" means "worse than".
 1. Positive numbers and zero are considered larger than negative numbers.
 2. A negative number is considered larger than another negative number if it has a *smaller* magnitude than the other negative number.
-So even though 2 < 3, -2 > -3, like how owing 2 is more desirable than owing 3.
+So even though 2 < 3, -2 > -3, like how owing 2 is better than owing 3.
 
 Examples:
 
 1. 10 > 5, 5 < 10, 4 > 0, 0 < 4
-2. 5 > -10, like how owning 5 is more desirable than owing 10 ; -10 < 5.
-3. 0 > -4, like how neither owing or owning money is more desirable than owing 4. ; -4 < 0.
-4. -5 > -10, like how owing 5 is more desirable than owing 10.; -10 < -5.
+2. 5 > -10, like how owning 5 is better than owing 10 ; -10 < 5.
+3. 0 > -4, like how neither owing or owning money is better than owing 4. ; -4 < 0.
+4. -5 > -10, like how owing 5 is better than owing 10.; -10 < -5.
 
 ### Multiplication and Division
 
@@ -2047,8 +1968,8 @@ Examples:
 
 ### Powers and Roots
 
-1. Square roots of negative numbers are undefined, ie are not real numbers. E.g. the square root of -4 is undefined; the square root of -9 is undefined.
-2. Other than square roots of negative numbers, powers and roots of integers work as expected. E.g. the square of -2 is 4, not -4; the square of -3 is 9; the cube root of -8 is -2; the cube root of -27 is -3.
+1. Square roots of negative numbers, as well as all other even roots of negative numbers are undefined, ie are not real numbers. E.g. the square root of -4 is undefined; the square root of -9 is undefined; the fourth root of -81 is undefined.
+2. Other than even roots (including square roots) of negative numbers, powers and roots of integers work as expected. E.g. the square of -2 is 4, not -4; the square of -3 is 9; the cube root of -8 is -2; the cube root of -27 is -3.
 
 
 ## Fraction Procedures
@@ -2134,7 +2055,7 @@ Examples:
 
 Procedure:
 
-1. a/b &div; c/d = (a &times; d)/(b &times; c)
+1. a/b &div; c/d = (a &times; d)/(b &times; c); NB: a/b &div; c/d = a/b &times; d/c
 1. If the denominators are the same, then the formula simplifies to become: a/e &div; c/e = a/c
 
 Examples:
@@ -2145,4 +2066,127 @@ Examples:
    - 4/5 &div; 3/15 = (4 &times; 15)/(5 &times; 3) = 60/15 = 4
    - -4/5 &div; -3/4 = (-4 &times; 4)/(5 &times; -3) = -16/-15 = 16/15
 
+## Formulas for Conversion of Decimal Expansions to Fractions
 
+There are two cases:
+
+### Terminating Decimal Expansion
+
+E.g. 0.2, 0.48, 1.6
+
+The conversion formula is
+
+*ccc.nnn = cccnnn/10...*
+
+where
+- ccc is the part before the decimal point
+- nnn is the part after the decimal point.
+- the number of zeros in the 10... is the same as the number of digits in nnn
+
+E.g.
+- 0.2 = 2/10 = 1/5
+- 0.48 = 48/100 = 12/25
+- 1.6 = 16/10 = 8/5
+- 0.05 = 5/100 = 1/20
+
+### Repeating Decimal Expansion
+
+E.g. 0.333... , 4.7142857142857... , 0.1666...
+
+The conversion formula is
+
+*ccc.nnnrrr... = 1/10... &times; (cccnnn + rrr/999...)*
+
+where
+- ccc is the non-repeating part before the decimal point
+- nnn is the non-repeating part just after the decimal point. may not exist in some numbers.
+- rrr is the repeating part after the non-repeating part, or just after the decimal point if there is no non-repeating part just after the decimal point.
+- the number of zeros in the 10... is the same as the number of digits in nnn
+- the number of nines in the number dividing rrr is the same as the number of digits in rrr
+
+E.g. 
+- 0.333... = 1/1 &times; (0 + 3/9) = 3/9 = 1/3
+- 0.666... = 1/1 &times; (0 + 6/9) = 6/9 = 2/3
+- 0.090909... = 1/1 &times; (0 + 9/99) = 9/99 = 1/11
+- 4.7142857142857... = 1/1 &times; (4 + 714285/999999) = 4 + 714285/999999 = (3999996 + 714285)/999999 = 4714281/999999 = 33/7
+- 0.1666... = 1/10 &times; (01 + 6/9) = 1/10 &times; (1 + 2/3) = 1/10 &times; 5/3 = 5/30 = 1/6
+- 2.08333... = 1/100 &times; (208 + 3/9) = 1/100 &times; (208 + 1/3) = 1/100 &times; 625/3 = 625/300 = 25/12
+- 0.0714285714285... = 1/10 &times; (00 + 714285/999999) = 1/10 &times; 5/7 = 5/70 = 1/14
+
+
+## Procedure for Finding Factors of a Number
+
+
+If possible, first find the prime factorization of the number for which factors are to be found, by making use of the table of factorizations.
+This involves starting with a factorization for the given number, and then replacing each factor in the factorization with one of the factor's own factorizations as well,
+until all numbers in the factorization are prime numbers.
+E.g.
+- 5 = 5
+- 12 = 3 &times; 4 = 3 &times; 2 &times; 2
+- 19 = 19
+- 20 = 2 &times; 10 = 2 &times; 2 &times; 5
+- 60 = 4 &times; 15 = 2 &times; 2 &times; 5 &times; 3  
+
+To find factors of a number,
+
+1. Start with 1 and the number itself.
+3. *It is recommended to find prime factorization of the given number, in order to speed up subsequent steps in the procedure.*
+2. *If the number itself can be determined to be prime, then the search is over.*
+3. Else incrementally look for the next number
+between the numbers in the latest factorization found which divides the given number.
+4. *Where a prime factorization was computed for the given number, the previous step
+is equivalent to finding the next number which can be expressed as a product of some of the prime factors of the given number.*
+3. If such a number is not found, then the search is over.
+3. Else determine the countepart number, which is the result of dividing the given number by the found number.
+4. *Where a prime factorization was computed for the given number, the division can be replaced with a multiplication of the prime factors which were
+left over from expressing the found number as a product of prime factors.*
+4. *If the counterpart number can be determined to be prime, then the search is over.*
+5. Else search continues, but will now be restricted to the interval between the latest found number and its counterpart.
+
+*All of the numbers in the factorizations generated constitute the set of factors of the given number.*
+
+E.g. to find the factors of 12, and not make use of knowledge of primes
+- *Found*: 1 &times; 12
+- Searching between 1 and 12: Does 2 divide 12? Yes, and 12 &div; 2 = 6
+- *Found*: 2 &times; 6
+- Searching between 2 and 6: Does 3 divide 12? Yes, and 12 &div; 3 = 4
+- *Found*: 3 &times; 4
+- No integer exists between 3 and 4, so search ends.
+
+So set of factors of 12 is: {1, 12, 2, 6, 3, 4}, or {1, 2, 3, 4, 6, 12}
+
+E.g. to find the factors of 26, and not make use of knowledge of primes
+- *Found*: 1 &times; 26
+- Searching between 1 and 26: Does 2 divide 26? Yes, and 26 &div; 2 = 13
+- *Found*: 2 &times; 13
+- Searching between 2 and 13: Does 3 divide 26? No. Does 4 divide 26? No.
+Does 5 divide 26? No. 6? No. 7? No. 8? No. 9? No. 10? No. 11? No. 12? No.
+- No factor was found between 2 and 13, so search ends.
+
+So set of factors of 26 is: {1, 26, 2, 13}, or {1, 2, 13, 26}
+
+E.g. to find the factors of 12, and make use of knowledge of primes
+- *Found*: 1 &times; 12
+- Prime factorization of 12 = 6 &times; 2 = 2 &times; 3 &times; 2
+- Search continues since 12 is not a prime number.
+- Searching between 1 and 12: Can 2 be computed from the prime factors of 12? Yes, and the product of the
+leftover prime factors is 2 &times; 3 = 6.
+- *Found*: 2 &times; 6
+- Search continues since 6 is not a prime number.
+- Searching between 2 and 6: Can 3 be computed from the prime factors of 12? Yes, and the product of the
+leftover prime factors is 2 &times; 2 = 4.
+- *Found*: 3 &times; 4
+- Search could have continued since 4 is not a prime number. However no integer exists between 3 and 4, so search ends.
+
+So set of factors of 12 is once again: {1, 12, 2, 6, 3, 4}, or {1, 2, 3, 4, 6, 12}
+
+E.g. to find the factors of 26, and make use of knowledge of primes
+- *Found*: 1 &times; 26
+- Prime factorization of 26 = 2 &times; 13
+- Search continues since 26 is not a prime number.
+- Searching between 1 and 26: Can 2 be computed from the prime factors of 26? Yes, and the
+leftover prime factor is 13.
+- *Found*: 2 &times; 13
+- Since 13 is a prime number, search ends.
+
+So set of factors of 26 is once again: {1, 26, 2, 13}, or {1, 2, 13, 26}
