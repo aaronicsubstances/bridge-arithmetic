@@ -2091,10 +2091,18 @@ Examples:
 - square root of -4/9 = (square root of -4)/(square root of 9) = undefined
 - cube root of -27/64 = (cube root of -27)/(cube root of 64) = -3/4
 
+## Extension of x^n to Signed Number Exponents
+
+Mathematicians extend x^n to cases where the exponent n is an integer or a fraction, as follows:
+
+- x^0 is defined as 1 for all x not equal to zero. So any nonzero number raised to the exponent 0 is defined as 1, and 0^0 is undefined. E.g. 1^0 is 1, 2^0 is 1, (-2)^0 is 1, (3/2)^0 is 1.
+- x^1 is defined as x. So any number raised to the exponent 1 is the same number. E.g. 1^1 is 1, 2^1 is 2, (-2)^1 is -2, (3/2)^1 is 3/2
+- x^(1/n) is defined as the nth root of x, where n is a counting number. So square root of x becomes the same as x^(1/2). E.g. 4^(1/2) = square root of 4 = 2; (-4)^(1/2) = square root of -4 which is undefined; 8^(1/3) = cube root of 8 = 2; (-27)^(1/3) = cube root of -27, which is -3.
+- x^(p/q) is defined as (x^(1/q))^p or (x^p)^(1/q) (both give the same result), where p and q are integers, and q is not zero. So 8^(2/3) = square of the cube root of 8 = square of 2 = 4 (or cube root of square of 8 = cube root of 64 = 4); (-8)^(5/3) = first find cube root of -8, and then raise to exponent 5 = (-2)^5 = -32; 25^(3/2) = (square root of 25)^3 = 5^3 = 125;
+- x^-a is defined as 1/(x^a) where a is a signed number. So 2^-1 = 1/(2^1) = 1/2, (1/3)^-2 = 3^2 = 9; 9^(-3/2)=1/(9^(3/2)) = 1/((square root of 9)^3) = 1/(3^3) = 1/27
+
 
 ## Formulas for Conversion of Decimal Expansions to Fractions
-
-There are two cases:
 
 ### Terminating Decimal Expansion
 
@@ -2115,7 +2123,7 @@ E.g.
 - 1.6 = 16/10 = 8/5
 - 0.05 = 5/100 = 1/20
 
-### Repeating Decimal Expansion
+### (Optional) Repeating Decimal Expansion
 
 E.g. 0.333... , 4.7142857142857... , 0.1666...
 
@@ -2139,17 +2147,8 @@ E.g.
 - 2.08333... = 1/100 &times; (208 + 3/9) = 1/100 &times; (208 + 1/3) = 1/100 &times; 625/3 = 625/300 = 25/12
 - 0.0714285714285... = 1/10 &times; (00 + 714285/999999) = 1/10 &times; 5/7 = 5/70 = 1/14
 
-## Extension of x^n to Signed Number Exponents
 
-Mathematicians extend x^n to cases where the exponent n is an integer or a fraction, as follows:
-
-- x^0 is defined as 1 for all x not equal to zero. So any nonzero number raised to the exponent 0 is defined as 1, and 0^0 is undefined. E.g. 1^0 is 1, 2^0 is 1, (-2)^0 is 1, (3/2)^0 is 1.
-- x^1 is defined as x. So any number raised to the exponent 1 is the same number. E.g. 1^1 is 1, 2^1 is 2, (-2)^1 is -2, (3/2)^1 is 3/2
-- x^(1/n) is defined as the nth root of x, where n is a counting number. So square root of x becomes the same as x^(1/2). E.g. 4^(1/2) = square root of 4 = 2; (-4)^(1/2) = square root of -4 which is undefined; 8^(1/3) = cube root of 8 = 2; (-27)^(1/3) = cube root of -27, which is -3.
-- x^(p/q) is defined as (x^(1/q))^p or (x^p)^(1/q) (both give the same result), where p and q are integers, and q is not zero. So 8^(2/3) = square of the cube root of 8 = square of 2 = 4 (or cube root of square of 8 = cube root of 64 = 4); (-8)^(5/3) = first find cube root of -8, and then raise to exponent 5 = (-2)^5 = -32; 25^(3/2) = (square root of 25)^3 = 5^3 = 125;
-- x^-a is defined as 1/(x^a) where a is a signed number. So 2^-1 = 1/(2^1) = 1/2, (1/3)^-2 = 3^2 = 9; 9^(-3/2)=1/(9^(3/2)) = 1/((square root of 9)^3) = 1/(3^3) = 1/27
-
-## Procedure for Finding Factors of a Number
+## (Optional) Procedure for Finding Factors of a Number
 
 
 If possible, first find the prime factorization of the number for which factors are to be found, by making use of the table of factorizations.
