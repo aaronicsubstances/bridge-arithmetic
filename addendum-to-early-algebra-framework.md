@@ -19,10 +19,10 @@ The ability to cross-check answers becomes critical in the study of many science
 
 1. Can introduce the abacus device for addition as precursor to the standard addition procedure.
 
-1. can  modify the standard subtraction procedure to eliminate the cancellations, by putting - on top of a column which needs borrowing, and putting + on top of a column to be borrowed from, and ignoring step of ensuring the column to be borrowed from actually has enough to lend. Where both a + and - can appear on a column, use the symbol that is used in the quadratic almighty formula for conciseness sake. The + will then be interpreted as add 10 to the column, and the - also interpreted as subtract 1 from the column.
+1. can  modify the standard subtraction procedure to eliminate the cancellations, by putting -1 on top of a column which needs borrowing, and putting 10 on top of a column to be borrowed from, and ignoring step of ensuring the column to be borrowed from actually has enough to lend. Where both a 10 and -1 can appear on a column, put one on top of the other.
 
-2. Can modify standard multiplication procedure to incorporate some the grid multiplication algorithm, by splitting the second operand into sum of multiples powers of 10, and putting them
-in a grid with the unsplit first operand (unlike the standard grid method which would have also split the first operand). Note also that this multiplication procedure, like the standard grid method, is an application of the distributive property of multiplication over addition.
+2. Can modify standard multiplication procedure to incorporate some the grid multiplication algorithm, by splitting the operand with fewer digits into sum of multiples of powers of 10, and putting them
+in a grid with the unsplit other operand (unlike the standard grid method which would have split both operands). Note also that this multiplication procedure, like the standard grid method, is an application of the distributive property of multiplication over addition.
 
 3. Can modify standard long division procedure to be easier to recall, by placing a digit on top of each digit of the dividend. In the case of long division beyond the decimal places available in the dividend, manually add a zero (preceded by adding  a decimal point if necessary) to the dividend, for each digit in the partial quotient answer generated after the decimal point. Overall, this means that the modification is meant to ensure a one-to-one correspondence between the digits and optional decimal point of the dividend, and the digits and optional decimal point of the quotient answer above it.
 
