@@ -46,7 +46,7 @@ The arithmetic parts of early algebra proposal for adults seek to leverage refer
 
 Early algebra proposal for adults depends on using formulas to perform arithmetic operations whenever possible. And these formulas depend on the perspective taken of the operands involved. Therefore the proposal requires making students aware that
 
-- numbers come in kinds or types, i.e. whole numbers, non-whole numbers.
+- numbers come in kinds or types, i.e. whole numbers, integers, non-whole numbers, non-integers.
 - numbers have parts or perspectives, i.e. sign, magnitude, numerator, denominator.
 - numbers can be presented in different formats, i.e. common fraction, mixed fraction, decimal expansion, standard form.
 
@@ -55,10 +55,11 @@ Early algebra proposal for adults depends on using formulas to perform arithmeti
 NB: can serve as crosschecking avenues to the ones approved in school.
 
 - Subtraction of whole numbers
-  - add crosschecking by addition to standard subtraction algorithms.
+  - modification of standard method.
 - Multiplication of whole numbers
-  - multiplication by grid method (aka grid multiplication).
+  - modification of standard method.
 - Alternative to long division
+  - slight modification of long division.
   - division by chunking (aka division by partial quotients method)
   - conversion of fraction to decimal, by repeated multiplication of mixed/proper fraction by 10, until either there is no proper fraction in multiplication result (in which case decimal expansion terminates), or the proper fraction in the multiplication result is the same as one of the mixed/proper fractions being multiplied by 10 (in which case decimal expansion will repeat indefinitely).
 
