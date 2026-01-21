@@ -68,21 +68,6 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
   7. Common algebra misconceptions (such as subtraction wrongly seen as absolute difference, or BODMAS applied out of context) arise when students are not exposed to sufficient variety of examples and exercises
      - Therefore students should be shown examples and exercises for which no or only inferior solutions exist prior to algebra study, to counteract the growth of algebra misconceptions.
 
-## Useful Web Links
-   
-   1. https://www.myjoyonline.com/why-parents-cant-do-maths-today/
-   2. Maths for Mums and Dads by Rob Eastaway & Mike Askew is published by Square Peg.
-   3. https://webarchive.nationalarchives.gov.uk/ukgwa/20100607215842/http://www.standards.dfes.gov.uk/schemes3/subjects/?view=get
-   4. https://archive.nytimes.com/opinionator.blogs.nytimes.com/2011/04/18/a-better-way-to-teach-math/
-   5. https://jumpmath.org/ca/
-   6. https://profuturo.education/en/observatory/innovative-solutions/jump-math-teaching-mathematics-in-a-different-way/
-   7. http://mathpractices.edc.org/pdf/Anitas_Way_to_Add_Fractions_with_Unlike_Denominators.pdf
-   8. https://math.stackexchange.com/a/457353
-   9.  https://homes.cs.washington.edu/~hannaneh/papers/algebra.pdf
-   10. https://math.stackexchange.com/questions/30046/alternative-notation-for-exponents-logs-and-roots
-   11. https://en.wikipedia.org/wiki/Hans_Freudenthal
-   12. https://www.transum.org
-
 
 ## References
 
