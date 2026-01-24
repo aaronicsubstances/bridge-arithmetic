@@ -57,7 +57,6 @@ NB: can serve as crosschecking avenues to the ones approved in school.
 - Multiplication of whole numbers
   - modification of standard method.
 - Alternative to long division
-  - slight modification of long division.
   - division by chunking (aka division by partial quotients method)
   - conversion of fraction to decimal, by repeated multiplication of mixed/proper fraction by 10, until either there is no proper fraction in multiplication result (in which case decimal expansion terminates), or the proper fraction in the multiplication result is the same as one of the mixed/proper fractions being multiplied by 10 (in which case decimal expansion will repeat indefinitely).
 
