@@ -19,8 +19,6 @@ The ability to cross-check answers becomes critical in the study of many science
 
 1. Can introduce the abacus device for addition as precursor to the standard addition procedure.
 
-1. can  modify the standard subtraction procedure to eliminate the cancellations, by putting - on top of a column which needs borrowing, and putting + on top of a column to be borrowed from, and ignoring step of ensuring the column to be borrowed from actually has enough to lend. Where both a + and - can appear on a column, use the symbol that is used in the quadratic almighty formula for conciseness sake. The + will then be interpreted as add 10 to the column, and the - also interpreted as subtract 1 from the column.
-
 2. Can modify standard multiplication procedure to incorporate some the grid multiplication algorithm, by splitting the second operand into sum of multiples powers of 10, and putting them
 in a grid with the unsplit first operand (unlike the standard grid method which would have also split the first operand). Note also that this multiplication procedure, like the standard grid method, is an application of the distributive property of multiplication over addition.
 

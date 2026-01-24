@@ -54,8 +54,6 @@ Early algebra proposal for adults depends on using formulas to perform arithmeti
 
 NB: can serve as crosschecking avenues to the ones approved in school.
 
-- Subtraction of whole numbers
-  - modification of standard method.
 - Multiplication of whole numbers
   - modification of standard method.
 - Alternative to long division
