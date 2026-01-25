@@ -2,14 +2,16 @@
 
 ## What is Early Algebra?
 
-Early algebra refers to arithmetic and the subset of algebra topics taught in primary and secondary schools. It excludes the topics of simplification of algebraic expressions and other susbsequent topics in algebra. For pre-teens or students in primary school, the curriculum activities of arithmetic of small whole numbers by means other than applying procedures (e.g. by manual counting) are excluded as well.
+Early algebra refers to arithmetic and the subset of algebra topics taught in primary and secondary schools. Strictly speaking, it excludes
+- arithmetic of small whole numbers by manual counting.
+- the topics of simplification of algebraic expressions, generation of algebraic expressions and other susbsequent topics in algebra.
 
 These are the early algebra topics for pre-teens:
 
 - Arithmetic, especially of large whole numbes and of non-whole numbers.
 - Powers and Roots
 - Evaluation of algebraic expressions
-- Equation solving by guess and check
+- Equation solving by means other than simplification of algebraic expressions, e.g. guess and check
 
 For teens and adults, this proposal permits the introduction of less optimal but more intuitive arithmetic procedures to the students. It also permits the presentation of the early algebra topics in a different arrangement from that for pre-teens, in order to better suit the challenges and opportunities presented by teens and adults.
 
@@ -40,24 +42,24 @@ The following activities are assumed to constitute arithmetic for rational numbe
 - Developing proficiency in arithmetic of fractions and decimal expansions
 - Divisibility Rules and Prime Factorization
 
-The arithmetic parts of early algebra proposal for adults seek to leverage reference materials (capable of being memorized in school settings), to quickly increase confidence in the study of arithmetic. For this reason the arithmetic parts is recorded in the form of tables, worked examples, formulas, demonstrations of arithmetic procedures, multi-choice questions, and exercises with detailed solutions. Some of these parts are as follows:
+The arithmetic parts of early algebra proposal for adults seek to leverage reference materials (capable of being memorized in school settings), to quickly increase confidence in the study of arithmetic. For this reason the arithmetic parts is recorded in the form of tables, worked examples, formulas, pictorial demonstrations of arithmetic procedures, multi-choice questions, and exercises with detailed solutions. Some of these parts are as follows:
 
 ### Rational Number Categorizations
 
 Early algebra proposal for adults depends on using formulas to perform arithmetic operations whenever possible. And these formulas depend on the perspective taken of the operands involved. Therefore the proposal requires making students aware that
 
-- numbers come in kinds or types, i.e. whole numbers, integers, non-whole numbers, non-integers.
-- numbers have parts or perspectives, i.e. sign, magnitude, numerator, denominator.
-- numbers can be presented in different formats, i.e. common fraction, mixed fraction, decimal expansion, standard form.
+- numbers come in kinds or types, e.g. whole numbers, non-whole numbers, integers, non-integers, positive numbers, negative numbers.
+- numbers have parts, e.g. sign, magnitude, numerator, denominator.
+- numbers can be presented in different formats, e.g. common fraction, mixed fraction, decimal expansion, standard form.
 
 ### Alternative Arithmetic Procedures
 
 NB: can serve as crosschecking avenues to the ones approved in school.
 
 - Multiplication of whole numbers
-  - modification of standard method.
+  - partial decomposition method.
 - Alternative to long division
-  - division by chunking (aka division by partial quotients method)
+  - division by chunking (aka division by partial quotients method, "Big 7" method)
   - conversion of fraction to decimal, by repeated multiplication of mixed/proper fraction by 10, until either there is no proper fraction in multiplication result (in which case decimal expansion terminates), or the proper fraction in the multiplication result is the same as one of the mixed/proper fractions being multiplied by 10 (in which case decimal expansion will repeat indefinitely).
 
 

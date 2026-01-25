@@ -19,9 +19,6 @@ The ability to cross-check answers becomes critical in the study of many science
 
 1. Can introduce the abacus device for addition as precursor to the standard addition procedure.
 
-2. Can modify standard multiplication procedure to incorporate some the grid multiplication algorithm, by splitting one operand into sum of multiples powers of 10, and putting them
-in a grid with the other operand unsplit (unlike the standard grid method which would have split both operands). Note also that this multiplication procedure, like the standard grid method, is an application of the distributive property of multiplication over addition.
-
 3. Can modify standard long division procedure to be easier to recall, by placing a digit on top of each digit of the dividend. In the case of long division beyond the decimal places available in the dividend, manually add a zero (preceded by adding  a decimal point if necessary) to the dividend, for each digit in the partial quotient answer generated after the decimal point. Overall, this means that the modification is meant to ensure a one-to-one correspondence between the digits and optional decimal point of the dividend, and the digits and optional decimal point of the quotient answer above it.
 
 4. If misconceptions about commutativity of the four basic arithmetic operations prove too enduring to be rooted out by proficiency in arithmetic of non-whole numbers alone, then these exercises may be employed in experiments to try forestalling the misconceptions:
