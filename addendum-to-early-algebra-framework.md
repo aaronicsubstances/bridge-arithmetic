@@ -87,7 +87,7 @@ find a fraction x such that x &ratio; c/d = a &ratio; b, and x &ratio; a/b = c &
 
 ### Division
 
-1. Division of fractions takes advantage of the fact that a positive simple fraction is equivalent to a ratio between the numerator and the denominator
+1. Division of fractions takes advantage of the fact that a positive simple fraction is defined as being equivalent to a ratio between its numerator and denominator.
 2. Division of fractions (whether simple or non-simple) is defined as being equivalent to creating a ratio from the operands, even if the operands are fractions or negative.
 3. So a/b &div; c/d = a/b &ratio; c/d
 2. Multiplying through the ratio by b results in: a &ratio; b &times; c/d
