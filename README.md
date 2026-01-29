@@ -5,6 +5,7 @@
 Early algebra refers to arithmetic and the subset of algebra topics taught in primary and secondary schools. Strictly speaking, it excludes
 - arithmetic of small whole numbers by manual counting.
 - the topics of simplification of algebraic expressions, generation of algebraic expressions and other susbsequent topics in algebra.
+- word problems. early algebra seeks to reduce dependency on reading and writing in a second language (English in the case of Ghana) to the barest minimum.
 
 These are the early algebra topics for pre-teens:
 
