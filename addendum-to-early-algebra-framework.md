@@ -115,4 +115,4 @@ because the fractions in each step will be decreasing in complexity, until simpl
    12. https://www.transum.org
    13. https://www.youtube.com/@MathwithMrJ
    14. https://math.stackexchange.com/questions/4510854/geometrical-physical-interpretation-of-multiplication-of-real-numbers-including/4510871#4510871
-
+   15. Euclid’s Elements - http://aleph0.clarku.edu/~djoyce/elements/elements.html
