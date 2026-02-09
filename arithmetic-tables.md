@@ -1908,8 +1908,20 @@ Some Factorisations:<br>100 = 10 &times; 10
 
 ### Some Terminology
 
-1. *Integer*: a signed whole number, i.e. zero, positive or negative whole number. E.g. 0, -1 and 7 are integers; 4/3 and 1/2 are not integers.
-2. *Signed Number*: another name used in this document for real numbers. Real numbers are a set of numbers containing all integers and some non-integers. All numbers studied in junior high school are signed numbers.
+1. *Integer*: a signed whole number, i.e. zero, positive or negative whole number. E.g. 0, -1 and 7 are integers; 1/2, -1/3 and 4/3 are not integers.
+2. *Simple fraction*: a fraction in which the numerator and denominator are integers, and the denominator is not zero. Simple fractions are usually used to express non-integers, and so usually the numerator is not divisible by the denominator. E.g. 1/2, -1/3 and 4/3 are simple fractions, but &pi; and &radic;2 are not simple fractions.
+2. *Real Number*: A real number is a decimal expansion that can either be converted exactly to a simple fraction, or a decimal expansion that can be approximated with a simple fraction to any desired level of accuracy. Counting numbers, whole numbers, integers and simple fractions are all types of real numbers.
+    1. All numbers studied in junior high school are real numbers.
+    1. All simple fractions can be converted into either terminating decimal expansions or repeating decimal expansions. Likewise all terminating decimal expansions and all repeating decimal expansions can be converted exactly to simple fractions. So the real numbers which are not simple fractions, are precisely the real numbers whose decimal expansions neither terminate nor repeat.
+    2. 1/2, -1/3 and 4/3 are real numbers because they are simple fractions.
+    2. 0, 1, 2, -1 and -7 are real numbers because they can be converted to simple fractions by dividing by 1, to obtain 0/1, 1/1, 2/1, -1/1 and -7/1 respectively.
+    2. 0.5 and -1.25 are real numbers because they can be converted exactly to the simple fractions 1/2 and -5/4 respectively.
+    2. 1.33333... and -0.16666... are real numbers because they can be converted exactly to the simple fractions 4/3 and -1/6 respectively.
+    3. &pi; is not a simple fraction but is a real number, because it can be approximated by 22/7, which is a simple fraction.
+    4. &radic;2 is not a simple fraction but is a real number, because it can be approximated by 1.41, which can be converted exactly into the simple fraction 141/100.
+    4. &#8731;-2 is not a simple fraction but is a real number, because it can be approximated by -1.26, which can be converted exactly into the simple fraction -63/50.
+    4. 1/0, 0/0, &radic;-1 and &radic;-4 are all examples of expressions which are not real numbers.
+2. *Signed Number*: another name for real numbers which is used in this document.
 3. *Magnitude of a signed number*: the part of a signed number without the sign. Equivalent to making a number positive. So magnitude of 0 is 0, magnitude of -1 is 1, magnitude of 3/4 is 3/4, magnitude of -1/2 is 1/2, magnitude of 4.5 is 4.5, magnitude of -0.65 is 0.65; 
 
 ### Addition and Subtraction
@@ -1968,7 +1980,7 @@ Examples:
 
 ### Powers and Roots
 
-1. Square roots of negative numbers, as well as all other even roots of negative numbers are undefined, ie are not real numbers. E.g. the square root of -4 is undefined; the square root of -9 is undefined; the fourth root of -81 is undefined.
+1. Square roots of negative numbers, as well as all other even roots of negative numbers are undefined, ie are not signed numbers. E.g. the square root of -4 is undefined; the square root of -9 is undefined; the fourth root of -81 is undefined.
 2. Other than even roots (including square roots) of negative numbers, powers and roots of integers work as expected. E.g. the square of -2 is 4, not -4; the square of -3 is 9; the cube root of -8 is -2; the cube root of -27 is -3.
 
 
@@ -1976,38 +1988,40 @@ Examples:
 
 ### Some Terminology
 
-1. *Proper fraction*: a fraction in which the numerator is smaller than the denominator. E.g. 1/2, 1/3, 2/3
-2. *Improper fraction*: a fraction in which the numerator is bigger than the denominator. E.g. 3/2, 4/3, 5/3
-3. *Simple fraction*: a proper or improper fraction in which the numerator and denominator are whole numbers. E.g. 1/2 is a simple fraction, 1/(3/2) and (2/3)/5 are not simple fractions.
-3. *Mixed fraction*: a fraction which is expressed in terms of a whole number part and a proper fraction part. E.g. 2 1/2, 5 3/4
+1. *Simple fraction*: a fraction in which the numerator and denominator are whole numbers (or integers). E.g. 1/2 is a simple fraction, 1/(3/2) and (2/3)/5 are not simple fractions.
+1. *Proper fraction*: a simple fraction in which the numerator is smaller (in magnitude) than the denominator. E.g. 1/2, 1/3, 2/3
+2. *Improper fraction*: a simple fraction in which the numerator is bigger (in magnitude) than the denominator. E.g. 3/2, 4/3, 5/3
+3. *Mixed fraction*: a number which is expressed in terms of a whole number (or integer) part and a proper fraction part. E.g. 2 1/2, 5 3/4
 4. *Ratio*: an expression involving positive numbers used to determine how to share a nonnegative number among two or more entities through repeated subtractions of whole numbers or parts of whole numbers.
    - A ratio for sharing between two entities is expressed as a &ratio; b (read as "a is to b")
    - E.g. Kofi and Kwame share a collection of 100 pencils in the ratio of 2 &ratio; 3 (read as "2 is to 3"), means that
     for every 2 pencils that Kofi takes out of the collection, Kwame gets to take 3 pencils.
    - Similarly a ratio for sharing among 3 entities is expressed as a &ratio; b &ratio; c (read as "a is to b is to c").
-   - E.g. Ama, Yaa and Akos share a collection of 24 canned drinks in the ratio 2 &ratio; 3 &ratio; 1 (reas as "2 is to 3 is to 1"), means that
+   - E.g. Ama, Yaa and Akos share a collection of 24 canned drinks in the ratio 2 &ratio; 3 &ratio; 1 (reads as "2 is to 3 is to 1"), means that
     for every 2 cans that Ama takes out of the collection, Yaa gets to take 3 cans and Akos gets to take 1 can.
 5. *of* operator: a/b of c/d = a &times; (c/d &div; b). E.g.
    - 3 of 4 = 4 + 4 + 4 = 12 ; 4 of 3 = 3 + 3 + 3 + 3 = 12
    - 4 of 1/2 = 1/2 + 1/2 + 1/2 + 1/2 = 2
    - 1/2 of 4 = 4/2 = 2 ; 1/3 of 5 = 5/3
-   - 2/3 of 6 = 2 &times; (6/3) = 2 &times; 2 = 4 ; 3/5 of 7/10 = 3 &times; (7/10 &div; 5) = 3 &times; 7/50 = 21/50
+   - 2/3 of 6 = 2 &times; (6 &div; 3) = 2 &times; 2 = 4 ; 3/5 of 7/10 = 3 &times; (7/10 &div; 5) = 3 &times; (35/50 &div; 5) = 3 &times; 7/50 = 21/50
 6. *Cross multiplication*: given two fractions a/b and c/d, cross multiplication refers to the action of multiplying
 a by d, and separately multiplying b by c to obtain two products (a &times; d) and (b &times; c). Cross multiplication is a heavily used step
 in fraction arithmetic.
-7. *A fraction is treated in mathematics as being equivalent to division of the numerator by the denominator*, even if the numerator and denominator is not a whole number.
+7. *A fraction is treated in mathematics as being equivalent to division of the numerator by the denominator*, even if the numerator or the denominator is not a whole number.
 8. *A ratio of two numbers is treated in mathematics as being equivalent to a fraction*, even if one of the two numbers is not a whole number.
-9. *The "of" operator is equivalent to multiplication of fractions in mathematics.*
+9. *The "of" operator is treated in mathematics as being equivalent to multiplication*, even if one of the operands is not a whole number or a positive simple fraction
 
 ### Addition and Subtraction
 
 Procedures:
 
-1. a/b + c/d = (a &times; d + b &times; c)/(b &times; d)
-1. a/b &minus; c/d = (a &times; d &minus; b &times; c)/(b &times; d)
-1. If the denominators are the same, then the formulas simplify to become:
+1. If the denominators are the same, then the formulas are simply:
     1. a/e + c/e = (a + c)/e
     2. a/e &minus; c/e = (a &minus; c)/e
+
+2. Below are the general formulas which are used to ensure that the denominators become the same:
+    1. a/b + c/d = (a &times; d + b &times; c)/(b &times; d)
+    2. a/b &minus; c/d = (a &times; d &minus; b &times; c)/(b &times; d)
 
 Examples:
 
@@ -2041,8 +2055,10 @@ Examples: *Use cross multiply*.
           
 Procedure:
 
-1. a/b &times; c/d = (a &times; c)/(b &times; d);
-NB: a/b of c/d is same as a/b &times; c/d
+1. a/b &times; c/d = a/b of c/d = (a &times; c)/(b &times; d);
+
+NB:
+  1. a/b &times; c/d = extension of a/b of c/d to cases where a/b or c/d are not positive simple fractions.
 
 Examples:
    - 3/5 of 7/5 = (3 &times; 7)/(5 &times; 5) = 21/25
@@ -2055,8 +2071,14 @@ Examples:
 
 Procedure:
 
-1. a/b &div; c/d = (a &times; d)/(b &times; c); NB: a/b &div; c/d = a/b &times; d/c
-1. If the denominators are the same, then the formula simplifies to become: a/e &div; c/e = a/c
+1. If the denominators are the same, then the formula is simply:
+    1. a/e &div; c/e = a/e &ratio; c/e = a/c
+2. Below is the general formula which is used to ensure that the denominators become the same:
+    1. a/b &div; c/d = a/b &ratio; c/d = (a &times; d)/(b &times; c);
+
+NB:
+  1. a/b &div; c/d = extension of a/b &ratio; c/d to cases where a/b or c/d are not positive simple fractions.
+  1. a/b &div; c/d = a/b &times; d/c
 
 Examples:
 
