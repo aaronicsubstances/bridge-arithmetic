@@ -367,68 +367,68 @@
   <tbody>
     <tr>
       <td>0 &times; 0 = 0</td>
-      <td>0 &times; 1 = 0</td>
-      <td>0 &times; 2 = 0</td>
-    </tr>
-    <tr>
       <td>1 &times; 0 = 0</td>
-      <td>1 &times; 1 = 1</td>
-      <td>1 &times; 2 = 2</td>
+      <td>2 &times; 0 = 0</td>
     </tr>
     <tr>
-      <td>2 &times; 0 = 0</td>
+      <td>0 &times; 1 = 0</td>
+      <td>1 &times; 1 = 1</td>
       <td>2 &times; 1 = 2</td>
+    </tr>
+    <tr>
+      <td>0 &times; 2 = 0</td>
+      <td>1 &times; 2 = 2</td>
       <td>2 &times; 2 = 4</td>
     </tr>
     <tr>
-      <td>3 &times; 0 = 0</td>
-      <td>3 &times; 1 = 3</td>
-      <td>3 &times; 2 = 6</td>
+      <td>0 &times; 3 = 0</td>
+      <td>1 &times; 3 = 3</td>
+      <td>2 &times; 3 = 6</td>
     </tr>
     <tr>
-      <td>4 &times; 0 = 0</td>
-      <td>4 &times; 1 = 4</td>
-      <td>4 &times; 2 = 8</td>
+      <td>0 &times; 4 = 0</td>
+      <td>1 &times; 4 = 4</td>
+      <td>2 &times; 4 = 8</td>
     </tr>
     <tr>
-      <td>5 &times; 0 = 0</td>
-      <td>5 &times; 1 = 5</td>
-      <td>5 &times; 2 = 10</td>
+      <td>0 &times; 5 = 0</td>
+      <td>1 &times; 5 = 5</td>
+      <td>2 &times; 5 = 10</td>
     </tr>
     <tr>
-      <td>6 &times; 0 = 0</td>
-      <td>6 &times; 1 = 6</td>
-      <td>6 &times; 2 = 12</td>
+      <td>0 &times; 6 = 0</td>
+      <td>1 &times; 6 = 6</td>
+      <td>2 &times; 6 = 12</td>
     </tr>
     <tr>
-      <td>7 &times; 0 = 0</td>
-      <td>7 &times; 1 = 7</td>
-      <td>7 &times; 2 = 14</td>
+      <td>0 &times; 7 = 0</td>
+      <td>1 &times; 7 = 7</td>
+      <td>2 &times; 7 = 14</td>
     </tr>
     <tr>
-      <td>8 &times; 0 = 0</td>
-      <td>8 &times; 1 = 8</td>
-      <td>8 &times; 2 = 16</td>
+      <td>0 &times; 8 = 0</td>
+      <td>1 &times; 8 = 8</td>
+      <td>2 &times; 8 = 16</td>
     </tr>
     <tr>
-      <td>9 &times; 0 = 0</td>
-      <td>9 &times; 1 = 9</td>
-      <td>9 &times; 2 = 18</td>
+      <td>0 &times; 9 = 0</td>
+      <td>1 &times; 9 = 9</td>
+      <td>2 &times; 9 = 18</td>
     </tr>
     <tr>
-      <td>10 &times; 0 = 0</td>
-      <td>10 &times; 1 = 10</td>
-      <td>10 &times; 2 = 20</td>
+      <td>0 &times; 10 = 0</td>
+      <td>1 &times; 10 = 10</td>
+      <td>2 &times; 10 = 20</td>
     </tr>
     <tr>
-      <td>11 &times; 0 = 0</td>
-      <td>11 &times; 1 = 11</td>
-      <td>11 &times; 2 = 22</td>
+      <td>0 &times; 11 = 0</td>
+      <td>1 &times; 11 = 11</td>
+      <td>2 &times; 11 = 22</td>
     </tr>
     <tr>
-      <td>12 &times; 0 = 0</td>
-      <td>12 &times; 1 = 12</td>
-      <td>12 &times; 2 = 24</td>
+      <td>0 &times; 12 = 0</td>
+      <td>1 &times; 12 = 12</td>
+      <td>2 &times; 12 = 24</td>
     </tr>
   </tbody>
 </table>
@@ -442,69 +442,69 @@
   </thead>
   <tbody>
     <tr>
-      <td>0 &times; 3 = 0</td>
-      <td>0 &times; 4 = 0</td>
-      <td>0 &times; 5 = 0</td>
+      <td>3 &times; 0 = 0</td>
+      <td>4 &times; 0 = 0</td>
+      <td>5 &times; 0 = 0</td>
     </tr>
     <tr>
-      <td>1 &times; 3 = 3</td>
-      <td>1 &times; 4 = 4</td>
-      <td>1 &times; 5 = 5</td>
+      <td>3 &times; 1 = 3</td>
+      <td>4 &times; 1 = 4</td>
+      <td>5 &times; 1 = 5</td>
     </tr>
     <tr>
-      <td>2 &times; 3 = 6</td>
-      <td>2 &times; 4 = 8</td>
-      <td>2 &times; 5 = 10</td>
+      <td>3 &times; 2 = 6</td>
+      <td>4 &times; 2 = 8</td>
+      <td>5 &times; 2 = 10</td>
     </tr>
     <tr>
       <td>3 &times; 3 = 9</td>
-      <td>3 &times; 4 = 12</td>
-      <td>3 &times; 5 = 15</td>
-    </tr>
-    <tr>
       <td>4 &times; 3 = 12</td>
-      <td>4 &times; 4 = 16</td>
-      <td>4 &times; 5 = 20</td>
+      <td>5 &times; 3 = 15</td>
     </tr>
     <tr>
-      <td>5 &times; 3 = 15</td>
+      <td>3 &times; 4 = 12</td>
+      <td>4 &times; 4 = 16</td>
       <td>5 &times; 4 = 20</td>
+    </tr>
+    <tr>
+      <td>3 &times; 5 = 15</td>
+      <td>4 &times; 5 = 20</td>
       <td>5 &times; 5 = 25</td>
     </tr>
     <tr>
-      <td>6 &times; 3 = 18</td>
-      <td>6 &times; 4 = 24</td>
-      <td>6 &times; 5 = 30</td>
+      <td>3 &times; 6 = 18</td>
+      <td>4 &times; 6 = 24</td>
+      <td>5 &times; 6 = 30</td>
     </tr>
     <tr>
-      <td>7 &times; 3 = 21</td>
-      <td>7 &times; 4 = 28</td>
-      <td>7 &times; 5 = 35</td>
+      <td>3 &times; 7 = 21</td>
+      <td>4 &times; 7 = 28</td>
+      <td>5 &times; 7 = 35</td>
     </tr>
     <tr>
-      <td>8 &times; 3 = 24</td>
-      <td>8 &times; 4 = 32</td>
-      <td>8 &times; 5 = 40</td>
+      <td>3 &times; 8 = 24</td>
+      <td>4 &times; 8 = 32</td>
+      <td>5 &times; 8 = 40</td>
     </tr>
     <tr>
-      <td>9 &times; 3 = 27</td>
-      <td>9 &times; 4 = 36</td>
-      <td>9 &times; 5 = 45</td>
+      <td>3 &times; 9 = 27</td>
+      <td>4 &times; 9 = 36</td>
+      <td>5 &times; 9 = 45</td>
     </tr>
     <tr>
-      <td>10 &times; 3 = 30</td>
-      <td>10 &times; 4 = 40</td>
-      <td>10 &times; 5 = 50</td>
+      <td>3 &times; 10 = 30</td>
+      <td>4 &times; 10 = 40</td>
+      <td>5 &times; 10 = 50</td>
     </tr>
     <tr>
-      <td>11 &times; 3 = 33</td>
-      <td>11 &times; 4 = 44</td>
-      <td>11 &times; 5 = 55</td>
+      <td>3 &times; 11 = 33</td>
+      <td>4 &times; 11 = 44</td>
+      <td>5 &times; 11 = 55</td>
     </tr>
     <tr>
-      <td>12 &times; 3 = 36</td>
-      <td>12 &times; 4 = 48</td>
-      <td>12 &times; 5 = 60</td>
+      <td>3 &times; 12 = 36</td>
+      <td>4 &times; 12 = 48</td>
+      <td>5 &times; 12 = 60</td>
     </tr>
   </tbody>
 </table>
@@ -518,69 +518,69 @@
   </thead>
   <tbody>
     <tr>
-      <td>0 &times; 6 = 0</td>
-      <td>0 &times; 7 = 0</td>
-      <td>0 &times; 8 = 0</td>
+      <td>6 &times; 0 = 0</td>
+      <td>7 &times; 0 = 0</td>
+      <td>8 &times; 0 = 0</td>
     </tr>
     <tr>
-      <td>1 &times; 6 = 6</td>
-      <td>1 &times; 7 = 7</td>
-      <td>1 &times; 8 = 8</td>
+      <td>6 &times; 1 = 6</td>
+      <td>7 &times; 1 = 7</td>
+      <td>8 &times; 1 = 8</td>
     </tr>
     <tr>
-      <td>2 &times; 6 = 12</td>
-      <td>2 &times; 7 = 14</td>
-      <td>2 &times; 8 = 16</td>
+      <td>6 &times; 2 = 12</td>
+      <td>7 &times; 2 = 14</td>
+      <td>8 &times; 2 = 16</td>
     </tr>
     <tr>
-      <td>3 &times; 6 = 18</td>
-      <td>3 &times; 7 = 21</td>
-      <td>3 &times; 8 = 24</td>
+      <td>6 &times; 3 = 18</td>
+      <td>7 &times; 3 = 21</td>
+      <td>8 &times; 3 = 24</td>
     </tr>
     <tr>
-      <td>4 &times; 6 = 24</td>
-      <td>4 &times; 7 = 28</td>
-      <td>4 &times; 8 = 32</td>
+      <td>6 &times; 4 = 24</td>
+      <td>7 &times; 4 = 28</td>
+      <td>8 &times; 4 = 32</td>
     </tr>
     <tr>
-      <td>5 &times; 6 = 30</td>
-      <td>5 &times; 7 = 35</td>
-      <td>5 &times; 8 = 40</td>
+      <td>6 &times; 5 = 30</td>
+      <td>7 &times; 5 = 35</td>
+      <td>8 &times; 5 = 40</td>
     </tr>
     <tr>
       <td>6 &times; 6 = 36</td>
-      <td>6 &times; 7 = 42</td>
-      <td>6 &times; 8 = 48</td>
-    </tr>
-    <tr>
       <td>7 &times; 6 = 42</td>
-      <td>7 &times; 7 = 49</td>
-      <td>7 &times; 8 = 56</td>
+      <td>8 &times; 6 = 48</td>
     </tr>
     <tr>
-      <td>8 &times; 6 = 48</td>
+      <td>6 &times; 7 = 42</td>
+      <td>7 &times; 7 = 49</td>
       <td>8 &times; 7 = 56</td>
+    </tr>
+    <tr>
+      <td>6 &times; 8 = 48</td>
+      <td>7 &times; 8 = 56</td>
       <td>8 &times; 8 = 64</td>
     </tr>
     <tr>
-      <td>9 &times; 6 = 54</td>
-      <td>9 &times; 7 = 63</td>
-      <td>9 &times; 8 = 72</td>
+      <td>6 &times; 9 = 54</td>
+      <td>7 &times; 9 = 63</td>
+      <td>8 &times; 9 = 72</td>
     </tr>
     <tr>
-      <td>10 &times; 6 = 60</td>
-      <td>10 &times; 7 = 70</td>
-      <td>10 &times; 8 = 80</td>
+      <td>6 &times; 10 = 60</td>
+      <td>7 &times; 10 = 70</td>
+      <td>8 &times; 10 = 80</td>
     </tr>
     <tr>
-      <td>11 &times; 6 = 66</td>
-      <td>11 &times; 7 = 77</td>
-      <td>11 &times; 8 = 88</td>
+      <td>6 &times; 11 = 66</td>
+      <td>7 &times; 11 = 77</td>
+      <td>8 &times; 11 = 88</td>
     </tr>
     <tr>
-      <td>12 &times; 6 = 72</td>
-      <td>12 &times; 7 = 84</td>
-      <td>12 &times; 8 = 96</td>
+      <td>6 &times; 12 = 72</td>
+      <td>7 &times; 12 = 84</td>
+      <td>8 &times; 12 = 96</td>
     </tr>
   </tbody>
 </table>
@@ -594,69 +594,69 @@
   </thead>
   <tbody>
     <tr>
-      <td>0 &times; 9 = 0</td>
-      <td>0 &times; 10 = 0</td>
-      <td>0 &times; 11 = 0</td>
+      <td>9 &times; 0 = 0</td>
+      <td>10 &times; 0 = 0</td>
+      <td>11 &times; 0 = 0</td>
     </tr>
     <tr>
-      <td>1 &times; 9 = 9</td>
-      <td>1 &times; 10 = 10</td>
-      <td>1 &times; 11 = 11</td>
+      <td>9 &times; 1 = 9</td>
+      <td>10 &times; 1 = 10</td>
+      <td>11 &times; 1 = 11</td>
     </tr>
     <tr>
-      <td>2 &times; 9 = 18</td>
-      <td>2 &times; 10 = 20</td>
-      <td>2 &times; 11 = 22</td>
+      <td>9 &times; 2 = 18</td>
+      <td>10 &times; 2 = 20</td>
+      <td>11 &times; 2 = 22</td>
     </tr>
     <tr>
-      <td>3 &times; 9 = 27</td>
-      <td>3 &times; 10 = 30</td>
-      <td>3 &times; 11 = 33</td>
+      <td>9 &times; 3 = 27</td>
+      <td>10 &times; 3 = 30</td>
+      <td>11 &times; 3 = 33</td>
     </tr>
     <tr>
-      <td>4 &times; 9 = 36</td>
-      <td>4 &times; 10 = 40</td>
-      <td>4 &times; 11 = 44</td>
+      <td>9 &times; 4 = 36</td>
+      <td>10 &times; 4 = 40</td>
+      <td>11 &times; 4 = 44</td>
     </tr>
     <tr>
-      <td>5 &times; 9 = 45</td>
-      <td>5 &times; 10 = 50</td>
-      <td>5 &times; 11 = 55</td>
+      <td>9 &times; 5 = 45</td>
+      <td>10 &times; 5 = 50</td>
+      <td>11 &times; 5 = 55</td>
     </tr>
     <tr>
-      <td>6 &times; 9 = 54</td>
-      <td>6 &times; 10 = 60</td>
-      <td>6 &times; 11 = 66</td>
+      <td>9 &times; 6 = 54</td>
+      <td>10 &times; 6 = 60</td>
+      <td>11 &times; 6 = 66</td>
     </tr>
     <tr>
-      <td>7 &times; 9 = 63</td>
-      <td>7 &times; 10 = 70</td>
-      <td>7 &times; 11 = 77</td>
+      <td>9 &times; 7 = 63</td>
+      <td>10 &times; 7 = 70</td>
+      <td>11 &times; 7 = 77</td>
     </tr>
     <tr>
-      <td>8 &times; 9 = 72</td>
-      <td>8 &times; 10 = 80</td>
-      <td>8 &times; 11 = 88</td>
+      <td>9 &times; 8 = 72</td>
+      <td>10 &times; 8 = 80</td>
+      <td>11 &times; 8 = 88</td>
     </tr>
     <tr>
       <td>9 &times; 9 = 81</td>
-      <td>9 &times; 10 = 90</td>
-      <td>9 &times; 11 = 99</td>
-    </tr>
-    <tr>
       <td>10 &times; 9 = 90</td>
-      <td>10 &times; 10 = 100</td>
-      <td>10 &times; 11 = 110</td>
+      <td>11 &times; 9 = 99</td>
     </tr>
     <tr>
-      <td>11 &times; 9 = 99</td>
+      <td>9 &times; 10 = 90</td>
+      <td>10 &times; 10 = 100</td>
       <td>11 &times; 10 = 110</td>
+    </tr>
+    <tr>
+      <td>9 &times; 11 = 99</td>
+      <td>10 &times; 11 = 110</td>
       <td>11 &times; 11 = 121</td>
     </tr>
     <tr>
-      <td>12 &times; 9 = 108</td>
-      <td>12 &times; 10 = 120</td>
-      <td>12 &times; 11 = 132</td>
+      <td>9 &times; 12 = 108</td>
+      <td>10 &times; 12 = 120</td>
+      <td>11 &times; 12 = 132</td>
     </tr>
   </tbody>
 </table>
@@ -668,40 +668,40 @@
   </thead>
   <tbody>
     <tr>
-      <td>0 &times; 12 = 0</td>
+      <td>12 &times; 0 = 0</td>
     </tr>
     <tr>
-      <td>1 &times; 12 = 12</td>
+      <td>12 &times; 1 = 12</td>
     </tr>
     <tr>
-      <td>2 &times; 12 = 24</td>
+      <td>12 &times; 2 = 24</td>
     </tr>
     <tr>
-      <td>3 &times; 12 = 36</td>
+      <td>12 &times; 3 = 36</td>
     </tr>
     <tr>
-      <td>4 &times; 12 = 48</td>
+      <td>12 &times; 4 = 48</td>
     </tr>
     <tr>
-      <td>5 &times; 12 = 60</td>
+      <td>12 &times; 5 = 60</td>
     </tr>
     <tr>
-      <td>6 &times; 12 = 72</td>
+      <td>12 &times; 6 = 72</td>
     </tr>
     <tr>
-      <td>7 &times; 12 = 84</td>
+      <td>12 &times; 7 = 84</td>
     </tr>
     <tr>
-      <td>8 &times; 12 = 96</td>
+      <td>12 &times; 8 = 96</td>
     </tr>
     <tr>
-      <td>9 &times; 12 = 108</td>
+      <td>12 &times; 9 = 108</td>
     </tr>
     <tr>
-      <td>10 &times; 12 = 120</td>
+      <td>12 &times; 10 = 120</td>
     </tr>
     <tr>
-      <td>11 &times; 12 = 132</td>
+      <td>12 &times; 11 = 132</td>
     </tr>
     <tr>
       <td>12 &times; 12 = 144</td>
