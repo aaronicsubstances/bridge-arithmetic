@@ -57,12 +57,20 @@ Early algebra proposal for adults depends on using formulas to perform arithmeti
 
 NB: can serve as crosschecking avenues to the ones approved in school.
 
+- Subtraction of whole numbers
+  - subtraction by solving addition equation (aka count up method, shopkeeper's method)
 - Multiplication of whole numbers
   - partial decomposition method.
 - Alternative to long division
   - division by chunking (aka division by partial quotients method, "Big 7" method)
   - conversion of fraction to decimal, by repeated multiplication of mixed/proper fraction by 10, until either there is no proper fraction in multiplication result (in which case decimal expansion terminates), or the proper fraction in the multiplication result is the same as one of the mixed/proper fractions being multiplied by 10 (in which case decimal expansion will repeat indefinitely).
 
+### Other Matters
+
+Reminder of decimal number algorithms:
+
+- multiplication - ignore decimals, perform whole number multiplication, and shift decimal point in answer by combined number of decimal places in operands
+- division of decimals - ensure there are no decimals in divisor, by multiplying both dividend and divisor by power of ten determined by number of decimal places in divisor; then go ahead and do the division even if the modified dividend still has decimal places in it.
 
 ## Algebra Topics
 
