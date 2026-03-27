@@ -58,7 +58,13 @@ Early algebra proposal for adults depends on using formulas to perform arithmeti
 NB: can serve as crosschecking avenues to the ones approved in school.
 
 - Subtraction of whole numbers
-  - subtraction by solving addition equation (aka count up method, shopkeeper's method)
+  - application of standard method only to the case where larger operand is a product of power of ten and a single digit, by performing the following steps:
+    - ignore or cancel out common leading prefix of operands.
+    - if all digits of both operands are cancelled out, then operands are equal and the answer is zero. if operands are the same in all but the last digits, then use manual counting to finish off the subtraction.
+    - Else it should be the case that a subtraction has to be performed between new operands with different leading digits. Express the larger new operand as a sum of two numbers in which first of the numbers equals the larger new operand in length, and consists of the leading digit of the larger new operand followed by zeros; and the second of the numbers is all of the digits of the larger new operand except its leading digit.
+    - Then use standard subtraction algorithm to compute difference between the first number and the smaller new operand. The only modification here is that borrowing must be done at most once, and its effects on the first number should be written out in the same way for consistency sake. And the effects on the first number should be reducing its leading digit by 1, changing the digit at the point where borrowing is needed to ten, and changing all other digits in between to nines.
+    - Finaly add the intermediate subtraction result to the second number to finish off the subtraction.
+    - NB: this method is inspired by the shopkeeper's method (aka count up method, count forward method), in that it avoids the need for the student to know or remember that subtraction is not commutative. Instead, it only requires the student to know how to compute absolute differences of small operands (ie number whose magnitude is less than 20), and how to compute additions and comparisons for large numbers.
 - Multiplication of whole numbers
   - partial decomposition method.
 - Alternative to long division
