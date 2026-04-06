@@ -44,7 +44,8 @@ The ability to cross-check answers becomes critical in the study of many science
    - cash-based accounting
    - sports league standings
    - cooking recipes
-   - distance measurement, including anatomy-based (inch, foot, yard)
+   - interpreting pharmacists' instructions on frequency of taking pills and syrups, as an application of multiplication.
+   - distance measurement, including anatomy-based (inch/thumb, foot, yard/arm span)
    - weight/mass measurement, including balances/scales used throughout history.
    - wall clock readings
    - descriptive statistics
