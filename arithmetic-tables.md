@@ -1923,30 +1923,30 @@ Some Factorisations:<br>100 = 10 &times; 10
     4. 1/0, 0/0, &radic;-1 and &radic;-4 are all examples of expressions which are not real numbers.
 2. *Signed Number*: another name for real numbers which is used in this document.
 3. *Magnitude of a signed number*: the part of a signed number without the sign. Equivalent to making a number positive. So magnitude of 0 is 0, magnitude of -1 is 1, magnitude of 3/4 is 3/4, magnitude of -1/2 is 1/2, magnitude of 4.5 is 4.5, magnitude of -0.65 is 0.65; 
+4. Sign of a signed number: the sign of a signed number is negative (sometimes written as '-') if the number is negative; is positive (sometimes written as '+') if the number is positive; or zero if the number is zero. So sign of 0 is 0, sign of 8 is +, sign of -7 is -.
 
 ### Addition and Subtraction
 
-Given an addition or subtraction problem involving signed numbers (like 3 + -2, -2 &minus; 5), first ensure that the second operand is not negative by using the following:
+Given an addition or subtraction problem involving signed numbers (like 3 + -2, -2 &minus; 5), first convert subtraction to addition by using the following:
 
-1. a + -b = a &minus; b ; E.g. 3 + -2 = 3 - 2 ; -10 + -3 = -10 &minus; 3
+1. a &minus; b = a + -b ; E.g. 3 &minus; 2 = 3 + -2 ; -10 &minus; 3 = -10 + -3
 1. a &minus; -b = a + b ; E.g. 3 &minus; -2 = 3 + 2 ; -6 &minus; -4 = -6 + 4
 
 After that finish the calculation by employing the number line in the following way:
 
 1. Start from zero, and locate the first operand on the number line to the left or right of zero depending on whether it is negative or positive respectively. Note this as an initial movement to the left or right.
-1. Next, interpret an addition as a movement to the right and interpret a subtraction as a movement to the left.
-2. Then if the initial movement and the movement suggested by the operation agree, add the magnitudes of the operands. The sign of the answer will be obvious from where the initial movement landed.
+1. Next, interpret the second operand as a movement (or displacement) to the right if it is positive, or as a movement to the left if it is negative.
+2. Then if the initial movement and the movement suggested by the second operand agree, add the magnitudes of the operands. The sign of the answer will be obvious from where the initial movement landed.
 3. Else subtract the smaller magnitude from the larger magnitude. If the second movement is big enough to fully reverse the initial movement, then the sign of the answer will be the opposite of the destination of the initial movement.
 Else the sign of the answer will be where the initial movement landed.
 
 Examples:
 
-1. -2 &minus; 5 = -7 ; -10 + -3 = -10 &minus; 3 = -13 ; -3/4 &minus; 1/4 = -1 ; In these cases first operand is negative, minus positive number. So the magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be negative.
-2. 3 &minus; -2 = 3 + 2 = 5 ; 3/4 + 1/4 = 1; Here the first operand is positive, plus positive number. So the magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be positive.
-3. -3 + 2 = -1 ; -2 + 3 = 1 ; -6 &minus; -4 = -6 + 4 = -2 ; -3/4 + 1/4 = -1/2; -1/4 + 3/4 = 1/2; In these cases the first operand is negative, plus positive number. So the magnitude of the answer will be the larger magnitude minus the smaller magnitude;
-and the sign of the answer will be the sign of the operand with the larger magnitude.
-4. 3 &minus; 2 = 1 ; 1 &minus; 4 = -3 ; 3 + -2 = 3 &minus; 2 = 1 ; 2 + -3 = 2 &minus; 3 = -1 ; 3/4 &minus; 1/4 = 1/2; 1/4 &minus; 3/4 = -1/2; In these cases the first operand is positive, minus positive number. Therefore the magnitude of the answer will be the larger magnitude minus the smaller magnitude.
-If the first operand has the larger magnitude, then its sign will be the sign of the answer. Else the sign of the answer will be the opposite of the sign of the first operand. 
+1. -2 &minus; 5 = -2 + -5 = -7 ; -10 + -3 = -13 ; -3/4 &minus; 1/4 = -3/4 + -1/4 = -1 ; In these cases both operands are (or become) negative. So the magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be negative.
+2. 3 &minus; -2 = 3 + 2 = 5 ; 10 + 3 = 13; 3/4 + 1/4 = 1; In these cases both operands are (or become) positive. So the magnitude of the answer will be the sum of the magnitudes of the operands; and the answer will be positive.
+3. In the last cases to be given here, one operand is (or becomes) negative and the other is (or becomes) positive. So the magnitude of the answer will be the larger magnitude minus the smaller magnitude; and the sign of the answer will be the sign of the operand with the larger magnitude.
+   1. -3 + 2 = -1 ; -2 + 3 = 1 ; -6 &minus; -4 = -6 + 4 = -2 ; -3/4 + 1/4 = -1/2; -1/4 + 3/4 = 1/2;
+   2. 3 &minus; 2 = 3 + -2 = 1 ; 1 &minus; 4 = 1 + -4 = -3 ; 5 + -2 = 3 ; 2 + -3 = -1 ; 3/4 &minus; 1/4 = 3/4 + -1/4 = 1/2; 1/4 &minus; 3/4 = 1/4 + -3/4 = -1/2;
 
 ### Comparison
 
