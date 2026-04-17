@@ -74,9 +74,41 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 
 ### Other Matters
 
-Reminder of decimal number procedures:
 
-- multiplication - ignore decimals, perform whole number multiplication, and shift decimal point in answer by combined number of decimal places in operands
+Ways to teach addition
+- addition by count all
+- addition by count forward
+- addition of small integers on number line
+- addition procedure, esp. for large counting numbers
+- addition of integers with large magnitudes
+
+
+Ways to teach multiplication
+- multiplication with counting number operand as equivalent to repeated addition
+  - multiplication with single digit counting numbers (less than 10) by filling grid and counting all cells
+  - multiplication with single digit counting numbers by table lookup
+  - multiplication with one operand being a small single digit counting numbers (5 or less) by repeated addition
+  - multiplication procedure with only one single digit counting number
+  - multiplication procedure with no single digit counting numbers
+  - multiplication with single digit counting numbers by memory recall
+- multiplication without counting numbers operand as equivalent to ratio preservation (aka scaling)
+
+
+For subtraction of integers, can teach it in these stages and in the given order. At the same time however, any of the stages aside the last can be omitted:
+- subtraction by count all of remainder
+- subtraction by count forward (most important of manual procedures)
+- subtraction by count backward (mentioned for completeness sake)
+- comparison of integers
+- 'abs' function applied to subtraction operands of small magnitudes using the number line
+- 'sign' function applied to subtraction operands: 0, '+' or '-'
+- meaning of subtraction explained with 'abs' and 'sign' functions.
+- negation of integers
+- subtraction as addition with negation of second operand.
+
+
+Ways to teach decimal number procedures:
+
+- multiplication of decimals - ignore decimals, perform whole number multiplication, and shift decimal point in answer by combined number of decimal places in operands
 - division of decimals - ensure there are no decimals in divisor, by multiplying both dividend and divisor by power of ten determined by number of decimal places in divisor; then go ahead and do the division even if the modified dividend still has decimal places in it.
 
 ## Algebra Topics
