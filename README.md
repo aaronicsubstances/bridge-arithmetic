@@ -83,18 +83,7 @@ Ways to teach addition
 - addition of integers with large magnitudes
 
 
-Ways to teach multiplication
-- multiplication with counting number operand as equivalent to repeated addition
-  - multiplication with single digit counting numbers (less than 10) by filling grid and counting all cells
-  - multiplication with single digit counting numbers by table lookup
-  - multiplication with one operand being a small single digit counting numbers (5 or less) by repeated addition
-  - multiplication procedure with only one single digit counting number
-  - multiplication procedure with no single digit counting numbers
-  - multiplication with single digit counting numbers by memory recall
-- multiplication without counting numbers operand as equivalent to ratio preservation (aka scaling)
-
-
-For subtraction of integers, can teach it in these stages and in the given order. At the same time however, any of the stages aside the last can be omitted:
+For subtraction of integers, can teach it in any subset of the following stages, and in any ordering of them:
 - subtraction by count all of remainder
 - subtraction by count forward (most important of manual procedures)
 - subtraction by count backward (mentioned for completeness sake)
@@ -105,6 +94,24 @@ For subtraction of integers, can teach it in these stages and in the given order
 - negation of integers
 - subtraction as addition with negation of second operand.
 
+Ways to teach multiplication
+- multiplication with counting number operand as equivalent to repeated addition
+  - multiplication with single digit counting numbers (less than 10) by filling grid and counting all cells
+  - multiplication with single digit counting numbers by table lookup
+  - multiplication with one operand being a small single digit counting numbers (5 or less) by repeated addition
+  - multiplication procedure with only one single digit counting number
+  - multiplication procedure with no single digit counting numbers
+  - multiplication with single digit counting numbers by memory recall
+- multiplication without counting numbers operand as equivalent to ratio preservation (aka scaling)
+
+Ways to teach division
+- division as chunking, like creating stick bundles
+- division as partition, like 50-50 sharing
+- continuum versus discrete distinction in reality, and the resulting difference in division which results in integer quotient and possible remainder, versus division which results in fraction quotient and no remainder
+
+NB:
+- beware of dependency of arithmetic procedures for counting numbers, on arithmetic of zero
+- beware also of dependency of multiplication and division procedures of counting numbers, on arithmetic of 1 as the multiplier and divisor respectively.
 
 Ways to teach decimal number procedures:
 
