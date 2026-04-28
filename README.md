@@ -78,21 +78,27 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 Ways to teach addition
 - addition by count all
 - addition by count forward
-- addition of small integers on number line
-- addition procedure, esp. for large counting numbers
-- addition of integers with large magnitudes
+- addition procedure for large counting numbers
 
-
-For subtraction of integers, can teach it in any subset of the following stages, and in any ordering of them:
+Ways to teach subtraction
 - subtraction by count all of remainder
 - subtraction by count forward (most important of manual procedures)
 - subtraction by count backward (mentioned for completeness sake)
-- comparison of integers
-- 'abs' function applied to subtraction operands of small magnitudes using the number line
-- 'sign' function applied to subtraction operands: 0, '+' or '-'
-- meaning of subtraction explained with 'abs' and 'sign' functions.
-- negation of integers
-- subtraction as addition with negation of second operand.
+- subtraction procedure for large counting numbers
+
+Application of accounting using Chinese rods, black for positive, red for negative.
+- addition - meaning
+- comparison - meaning
+- 'sign' function applied to subtraction operands: 0, '+' or '-' , with meaning based comparison
+- zero expressions: b - b = 0; -b + b = 0; b + -b = 0
+- negation operation
+- subtraction as addition with negation - operational
+
+Application of Euclidean geometry in 1D using number line
+- addition - alternative meaning
+- absolute difference - meaning
+- subtraction - meaning
+- subtraction explained with 'abs' and 'sign' functions - alternative meaning
 
 Ways to teach multiplication
 - multiplication with counting number operand as equivalent to repeated addition
@@ -102,12 +108,16 @@ Ways to teach multiplication
   - multiplication procedure with only one single digit counting number
   - multiplication procedure with no single digit counting numbers
   - multiplication with single digit counting numbers by memory recall
-- multiplication without counting numbers operand as equivalent to ratio preservation (aka scaling)
+- multiplication without counting numbers operand as equivalent to ratio duplication (aka scaling) in 2D Euclidean geometry
 
 Ways to teach division
-- division as chunking, like creating stick bundles
-- division as partition, like 50-50 sharing
-- continuum versus discrete distinction in reality, and the resulting difference in division which results in integer quotient and possible remainder, versus division which results in fraction quotient and no remainder
+- division in which both numbers are counting numbers
+  - continuum versus discrete distinction in reality, and the resulting difference in 
+  - division which results in integer quotient and possible remainder through repeated subtraction
+    - division as chunking, like creating stick bundles
+    - division as partition, like 50-50 sharing
+  - division which results in fraction quotient and no remainder
+- division in which one number is not a counting number, as equivalent to ratio creation in 2D Euclidean geometry
 
 NB:
 - beware of dependency of arithmetic procedures for counting numbers, on arithmetic of zero
