@@ -66,43 +66,81 @@ The ability to cross-check answers becomes critical in the study of many science
     - instead of looking for factors of ac which add up to b, can rather teach almighty formula and use product of roots by -a as the desired factors.
     - as a help to quadratic factorization in algebra, can train students to identify coefficients of linear and quadratic expressions and equations in early algebra.
 
-## Explanation for Fraction Procedures
+## Explanation for Arithmetic Operations
 
-### Addition and Subtraction
+Those that can do without Euclidean geometry:
 
-1. To add or subtract fractions, get the denominators to be the same, and then add or subtract the numerators.
-2. So in general when denominators are not the same, cross multiplication technique is used to make the denominators the same.
-3. So a/b &plusmn; c/d = (a &times; d)/(b &times; d) &plusmn; (b &times; c)/(b &times; d) = (a &times; d &plusmn; b &times; c)/(b &times; d)
+- Counting numbers and the operations of addition, subtraction, absolute difference, multiplication, floor division and modulo - counting forward, grid cell counting, repeated subtraction.
+- Positive real numbers and the operation of floor division and modulo - repeated subtraction just like for counting numbers.
+- Integers and generally real numbers, and the operations of addition and comparison - accounting
 
-### Comparison
+Those that need Euclidean geometry:
 
-1. As is the case for all numbers, to compare a/b and c/d, compute a/b &minus; c/d and check the sign by comparing with zero.
-2. The general result for subtraction gives (a &times; d &minus; b &times; c)/(b &times; d)
-3. After ensuring b and d are positive, and because the subtraction result is being compared with zero,
-the sign of the subtraction result can be completely determined by the sign of the numerator alone: (a &times; d &minus; b &times; c).
-4. And since that numerator is a subtraction expression, we can interpret it as a comparison between (a &times; d) and (b &times; c)
+- Subtraction in general, especially those involving negative operands or capable of producing negative results - 1D Euclidean geometry, aka number line.
+- Positive rational numbers and the operation of multiplication - computing areas, need for 2D plane and interpretation of numbers as ratios, linear scaling, compounding ratios. 
+- Positive rational numbers and the operation of division - just like multiplication except that ratio is interpreted inversely.
+- Positive real numbers and the operations of multiplication and division - Cartesian plane, first quadrant can be used to demonstrate equivalence of linear scaling and area computation.
 
-### Multiplication
+![demo of equivalence of linear scaling and area](demo1.png)
 
-1. Multiplication of fractions a/b and c/d can be defined as solving the following problem involving ratios:
-find a fraction x such that x &ratio; c/d = a &ratio; b, and x &ratio; a/b = c &ratio; d
-1. And the solution, which is a result of how division of fractions is defined, is x = (a &times; c)/(b &times; d)
-2. It happens that (a &times; c)/(b &times; d) = a &times; (c/d &div; b), which is the definition of a/b of c/d
-3. Hence a/b of c/d = a/b &times; c/d = (a &times; c)/(b &times; d)
+- Real numbers and the operations of addition, subtraction, multiplication and division, especially those involving irrational or negative operands - 2D Euclidean geometry
 
-### Division
 
-1. Division of fractions takes advantage of the fact that a positive simple fraction is defined as being equivalent to a ratio between its numerator and denominator.
-2. Division of fractions (whether simple or non-simple) is defined as being equivalent to creating a ratio from the operands, even if the operands are fractions or negative.
-3. So a/b &div; c/d = a/b &ratio; c/d
-2. Multiplying through the ratio by b results in: a &ratio; b &times; c/d
-2. Multiplying through the ratio by d results in: a &times; d &ratio; b &times; c
-3. Converting the ratio back to fraction yields: (a &times; d) &ratio; (b &times; c) = (a &times; d)/(b &times; c)
-3. If there are non-simple fractions involved, then the multiplications in the formula will involve divisions, which can in turn lead to
-multiplication of fractions and a cycle of performing multiplications and divisions of fractions will occur. However the cycle will end
-because the fractions in each step will be decreasing in complexity, until simple fractions are encountered, or until the following are encountered:
-   - having a multiplication in which there is a whole number operand. Cycle ends since multiplication of whole numbers (by repeated addition) can then be used.
-   - having a division in which the second operand is a whole number. Cycle ends since multiplication (to get equivalent fraction) and division of whole numbers can then be used.
+## Other Matters
+
+Ways to teach addition
+- addition by count all
+- addition by count forward
+- addition procedure for large counting numbers
+
+Ways to teach subtraction
+- subtraction by count all of remainder
+- subtraction by count forward (most important of manual procedures)
+- subtraction by count backward (mentioned for completeness sake)
+- subtraction procedure for large counting numbers
+
+Application of accounting using Chinese rods, black for positive, red for negative.
+- addition - meaning
+- comparison - meaning
+- 'sign' function applied to subtraction operands: 0, '+' or '-' , with meaning based comparison
+- zero expressions: b - b = 0; -b + b = 0; b + -b = 0
+- negation operation
+- subtraction as addition with negation - operational
+
+Application of Euclidean geometry in 1D using number line
+- addition - alternative meaning
+- absolute difference - meaning
+- subtraction - meaning
+- subtraction explained with 'abs' and 'sign' functions - alternative meaning
+
+Ways to teach multiplication
+- multiplication with counting number operand as equivalent to repeated addition
+  - multiplication with single digit counting numbers (less than 10) by filling grid and counting all cells
+  - multiplication with single digit counting numbers by table lookup
+  - multiplication with one operand being a small single digit counting numbers (5 or less) by repeated addition
+  - multiplication procedure with only one single digit counting number
+  - multiplication procedure with no single digit counting numbers
+  - multiplication with single digit counting numbers by memory recall
+- multiplication without counting numbers operand as equivalent to ratio duplication (aka scaling) in 2D Euclidean geometry
+
+Ways to teach division
+- division in which both numbers are counting numbers
+  - continuum versus discrete distinction in reality, and the resulting difference in 
+  - division which results in integer quotient and possible remainder through repeated subtraction
+    - division as chunking, like creating stick bundles
+    - division as partition, like 50-50 sharing
+  - division which results in fraction quotient and no remainder
+- division in which one number is not a counting number, as equivalent to ratio creation in 2D Euclidean geometry
+
+NB:
+- beware of dependency of arithmetic procedures for counting numbers, on arithmetic of zero
+- beware also of dependency of multiplication and division procedures of counting numbers, on arithmetic of 1 as the multiplier and divisor respectively.
+
+Ways to teach decimal number procedures:
+
+- multiplication of decimals - ignore decimals, perform whole number multiplication, and shift decimal point in answer by combined number of decimal places in operands
+- division of decimals - ensure there are no decimals in divisor, by multiplying both dividend and divisor by power of ten determined by number of decimal places in divisor; then go ahead and do the division even if the modified dividend still has decimal places in it.
+
 
 # Notable References
    
