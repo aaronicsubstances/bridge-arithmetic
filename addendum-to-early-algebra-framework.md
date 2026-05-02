@@ -68,29 +68,40 @@ The ability to cross-check answers becomes critical in the study of many science
 
 ## Explanation for Arithmetic Operations
 
-Those that can do without Euclidean geometry:
+There is an interesting reading here about how real numbers are based on Euclidean geometry: http://aleph0.clarku.edu/~djoyce/elements/bookVI/propVI1.html
 
-- Counting numbers and the operations of addition, subtraction, absolute difference, multiplication, floor division and modulo - counting forward, grid cell counting, repeated subtraction.
+Those that can do without Euclidean geometry:
+- Counting numbers and the operations of addition, subtraction, multiplication, division (and floor division, modulo, and ratio simplification) - counting forward, repeated addition (and grid cell counting), repeated subtraction, finding common divisor.
+- Integers and generally real numbers, and the operations of addition and comparison - accounting in ancient China using rods: red for positive, black for negative.
+- Integers and generally real numbers and the operation of subtraction - addition with negation of second operand.
+- Positive rational numbers and addition and subtraction - addition and subtraction of fractional units just like for counting numbers, applied after normalization of denominators.
+- Positive rational numbers and multiplication - "of" operator, applied as division by counting number followed by multiplication by counting number. The procedure is best seen by normalizing the denominator of the multiplier and the numerator of the multiplicand. The definition of multiplication is overloaded to now mean the use of the multiplier as a ratio to find the numerator of an equivalent ratio to the multiplier, with the multiplicand as the denominator of the equivalent ratio.
+   - An alternative but related interpretation of multiplication of positive rational numbers, is computing areas by grid cell counting, and dividing it by the grid cell count in the unit square.
+   - NB: for multiplications involving positive rational number operands, in which at least one of the operands is a counting number, the interpretation of multiplication as repeated addition still applies.
+- Positive rational numbers and division - ratio finding in the context of the "of" operator, ie finding the multiplier of an "of" operation that when multiplied with divisor yields dividend. The procedure involves normalization of denominators using equivalent fractions. The definition of division is overloaded to now mean ratio finding, as a consequence of the redefinition of multiplication.
+   - An alternative but related interpretation of division of positive rational numbers, is ratio finding in the context of computing areas, ie finding one of the sides of a rectangle given its area and the length of the other side. And in Euclid's Elements,  the unknown side length is found as the ratio of the area to the length of the known side. And so this operation which is a precursor to division of positive real numbers in general, gives the explanation to division as ratio finding.
+   - NB: for divisions involving positive rational number operands, in which the divisor is a counting number or in which the modulo operation yields zero, the interpretation of division as repeated subtraction still applies.
 - Positive real numbers and the operation of floor division and modulo - repeated subtraction just like for counting numbers.
-- Integers and generally real numbers, and the operations of addition and comparison - accounting
 
 Those that need Euclidean geometry:
+- Positive real numbers and the operation of multiplication - requires the interpretation of numbers as ratios, for the purpose of linear scaling. And then an interpretation of multiplication will be "compounding of ratios" in the sense of Euclid's Elements, in which goal is to get the effective ratio that represents the linear scaling resulting from successive applications of two or more ratios.
+In fact according to Proposition 23 of Book VI of Euclid's Elements, compounding a:b and c:d = area ac : area bd. Where b = d = 1, then this proposition implies that compounding = calculating area, and hence the interpretation of multiplication as area is the link between rational number multiplication and positive real number multiplication.
+- Positive real numbers and the operation of division - solving multiplication equation by finding the ratio which when compounded with a given length ratio produces a given area ratio. A related interpretation is to treat a division as "inverse compounding" in which the ratio is interpreted inversely. In fact in Euclid's Elements, only multiplication and division (ie "compounding" and "inverse compounding") are performed with ratios; addition and subtraction are not carried out on ratios, presumably because a ratio is a linear relationship between two magnitudes, rather than a magnitude by itself.
 
-- Subtraction in general, especially those involving negative operands or capable of producing negative results - 1D Euclidean geometry, aka number line.
-- Positive rational numbers and the operation of multiplication - computing areas, need for 2D plane and interpretation of numbers as ratios, linear scaling, compounding ratios. 
-- Positive rational numbers and the operation of division - just like multiplication except that ratio is interpreted inversely.
-- Positive real numbers and the operations of multiplication and division - Cartesian plane, first quadrant can be used to demonstrate equivalence of linear scaling and area computation.
+Those that need the Cartesian plane:
+- Real numbers and the operations of addition and subtraction, especially those involving subtraction from negative operands - number line.
+- Positive real numbers and the operations of multiplication and division - First quadrant of Cartesian plane can be used to demonstrate equivalence of linear scaling and area computation.
+- Real numbers and the operations of multiplication and division - All four quadrants of Cartesian plane.
 
 ![demo of equivalence of linear scaling and area](demo1.png)
 
-- Real numbers and the operations of addition, subtraction, multiplication and division, especially those involving irrational or negative operands - 2D Euclidean geometry
 
 
 ## Other Matters
 
 Ways to teach addition
 - addition by count all
-- addition by count forward
+- addition by count forward (most important of manual procedures)
 - addition procedure for large counting numbers
 
 Ways to teach subtraction
@@ -99,38 +110,30 @@ Ways to teach subtraction
 - subtraction by count backward (mentioned for completeness sake)
 - subtraction procedure for large counting numbers
 
-Application of accounting using Chinese rods, black for positive, red for negative.
+Application of accounting using Chinese rods, red for positive, black for negative.
 - addition - meaning
 - comparison - meaning
 - 'sign' function applied to subtraction operands: 0, '+' or '-' , with meaning based comparison
 - zero expressions: b - b = 0; -b + b = 0; b + -b = 0
 - negation operation
-- subtraction as addition with negation - operational
-
-Application of Euclidean geometry in 1D using number line
-- addition - alternative meaning
-- absolute difference - meaning
-- subtraction - meaning
+- subtraction as addition with negation - meaning
+- 'abs' function applied to subtraction operands
 - subtraction explained with 'abs' and 'sign' functions - alternative meaning
 
 Ways to teach multiplication
-- multiplication with counting number operand as equivalent to repeated addition
-  - multiplication with single digit counting numbers (less than 10) by filling grid and counting all cells
-  - multiplication with single digit counting numbers by table lookup
-  - multiplication with one operand being a small single digit counting numbers (5 or less) by repeated addition
-  - multiplication procedure with only one single digit counting number
-  - multiplication procedure with no single digit counting numbers
-  - multiplication with single digit counting numbers by memory recall
-- multiplication without counting numbers operand as equivalent to ratio duplication (aka scaling) in 2D Euclidean geometry
+- multiplication with single digit counting numbers (less than 10) by filling grid and counting all cells
+- multiplication with single digit counting numbers by table lookup
+- multiplication with one operand being a small single digit counting numbers (5 or less) by repeated addition
+- multiplication procedure with only one single digit counting number
+- multiplication procedure with no single digit counting numbers
+- multiplication with single digit counting numbers by memory recall
 
-Ways to teach division
-- division in which both numbers are counting numbers
-  - continuum versus discrete distinction in reality, and the resulting difference in 
-  - division which results in integer quotient and possible remainder through repeated subtraction
-    - division as chunking, like creating stick bundles
-    - division as partition, like 50-50 sharing
-  - division which results in fraction quotient and no remainder
-- division in which one number is not a counting number, as equivalent to ratio creation in 2D Euclidean geometry
+Ways to teach division 
+- division which results in integer quotient and possible remainder through repeated subtraction
+   - division as chunking, like creating stick bundles
+   - division as partition, like 50-50 sharing
+- division which results in fraction quotient and no remainder
+- ratio simplification
 
 NB:
 - beware of dependency of arithmetic procedures for counting numbers, on arithmetic of zero
