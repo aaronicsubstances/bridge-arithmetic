@@ -4,12 +4,15 @@
 
 Early algebra refers to arithmetic and the subset of algebra topics taught in primary and secondary schools. Strictly speaking, it excludes
 - arithmetic of small whole numbers by manual counting.
+- arithmetic of small whole numbers by table lookup.
+- arithmetic of whole numbers by non-positional place value system, following lead of N J Wildberger (Professor at University of New South Wales) on Youtube. candidates for place value system at this stage are:
+  - use of I as sole symbol.
 - the topics of simplification of algebraic expressions, generation of algebraic expressions and other susbsequent topics in algebra.
 - word problems. early algebra seeks to reduce dependency on reading and writing in a second language (English in the case of Ghana) to the barest minimum.
 
 These are the early algebra topics for pre-teens:
 
-- Arithmetic, especially of large whole numbes and of non-whole numbers.
+- Arithmetic, especially of large whole numbers and of non-whole numbers.
 - Powers and Roots
 - Evaluation of algebraic expressions
 - Equation solving by means other than simplification of algebraic expressions, e.g. guess and check
@@ -31,17 +34,19 @@ For students who are teens or adults, there is an additional goal which is to be
 
 The following activities are assumed to constitute arithmetic for rational numbers as taught in school or online:
 
+- Positional place value system popularized by Fibonacci
 - Addition
 - Subtraction
 - Multiplication and *of* operator
 - Division and Ratios
 - Powers and Roots
 - Comparison and Number Line
-- Conversion of fractions from and to decimal expansions
-- Conversion of fractions and decimal expansions to rounded decimal expansions
-- Developing proficiency in arithmetic of integers
-- Developing proficiency in arithmetic of fractions and decimal expansions
+- Conversion of positive fractions from and to decimal expansions
+- Conversion of positive fractions and decimal expansions to rounded decimal expansions
+- Developing proficiency in arithmetic of positive fractions and positive decimal expansions
 - Divisibility Rules and Prime Factorization
+
+Note that negative rational numbers are treated under algebra, following lead of Kiselev's Arithmetic and Algebra I textbooks.
 
 The arithmetic parts of early algebra proposal for adults seek to leverage reference materials (capable of being memorized in school settings), to quickly increase confidence in the study of arithmetic. For this reason the arithmetic parts is recorded in the form of tables, worked examples, formulas, pictorial demonstrations of arithmetic procedures, multi-choice questions, and exercises with detailed solutions. Some of these parts are as follows:
 
@@ -71,12 +76,15 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 - Alternative/Precursor to long division
   - division by chunking (aka division by partial quotients method, "Big 7" method)
   - conversion of fraction to decimal, by repeated multiplication of mixed/proper fraction by 10, until either there is no proper fraction in multiplication result (in which case decimal expansion terminates), or the proper fraction in the multiplication result is the same as one of the mixed/proper fractions being multiplied by 10 (in which case decimal expansion will repeat indefinitely).
+  - NB: above two methods of Big 7 and times 10, will work even for positive fractions and positive decimals.
 
 
 ## Algebra Topics
 
 Algebra parts of early algebra proposal are algebraic expression evaluation and equation solving.
 
+- developing proficiency in arithmetic of integers
+- developing proficiency in arithmetic of rational numbers involving negative numbers.
 - expression evaluation (aka "substitution") mainly involving only the four basic arithmetic operations
   - includes drilling in convention of concatenation for multiplication
   - can include powers, roots, trigonometry and logarithms

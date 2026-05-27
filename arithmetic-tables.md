@@ -1904,30 +1904,27 @@ Some Factorisations:<br>100 = 10 &times; 10
 </table>
 
 
-## Integer and Signed Number Procedures
+## Arithmetic Procedures
 
 ### Some Terminology
 
 1. *Integer*: a signed whole number, i.e. zero, positive or negative whole number. E.g. 0, -1 and 7 are integers; 1/2, -1/3 and 4/3 are not integers.
 2. *Simple fraction*: a fraction in which the numerator and denominator are integers, and the denominator is not zero. Simple fractions are usually used to express non-integers, and so usually the numerator is not divisible by the denominator. E.g. 1/2, -1/3 and 4/3 are simple fractions, but &pi; and &radic;2 are not simple fractions.
-2. *Real Number*: A real number is a decimal expansion that can either be converted exactly to a simple fraction, or a decimal expansion that can be approximated with a simple fraction to any desired level of accuracy. Counting numbers, whole numbers, integers and simple fractions are all types of real numbers.
-    1. All numbers studied in junior high school are real numbers.
-    1. All simple fractions can be converted into either terminating decimal expansions or repeating decimal expansions. Likewise all terminating decimal expansions and all repeating decimal expansions can be converted exactly to simple fractions. So the real numbers which are not simple fractions, are precisely the real numbers whose decimal expansions neither terminate nor repeat.
-    2. 1/2, -1/3 and 4/3 are real numbers because they are simple fractions.
-    2. 0, 1, 2, -1 and -7 are real numbers because they can be converted to simple fractions by dividing by 1, to obtain 0/1, 1/1, 2/1, -1/1 and -7/1 respectively.
-    2. 0.5 and -1.25 are real numbers because they can be converted exactly to the simple fractions 1/2 and -5/4 respectively.
-    2. 1.33333... and -0.16666... are real numbers because they can be converted exactly to the simple fractions 4/3 and -1/6 respectively.
-    3. &pi; is not a simple fraction but is a real number, because it can be approximated by 22/7, which is a simple fraction.
-    4. &radic;2 is not a simple fraction but is a real number, because it can be approximated by 1.41, which can be converted exactly into the simple fraction 141/100.
-    4. &#8731;-2 is not a simple fraction but is a real number, because it can be approximated by -1.26, which can be converted exactly into the simple fraction -63/50.
-    4. 1/0, 0/0, &radic;-1 and &radic;-4 are all examples of expressions which are not real numbers.
-2. *Signed Number*: another name for real numbers which is used in this document.
-3. *Magnitude of a signed number*: the part of a signed number without the sign. Equivalent to making a number positive. So magnitude of 0 is 0, magnitude of -1 is 1, magnitude of 3/4 is 3/4, magnitude of -1/2 is 1/2, magnitude of 4.5 is 4.5, magnitude of -0.65 is 0.65; 
-4. Sign of a signed number: the sign of a signed number is negative (sometimes written as '-') if the number is negative; is positive (sometimes written as '+') if the number is positive; or zero if the number is zero. So sign of 0 is 0, sign of 8 is +, sign of -7 is -.
+2. *Rational Number*: counting number, whole number, integer or a number that can be expressed as a simple fraction.
+    1. All numbers studied in junior high school are rational numbers.
+    1. All rational numbers can be converted into either terminating decimal expansions or repeating decimal expansions. Likewise all terminating decimal expansions and all repeating decimal expansions can be converted exactly to rational numbers.
+    2. 1/2, -1/3 and 4/3 are rational numbers because they are simple fractions.
+    2. 0, 1, 2, -1 and -7 are rational numbers because they can be converted to simple fractions by dividing by 1, to obtain 0/1, 1/1, 2/1, -1/1 and -7/1 respectively.
+    2. 0.5 and -1.25 are rational numbers because they can be converted exactly to the simple fractions 1/2 and -5/4 respectively.
+    2. 1.33333... and -0.16666... are rational numbers because they can be converted exactly to the simple fractions 4/3 and -1/6 respectively.
+    3. &pi;, &radic;2 and &#8731;-2 are not rational numbers, but can be approximated by the rational numbers 22/7, 1.41 or 141/100, and -1.26 or -63/50 respectively.
+    4. 1/0, 0/0, &radic;-1 and &radic;-4 are all examples of expressions which are not rational numbers, and cannot be approximated by rational numbers.
+3. *Magnitude of a rational number*: the part of a rational number without the sign. Equivalent to making a number positive. So magnitude of 0 is 0, magnitude of -1 is 1, magnitude of 3/4 is 3/4, magnitude of -1/2 is 1/2, magnitude of 4.5 is 4.5, magnitude of -0.65 is 0.65;
+4. Sign of a rational number: the sign of a rational number is negative (sometimes written as '-') if the number is negative; is positive (sometimes written as '+') if the number is positive; or zero if the number is zero. So sign of 0 is 0, sign of 8 is +, sign of -7 is -.
 
 ### Addition and Subtraction
 
-Given an addition or subtraction problem involving signed numbers (like 3 + -2, -2 &minus; 5), first convert subtraction to addition by using the following:
+Given an addition or subtraction problem involving rational numbers (like 3 + -2, -2 &minus; 5), first convert subtraction to addition by using the following:
 
 1. a &minus; b = a + -b ; E.g. 3 &minus; 2 = 3 + -2 ; -10 &minus; 3 = -10 + -3
 1. a &minus; -b = a + b ; E.g. 3 &minus; -2 = 3 + 2 ; -6 &minus; -4 = -6 + 4
@@ -1952,7 +1949,7 @@ Examples:
 
 Procedure:
 
-1. *Consider numbers as representing cash amounts*, in which a positive number means owning money, a negative number means owing money, zero means neither owing or owning money, "larger than" means "better than", and "smaller than" means "worse than".
+1. *Consider numbers as representing cash amounts*, in which a positive number means an asset, fortune or owning money, a negative number means debt or owing money, zero means neither owing or owning money, "larger than" means "better than", and "smaller than" means "worse than".
 1. Positive numbers and zero are considered larger than negative numbers.
 2. A negative number is considered larger than another negative number if it has a *smaller* magnitude than the other negative number.
 So even though 2 < 3, -2 > -3, like how owing 2 is better than owing 3.
@@ -1965,6 +1962,9 @@ Examples:
 4. -5 > -10, like how owing 5 is better than owing 10.; -10 < -5.
 
 ### Multiplication and Division
+
+If a and b are positive rational numbers, then the following rules apply. They are derived from the
+distributive property and the definition of division as inverse of multiplication.
 
 1. -a &times; -b = a &times; b ; E.g. -2 &times; -3 = 6
 1. -a &div; -b = a &div; b ; E.g. -10 &div; -2 = 5
@@ -1980,7 +1980,7 @@ Examples:
 
 ### Powers and Roots
 
-1. Square roots of negative numbers, as well as all other even roots of negative numbers are undefined, ie are not signed numbers. E.g. the square root of -4 is undefined; the square root of -9 is undefined; the fourth root of -81 is undefined.
+1. Square roots of negative numbers, as well as all other even roots of negative numbers are undefined, ie are not rational numbers. E.g. the square root of -4 is undefined; the square root of -9 is undefined; the fourth root of -81 is undefined.
 2. Other than even roots (including square roots) of negative numbers, powers and roots of integers work as expected. E.g. the square of -2 is 4, not -4; the square of -3 is 9; the cube root of -8 is -2; the cube root of -27 is -3.
 
 
@@ -2055,10 +2055,8 @@ Examples: *Use cross multiply*.
           
 Procedure:
 
-1. a/b &times; c/d = a/b of c/d = (a &times; c)/(b &times; d);
-
-NB:
-  1. a/b &times; c/d = extension of a/b of c/d to cases where a/b or c/d are not positive simple fractions.
+1. a/b &times; c/d = (a &times; c)/(b &times; d);
+1. a/b of c/d = a/b &times; c/d
 
 Examples:
    - 3/5 of 7/5 = (3 &times; 7)/(5 &times; 5) = 21/25
@@ -2071,13 +2069,12 @@ Examples:
 
 Procedure:
 
-1. If the denominators are the same, then the formula is simply:
-    1. a/e &div; c/e = a/e &ratio; c/e = a/c
-2. Below is the general formula which is used to ensure that the denominators become the same:
-    1. a/b &div; c/d = a/b &ratio; c/d = (a &times; d)/(b &times; c);
+1. If the denominators are the same or can be made the same, then the formula is simply:
+    1. a/e &div; c/e = a/c
+2. Below is a general formula, which can be used right away even when the denominators are not the same:
+    1. a/b &div; c/d = (a &times; d)/(b &times; c);
 
 NB:
-  1. a/b &div; c/d = extension of a/b &ratio; c/d to cases where a/b or c/d are not positive simple fractions.
   1. a/b &div; c/d = a/b &times; d/c
 
 Examples:
@@ -2113,7 +2110,7 @@ Examples:
 - square root of -4/9 = (square root of -4)/(square root of 9) = undefined
 - cube root of -27/64 = (cube root of -27)/(cube root of 64) = -3/4
 
-## Extension of x^n to Signed Number Exponents
+## Extension of x^n to Rational Number Exponents
 
 Mathematicians extend x^n to cases where the exponent n is an integer or a fraction, as follows:
 
@@ -2121,7 +2118,7 @@ Mathematicians extend x^n to cases where the exponent n is an integer or a fract
 - x^1 is defined as x. So any number raised to the exponent 1 is the same number. E.g. 1^1 is 1, 2^1 is 2, (-2)^1 is -2, (3/2)^1 is 3/2
 - x^(1/n) is defined as the nth root of x, where n is a counting number. So square root of x becomes the same as x^(1/2). E.g. 4^(1/2) = square root of 4 = 2; (-4)^(1/2) = square root of -4 which is undefined; 8^(1/3) = cube root of 8 = 2; (-27)^(1/3) = cube root of -27, which is -3.
 - x^(p/q) is defined as (x^(1/q))^p or (x^p)^(1/q) (both give the same result), where p and q are integers, and q is not zero. So 8^(2/3) = square of the cube root of 8 = square of 2 = 4 (or cube root of square of 8 = cube root of 64 = 4); (-8)^(5/3) = first find cube root of -8, and then raise to exponent 5 = (-2)^5 = -32; 25^(3/2) = (square root of 25)^3 = 5^3 = 125;
-- x^-a is defined as 1/(x^a) where a is a signed number. So 2^-1 = 1/(2^1) = 1/2, (1/3)^-2 = 3^2 = 9; 9^(-3/2)=1/(9^(3/2)) = 1/((square root of 9)^3) = 1/(3^3) = 1/27
+- x^-a is defined as 1/(x^a) where a is a rational number. So 2^-1 = 1/(2^1) = 1/2, (1/3)^-2 = 3^2 = 9; 9^(-3/2)=1/(9^(3/2)) = 1/((square root of 9)^3) = 1/(3^3) = 1/27
 
 
 ## Formulas for Conversion of Decimal Expansions to Fractions

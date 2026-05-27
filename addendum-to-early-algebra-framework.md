@@ -19,6 +19,9 @@ The ability to cross-check answers becomes critical in the study of many science
 
 1. Can introduce the abacus device for addition as precursor to the standard addition procedure.
 
+
+2. Can introduce rods as used in accounting in ancient China - red for positive, black for negative - for integer addition.
+
 2. Can modify standard multiplication procedure to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition.
 
 2. Note that each variant of the multiplication procedure for whole numbers is an application of the distributive property of multiplication over addition.
@@ -66,32 +69,15 @@ The ability to cross-check answers becomes critical in the study of many science
     - instead of looking for factors of ac which add up to b, can rather teach almighty formula and use product of roots by -a as the desired factors.
     - as a help to quadratic factorization in algebra, can train students to identify coefficients of linear and quadratic expressions and equations in early algebra.
 
-## Explanation for Arithmetic Operations
+## Geometric Interpretation of Arithmetic Operations
 
-There is an interesting reading here about how real numbers are based on Euclidean geometry: http://aleph0.clarku.edu/~djoyce/elements/bookVI/propVI1.html
+There is an interesting reading here about how irrational numbers used to be based on Euclidean geometry: http://aleph0.clarku.edu/~djoyce/elements/bookVI/propVI1.html
 
-Those that can do without Euclidean geometry:
-- Counting numbers and the operations of addition, subtraction, multiplication, division (and floor division, modulo) - count all, count leftover, counting forward, repeated addition, grid cell counting, repeated subtraction.
-- Integers and generally real numbers, and the operations of addition and comparison - accounting in ancient China using rods: red for positive, black for negative.
-- Integers and generally real numbers and the operation of subtraction - addition with negation of second operand.
-- Positive rational numbers and addition and subtraction - addition and subtraction of fractional units just like for counting numbers, applied after normalization of denominators.
-- Positive rational numbers and multiplication - "of" operator, applied as division by counting number followed by multiplication by counting number. The operation is best seen by normalizing the denominator of the multiplier and the numerator of the multiplicand. The definition of multiplication is overloaded to now mean the use of the multiplier as a ratio to find the numerator of an equivalent ratio to the multiplier, with the multiplicand as the denominator of the equivalent ratio.
-   - An alternative but related interpretation of multiplication of positive rational numbers, is computing areas by grid cell counting, and multiplying the grid cell count by the reciprocal of the grid cell count in the unit square (may have to extend the grid to get at least one unit square if one of the operands is a proper fraction). See https://math.stackexchange.com/a/892282. *It is this area interpretation that links the repeated addition interpretation to the "of" operator behaviour*
-   - NB: for multiplications involving positive rational number operands, in which at least one of the operands is a counting number, the interpretation of multiplication as repeated addition still applies.
-- Positive rational numbers and division - ratio finding in the context of the "of" operator, ie finding the multiplier of an "of" operation that when multiplied with divisor yields dividend. The procedure involves normalization of denominators using equivalent fractions. The definition of division is overloaded to now mean ratio finding, as a consequence of the redefinition of multiplication.
-   - An alternative but related interpretation of division of positive rational numbers, is inverse of multiplication in the context of computing areas, ie finding one of the sides of a rectangle given its area and the length of the other side. And in Euclid's Elements, Book VI, Proposition 23, this unknown side length is a ratio which when compounded (ie multiplied in the modern sense) with the known side produces the given area. *It is this inverse of multiplication interpretation that links the repeated subtraction interpretation to the ratio finding interpretation.*
-   - NB: for divisions involving positive rational number operands, in which the divisor is a counting number or the answer is a counting number, the interpretation of division as repeated subtraction can still be made to apply. 
-   - NB: for positive real numbers, the operations of floor division and modulo work via repeated subtraction just like for counting numbers.
+- Positive rational numbers and multiplication - computing areas by grid cell counting, and multiplying the grid cell count by the reciprocal of the grid cell count in the unit square (may have to extend the grid to get at least one unit square if one of the operands is a proper fraction). See https://math.stackexchange.com/a/892282.
 
-Those that need Euclidean geometry:
-- Positive real numbers and the operation of multiplication - requires the interpretation of numbers as ratios, for the purpose of linear scaling. And then an interpretation of multiplication will be "compounding of ratios" in the sense of Euclid's Elements, in which goal is to get the effective ratio that represents the linear scaling resulting from successive applications of two or more ratios.
-In fact according to Proposition 23 of Book VI of Euclid's Elements, compounding a:b and c:d = area ac : area bd. Where b = d = 1, then this proposition implies that compounding = calculating area, and hence the interpretation of multiplication as area is the link between rational number multiplication and positive real number multiplication.
-- Positive real numbers and the operation of division - solving multiplication equation by finding the ratio which when compounded with a given length ratio produces a given area ratio. A related interpretation is to treat a division as "inverse compounding" in which the ratio is interpreted inversely. In fact in Euclid's Elements, only multiplication and division (ie "compounding" and "inverse compounding") are performed with ratios; addition and subtraction are not carried out on ratios, presumably because a ratio is a linear relationship between two magnitudes, rather than a magnitude by itself.
-
-Those that need the Cartesian plane:
-- Real numbers and the operations of addition and subtraction, especially those involving subtraction from negative operands - number line.
-- Positive real numbers and the operations of multiplication and division - First quadrant of Cartesian plane can be used to demonstrate equivalence of linear scaling and area computation.
-- Real numbers and the operations of multiplication and division - All four quadrants of Cartesian plane.
+- Geometry-based real numbers and the operations of addition and subtraction, especially those involving subtraction from negative operands - number line.
+- Positive part of Geometry-based real numbers and the operations of multiplication and division - First quadrant of Cartesian plane can be used to demonstrate equivalence of linear scaling and area computation.
+- Geometry-based real numbers and the operations of multiplication and division - All four quadrants of Cartesian plane.
 
 ![demo of equivalence of linear scaling and area](demo1.png)
 
@@ -113,6 +99,7 @@ Ways to teach subtraction
 Ways to teach addition and subtraction involving negative numbers
 - addition - based on accounting
 - comparison - based on accounting
+- subtraction - based on accounting by interpreting a &minus; b as: what change via addition of asset/fortune or debt, and amount, should be made to b in order to get a?
 - zero expressions: b - b = 0; -b + b = 0; b + -b = 0
 - negation operation
 - subtraction as addition with negation - one meaning
@@ -138,7 +125,15 @@ Ways to teach division
 NB:
 - beware of dependency of arithmetic procedures for counting numbers, on arithmetic of zero
 - beware also of dependency of multiplication and division procedures of counting numbers, on arithmetic of 1 as the multiplier and divisor respectively.
-- beware of dependency of multiplication and division of fractions on ratios.
+- beware of dependency of fraction definition and closure of division of positive rational numbers, on multiplication of counting numbers.
+   - a fraction a/b, b > 0, is defined as that quantity which is such that b times a/b = a
+   - a &div; b, b > 0, in which a modulo b is not zero, is defined as the fraction a/b.
+- beware of dependency of multiplication and division of fractions on "of" operator.
+   - multiplication is "of" operator, in which Indian mathematician Brahmagupta in the 7th century AD realised that:
+   - a/b "of" c/d operator is same as (a &times; c)/(b &times; d) 
+   - if b = 1, then "of" and repeated addition becomes the same.
+   - hence "of" is the generalization of multiplication for positive rational numbers.
+- division of positive rational numbers is interpreting a &div; b as asking the question: "what of b equals a?
 
 Ways to teach decimal number procedures:
 
@@ -161,3 +156,6 @@ Ways to teach decimal number procedures:
    14. Explaining multiplication of fractions - https://math.stackexchange.com/a/891713, https://math.stackexchange.com/a/892282
    15. geometrical/physical interpretation of multiplication of real numbers (including negative) - https://math.stackexchange.com/questions/4510854/geometrical-physical-interpretation-of-multiplication-of-real-numbers-including/4510871#4510871
    16. Euclid’s Elements - http://aleph0.clarku.edu/~djoyce/elements/elements.html
+   17. https://www.youtube.com/@njwildberger
+   18. Kiselev's Arithmetic textbook
+   18. Kiselev's Algebra I textbook

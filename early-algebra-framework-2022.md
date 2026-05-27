@@ -39,7 +39,8 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
    5. To make students proficient in arithmetic.
 
    6. To engage students in curricular activities which connect fractions and negative numbers to real life scenarios of students.
-       1. In particular, engage students in Euclidean geometry (aka "Construction" in JHS in Ghana). Use it to demonstrate arithmetic of fractions and negative numbers, and hence show how Euclidean geometry is the connection between mathematics and the real world.
+       1. In particular, engage students in Euclidean geometry (aka "Construction" in JHS in Ghana, or synthetic geometry elsewhere). Euclidean geometry is one of the FIRST connections between mathematics and the real world.
+       2. Also engage them in cash-based accounting, which is the other of the FIRST connections.
 
 
 ## Assumptions of Early Algebra Proposal
