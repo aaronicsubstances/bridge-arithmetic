@@ -5,8 +5,9 @@
 Early algebra refers to arithmetic and the subset of algebra topics taught in primary and secondary schools. Strictly speaking, it excludes
 - arithmetic of small whole numbers by manual counting.
 - arithmetic of small whole numbers by table lookup.
-- arithmetic of whole numbers by non-positional place value system, following lead of N J Wildberger (Professor at University of New South Wales) on Youtube. candidates for place value system at this stage are:
+- arithmetic of whole numbers by non-positional place value systems. candidates for place value system at this stage are:
   - use of I as sole symbol.
+  - use of only the numbers 1 - 9, and limiting all operands and results of the four basic arithemtic operations to 1 - 9.
 - the topics of simplification of algebraic expressions, generation of algebraic expressions and other susbsequent topics in algebra.
 - word problems. early algebra seeks to reduce dependency on reading and writing in a second language (English in the case of Ghana) to the barest minimum.
 
@@ -34,7 +35,7 @@ For students who are teens or adults, there is an additional goal which is to be
 
 The following activities are assumed to constitute arithmetic for rational numbers as taught in school or online:
 
-- Positional place value system popularized by Fibonacci
+- Positional place value system popularized by Fibonacci, aka Hindu-Arabic numeral system.
 - Addition
 - Subtraction
 - Multiplication and *of* operator
@@ -46,7 +47,7 @@ The following activities are assumed to constitute arithmetic for rational numbe
 - Developing proficiency in arithmetic of positive fractions and positive decimal expansions
 - Divisibility Rules and Prime Factorization
 
-Note that negative rational numbers are treated under algebra, following lead of Kiselev's Arithmetic and Algebra I textbooks.
+Note that negative rational numbers and evaluation of arithmetic expressions are treated under algebra, following lead of Singapore math curriculum.
 
 The arithmetic parts of early algebra proposal for adults seek to leverage reference materials (capable of being memorized in school settings), to quickly increase confidence in the study of arithmetic. For this reason the arithmetic parts is recorded in the form of tables, worked examples, formulas, pictorial demonstrations of arithmetic procedures, multi-choice questions, and exercises with detailed solutions. Some of these parts are as follows:
 
@@ -83,8 +84,7 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 
 Algebra parts of early algebra proposal are algebraic expression evaluation and equation solving.
 
-- developing proficiency in arithmetic of integers
-- developing proficiency in arithmetic of rational numbers involving negative numbers.
+- developing proficiency in arithmetic of integers and rational numbers involving negative numbers.
 - expression evaluation (aka "substitution") mainly involving only the four basic arithmetic operations
   - includes drilling in convention of concatenation for multiplication
   - can include powers, roots, trigonometry and logarithms

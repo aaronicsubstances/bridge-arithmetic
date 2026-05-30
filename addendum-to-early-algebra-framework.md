@@ -19,8 +19,8 @@ The ability to cross-check answers becomes critical in the study of many science
 
 1. Can introduce the abacus device for addition as precursor to the standard addition procedure.
 
-
-2. Can introduce rods as used in accounting in ancient China - red for positive, black for negative - for integer addition.
+2. Can emulate Singapore math curriculum, in which Grades 1-3 are taught wholly with manipulatives.
+   - Can even extend manipulatives to negative numbers for addition operation by using red and black rods like was used in ancient Chinese accounting.
 
 2. Can modify standard multiplication procedure to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition.
 
@@ -69,13 +69,28 @@ The ability to cross-check answers becomes critical in the study of many science
     - instead of looking for factors of ac which add up to b, can rather teach almighty formula and use product of roots by -a as the desired factors.
     - as a help to quadratic factorization in algebra, can train students to identify coefficients of linear and quadratic expressions and equations in early algebra.
 
+## Use of Manipulatives
+
+![notes on use of manipulatives page 1](notes-on-manipulatives-1.jpg)
+
+![notes on use of manipulatives page 2](notes-on-manipulatives-2.jpg)
+
+![notes on use of manipulatives page 3](notes-on-manipulatives-3.jpg)
+
+
 ## Geometric Interpretation of Arithmetic Operations
 
 There is an interesting reading here about how irrational numbers used to be based on Euclidean geometry: http://aleph0.clarku.edu/~djoyce/elements/bookVI/propVI1.html
 
-- Positive rational numbers and multiplication - computing areas by grid cell counting, and multiplying the grid cell count by the reciprocal of the grid cell count in the unit square (may have to extend the grid to get at least one unit square if one of the operands is a proper fraction). See https://math.stackexchange.com/a/892282.
+- Positive rational numbers and multiplication - computing areas by grid cell counting, and dividing the grid cell count by the grid cell count in the unit square (may have to extend the grid to get at least one unit square if one of the operands is a proper fraction). See https://math.stackexchange.com/a/892282.
 
 - Geometry-based real numbers and the operations of addition and subtraction, especially those involving subtraction from negative operands - number line.
+   - addition
+   - comparison
+   - negation operation
+   - 'sign' function applied to subtraction operands: 0, '+' or '-' , based on comparison
+   - absolute function 'abs' applied to subtraction operands
+   - subtraction explained with 'abs' and 'sign' functions
 - Positive part of Geometry-based real numbers and the operations of multiplication and division - First quadrant of Cartesian plane can be used to demonstrate equivalence of linear scaling and area computation.
 - Geometry-based real numbers and the operations of multiplication and division - All four quadrants of Cartesian plane.
 
@@ -95,17 +110,6 @@ Ways to teach subtraction
 - subtraction by count forward (most important of manual procedures)
 - subtraction by count backward (mentioned for completeness sake)
 - subtraction procedure for large counting numbers
-
-Ways to teach addition and subtraction involving negative numbers
-- addition - based on accounting
-- comparison - based on accounting
-- subtraction - based on accounting by interpreting a &minus; b as: what change via addition of asset/fortune or debt, and amount, should be made to b in order to get a?
-- zero expressions: b - b = 0; -b + b = 0; b + -b = 0
-- negation operation
-- subtraction as addition with negation - one meaning
-- 'sign' function applied to subtraction operands: 0, '+' or '-' , based on comparison
-- absolute function 'abs' applied to subtraction operands
-- subtraction explained with 'abs' and 'sign' functions - alternative meaning
 
 Ways to teach multiplication
 - multiplication with single digit counting numbers (less than 10) by filling grid and counting all cells
@@ -157,5 +161,4 @@ Ways to teach decimal number procedures:
    15. geometrical/physical interpretation of multiplication of real numbers (including negative) - https://math.stackexchange.com/questions/4510854/geometrical-physical-interpretation-of-multiplication-of-real-numbers-including/4510871#4510871
    16. Euclid’s Elements - http://aleph0.clarku.edu/~djoyce/elements/elements.html
    17. https://www.youtube.com/@njwildberger
-   18. Kiselev's Arithmetic textbook
-   18. Kiselev's Algebra I textbook
+   19. Singapore math curriculum
