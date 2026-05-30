@@ -1999,11 +1999,12 @@ distributive property and the definition of division as inverse of multiplicatio
    - Similarly a ratio for sharing among 3 entities is expressed as a &ratio; b &ratio; c (read as "a is to b is to c").
    - E.g. Ama, Yaa and Akos share a collection of 24 canned drinks in the ratio 2 &ratio; 3 &ratio; 1 (reads as "2 is to 3 is to 1"), means that
     for every 2 cans that Ama takes out of the collection, Yaa gets to take 3 cans and Akos gets to take 1 can.
-5. *of* operator: a/b of c/d = a &times; (c/d &div; b). E.g.
+5. *of* operator: a/b of c/d *is equivalent to both* a &times; (c &div; b)/d *and* a &times; (c/d &div; b). E.g.
    - 3 of 4 = 4 + 4 + 4 = 12 ; 4 of 3 = 3 + 3 + 3 + 3 = 12
    - 4 of 1/2 = 1/2 + 1/2 + 1/2 + 1/2 = 2
    - 1/2 of 4 = 4/2 = 2 ; 1/3 of 5 = 5/3
-   - 2/3 of 6 = 2 &times; (6 &div; 3) = 2 &times; 2 = 4 ; 3/5 of 7/10 = 3 &times; (7/10 &div; 5) = 3 &times; (35/50 &div; 5) = 3 &times; 7/50 = 21/50
+   - 2/3 of 6 = 2 &times; (6 &div; 3) = 2 &times; 2 = 4
+   - 3/5 of 7/10 = 3 &times; (7 &div; 5)/10 = 3 &times; (35 &div; 5)/50 = 3 &times; 7/50 = 21/50
 6. *Cross multiplication*: given two fractions a/b and c/d, cross multiplication refers to the action of multiplying
 a by d, and separately multiplying b by c to obtain two products (a &times; d) and (b &times; c). Cross multiplication is a heavily used step
 in fraction arithmetic.
@@ -2015,11 +2016,11 @@ in fraction arithmetic.
 
 Procedures:
 
-1. If the denominators are the same, then the formulas are simply:
+1. If the denominators are the same or can be made the same, then the formulas are simply:
     1. a/e + c/e = (a + c)/e
     2. a/e &minus; c/e = (a &minus; c)/e
 
-2. Below are the general formulas which are used to ensure that the denominators become the same:
+2. Next are shortcut formulas, which can be used right away even when the denominators are not the same:
     1. a/b + c/d = (a &times; d + b &times; c)/(b &times; d)
     2. a/b &minus; c/d = (a &times; d &minus; b &times; c)/(b &times; d)
 
@@ -2055,23 +2056,31 @@ Examples: *Use cross multiply*.
           
 Procedure:
 
-1. a/b &times; c/d = (a &times; c)/(b &times; d);
-1. a/b of c/d = a/b &times; c/d
+1. If the first denominator divides the second numerator, or can be made to divide the second numerator, then the formula is:
+    1. a/b &times; c/d = (a &times; (c &div; b))/d;
+2. Next is a shortcut formula, which can be used right away even when the first denominator does not divide the second numerator:
+    1. a/b &times; c/d = (a &times; c)/(b &times; d);
+
+NB:
+  1. a/b of c/d = a/b &times; d/c
 
 Examples:
-   - 3/5 of 7/5 = (3 &times; 7)/(5 &times; 5) = 21/25
+
+1. first denominator divides the second numerator:
+   - 3/5 &times; 5/7 = (3 &times; (5 &div; 5))/7 = (3 &times; 1)/7 = 3/7
+   - 7 of 2/3 = 7/1 &times; 2/3 = (7 &times; (2 &div; 1))/3 = (7 &times; 2)/3 = 14/3
+2. first denominator does not divide the second numerator:
    - 5/4 of 3/15 = (5 &times; 3)/(4 &times; 15) = 1/4
    - 5/4 &times; -3/5 = (5 &times; -3)/(4 &times; 5) = -15/20 = -3/4
    - 5/4 &times; -3 = 5/4 &times; -3/1 = (5 &times; -3)/(4 &times; 1) = -15/4
-   - 7 &times; 2/3 = 7/1 &times; 2/3 = (7 &times; 2)/(1 &times; 3) = 14/3
 
 ### Division
 
 Procedure:
 
-1. If the denominators are the same or can be made the same, then the formula is simply:
+1. If the denominators are the same, or can be made the same, then the formula is simply:
     1. a/e &div; c/e = a/c
-2. Below is a general formula, which can be used right away even when the denominators are not the same:
+2. Next is a shortcut formula, which can be used right away even when the denominators are not the same:
     1. a/b &div; c/d = (a &times; d)/(b &times; c);
 
 NB:
