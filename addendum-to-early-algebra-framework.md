@@ -71,7 +71,10 @@ The ability to cross-check answers becomes critical in the study of many science
 
 ## Use of Manipulatives
 
-NB: can put negative numberes in brackets initially. Like 24 &div; (-6)
+NB: 
+   - can put negative numberes in brackets initially. Like 24 &div; (-6)
+   - there are two valid ways of converting between addition and subtraction. E.g. 2 + 3 = 5 can be converted to 5 &minus; 2 = 3 or 5 &minus; 3 = 2; similarly 5 &minus; 2 = 3 can be converted to 2 + 3 = 5 or 3 + 2 = 5.
+   - and also there are two valid ways of converting between multiplication and division. E.g. 2 &times; 3 = 6 can be converted to 6 &div; 2 = 3 or 6 &div; 3 = 2; similarly 6 &div; 2 = 3 can be converted to 2 &times; 3 = 6 or 3 &times; 2 = 6.
 
 ![notes on use of manipulatives page 1](notes-on-manipulatives-1.jpg)
 
@@ -120,12 +123,14 @@ Ways to teach multiplication
 - multiplication procedure with only one single digit counting number
 - multiplication procedure with no single digit counting numbers
 - multiplication with single digit counting numbers by memory recall
+- multiplication with whole number multiplier as repeated addition of the whole of the multiplicand. In this sense division as partition remains a follow up to multiplication as its reverse.
+- multiplication with fraction multiplier as repeated addition of a resizing/scaling of the multiplicand by the denominator of the multiplier. In this sense it seems more beneficial to view  division as quotition as occuring first, and multiplication following it as its reverse.
 
 Ways to teach division 
-- division which results in integer quotient and possible remainder through repeated subtraction
-   - division as chunking, like creating stick bundles
-   - division as partition, like 50-50 sharing
+- division which results in integer quotient and possible remainder
 - division which results in fraction quotient and no remainder
+- division interpretation as partition, or sharing. Note that this interpreation requires divisor to be whole number, and hence corresponds with repeated-addition-of-a-whole interpretation of multiplication in which divisor is the multiplier.
+- division as quotition, or chunking. Note that this interpretation is applicable even if divisor is a fraction, and hence corresponds with repeated-addition-of-a-resizing interpretation of multiplication in which the quotient is the multiplier.
 
 
 NB:
