@@ -71,6 +71,8 @@ The ability to cross-check answers becomes critical in the study of many science
 
 ## Use of Manipulatives
 
+NB: can put negative numberes in brackets initially. Like 24 &div; (-6)
+
 ![notes on use of manipulatives page 1](notes-on-manipulatives-1.jpg)
 
 ![notes on use of manipulatives page 2](notes-on-manipulatives-2.jpg)
