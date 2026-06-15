@@ -1,3 +1,13 @@
+**NB: This project has been archived, due to my discovery of historically demonstrated viable approaches to math study for school children. It's the discovery of (1) the historic Quadrivium, and its teaching of Arithmetic and Euclidean/synthetic geometry as interconnected but separate disciplines; (2) singapore math curriculum for primary school, with its Concrete-Pictorial-Abstract learning process, aka CPA approach; (3) old russian math curriculum (ie based on A. P. Kiselev's books in the early 20th century) for junior and senior secondary school, and its long-term teaching geometry of Euclidean/synthetic geometry; (4) the unnecessary rewriting of the foundations of modern math (such as by the Bourbaki group from the early to middle of 20th century), from counting numbers and Euclidean/synthetic geometry to infinite set theory; where modern math refers to math after the acceptance of the Fourier series and its initial contradictions, and after the 19th-century elevation of non-Euclidean geometries to the same level of truth as Euclidean geometry.**
+
+Nevertheless this archive serves as reference for
+- precursors to long division algorithm
+- tables of factorisations
+- notes on explaining addition and subtraction of integers
+- notes on explaining multiplication and division of both fractions and integers
+- notes on decimal to fraction conversion
+- notes on finding factors of whole numbers
+
 # Early Algebra Highlighting Proposal
 
 ## What is Early Algebra?
@@ -10,13 +20,6 @@ Early algebra refers to arithmetic and the subset of algebra topics taught in pr
   - use of only the numbers 1 - 9, and limiting all operands and results of the four basic arithemtic operations to 1 - 9.
 - the topics of simplification of algebraic expressions, generation of algebraic expressions and other susbsequent topics in algebra.
 - word problems. early algebra seeks to reduce dependency on reading and writing in a second language (English in the case of Ghana) to the barest minimum.
-
-These are the early algebra topics for pre-teens:
-
-- Arithmetic, especially of large whole numbers and of non-whole numbers.
-- Powers and Roots
-- Evaluation of algebraic expressions
-- Equation solving by means other than simplification of algebraic expressions, e.g. guess and check
 
 For teens and adults, this proposal permits the introduction of less optimal but more intuitive arithmetic procedures to the students. It also permits the presentation of the early algebra topics in a different arrangement from that for pre-teens, in order to better suit the challenges and opportunities presented by teens and adults.
 
@@ -43,11 +46,8 @@ The following activities are assumed to constitute arithmetic for rational numbe
 - Divisibility and Factorization
 - Powers and Roots
 - Comparison and Number Line
-- Conversion of positive fractions from and to decimal expansions
-- Conversion of positive fractions and decimal expansions to rounded decimal expansions
-- Developing proficiency in arithmetic of positive fractions and positive decimal expansions
 
-Note that negative rational numbers and evaluation of arithmetic expressions are treated under algebra, following lead of Kiselev's Arithmetic text book and Singapore math curriculum.
+Note that negative rational numbers, decimal numbers and evaluation of arithmetic expressions are treated under algebra, following lead of Singapore math curriculum.
 
 The arithmetic parts of early algebra proposal for adults seek to leverage reference materials (capable of being memorized in school settings), to quickly increase confidence in the study of arithmetic. For this reason the arithmetic parts is recorded in the form of tables, worked examples, formulas, pictorial demonstrations of arithmetic procedures, multi-choice questions, and exercises with detailed solutions. Some of these parts are as follows:
 
@@ -78,8 +78,7 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 
 ## Algebra Topics
 
-Algebra parts of early algebra proposal include algebraic expression evaluation and equation solving.
-
+- justification for any unproven arithmetic procedures and rules following lead of Kiselev's Arithmetic.
 - developing proficiency in arithmetic of integers and rational numbers involving negative numbers.
 - expression evaluation (aka "substitution") mainly involving only the four basic arithmetic operations
   - includes drilling in convention of concatenation for multiplication
@@ -90,4 +89,7 @@ Algebra parts of early algebra proposal include algebraic expression evaluation 
   - can include quadratic equations, and simultaneous equations in two variables
   - can introduce precursor to quadratic expression factorization and quadratic equation solving, which is finding two integers which add up to a given value, and which have another given value as their product.
 - long division algorithm, standard subtraction algorithm involving borrows or carries, compact version of partial decomposition multiplication algorithm - i.e. if they were skipped in favour of the more intutive but less efficient alternatives earlier on.
-- justification for any unproven arithmetic procedures and rules
+- Conversion of positive fractions from and to decimal expansions
+- Conversion of positive fractions and decimal expansions to rounded decimal expansions
+
+The climax of the algebra part of early algebra proposal is algebraic expression evaluation and equation solving.

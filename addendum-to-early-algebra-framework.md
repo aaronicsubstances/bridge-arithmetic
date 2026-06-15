@@ -155,8 +155,6 @@ Ways to teach decimal number procedures:
 # Notable References
    
    1. https://www.myjoyonline.com/why-parents-cant-do-maths-today/
-   2. Maths for Mums and Dads by Rob Eastaway & Mike Askew is published by Square Peg.
-   2. More Maths for Mums and Dads by Rob Eastaway & Mike Askew is published by Square Peg.
    3. https://webarchive.nationalarchives.gov.uk/ukgwa/20100607215842/http://www.standards.dfes.gov.uk/schemes3/subjects/?view=get
    4. https://archive.nytimes.com/opinionator.blogs.nytimes.com/2011/04/18/a-better-way-to-teach-math/
    5. https://jumpmath.org/ca/
