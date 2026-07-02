@@ -1,5 +1,8 @@
 # Early Algebra Framework 2022
 
+*NB: this framework is obsolete. The document is kept here to keep
+the references at the end around.*
+
 ## Literature Review on Early Algebra
 
 Kieran (2004) framework for early algebraic thinking will be adopted to serve as the foundation of any early algebra curriculum.
@@ -40,7 +43,6 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
    5. To make students proficient in arithmetic.
 
    6. To engage students in curricular activities which connect fractions and negative numbers to real life scenarios of students.
-       1. In particular, engage students in Euclidean geometry (aka "Construction" in JHS in Ghana, or synthetic geometry elsewhere). Euclidean geometry is the FIRST connection between mathematics and the real world.
 
 
 ## Assumptions of Early Algebra Proposal
@@ -49,13 +51,13 @@ Hewitt's framework of subordination (1996) and his follow-up articles on "arbitr
      - Mathematics novices see some of the arithmetic operations (such as multiplication and division of negative numbers) as not having practical use.
      - Standard mathemtical notation was not designed with consideration for mathematics novices.
 
-  2. The concept of function is the long sought after meeting point of meaning of algebraic expressions between mathematicians and mathematics novices.
-     - With function concept, mathematicians do not have to force or shame mathematics novices into seeing the "sense" or "meaning" in arithmetic operations. Mathematics novices can simply see the arithmetic operations as mapping input numbers to an output number. 
+  2. <del>The concept of function is the long sought after meeting point of meaning of algebraic expressions between mathematicians and mathematics novices.</del>
+     - <del>With function concept, mathematicians do not have to force or shame mathematics novices into seeing the "sense" or "meaning" in arithmetic operations. Mathematics novices can simply see the arithmetic operations as mapping input numbers to an output number.</del> 
 
   3. The history of mathematics development up to symbolic algebra was not an accident, but an indication of how the human mind newly introduced to mathematics works its way up to acquire the mathematical concepts.
      - Empathy may then be required on the part of teachers regarding any resistance from students in the acceptance of certain real numbers: zero (ie nothing), one (ie not many), fractions, improper fractions, irrational numbers, negative numbers.
 
-  4. Absence of computers and technology.
+  4. Absence of dependency on computers and technology.
 
   4. Definition of real number is practically the same as definition of a rational number.
 

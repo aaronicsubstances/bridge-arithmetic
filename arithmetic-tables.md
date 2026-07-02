@@ -1785,8 +1785,8 @@ Some Factorisations:<br>100 = 10 &times; 10
     2. 0, 1, 2, -1 and -7 are rational numbers because they can be converted to simple fractions by dividing by 1, to obtain 0/1, 1/1, 2/1, -1/1 and -7/1 respectively.
     2. 0.5 and -1.25 are rational numbers because they can be converted exactly to the simple fractions 1/2 and -5/4 respectively.
     2. 1.33333... and -0.16666... are rational numbers because they can be converted exactly to the simple fractions 4/3 and -1/6 respectively.
-    3. &pi;, &radic;2 and &#8731;-2 are not rational numbers, but can be approximated by the rational numbers 22/7, 1.41 or 141/100, and -1.26 or -63/50 respectively.
-    4. 1/0, 0/0, &radic;-1 and &radic;-4 are all examples of expressions which are not rational numbers, and cannot be approximated by rational numbers.
+    3. &pi;, &radic;2 and &#8731;-2 are not rational numbers directly, but indirectly as outputs of certain math procedures (aka functions) which generate rational numbers for any given level of accuracy other than zero. Examples of rational numbers representing &pi;, &radic;2 and &#8731;-2 are 22/7, 1.41 (or 141/100), and -1.26 (or -63/50) respectively.
+    4. 1/0, 0/0, &radic;-1 and &radic;-4 are all examples of expressions which are not rational numbers, directly or indirectly.
 3. *Magnitude of a rational number*: the part of a rational number without the sign. Equivalent to making a number positive. So magnitude of 0 is 0, magnitude of -1 is 1, magnitude of 3/4 is 3/4, magnitude of -1/2 is 1/2, magnitude of 4.5 is 4.5, magnitude of -0.65 is 0.65;
 4. Sign of a rational number: the sign of a rational number is negative (sometimes written as '-') if the number is negative; is positive (sometimes written as '+') if the number is positive; or zero if the number is zero. So sign of 0 is 0, sign of 8 is +, sign of -7 is -.
 
@@ -1873,12 +1873,10 @@ distributive property and the definition of division as inverse of multiplicatio
    - 1/2 of 4 = 4/2 = 2 ; 1/3 of 5 = 5/3
    - 2/3 of 6 = 2 &times; (6 &div; 3) = 2 &times; 2 = 4
    - 3/5 of 7/10 = 3 &times; (7 &div; 5)/10 = 3 &times; (35 &div; 5)/50 = 3 &times; 7/50 = 21/50
-6. *Cross multiplication*: given two fractions a/b and c/d, cross multiplication refers to the action of multiplying
+6. *The "of" operator in mathematics is generalized to cases in which one of the operands is not a whole number or a positive simple fraction
+7. *Cross multiplication*: given two fractions a/b and c/d, cross multiplication refers to the action of multiplying
 a by d, and separately multiplying b by c to obtain two products (a &times; d) and (b &times; c). Cross multiplication is a heavily used step
 in fraction arithmetic.
-7. *A fraction is treated in mathematics as being equivalent to division of the numerator by the denominator*, even if the numerator or the denominator is not a whole number.
-8. *A ratio of two numbers is treated in mathematics as being equivalent to a fraction*, even if one of the two numbers is not a whole number.
-9. *The "of" operator is treated in mathematics as being equivalent to multiplication*, even if one of the operands is not a whole number or a positive simple fraction
 
 ### Addition and Subtraction
 
@@ -1905,9 +1903,14 @@ Examples:
 
 ### Comparison
 
-Procedure: To compare a/b and c/d to see which is larger,
+Procedure: To compare a/b and c/d to see whether they are equal, or to see which is larger,
 ensure denominators b and d have the same sign (by multiplying one fraction by -1/-1 if necessary),
 and then compare (a &times; d) and (b &times; c) to see which is larger
+
+In particular to check for equality, skip step for ensuring denominators have same signs. And then
+1. the intuitive method: a/b equals c/d if and only if a/b can be expressed as (e &times; g)/(f &times; g) and c/d can also be expressed as (e &times; h)/(f &times; h), where the actual values of g and h are irrelevant aside their existence.
+2. the shortcut formula: check whether (a &times; d) equals (b &times; c).
+
 
 Examples: *Use cross multiply*.
 
@@ -1930,13 +1933,13 @@ Procedure:
     1. a/b &times; c/d = (a &times; c)/(b &times; d);
 
 NB:
-  1. a/b of c/d = a/b &times; d/c
+  1. a/b &times; c/d = a/b of d/c
 
 Examples:
 
 1. first denominator divides the second numerator:
    - 3/5 &times; 5/7 = (3 &times; (5 &div; 5))/7 = (3 &times; 1)/7 = 3/7
-   - 7 of 2/3 = 7/1 &times; 2/3 = (7 &times; (2 &div; 1))/3 = (7 &times; 2)/3 = 14/3
+   - 7 of 2/3 = (7 &times; (2 &div; 1))/3 = (7 &times; 2)/3 = 14/3
 2. first denominator does not divide the second numerator:
    - 5/4 of 3/15 = (5 &times; 3)/(4 &times; 15) = 1/4
    - 5/4 &times; -3/5 = (5 &times; -3)/(4 &times; 5) = -15/20 = -3/4

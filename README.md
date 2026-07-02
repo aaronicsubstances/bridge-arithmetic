@@ -23,9 +23,8 @@ Early algebra refers to arithmetic and the subset of algebra topics taught in pr
 - arithmetic of whole numbers by non-positional place value systems. candidates for place value system at this stage are:
   - use of I as sole symbol.
   - use of only the numbers 1 - 9, and limiting all operands and results of the four basic arithemtic operations to 1 - 9.
-  - use of space separated combinations of a digit in 1-9 followed by one of the characters I, X, C and M. E.g. 5X for 50, 4X 5I for 45, etc. Can subsume systems in previou two points. Can have a canonical form, but accept noncanonical forms from beginners in positional number systems such as lower primary school children.
+  - use of space separated combinations of a digit in 1-9 followed by one of the characters from the Roman numeral system I, X, C and M. E.g. 5X for 50, 4X 5I for 45, etc. Can subsume systems in previous two points. Can have a canonical form, but accept noncanonical forms from beginners in positional number systems such as lower primary school children.
 - the topics of simplification of algebraic expressions, generation of algebraic expressions and other susbsequent topics in algebra.
-- word problems. early algebra seeks to reduce dependency on reading and writing in a second language (English in the case of Ghana) to the barest minimum.
 
 For teens and adults, this proposal permits the introduction of less optimal but more intuitive arithmetic procedures to the students. It also permits the presentation of the early algebra topics in a different arrangement from that for pre-teens, in order to better suit the challenges and opportunities presented by teens and adults.
 
@@ -84,18 +83,18 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 
 ## Algebra Topics
 
-- justification for any unproven arithmetic procedures and rules following lead of Kiselev's Arithmetic.
+- justification for any unproven arithmetic procedures and rules, following lead of Kiselev's Arithmetic.
+- long division algorithm, standard subtraction algorithm involving borrows or carries, compact version of partial decomposition multiplication algorithm - i.e. if they were skipped in favour of the more intutive but less efficient alternatives earlier on.
+- Divisibility Rules and Prime Factorization
 - developing proficiency in arithmetic of integers and rational numbers involving negative numbers.
+- Conversion of positive fractions from and to decimal expansions
+- Conversion of positive fractions and decimal expansions to rounded decimal expansions
 - expression evaluation (aka "substitution") mainly involving only the four basic arithmetic operations
   - includes drilling in convention of concatenation for multiplication
   - can include powers, roots, trigonometry and logarithms
-- Divisibility Rules and Prime Factorization
 - equation solving involving mainly linear equations
   - introduce guess and check as a last resort strategy
   - can include quadratic equations, and simultaneous equations in two variables
   - can introduce precursor to quadratic expression factorization and quadratic equation solving, which is finding two integers which add up to a given value, and which have another given value as their product.
-- long division algorithm, standard subtraction algorithm involving borrows or carries, compact version of partial decomposition multiplication algorithm - i.e. if they were skipped in favour of the more intutive but less efficient alternatives earlier on.
-- Conversion of positive fractions from and to decimal expansions
-- Conversion of positive fractions and decimal expansions to rounded decimal expansions
 
 The climax of the algebra part of early algebra proposal is algebraic expression evaluation and equation solving.
