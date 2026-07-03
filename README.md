@@ -43,16 +43,19 @@ For students who are teens or adults, there is an additional goal which is to be
 
 The following activities are assumed to constitute arithmetic for rational numbers as taught in school or online:
 
-- Positional place value system popularized by Fibonacci, aka Hindu-Arabic numeral system.
+- Decimal number system and its positional nature.
 - Addition
 - Subtraction
-- Multiplication and *of* operator
-- Division and Ratios
+- Multiplication with counting number multiplier
+- Division
+- Fractions
+- *of* operator, for taking fractions of quantities
+- Ratios
 - Divisibility and Factorization
 - Powers and Roots
 - Comparison and Number Line
 
-Note that negative rational numbers, decimal numbers and evaluation of arithmetic expressions are treated under algebra, following lead of Singapore math curriculum.
+Note that negative rational numbers, decimal numbers and evaluation of arithmetic expressions are treated under algebra, following lead of Singapore math curriculum. Also multiplication which covers fraction multipliers is postponed to algebra, and *of* operator takes its place in the meantime in arithmetic.
 
 The arithmetic parts of early algebra proposal for adults seek to leverage reference materials (capable of being memorized in school settings), to quickly increase confidence in the study of arithmetic. For this reason the arithmetic parts is recorded in the form of tables, worked examples, formulas, pictorial demonstrations of arithmetic procedures, multi-choice questions, and exercises with detailed solutions. Some of these parts are as follows:
 
@@ -85,6 +88,8 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 
 - justification for any unproven arithmetic procedures and rules, following lead of Kiselev's Arithmetic.
 - long division algorithm, standard subtraction algorithm involving borrows or carries, compact version of partial decomposition multiplication algorithm - i.e. if they were skipped in favour of the more intutive but less efficient alternatives earlier on.
+- swapping "of" operator with overloaded meaning of multiplication which covers fraction multipliers
+- standard formulas for multiplication and division of fractions - i.e. if they were skipped in favour of the more intutive but less efficient alternatives earlier on.
 - Divisibility Rules and Prime Factorization
 - developing proficiency in arithmetic of integers and rational numbers involving negative numbers.
 - Conversion of positive fractions from and to decimal expansions
