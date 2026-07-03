@@ -1905,11 +1905,19 @@ Examples:
 
 Procedure: To compare a/b and c/d to see whether they are equal, or to see which is larger,
 ensure denominators b and d have the same sign (by multiplying one fraction by -1/-1 if necessary),
-and then compare (a &times; d) and (b &times; c) to see which is larger
+and then compare (a &times; d) and (b &times; c) to see whether they are equal, or which is larger.
 
-In particular to check for equality, skip step for ensuring denominators have same signs. And then
-1. the intuitive method: a/b equals c/d if and only if a/b can be expressed as (e &times; g)/(f &times; g) and c/d can also be expressed as (e &times; h)/(f &times; h), where the actual values of g and h are irrelevant aside their existence.
-2. the shortcut formula: check whether (a &times; d) equals (b &times; c).
+In particular if checking only for equality or inequality, use one of the following:
+1. ensure denominators b and d have the same sign (subsequent steps will assume b and d have the same sign). Then express a/b as (e &times; u)/(g &times; u), where e = a &div; u, g = b &div; u, and u = HCF(magnitude of a, magnitude of b). Likewise express c/d as (f &times; v)/(h &times; v), where f = c &div; v, h = d &div; v, and v = HCF(magnitude of c, magnitude of d). HCF means highest common factor or greatest common divisor (GCD), and one way to compute it is to use Euclid's algorithm. Then a/b = c/d if and only if e = f and g = h.
+   - E.g. 9/12 = 6/8 because: HCF(9, 12) = 3, 9/12 = ((9 &div; 3) &times; 3)/((12 &div; 3) &times; 3) = (3 &times; 3)/(4 &times; 3), so e = 3 and g = 4; HCF(6, 8) = 2, 6/8 = ((6 &div; 2) &times; 2)/((8 &div; 2) &times; 2) = (3 &times; 2)/(4 &times; 2), so f = 3 and h = 4. So since e = 3 and f = 3, and also g = 4 and h = 4, 9/12 = 6/8.
+   - 9/12 &ne; 6/9 because: 9/12 = (3 &times; 3)/(4 &times; 3) from previous example, so e = 3 and g = 4; HCF(6, 9) = 3, 6/9 = ((6 &div; 3) &times; 3)/((9 &div; 3) &times; 3) = (2 &times; 3)/(3 &times; 3), so f = 2 and h = 3. But since e = 3 &ne; f = 2, 9/12 &ne; 6/9.
+2. ensure denominators b and d have the same sign (subsequent steps will assume b and d have the same sign). Then express a/b as e/w, where e = a &times; w &div; b and w = LCM(magnitude of b, magnitude of d). Likewise express c/d as f/w, where f = c &times; w &div; d. LCM means least common multiple, and one way to compute it is this: LCM(a,b) = a &times; b &div; HCF(a,b). Then a/b = c/d if and only if e = f.
+   - E.g. 9/12 = 6/8 because: HCF(12, 8) = 4, LCM(12, 8) = 12 &times; 8 &div; 4 = 24; 9/12 = (9 &times; 24 &div; 12)/24 = 18/24, so e = 18; 6/8 = (6 &times; 24 &div; 8)/24 = 18/24 so f = 18. So since e = 18 and f = 18, 9/12 = 6/8.
+   - 9/12 &ne; 6/9 because: HCF(12, 9) = 3, LCM(12, 9) = 12 &times; 9 &div; 3 = 36; 9/12 = (9 &times; 36 &div; 12)/36 = 27/36, so e = 27; 6/9 = (6 &times; 36 &div; 9)/(36 &times; 1) = 24/36, so f = 24; But since e = 27 &ne; f = 24, 9/12 &ne; 6/9.
+3. just apply the shortcut formula, and skip the check to ensure that b and d have the same sign, and also skip computations of HCF and LCM: check whether (a &times; d) equals (b &times; c).
+   - this method resembles the method in the previous point, by simply setting w = b &times; d.
+   - E.g. 9/12 = 6/8 because 9 * 8 = 72 and 12 * 6 = 72;
+   - 9/12 &ne; 6/9 because 9 * 9 = 81 but 12 * 6 = 72.
 
 
 Examples: *Use cross multiply*.

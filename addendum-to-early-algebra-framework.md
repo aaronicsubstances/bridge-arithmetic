@@ -63,13 +63,14 @@ The ability to cross-check answers becomes critical in the study of many science
 
 9. Introduce enough variety of arithmetic expression evaluation exercises in order to avoid using BODMAS mnemonic in unintended situations. Note also that they end up demonstrating associativity of addition and multiplication.
 
-10. HCF and LCM do not seem to be used directly in practice; instead common factors (CF) and common multiples (CM) are used.
+10. HCF/GCD do not seem to be used directly in practice; instead common factors (CF) are used directly to iteratively reduce fractions to their simplest forms. On the other hand direct use of LCM seems unavoidable in understanding fraction arithmetic, becase the alternative use of common multiples (CM) will make arithmetic involving denominators which are not relatively prime unnecessarily complex.
+    - why not teach Euclid's algorithm directly to compute HCF(a, b), and also to compute LCM(a, b) as a &times; b / HCF(a, b)?
 
 11. Quadratic factorization
     - instead of looking for factors of ac which add up to b, can rather teach almighty formula and use product of roots by -a as the desired factors.
     - as a help to quadratic factorization in algebra, can train students to identify coefficients of linear and quadratic expressions and equations in early algebra.
 
-12. Can introduce negatives this way: 3-4=?, ?+4=3. better yet, 4+?=3,?=3-4,2-3,1-2,0-1 with 0-1 as canonical form.
+12. Can introduce negatives this way: 3-4=?, ?+4=3. better yet, 4+?=3,?=3-4, 2-3, 1-2, 0-1 with 0-1 as canonical form.
 
 ## Use of Manipulatives
 
@@ -126,7 +127,12 @@ Ways to teach multiplication
    - that leaves only the following five for individual memorization: 6 &times; 7 = 42, 6 &times; 8 = 48, 7 &times; 7 = 49, 7 &times; 8 = 56, and 8 &times; 8 = 64.
    - NB: 12 times table may be omitted from memorization.
 - multiplication procedure with only one single digit counting number
-- multiplication procedure with no single digit counting numbers
+- multiplication procedure with both operands as multiple digit counting numbers
+
+Ways to teach division
+- divison whose divisor is less than 10, and whose dividend is less than 10 times of divisor.
+- division whose dividend is less than 10 times of divisor, but whose divisor can be 10 or more.
+- division procedure with no restriction on divisor or dividend.
 
 Ways to teach decimal number procedures:
 
@@ -135,13 +141,13 @@ Ways to teach decimal number procedures:
 
 Ways of explaining multiplication
 - multiplication with whole number multiplier as repeated addition of the whole of the multiplicand. In this sense division as sharing remains a follow up to multiplication as its inverse.
-- multiplication with fraction multiplier as repeated addition of a resizing/scaling of the multiplicand by the denominator of the multiplier. In this sense it seems more beneficial to view  division as containment as occuring first, and multiplication following it as its inverse.
+- multiplication with fraction multiplier as resizing/scaling of the multiplicand by the multiplier. In this sense it seems more beneficial to view  division as containment as occuring first, and multiplication following it as its inverse.
 
 Ways of explaining division 
 - division which results in integer quotient and possible remainder
 - division which results in fraction quotient and no remainder
-- division interpretation as sharing. Note that this interpreation requires divisor to be whole number, and hence corresponds with repeated-addition-of-a-whole interpretation of multiplication in which divisor is the multiplier.
-- division as containment. Note that this interpretation is applicable even if divisor is a fraction, and hence corresponds with repeated-addition-of-a-resizing interpretation of multiplication in which the quotient is the multiplier.
+- division interpretation as sharing (aka partition). Note that this interpreation requires divisor to be whole number, and hence corresponds with repeated-addition-of-a-whole interpretation of multiplication in which divisor is the multiplier.
+- division as containment (aka measurement). Note that this interpretation is applicable even if divisor is a fraction, and hence corresponds with repeated-addition-of-a-resizing interpretation of multiplication in which the quotient is the multiplier.
 
 
 NB:
@@ -150,31 +156,34 @@ for case of equal operands, but rather as a necessity of a compact positional nu
 context of positional number system before it is used in arithmetic.
 - beware of dependency of arithmetic procedures for counting numbers, on arithmetic of zero.
 - beware also of dependency of multiplication and division procedures of counting numbers, on arithmetic of 1 as the multiplier and divisor respectively.
-- beware that it is unit fraction usage and "of" operator existed long before they became the basis for defining multiplication and division of fractions.
-   - unit fractions and the "of" operator seem to be as innate to humanity as counting numbers and the four arithmetic operations on counting numbers.
+- beware that unit fraction usage and taking a fraction of something, existed long before they became the basis for defining multiplication and division of fractions.
+   - unit fractions and the operation of taking a fraction of something seem to be as innate to humanity, as counting numbers and the four arithmetic operations on counting numbers. The ancient Egyptians were one of the first known users of both concepts.
    - a/b is the modern compact expression for the concept of a general non-unit fraction, which was developed later than unit fractions. A fraction was defined as *a* copies of unit fraction 1/b. With this concept, *b* copies of 1/b gives 1, and generally *b* copies of a/b gives a.
-   - the concept of fraction included this understanding: a/b is equivalent to (a &times; e)/(b &times; e), b &ne; 0, where *a* and *b* are whole numbers, and *e* is *anything representing a unit piece*. This meant *e* can be an abstract object like a whole number or rectangle, but can also be a concrete object like a stick or a coin. And *e* doesn't have to be one object, it can be any whole number of objects. So fraction with numerator a and denominator b (
-      represented as a/b in modern math) really meant *a* times of 1/b of some unspecified unit piece.
-   - a/b of c/d, b, d &ne; 0, where a, b, c and d are whole numbers, and where b divides c, is the modern compact expression for the ancient operation of (a &times; (c &div; b)) / d. Where b does not divide c, an equivalent fraction was found for second operand which will overcome that obstacle.
+   - the concept of fraction included this understanding: a/b is equivalent to (*a* copies of *u*)/(*b* copies of *u*), b &ne; 0, where *a* and *b* are whole numbers, and *u* is *anything representing a unit piece*. This meant *u* can be an abstract object like a whole number or rectangle, but can also be a concrete object like a basket of grain or a plot of land. And *u* doesn't have to be one object, it can be any whole number of objects. So fraction with numerator *a* and denominator *b* (
+      represented as a/b in modern math) really meant *a* copies of 1/b of some unspecified unit piece. E.g. 1/2 means 1/2 of something like a land, 1/10 means 1/10 of something like grain harvest yield, 2/5 means 2 of 1/5 of something like newborn goats.
+   - 1/b of c/d, b, d &ne; 0, where b, c and d are whole numbers, is the modern equivalent for the ancient rhetorical expression of "take a fraction of something", where the fraction is a unit fraction. And that was computed as (c &div; b) / d, where b divides c. Where b does not divide c, an equivalent fraction was found for second operand which will ensure the desired divisibility. The result became, taking a unit fraction of something is same as dividing that something by the denominator of the unit fraction.
+   - and since a/b equals *a* copies of 1/b, the operation of taking a fraction of something was generalized to a/b, where *a* is a whole number which doesn't have to be 1, such that a/b of c/d = *a* copies of (1/b of c/d).
 - beware that the meaning of division of fractions depends on history.
+   - a story of its origin is as follows:
    - a &div; b, b &ne; 0, where a and b are whole numbers, and where b does not divide a, was defined as equal to that pre-existing quantity fraction, which we now denote as a/b, because adding a/b *b* number of times indeed gives *a*.
-   - because a &div; b is defined as a fraction, it inherits the fraction property
-   that (a &times; e) &div; (b &times; e) equals a &div; b. Since *e* can be anything representing a unit piece, *e* was understood to include fractions.
-   - meanwhile, the general division problem which is a/b &div; c/d, b, d &ne; 0, and where a, b, c and d are whole numbers, continued to be treated as repeated subtraction, but created the need to simplify the complex fraction created when the repeated subtraction does not yield a remainder of zero.
-   - It will later become manifest to mathematicians, that the solution to the simplification problem becomes obvious if the numerator (a fraction) and the denominator (also a fraction) have the same denominators. Because they treated non-unit fractions as integral copies of unit fractions, it was obvious to them that the reciprocal of the common denominator was acting as a unit piece.
-   - So (a/e) &div; (b/e) becomes (*a* copies of 1/e) &div; (*b* copies of 1/e) = a &div; b = a/b.
+   - because a &div; b is defined as a fraction, it inherited the fraction property
+   that (a &times; u) &div; (b &times; u) equals a &div; b. Since *u* can be anything representing a unit piece, *u* was understood to include fractions.
+   - meanwhile, the general division problem which is a/b &div; c/d, b, d &ne; 0, and where a, b, c and d are whole numbers, continued to be treated as repeated subtraction. However this created the need to simplify the complex fraction created when the repeated subtraction does not yield a remainder of zero.
+   - It will later become manifest to mathematicians, that the solution to the simplification problem becomes obvious if the numerator (a fraction) and the denominator (also a fraction) have the same denominators. Because they treated non-unit fractions as integral copies of unit fractions, it was obvious to them that in a division problem like 2/7 &div; 5/7, 1/7 acted as a unit piece.
+   - So 2/7 &div; 5/7 = (2 copies of 1/7) &div; (5 copies of 1/7) = 2 &div; 5 = 2/5.
+   - only in the 17th century will mathematicians replace this way of performing division, with the invert and multiply approach but without mentioning that the latter is a shortcut of the former.
 - beware that the meaning of multiplication by a fraction multiplier also depends on history.
-   - multiplication by a fraction multiplier is really quasi multiplication by a fraction multiplier using the "of" operator.
-   - multiplication is repeated addition for counting number multiplier, or inverse of division as containment for both counting number multiplier and fraction multiplier.
-   - a story which explains the origin of this meaning is as follows:
+   - multiplication by a fraction multiplier is really "quasi multiplication" using the "of" operator, where the "quasi multiplication" means "similar to repeated addition but not exactly the same".
+   - multiplication is repeated addition for counting number multiplier, or resizing/scaling for both counting number multiplier and fraction multiplier which operates as inverse of division through containment.
+   - a story which explains its origin is as follows:
    - addition, subtraction, "of" operator and the division operation were known for fraction operands, but not multiplication. Also fractions were not seen as peers of counting numbers.
    - then the Indian mathematician Brahmagupta in the 7th century AD decided to write fraction in compact expression instead of rhetorically, in which fraction were
    written in a vertical column with numerator on top and denominator at the bottom. He didn't add the horizontal bar, which was added by mathematicians much later.
    - then he realised that the "of" operator has the following shortcut: (a &times; c)/(b &times; d)
-   - furthermore he realised that if b = d = 1, the shortcut becomes the multiplication expression for counting numbers.
-   - consequently, later mathematicians will treat fractions are peers of counting numbers, and put fractions and counting numbers together under a unified category (called positive rational numbers today), which is a quotient of two counting numbers, and in which counting numbers are seen as fraction with a denominator of 1.
-   - the definition of the unified category was concluded when mathematicians began treating the "of" operator as "quasi multiplication" of for the new category, to serve as counterpart of multiplication of counting numbers.
-   - over time the "of" operator itself faded into the background and the quasi multiplication operation it gave birth to took its place at the foreground. The operation became unqualified multiplication, in which multiplication was now defined as repeated addition for counting number multiplier, or inverse of division (as containment rather than as sharing) for both counting number multiplier and fraction multiplier.
+   - furthermore he realised that if b = d = 1, the shortcut becomes the multiplication expression for counting numbers. Even setting *b* alone to 1 makes the "of" operator same as repeated addition. And *a* acted as multiplier for repeated addition regardless of the value of *b*.
+   - consequently, later mathematicians will treat fractions as peers of counting numbers, and put fractions and counting numbers together under a unified category (called positive rational numbers today), which is a quotient of two counting numbers, and in which counting numbers are seen as fraction with a denominator of 1.
+   - the definition of the unified category was concluded when mathematicians began treating the "of" operator as "quasi multiplication" for the new category, to serve as counterpart of multiplication of counting numbers.
+   - only in the 17th century will mathematicians replace the language of taking a  fraction of something with the language of unqualified multiplication. Multiplication was now defined as repeated addition for counting number multiplier, or resizing/scaling for both counting number multiplier and fraction multiplier which operates as inverse of division (as containment rather than as sharing).
 
 
 
