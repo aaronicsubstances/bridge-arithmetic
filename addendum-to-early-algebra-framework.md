@@ -64,7 +64,8 @@ The ability to cross-check answers becomes critical in the study of many science
 9. Introduce enough variety of arithmetic expression evaluation exercises in order to avoid using BODMAS mnemonic in unintended situations. Note also that they end up demonstrating associativity of addition and multiplication.
 
 10. HCF/GCD do not seem to be used directly in practice; instead common factors (CF) are used directly to iteratively reduce fractions to their simplest forms. On the other hand direct use of LCM seems unavoidable in understanding fraction arithmetic, becase the alternative use of common multiples (CM) will make arithmetic involving denominators which are not relatively prime unnecessarily complex.
-    - why not teach Euclid's algorithm directly to compute HCF(a, b), and also to compute LCM(a, b) as a &times; b / HCF(a, b)?
+    - can use counting to teach LCM(a, b), by aligning objects in rows of counts *a* and *b*, and repeating each count until an alignment is observed. The total number of objects in one row, which will be equal to the number in the other row, is the LCM of *a* and *b*.
+    - can use use counting to teach HCF(a, b), by first computing *a* &div; *b* or *b* &div; *a*, by seeing if an alignment can be produced by repeating one of them.Whichever produces an integer, that integer would be the HCF and the algorithm ends. Else a more general strategy is needed, which would have also worked even for the case where *a* divides *b* or *b* divides *a*. Compute a target of *a* &times; *b*, and aligning objects in rows of counts *a* and *b*, and repeating each count towards the target, while noting the moments an alignment occurs. The total number of alignments observed, including the alignment which occurs at the target, is the HCF of *a* and *b*.
 
 11. Quadratic factorization
     - instead of looking for factors of ac which add up to b, can rather teach almighty formula and use product of roots by -a as the desired factors.
@@ -119,7 +120,7 @@ Ways to teach subtraction
 - subtraction by count backward (mentioned for completeness sake)
 - subtraction procedure for large counting numbers
 
-Ways to teach multiplication
+Levels of multiplication procedure
 - multiplication with single digit counting numbers (less than 5) by filling grid and counting all cells, or by using fingers and toes.
 - multiplication with single digit counting numbers by memory recall
    - leverage patterns in time tables for 5, 9, 10 and 11.
@@ -129,7 +130,7 @@ Ways to teach multiplication
 - multiplication procedure with only one single digit counting number
 - multiplication procedure with both operands as multiple digit counting numbers
 
-Ways to teach division
+Levels of division procedure
 - divison whose divisor is less than 10, and whose dividend is less than 10 times of divisor.
 - division whose dividend is less than 10 times of divisor, but whose divisor can be 10 or more.
 - division procedure with no restriction on divisor or dividend.
