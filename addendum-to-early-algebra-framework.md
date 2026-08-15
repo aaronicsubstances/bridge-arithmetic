@@ -119,15 +119,19 @@ There is an interesting reading here about how irrational numbers used to be bas
 ## Other Matters
 
 Ways to teach addition
-- addition by count afresh
-- addition by count forward (most important of manual procedures)
+- addition by count afresh - Needs both operands to be small.
+- addition by count forward - Needs second operand to be small. most important of manual addition procedures
 - addition procedure for large counting numbers
 
 Ways to teach subtraction
-- subtraction by count leftover
-- subtraction by count forward (most important of manual procedures)
-- subtraction by count backward (mentioned for completeness sake)
+- subtraction by count leftover - Needs both operands to be small.
+- subtraction by count forward - Needs difference to be small. most important of manual subtraction procedures. can correspond to Aharoni's question "Of 5 children, 3 are girls, how many are boys?"
+- subtraction by count backward - Needs second operand to be small. mentioned for completeness sake
 - subtraction procedure for large counting numbers
+
+Ways to teach comparison
+- Which is greater or lesser: *a* or *b*?
+- (Inspired by Aharoni) By how much is *a* greater or lesser than *b*?
 
 Levels of multiplication procedure
 - multiplication with single digit counting numbers (less than 5) by filling grid and counting all cells, or by using fingers and toes.

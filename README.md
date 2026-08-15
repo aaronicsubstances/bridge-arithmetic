@@ -21,9 +21,14 @@ Early algebra refers to arithmetic and the subset of algebra topics taught in pr
 - arithmetic of small whole numbers by manual counting.
 - arithmetic of small whole numbers by table lookup.
 - arithmetic of whole numbers by non-positional place value systems. candidates for place value system at this stage are:
-  - use of I as sole symbol.
-  - use of only the numbers 1 - 9, and limiting all operands and results of the four basic arithemtic operations to 1 - 9.
-  - use of space separated combinations of a digit in 1-9 followed by one of the characters from the Roman numeral system I, X, C and M. E.g. 5X for 50, 4X 5I for 45, etc. Can subsume systems in previous two points. Can have a canonical form, but accept noncanonical forms from beginners in positional number systems such as lower primary school children.
+  - use of tally marks in which only 1 and 5 have dedicated symbols.
+  - use of a pseudo-Roman numeral system devised by Prof N. J. Wildberger, but with different symbols. So U stands for unit or 1, T for ten or 10, H for hundred or 100, and G for grand or 1000. In canonical form, the symbols are listed in 
+  decreasing order of value, and each symbol other than G occurs less than 10 times.
+    - E.g. U for 1, TU for 11, TTTTUUUUU for 45, TTTTT for 50, HUU for 102, GTTTTUUU for 1043 
+  - use of a pseudo-Hindu-Arabic numeral system inspired by Aharoni's "The Story of King Krishna", in which a number is represented by a list of combinations of a Hindu-Arabic numeral, followed by the same characters used in the pseudo-Roman numeral system above. In canonical form, the symbols are listed in 
+  decreasing order of value, and the Hindu-Arabic numeral in a combination not having G is less than 10.
+    - E.g. 1U for 1, 1T 1U for 11, 4T 5U for 45, 5T for 50, 1H 2U for 102, 1G 4T 3U for 1043
+    - NB:  Only use the pseudo-Hindu-Arabic numeral system only to  ask questions and report answers. Before calculations, convert operands into pseudo-Roman numeral system and use that form for calculations.
 - the topics of simplification of algebraic expressions, generation of algebraic expressions and other susbsequent topics in algebra.
 
 For teens and adults, this proposal permits the introduction of less optimal but more intuitive arithmetic procedures to the students. It also permits the presentation of the early algebra topics in a different arrangement from that for pre-teens, in order to better suit the challenges and opportunities presented by teens and adults.
