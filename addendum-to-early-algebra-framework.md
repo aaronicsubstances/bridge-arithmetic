@@ -20,7 +20,6 @@ The ability to cross-check answers becomes critical in the study of many science
 1. Can introduce the abacus device for addition as precursor to the standard addition procedure.
 
 2. Can emulate Singapore math curriculum, in which Grades 1-3 are taught wholly with manipulatives.
-   - Can even extend manipulatives to negative numbers for addition operation by using red and black rods like was used in ancient Chinese accounting.
 
 2. Can modify standard multiplication procedure to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition.
 
@@ -77,8 +76,16 @@ The ability to cross-check answers becomes critical in the study of many science
 
 ## Use of Manipulatives
 
+NB:
+   - Can even extend manipulatives to negative numbers for addition operation by using red and black rods like was used in ancient Chinese accounting.
+
+![notes on use of positive fractions with manipulatives page 1](notes-on-fractions-1.jpg)
+
+
+## Notes on Transitioning to Negative Rational Numbers
+
 NB: 
-   - can put negative numberes in brackets initially. Like 24 &div; (-6)
+   - can put negative numbers in brackets initially. Like 24 &div; (-6)
    - there are two valid ways of converting between addition and subtraction. E.g. 2 + 3 = 5 can be converted to 5 &minus; 2 = 3 or 5 &minus; 3 = 2; similarly 5 &minus; 2 = 3 can be converted to 2 + 3 = 5 or 3 + 2 = 5.
    - and also there are two valid ways of converting between multiplication and division. E.g. 2 &times; 3 = 6 can be converted to 6 &div; 2 = 3 or 6 &div; 3 = 2; similarly 6 &div; 2 = 3 can be converted to 2 &times; 3 = 6 or 3 &times; 2 = 6.
 
