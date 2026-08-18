@@ -133,8 +133,19 @@ Ways to teach comparison
 - Which is greater or lesser: *a* or *b*?
 - (Inspired by Aharoni) By how much is *a* greater or lesser than *b*?
 
-Levels of multiplication procedure
-- multiplication with single digit counting numbers (less than 5) by filling grid and counting all cells, or by using fingers and toes.
+Ways to teach multiplication
+- multiplication by repeated addition
+- multiplication by 10 - very important shortcut to know about multiplication
+- multiplication by 2 - done by repeated addition
+- multiplication procedure for large counting numbers
+
+Ways to teach division
+- division by repeated subtraction
+- division by 10 - very important shortcut to know about division
+- division by 2 - done by equivalent of partial grid decomposition method for multiplication
+- division procedure for large counting numbers
+
+Levels of learning multiplication procedure
 - multiplication with single digit counting numbers by memory recall
    - leverage patterns in time tables for 5, 9, 10 and 11.
    - leverage commutativity of multiplication for half of time tables for 6, 7 and 8.
@@ -143,7 +154,7 @@ Levels of multiplication procedure
 - multiplication procedure with only one single digit counting number
 - multiplication procedure with both operands as multiple digit counting numbers
 
-Levels of division procedure
+Levels of learning division procedure
 - divison whose divisor is less than 10, and whose dividend is less than 10 times of divisor.
 - division whose dividend is less than 10 times of divisor, but whose divisor can be 10 or more.
 - division procedure with no restriction on divisor or dividend.

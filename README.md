@@ -82,7 +82,7 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
   - shopkeeper's method, aka count up method or count forward method - has advantages such as: it avoids the need for the student to know or remember that subtraction is not commutative, and it completely avoids the step of borrowing or carrying. Instead, it only requires the student to know how to compute absolute differences of operands which are small (ie less than 20), and how to compute additions and comparisons for large numbers.
 - Alternative to standard multiplication procedure of whole numbers
   - full decomposition method
-  - partial decomposition method - has advantage of more directly demonstrating distributive property of multiplication over addition compared to standard procedure.
+  - partial decomposition method, in which only multiplicand is decomposed - has advantage of more directly demonstrating distributive property of multiplication over addition compared to standard procedure.
   - Russian peasant multiplication, aka ancient Egyptian multiplication - has advantage of not depending on multiplication tables. But rather it depends only on doubling, halving, addition, and differentiating even numbers from odd numbers. Have 2 columns, double in left column, half in the right column until it becomes 1 while dropping remainders, cross out rows with even numbers in the right column, and add up numbers in left column which have not been crossed.
      - NB: can be combined with partial decomposition method, in which case its usage will be limited to multiplication by single-digit multiplier.
 - Alternative/Precursor to long division
