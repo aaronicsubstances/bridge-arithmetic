@@ -6,7 +6,7 @@ Here modern math refers to math
 - after the creation of the category of transcendental numbers, which is such that its members are not required to be computable, or attached to synthetic geometry, or attached to previously known math functions.
 
 Nevertheless this archive serves as reference for
-- precursors to long division algorithm
+- precursors to the optimized versions of the subtraction, multiplication and division procedures for large counting numbers, especially the long division algorithm.
 - tables of factorisations
 - notes on explaining addition and subtraction of integers
 - notes on explaining multiplication and division of both fractions and integers
