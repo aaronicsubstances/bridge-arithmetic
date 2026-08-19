@@ -21,13 +21,16 @@ Early algebra refers to arithmetic and the subset of algebra topics taught in pr
 - arithmetic of small whole numbers by manual counting.
 - arithmetic of small whole numbers by table lookup.
 - arithmetic of whole numbers by non-positional place value systems. candidates for place value system at this stage are:
-  - use of tally marks in which only 1 has a dedicated symbol. Or use of tally marks in which only 1 and 5 have dedicated symbols.
-  - use of a pseudo-Roman numeral system devised by Prof N. J. Wildberger, but with different symbols. So U stands for unit or 1, T for ten or 10, H for hundred or 100, and G for grand or 1000. In canonical form, the symbols are listed in 
-  decreasing order of value, and each symbol other than G occurs less than 10 times.
-    - E.g. U for 1, TU for 11, TTTTUUUUU for 45, TTTTT for 50, HUU for 102, GTTTTUUU for 1043 
+  - use of tally marks in which only 1 has a dedicated symbol.
+    - NB: Can add shorthand symbol for 5.
+  - use of a pseudo-Roman numeral system devised by Prof N. J. Wildberger. So i stands for one, X for ten, C for hundred, and M for thousand. In canonical form, the symbols are listed in 
+  decreasing order of value, and each symbol occurs less than 10 times.
+    - E.g. i for 1, Xi for 11, XXXXiiiii for 45, XXXXX for 50, Cii for 102, MXXXXiii for 1043 
+    - NB: capital I in Wildberger's system is replaced with small i for easier use of symbols in next system.
   - use of a pseudo-Hindu-Arabic numeral system inspired by Aharoni's "The Story of King Krishna", in which a number is represented by a list of combinations of a Hindu-Arabic numeral, followed by the same characters used in the pseudo-Roman numeral system above. In canonical form, the symbols are listed in 
-  decreasing order of value, and the Hindu-Arabic numeral in a combination not having G is less than 10.
-    - E.g. 1U for 1, 1T 1U for 11, 4T 5U for 45, 5T for 50, 1H 2U for 102, 1G 4T 3U for 1043
+  decreasing order of value, and the Hindu-Arabic numeral in a combination is less than 10.
+    - E.g. 1i for 1, 1X 1i for 11, 4X 5i for 45, 5X for 50, 1C 2i for 102, 1M 4X 3i for 1043
+    - NB: can allow 1 to be dropped. So i can stand for 1, Xi can stand for 11, and M 4X 3i can stand for 1043.
     - NB:  Only use the pseudo-Hindu-Arabic numeral system only to  ask questions and report answers. Before calculations, convert operands into pseudo-Roman numeral system and use that form for calculations.
 - the topics of simplification of algebraic expressions, generation of algebraic expressions and other susbsequent topics in algebra.
 
