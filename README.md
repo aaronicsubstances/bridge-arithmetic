@@ -6,7 +6,7 @@ Here modern math refers to math
 - after the creation of the category of transcendental numbers, which is such that its members are not required to be computable, or attached to synthetic geometry, or attached to previously known math functions.
 
 Nevertheless this archive serves as reference for
-- precursors to the optimized versions of the subtraction, multiplication and division procedures for large counting numbers, especially the long division algorithm.
+- precursors to the optimized versions of the subtraction, multiplication and division procedures for large counting numbers.
 - tables of factorisations
 - notes on explaining addition and subtraction of integers
 - notes on explaining multiplication and division of both fractions and integers
@@ -21,7 +21,7 @@ Early algebra refers to arithmetic and the subset of algebra topics taught in pr
 - arithmetic of small whole numbers by manual counting.
 - arithmetic of small whole numbers by table lookup.
 - arithmetic of whole numbers by non-positional place value systems. candidates for place value system at this stage are:
-  - use of tally marks in which only 1 and 5 have dedicated symbols.
+  - use of tally marks in which only 1 has a dedicated symbol. Or use of tally marks in which only 1 and 5 have dedicated symbols.
   - use of a pseudo-Roman numeral system devised by Prof N. J. Wildberger, but with different symbols. So U stands for unit or 1, T for ten or 10, H for hundred or 100, and G for grand or 1000. In canonical form, the symbols are listed in 
   decreasing order of value, and each symbol other than G occurs less than 10 times.
     - E.g. U for 1, TU for 11, TTTTUUUUU for 45, TTTTT for 50, HUU for 102, GTTTTUUU for 1043 
@@ -80,12 +80,13 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
   - Austrian method - has advantage of resembling the addition procedure, with ordering of operands and sum turned upside down.
   - Singapore Math method - uses Constant Difference stragegy to make second operand a single digit followed by zeros, by adding equal amounts (also in the form of a single digit followed by zeros) to both operands.
   - shopkeeper's method, aka count up method or count forward method - has advantages such as: it avoids the need for the student to know or remember that subtraction is not commutative, and it completely avoids the step of borrowing or carrying. Instead, it only requires the student to know how to compute absolute differences of operands which are small (ie less than 20), and how to compute additions and comparisons for large numbers.
-- Alternative to standard multiplication procedure of whole numbers
-  - full decomposition method
-  - partial decomposition method, in which only multiplicand is decomposed - has advantage of more directly demonstrating distributive property of multiplication over addition compared to standard procedure.
+- Alternative to long multiplication procedure of whole numbers
+  - grid multiplication with full decomposition - has advantage of more directly demonstrating distributive property of multiplication over addition compared to long multiplication procedure.
+  - grid multiplication with partial decomposition method, in which only multiplicand is decomposed
   - Russian peasant multiplication, aka ancient Egyptian multiplication - has advantage of not depending on multiplication tables. But rather it depends only on doubling, halving, addition, and differentiating even numbers from odd numbers. Have 2 columns, double in left column, half in the right column until it becomes 1 while dropping remainders, cross out rows with even numbers in the right column, and add up numbers in left column which have not been crossed.
-     - NB: can be combined with partial decomposition method, in which case its usage will be limited to multiplication by single-digit multiplier.
+     - NB: can be combined with grid multiplication with partial decomposition , in which case its usage will be limited to multiplication by single-digit multiplier.
 - Alternative/Precursor to long division
+  - short division
   - division by chunking (aka division by partial quotients method, "Big 7" method)
   - conversion of fraction to decimal, by repeated multiplication of mixed/proper fraction by 10, until either there is no proper fraction in multiplication result (in which case decimal expansion terminates), or the proper fraction in the multiplication result is the same as one of the mixed/proper fractions being multiplied by 10 (in which case decimal expansion will repeat indefinitely).
   - NB: above two division methods of Big 7 and times 10, will work even for positive fractions and positive decimals.
@@ -94,13 +95,14 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 ## Algebra Topics
 
 - justification for any unproven arithmetic procedures and rules, following lead of Kiselev's Arithmetic.
-- long division algorithm, standard subtraction algorithm involving borrows or carries, compact version of partial decomposition multiplication algorithm - i.e. if they were skipped in favour of the more intutive but less efficient alternatives earlier on.
+- long or short division algorithm, standard subtraction algorithm involving borrows or carries, long multiplication algorithm - i.e. if they were skipped in favour of the more intutive but less efficient alternatives earlier on.
 - swapping "of" operator with overloaded meaning of multiplication which covers fraction multipliers
 - standard formulas for multiplication and division of fractions - i.e. if they were skipped in favour of the more intutive but less efficient alternatives earlier on.
 - Divisibility Rules and Prime Factorization
 - developing proficiency in arithmetic of integers and rational numbers involving negative numbers.
 - Conversion of positive fractions from and to decimal expansions
 - Conversion of positive fractions and decimal expansions to rounded decimal expansions
+- Conversion of fractions and decimal expansions from and to percentages
 - expression evaluation (aka "substitution") mainly involving only the four basic arithmetic operations
   - includes drilling in convention of concatenation for multiplication
   - can include powers, roots, trigonometry and logarithms
