@@ -23,15 +23,14 @@ Early algebra refers to arithmetic and the subset of algebra topics taught in pr
 - arithmetic of whole numbers by non-positional place value systems. candidates for place value system at this stage are:
   - use of tally marks in which only 1 has a dedicated symbol.
     - NB: Can add shorthand symbol for 5.
-  - use of a pseudo-Roman numeral system devised by Prof N. J. Wildberger. So i stands for one, X for ten, C for hundred, and M for thousand. In canonical form, the symbols are listed in 
+  - use of a simplified Roman numeral system devised by Prof N. J. Wildberger. So I stands for one, X for ten, C for hundred, and M for thousand. In canonical form, the symbols are listed in 
   decreasing order of value, and each symbol occurs less than 10 times.
-    - E.g. i for 1, Xi for 11, XXXXiiiii for 45, XXXXX for 50, Cii for 102, MXXXXiii for 1043 
-    - NB: capital I in Wildberger's system is replaced with small i for easier use of symbols in next system.
-  - use of a pseudo-Hindu-Arabic numeral system inspired by Aharoni's "The Story of King Krishna", in which a number is represented by a list of combinations of a Hindu-Arabic numeral, followed by the same characters used in the pseudo-Roman numeral system above. In canonical form, the symbols are listed in 
+    - E.g. I for 1, XI for 11, XXXXIIIII for 45, XXXXX for 50, CII for 102, MXXXXIII for 1043 
+  - use of a simplified Hindu-Arabic numeral system inspired by Aharoni's "The Story of King Krishna", in which a number is represented by a list of combinations of a Hindu-Arabic numeral, followed by the same characters used in the simplified Roman numeral system above, but with I replaced with i. In canonical form, the symbols are listed in 
   decreasing order of value, and the Hindu-Arabic numeral in a combination is less than 10.
     - E.g. 1i for 1, 1X 1i for 11, 4X 5i for 45, 5X for 50, 1C 2i for 102, 1M 4X 3i for 1043
     - NB: can allow 1 to be dropped. So i can stand for 1, Xi can stand for 11, and M 4X 3i can stand for 1043.
-    - NB:  Only use the pseudo-Hindu-Arabic numeral system only to  ask questions and report answers. Before calculations, convert operands into pseudo-Roman numeral system and use that form for calculations.
+    - NB:  The simplified Hindu-Arabic numeral system can only be useful to  ask questions and report answers. For calculations, operands need to be converted into the simplified Roman numeral system.
 - the topics of simplification of algebraic expressions, generation of algebraic expressions and other susbsequent topics in algebra.
 
 For teens and adults, this proposal permits the introduction of less optimal but more intuitive arithmetic procedures to the students. It also permits the presentation of the early algebra topics in a different arrangement from that for pre-teens, in order to better suit the challenges and opportunities presented by teens and adults.
@@ -73,7 +72,7 @@ Early algebra proposal for adults depends on using formulas to perform arithmeti
 
 - numbers come in kinds or types, e.g. whole numbers, non-whole numbers, integers, non-integers, positive numbers, negative numbers.
 - numbers have parts, e.g. sign, magnitude, numerator, denominator.
-- numbers can be presented in different formats, e.g. common fraction, mixed fraction, decimal expansion, standard form.
+- numbers can be presented in different formats, e.g. common fraction, mixed fraction, decimal expansion, percentages, standard form.
 
 ### Alternative Arithmetic Procedures
 
