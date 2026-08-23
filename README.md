@@ -6,7 +6,7 @@ Here modern math refers to math
 - after the creation of the category of transcendental numbers, which is such that its members are not required to be computable, or attached to synthetic geometry, or attached to previously known math functions.
 
 Nevertheless this archive serves as reference for
-- precursors to the optimized versions of the subtraction, multiplication and division procedures for large counting numbers.
+- precursors to the optimized versions of the arithmetic procedures for large counting numbers.
 - tables of factorisations
 - notes on explaining addition and subtraction of counting numbers, fractions and integers
 - notes on explaining multiplication and division of counting numbers, fractions and integers
@@ -73,12 +73,17 @@ Early algebra proposal for adults depends on using formulas to perform arithmeti
 
 NB: can serve as precursors and/or crosschecking avenues to the ones approved in school, given that the school procedures are often faster.
 
-- Alternative to standard subtraction procedure of whole numbers based on borrowing, ie the one currently taught in Ghana, USA and elsewhere
+- Alternative/Precursor to standard addition procedure
+  - Variant of partial sums method:  Align operands on left digit, and sum up pairs of digits in columns into first answer row without bothering about carries yet. 
+    - NB: instead of one answer row, can use 3 answer rows. To each sum append a unit indicating place value, where the units are symbols from the roman numeral system: I for ones, X for tens, C for hundreds and M for thousands. For other columns like place of ten thousands leave off appending. Then starting from right to left, use second answer row to save results of adding incoming carry value to column in first answer row. Then use third answer row to save result left behind after removing outgoing carry value.
+- Alternative/Precursor to standard subtraction procedure of whole numbers based on borrowing
   - Austrian method - has advantage of resembling the addition procedure, with ordering of operands and sum turned upside down.
-  - shopkeeper's method, aka count up method or count forward method - has advantages such as: it avoids the need for the student to know or remember that subtraction is not commutative, and it completely avoids the step of borrowing or carrying. Also, it shows connection between subtraction and addition, by recasting subtraction as: what should be added to the second operand to obtain the first operand?
   - Singapore Math method - uses Constant Difference strategy to make second operand a single digit followed by zeros, by adding equal amounts (also in the form of a single digit followed by zeros) to both operands. Like shopkeeper's method, it avoids the need for the student to know or remember that subtraction is not commutative, and it completely avoids the step of borrowing or carrying. Instead, both only require the student to know how to compute absolute differences of operands which are small (ie less than 20), and how to compute additions and comparisons for large numbers.
   - Ancient Egyptian subtraction - has advantage of not depending on positional number system. It works by cancelling on both sides, and expanding higher token into tens of next smaller token if needed.
-- Alternative to long multiplication procedure of whole numbers
+  - Variation of Tens' complement method: Idea is to introduce a power of ten whose zero count is one less than the number of digits in the first operand, and then add this power in the beginning, and subtract it in the end. Begin by creating a malformed number whose most significant digit is the same as that of the first operand, whose last digit is 10 (this is what makes the number malformed), and whose other digits in between first and last positions are nines. Can append units of I, X, C and M to the digits in the last 4 positions of the malformed number. Then create another number which is a truncation of the first operand which preserves all but the most significant digit. The malformed number and the truncated number represent the result of adding the power of ten to the first operand. So after creating these two numbers, perform the first calculation by subtracting the second operand from the malformed number. Then the second calculation is to add the result from the first calculation to the truncated number. Then the final calcuation is to subtract the power of ten determined in the beginning from the result of the second calculation.
+- Alternative/Precursor to long multiplication procedure of whole numbers
+  - Variant of partial sums method - This variant requires one operand to be a single digit, and assumes it will be used with grid multiplication with partial decomposition mentioned below. And it works just like partial sums method of addition.
+    - NB: this method is intentionally called "partial sums" rather than "partial products", to indicate its exact identification with the partial sums method of addition. And also partial products have come to mean grid multiplication in which addition of partial products is done explicitly as a separate step. But in this method, the partial products are added implicitly via the propagation of carries as done in addition algorithms.
   - grid multiplication - i.e. with full decomposition of both multiplicand and multiplier. has advantage of more directly demonstrating distributive property of multiplication over addition compared to long multiplication procedure.
   - grid multiplication with partial decomposition method - i.e. in which only multiplicand is decomposed. has advantage of enabling a smoother transition to long multiplication procedure.
   - Russian peasant multiplication, aka ancient Egyptian multiplication - has advantage of not depending on multiplication tables and not depending on positional number system, and rather depends only on doubling, halving, addition, and differentiating even numbers from odd numbers. It works as follows: Have table of 2 columns, and double in right column, but halve in the left column until it becomes 1 while dropping remainders. Then cross out rows with even numbers in the left column, and add up numbers in right column which have not been crossed.
@@ -95,7 +100,7 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 ## Algebra Topics
 
 - justification for any unproven arithmetic procedures and rules, following lead of Kiselev's Arithmetic.
-- long or short division algorithm, standard subtraction algorithm involving borrows or carries, long multiplication algorithm - i.e. if they were skipped in favour of the more intutive but less efficient alternatives earlier on.
+- the optimized versions of the arithmetic procedures for large counting numbers.
 - swapping "of" operator with overloaded meaning of multiplication which covers fraction and negative multipliers. And use bare times symbol and retire use of circled times symbol for multiplication.
 - standard formulas for multiplication and division of fractions - i.e. if they were skipped in favour of the more intutive but less efficient alternatives earlier on.
 - Divisibility Rules and Prime Factorization
