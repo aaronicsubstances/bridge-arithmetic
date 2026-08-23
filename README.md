@@ -20,18 +20,12 @@ Nevertheless this archive serves as reference for
 Early algebra refers to arithmetic and the subset of algebra topics taught in primary and secondary schools. Strictly speaking, it excludes
 - arithmetic of small whole numbers by manual counting.
 - arithmetic of small whole numbers by table lookup.
-- arithmetic of whole numbers by non-positional place value systems. candidates for place value system at this stage are:
-  - use of tally marks in which only 1 has a dedicated symbol.
-    - NB: Can add shorthand symbol for 5.
-  - use of a simplified Roman numeral system devised by Prof N. J. Wildberger. So I stands for one, X for ten, C for hundred, and M for thousand. In canonical form, the symbols are listed in 
+- arithmetic of whole numbers by non-positional place value systems. For place value systems to use at this stage I adopt the following two systems I first heard of from Prof N. J. Wildberger:
+  - use of I as symbol for 1, and use of mutiple Is for every other number.
+  - use of a simplified Roman numeral system, in which I stands for one, X for ten, C for hundred, and M for thousand. In canonical form, the symbols are listed in 
   decreasing order of value, and each symbol occurs less than 10 times.
-    - E.g. I for 1, XI for 11, XXXXIIIII for 45, XXXXX for 50, CII for 102, MXXXXIII for 1043 
-    - NB: use of this system may require circling times symbol of multiplication.
-  - use of a simplified Hindu-Arabic numeral system inspired by Aharoni's "The Story of King Krishna", in which a number is represented by a list of combinations of a Hindu-Arabic numeral, followed by the same characters used in the simplified Roman numeral system above, but with I replaced with i. In canonical form, the symbols are listed in 
-  decreasing order of value, and the Hindu-Arabic numeral in a combination is less than 10.
-    - E.g. 1i for 1, 1X 1i for 11, 4X 5i for 45, 5X for 50, 1C 2i for 102, 1M 4X 3i for 1043
-    - NB: can allow 1 to be dropped. So i can stand for 1, Xi can stand for 11, and M 4X 3i can stand for 1043.
-    - NB:  The simplified Hindu-Arabic numeral system can only be useful to  ask questions and report answers. For calculations, operands need to be converted into the simplified Roman numeral system.
+    - E.g. I for 1, IIII for 4, IIIIIIIII for 9, X for 10, XI for 11, XXXXIIIII for 45, XXXXX for 50, CII for 102, MXXXXIII for 1043
+    - NB: use of this system may require circling times symbol of multiplication in order to differentiate multiplication operator from numeral for ten.
 - the topics of simplification of algebraic expressions, generation of algebraic expressions and other susbsequent topics in algebra.
 
 For teens and adults, this proposal permits the introduction of less optimal but more intuitive arithmetic procedures to the students. It also permits the presentation of the early algebra topics in a different arrangement from that for pre-teens, in order to better suit the challenges and opportunities presented by teens and adults.
@@ -81,8 +75,8 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 
 - Alternative to standard subtraction procedure of whole numbers based on borrowing, ie the one currently taught in Ghana, USA and elsewhere
   - Austrian method - has advantage of resembling the addition procedure, with ordering of operands and sum turned upside down.
-  - shopkeeper's method, aka count up method or count forward method - has advantages such as: it avoids the need for the student to know or remember that subtraction is not commutative, and it completely avoids the step of borrowing or carrying. Also, it shows connection between subtraction and addition, by recasting subtraction as: what should be added to the second operand to obtain the first operand? Instead, it only requires the student to know how to compute absolute differences of operands which are small (ie less than 20), and how to compute additions and comparisons for large numbers.
-  - Singapore Math method - uses Constant Difference stragegy to make second operand a single digit followed by zeros, by adding equal amounts (also in the form of a single digit followed by zeros) to both operands. Like shopkeeper's method, it avoids the need for the student to know or remember that subtraction is not commutative, and it completely avoids the step of borrowing or carrying.
+  - shopkeeper's method, aka count up method or count forward method - has advantages such as: it avoids the need for the student to know or remember that subtraction is not commutative, and it completely avoids the step of borrowing or carrying. Also, it shows connection between subtraction and addition, by recasting subtraction as: what should be added to the second operand to obtain the first operand?
+  - Singapore Math method - uses Constant Difference strategy to make second operand a single digit followed by zeros, by adding equal amounts (also in the form of a single digit followed by zeros) to both operands. Like shopkeeper's method, it avoids the need for the student to know or remember that subtraction is not commutative, and it completely avoids the step of borrowing or carrying. Instead, both only require the student to know how to compute absolute differences of operands which are small (ie less than 20), and how to compute additions and comparisons for large numbers.
   - Ancient Egyptian subtraction - has advantage of not depending on positional number system. It works by cancelling on both sides, and expanding higher token into tens of next smaller token if needed.
 - Alternative to long multiplication procedure of whole numbers
   - grid multiplication - i.e. with full decomposition of both multiplicand and multiplier. has advantage of more directly demonstrating distributive property of multiplication over addition compared to long multiplication procedure.
