@@ -1,15 +1,15 @@
-**NB: This project has been archived, due to my discovery of historically demonstrated viable approaches to math study for school children. It's the discovery of (1) the historic Quadrivium, and its teaching of Arithmetic and Euclidean/synthetic geometry as interconnected but separate disciplines; (2) Singapore math curriculum for primary school, with its Concrete-Pictorial-Abstract learning process, aka CPA approach; (3) old Russian math curriculum (ie based on A. P. Kiselev's books in the early 20th century) for junior and senior secondary school, and its long-term teaching of Euclidean/synthetic geometry; (4) the unnecessary rewriting of the foundations of modern math (such as by the Bourbaki group from the early to middle of 20th century), from counting numbers and Euclidean/synthetic geometry to infinite set theory.**
+**NB: This project has been archived, due to my discovery of historically demonstrated viable approaches to math study for school children. It is the discovery of (1) ancient Egyptian arithmetic, aka Russian peasant arithmetic (2) the medieval Quadrivium, and its teaching of Arithmetic and Euclidean/synthetic geometry as interconnected but separate disciplines; (3) Singapore math curriculum for primary school, with its Concrete-Pictorial-Abstract learning process, aka CPA approach; (4) former Russian math curriculum, based on A. P. Kiselev's books in the early 20th century for junior and senior secondary school, and its long-term teaching of Euclidean/synthetic geometry; (5) the unnecessary rewriting of the foundations of modern math (such as by the Bourbaki group from the early to middle of 20th century), from counting numbers and Euclidean/synthetic geometry to infinite set theory.**
 
 Here modern math refers to math 
 - after the acceptance of the Fourier series and its initial contradictions;
-- after the 19th-century elevation of non-Euclidean geometries to the same level of truth as Euclidean geometry;
+- after the 19th-century elevation of non-Euclidean geometries to the same level of truth as Euclidean geometry in describing and measuring space;
 - after the creation of the category of transcendental numbers, which is such that its members are not required to be computable, or attached to synthetic geometry, or attached to previously known math functions.
 
 Nevertheless this archive serves as reference for
 - precursors to the optimized versions of the subtraction, multiplication and division procedures for large counting numbers.
 - tables of factorisations
-- notes on explaining addition and subtraction of integers
-- notes on explaining multiplication and division of both fractions and integers
+- notes on explaining addition and subtraction of counting numbers, fractions and integers
+- notes on explaining multiplication and division of counting numbers, fractions and integers
 - notes on decimal to fraction conversion
 - notes on finding factors of whole numbers
 
@@ -26,6 +26,7 @@ Early algebra refers to arithmetic and the subset of algebra topics taught in pr
   - use of a simplified Roman numeral system devised by Prof N. J. Wildberger. So I stands for one, X for ten, C for hundred, and M for thousand. In canonical form, the symbols are listed in 
   decreasing order of value, and each symbol occurs less than 10 times.
     - E.g. I for 1, XI for 11, XXXXIIIII for 45, XXXXX for 50, CII for 102, MXXXXIII for 1043 
+    - NB: use of this system may require circling times symbol of multiplication.
   - use of a simplified Hindu-Arabic numeral system inspired by Aharoni's "The Story of King Krishna", in which a number is represented by a list of combinations of a Hindu-Arabic numeral, followed by the same characters used in the simplified Roman numeral system above, but with I replaced with i. In canonical form, the symbols are listed in 
   decreasing order of value, and the Hindu-Arabic numeral in a combination is less than 10.
     - E.g. 1i for 1, 1X 1i for 11, 4X 5i for 45, 5X for 50, 1C 2i for 102, 1M 4X 3i for 1043
@@ -86,10 +87,10 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 - Alternative to long multiplication procedure of whole numbers
   - grid multiplication - i.e. with full decomposition of both multiplicand and multiplier. has advantage of more directly demonstrating distributive property of multiplication over addition compared to long multiplication procedure.
   - grid multiplication with partial decomposition method - i.e. in which only multiplicand is decomposed. has advantage of enabling a smoother transition to long multiplication procedure.
-  - Russian peasant multiplication, aka ancient Egyptian multiplication - has advantage of not depending on multiplication tables and not depending on positional number system, and rather depends only on doubling, halving, addition, and differentiating even numbers from odd numbers. It works as follows: Have 2 columns, and double in left column, half in the right column until it becomes 1 while dropping remainders, cross out rows with even numbers in the right column, and add up numbers in left column which have not been crossed.
+  - Russian peasant multiplication, aka ancient Egyptian multiplication - has advantage of not depending on multiplication tables and not depending on positional number system, and rather depends only on doubling, halving, addition, and differentiating even numbers from odd numbers. It works as follows: Have table of 2 columns, and double in right column, but halve in the left column until it becomes 1 while dropping remainders. Then cross out rows with even numbers in the left column, and add up numbers in right column which have not been crossed.
 - Alternative/Precursor to long division
   - short division
-  - Russian peasant division, aka ancient Egyptian division - has same advantages of Russian peasant multiplication. Also, it shows connection between multiplication and division, by recasting division as: by how much should the divisor be multiplied to obtain the dividend? It works as follows: Have a doubling table, filled with products resulting from doubling divisor up to maximum product less than or equal to the dividend. Then use repeated subtraction to identify subset of products whose sum is the dividend.
+  - Russian peasant division, aka ancient Egyptian division - has same advantages of Russian peasant multiplication. Also, it shows connection between multiplication and division, by recasting division as: by how much should the divisor be multiplied to obtain the dividend? It works as follows: Have a doubling table, filled with products resulting from doubling divisor up to maximum product greater than or equal to the dividend. Then use repeated subtraction to identify subset of products whose sum is the dividend.
     - NB: can be seen as a kind of division by chunking which does not depend on or leverage positional number system.
   - division by chunking (aka division by partial quotients method, "Big 7" method)
     - NB: can be seen as a kind of Russian peasant division which leverages positional number system and multiplication tables to obtain a faster algorithm.
@@ -101,7 +102,7 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 
 - justification for any unproven arithmetic procedures and rules, following lead of Kiselev's Arithmetic.
 - long or short division algorithm, standard subtraction algorithm involving borrows or carries, long multiplication algorithm - i.e. if they were skipped in favour of the more intutive but less efficient alternatives earlier on.
-- swapping "of" operator with overloaded meaning of multiplication which covers fraction multipliers
+- swapping "of" operator with overloaded meaning of multiplication which covers fraction and negative multipliers. And use bare times symbol and retire use of circled times symbol for multiplication.
 - standard formulas for multiplication and division of fractions - i.e. if they were skipped in favour of the more intutive but less efficient alternatives earlier on.
 - Divisibility Rules and Prime Factorization
 - developing proficiency in arithmetic of integers and rational numbers involving negative numbers.
