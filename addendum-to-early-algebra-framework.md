@@ -17,15 +17,15 @@ The ability to cross-check answers becomes critical in the study of many science
 
 ## Curriculum Design Tips
 
-1. Can introduce the abacus device for addition as precursor to the standard addition procedure.
+1. Can emulate Singapore math curriculum, in which Grades 1-3 are taught wholly with manipulatives.
 
-2. Can emulate Singapore math curriculum, in which Grades 1-3 are taught wholly with manipulatives.
-
-2. Can modify standard multiplication procedure to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition.
+2. Can modify standard long multiplication procedure to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition.
 
 2. Note that each variant of the multiplication procedure for whole numbers is an application of the distributive property of multiplication over addition.
 
-3. Can modify standard long division procedure to be easier to recall, by placing a digit on top of each digit of the dividend. In the case of long division beyond the decimal places available in the dividend, manually add a zero (preceded by adding  a decimal point if necessary) to the dividend, for each digit in the partial quotient answer generated after the decimal point. Overall, this means that the modification is meant to ensure a one-to-one correspondence between the digits and optional decimal point of the dividend, and the digits and optional decimal point of the quotient answer above it.
+3. Can modify standard long division procedure to be easier to recall, by placing a digit on top of each digit of the dividend. In the case of long division beyond the decimal places available in the dividend, manually add a zero (preceded by adding  a decimal point if necessary) to the dividend, for each digit in the partial quotient answer generated after the decimal point. Overall, this means that the modification is meant to ensure a one-to-one correspondence between the digits and optional decimal point of the dividend, and the digits and optional decimal point of the quotient answer above it. 
+
+3. Can make another modification to long division, by leveraging the explicit creation of times table for divisor that is used with peasant division and Big 7 division, and setting table size to 9 entries.
 
 4. If misconceptions about commutativity of the four basic arithmetic operations prove too enduring to be rooted out by proficiency in arithmetic of non-whole numbers alone, then these exercises may be employed in experiments to try forestalling the misconceptions:
    - asking subtraction questions in which result can be negative, and accepting "undefined", "unexpected number", "negative",
@@ -41,7 +41,7 @@ The ability to cross-check answers becomes critical in the study of many science
 
 7. Curricular activities for applying mathematics in the real world.
 
-   - use ruler and compass only to perform rational number arithmetic, through 2D vector addition, flipping and scaling with right-angled triangles.
+   - synthetic, Euclidean geometry based on paper folding and compass and straight edge.
    - susu-box (aka piggy bank) management
    - cash-based accounting
    - sports league standings
@@ -72,12 +72,12 @@ The ability to cross-check answers becomes critical in the study of many science
     - instead of looking for factors of ac which add up to b, can rather teach almighty formula and use product of roots by -a as the desired factors.
     - as a help to quadratic factorization in algebra, can train students to identify coefficients of linear and quadratic expressions and equations in early algebra.
 
-12. Can introduce negatives this way: 3-4=?, ?+4=3. better yet, 4+?=3,?=3-4, 2-3, 1-2, 0-1 with 0-1 as canonical form.
 
 ## Use of Manipulatives
 
 NB:
-   - Can even extend manipulatives to negative numbers for addition operation by using red and black rods like was used in ancient Chinese accounting.
+   - Can introduce the abacus device for addition as precursor to the standard addition procedure.
+   - Can extend manipulatives to negative numbers for addition operation by using red and black rods like was used in ancient Chinese accounting.
 
 ![notes on use of positive fractions with manipulatives page 1](notes-on-fractions-1.jpg)
 
@@ -85,7 +85,8 @@ NB:
 ## Notes on Transitioning to Negative Rational Numbers
 
 NB: 
-   - can put negative numbers in brackets initially. Like 24 &div; (-6)
+   - can introduce negatives this way, following Prof N J Wildberger's lead: 3-4=?, ?+4=3. better yet, 4+?=3,?=3-4, 2-3, 1-2, 0-1 with 0-1 as canonical form.
+   - then afterwards can put negative numbers in brackets, as if imitating accounting practice, before dropping it entirely. Like 24 &div; (-6)
    - there are two valid ways of converting between addition and subtraction. E.g. 2 + 3 = 5 can be converted to 5 &minus; 2 = 3 or 5 &minus; 3 = 2; similarly 5 &minus; 2 = 3 can be converted to 2 + 3 = 5 or 3 + 2 = 5.
    - and also there are two valid ways of converting between multiplication and division. E.g. 2 &times; 3 = 6 can be converted to 6 &div; 2 = 3 or 6 &div; 3 = 2; similarly 6 &div; 2 = 3 can be converted to 2 &times; 3 = 6 or 3 &times; 2 = 6.
 
@@ -99,6 +100,8 @@ NB:
 ## Geometric Interpretation of Arithmetic Operations
 
 There is an interesting reading here about how irrational numbers used to be based on Euclidean geometry: http://aleph0.clarku.edu/~djoyce/elements/bookVI/propVI1.html
+
+Rational numbers, positive and negative, by contrast are not based on geometry, but on arithmetic and equation solving in algebra respectively. However it happens that arithmetic and algebra overlap geometry, because both are abstractions of the same underlying physical reality or physical world. As such arithmetic operations can have geometric interpretations, and some are listed as follows:
 
 - Positive rational numbers and multiplication - computing areas by grid cell counting, and dividing the grid cell count by the grid cell count in the unit square (may have to extend the grid to get at least one unit square if one of the operands is a proper fraction). See https://math.stackexchange.com/a/892282.
 
@@ -125,24 +128,26 @@ Ways to teach addition
 
 Ways to teach subtraction
 - subtraction by count leftover - Needs both operands to be small.
-- subtraction by count forward - Needs difference to be small. most important of manual subtraction procedures. can correspond to Aharoni's question "Of 5 children, 3 are girls, how many are boys?"
+- subtraction by count forward - Needs difference to be small. most important of manual subtraction procedures. can correspond to Ron Aharoni's question "Of 5 children, 3 are girls, how many are boys?"
 - subtraction by count backward - Needs second operand to be small. mentioned for completeness sake
 - subtraction procedure for large counting numbers
 
 Ways to teach comparison
 - Which is greater or lesser: *a* or *b*?
-- (Inspired by Aharoni) By how much is *a* greater or lesser than *b*?
+- (Inspired by Ron Aharoni) By how much is *a* greater or lesser than *b*?
 
 Ways to teach multiplication
 - multiplication by repeated addition
-- multiplication by 10 - very important shortcut to know about multiplication
+- multiplication by 10
 - multiplication by 2 - done by repeated addition
+- multiplication by a multiple of a power of 10
 - multiplication procedure for large counting numbers
 
 Ways to teach division
 - division by repeated subtraction
 - division by 10 - very important shortcut to know about division
 - division by 2 - done by equivalent of partial grid decomposition method for multiplication
+- division in which divisor is a multiple of a power of 10
 - division procedure for large counting numbers
 
 Levels of learning multiplication procedure
@@ -177,8 +182,7 @@ Ways of explaining division
 
 NB:
 - beware that zero appears first in history not for the purpose of closing subtraction
-for case of equal operands, but rather as a necessity of a compact positional number representation system. As such zero should also be introduced first to learners in
-context of positional number system before it is used in arithmetic.
+for case of equal operands, but rather as a necessity of a compact positional number representation system.
 - beware of dependency of arithmetic procedures for counting numbers, on arithmetic of zero.
 - beware also of dependency of multiplication and division procedures of counting numbers, on arithmetic of 1 as the multiplier and divisor respectively.
 - beware that unit fraction usage and taking a fraction of something, existed long before they became the basis for defining multiplication and division of fractions.
