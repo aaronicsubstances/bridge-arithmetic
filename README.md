@@ -1,15 +1,16 @@
-**NB: This project has been archived, due to my discovery of historically demonstrated viable approaches to math study for school children. It is the discovery of (1) ancient Egyptian arithmetic, aka Russian peasant arithmetic (2) the medieval Quadrivium, and its teaching of Arithmetic and Euclidean/synthetic geometry as interconnected but separate disciplines; (3) Singapore math curriculum for primary school, with its Concrete-Pictorial-Abstract learning process, aka CPA approach; (4) former Russian math curriculum, based on A. P. Kiselev's books in the early 20th century for junior and senior secondary school, and its long-term teaching of Euclidean/synthetic geometry; (5) the unnecessary rewriting of the foundations of modern math (such as by the Bourbaki group from the early to middle of 20th century), from counting numbers and Euclidean/synthetic geometry to infinite set theory.**
+**NB: This project has been archived, due to my discovery of historically demonstrated viable approaches to math study for school children. It is the discovery of (1) ancient Egyptian arithmetic, aka Russian peasant arithmetic (2) the medieval Quadrivium, and its teaching of Arithmetic and Euclidean/synthetic geometry as interconnected but separate disciplines; (3) Singapore math curriculum for primary school, with its Concrete-Pictorial-Abstract learning process, aka CPA approach; (4) former Russian math curriculum, based on A. P. Kiselev's books in the early 20th century for junior and senior secondary school, and its long-term teaching of Euclidean/synthetic geometry; (5) the backlash to the attempted rewriting of the foundations of modern math (such as by the Bourbaki group from the early to middle of 20th century), from counting numbers and Euclidean/synthetic geometry to infinite set theory.**
 
-Here modern math refers to math 
+Here modern math refers to math
+
 - after the acceptance of the Fourier series and its initial contradictions;
-- after the 19th-century elevation of non-Euclidean geometries to the same level of truth as Euclidean geometry in describing and measuring space;
+- after the 19th-century acceptance of non-Euclidean geometries as equally valid geometries as Euclidean geometry.
 - after the creation of the category of transcendental numbers, which is such that its members are not required to be computable, or attached to synthetic geometry, or attached to previously known math functions.
 
 Nevertheless this archive serves as reference for
-- precursors to the optimized versions of the arithmetic procedures for large counting numbers.
+
+- precursors to the optimized versions of the arithmetic procedures for large counting numbers and fractions.
 - tables of factorisations
-- notes on explaining addition and subtraction of counting numbers, fractions and integers
-- notes on explaining multiplication and division of counting numbers, fractions and integers
+- notes on explaining addition, subtraction, multiplication and division of counting numbers, fractions and integers
 - notes on decimal to fraction conversion
 - notes on finding factors of whole numbers
 
@@ -18,14 +19,16 @@ Nevertheless this archive serves as reference for
 ## What is Early Algebra?
 
 Early algebra refers to arithmetic and the subset of algebra topics taught in primary and secondary schools. Strictly speaking, it excludes
+
 - arithmetic of small whole numbers by manual counting.
 - arithmetic of small whole numbers by table lookup.
-- arithmetic of whole numbers by non-positional place value systems. For place value systems to use at this stage I adopt the following two systems I first heard of from Prof N. J. Wildberger:
+- arithmetic of whole numbers by non-positional numeral systems. Examples of such systems are the following two systems I first heard of from Prof N. J. Wildberger:
   - use of I as symbol for 1, and use of mutiple Is for every other number.
-  - use of a simplified Roman numeral system, in which I stands for one, X for ten, C for hundred, and M for thousand. In canonical form, the symbols are listed in 
-  decreasing order of value, and each symbol occurs less than 10 times.
+  - use of a simplified Roman numeral system, in which I stands for one, X for ten, C for hundred, and M for thousand. In canonical form, the symbols are listed in
+    decreasing order of value, and each symbol occurs less than 10 times.
     - E.g. I for 1, IIII for 4, IIIIIIIII for 9, X for 10, XI for 11, XXXXIIIII for 45, XXXXX for 50, CII for 102, MXXXXIII for 1043
     - NB: use of this system may require circling times symbol of multiplication in order to differentiate multiplication operator from numeral for ten.
+    - NB: use of this system will require teaching full roman numeral system later on, independently of arithmetic, ie for use as labels.
 - the topics of simplification of algebraic expressions, generation of algebraic expressions and other susbsequent topics in algebra.
 
 For teens and adults, this proposal permits the introduction of less optimal but more intuitive arithmetic procedures to the students. It also permits the presentation of the early algebra topics in a different arrangement from that for pre-teens, in order to better suit the challenges and opportunities presented by teens and adults.
@@ -51,13 +54,13 @@ The following activities are assumed to constitute arithmetic for rational numbe
 - Multiplication with counting number multiplier
 - Division
 - Fractions
-- *of* operator, for taking fractions of quantities
+- _of_ operator, for taking fractions of quantities
 - Ratios
 - Divisibility and Factorization
 - Powers and Roots
 - Comparison and Number Line
 
-Note that negative rational numbers, decimal numbers and evaluation of arithmetic expressions are treated under algebra, following lead of Singapore math curriculum. Also multiplication which covers fraction multipliers is postponed to algebra, and *of* operator takes its place in the meantime in arithmetic.
+Note that negative rational numbers, decimal numbers and evaluation of arithmetic expressions are treated under algebra, following lead of Singapore math curriculum. Also multiplication which covers fraction multipliers is postponed to algebra, and _of_ operator takes its place in the meantime in arithmetic.
 
 The arithmetic parts of early algebra proposal for adults seek to leverage reference materials (capable of being memorized in school settings), to quickly increase confidence in the study of arithmetic. For this reason the arithmetic parts is recorded in the form of tables, worked examples, formulas, pictorial demonstrations of arithmetic procedures, multi-choice questions, and exercises with detailed solutions. Some of these parts are as follows:
 
@@ -73,36 +76,31 @@ Early algebra proposal for adults depends on using formulas to perform arithmeti
 
 NB: can serve as precursors and/or crosschecking avenues to the ones approved in school, given that the school procedures are often faster.
 
-- Alternative/Precursor to standard addition procedure
-  - Variant of partial sums method:  Align operands on left digit, and sum up pairs of digits in columns into first answer row without bothering about carries yet. 
-    - NB: instead of one answer row, can use 3 answer rows. Can append units of i, x, c and m to corresponding column sums (for other columns like place of ten thousands leave off appending). Then starting from right to left, use second answer row to save results of adding incoming carry value to column in first answer row. Then use third answer row to save result left behind after removing outgoing carry value.
 - Alternative/Precursor to standard subtraction procedure of whole numbers based on borrowing
-  - Austrian method - has advantage of resembling the addition procedure, with ordering of operands and sum turned upside down. *Can replace standard procedure based on borrowing*.
+  - Austrian method - has advantage of resembling the addition procedure, with ordering of operands and sum turned upside down. _Can replace standard procedure based on borrowing_.
   - Ancient Egyptian subtraction - has advantage of not depending on positional number system. It works by cancelling on both sides, and expanding higher token into tens of next smaller token if needed.
-  - Variation of Tens' complement method: Idea is to introduce a power of ten whose zero count is one less than the number of digits in the first operand, and then add this power in the beginning, and subtract it in the end. Like shopkeeper's method, it avoids the need for the student to know or remember that subtraction is not commutative, and it completely avoids the step of borrowing. Begin by creating a malformed number whose most significant digit is the same as that of the first operand, whose last digit is 10 (this is what makes the number malformed), and whose other digits in between first and last positions are nines. Can append units of i, x, c and m to the digits in the last 4 positions of the malformed number. Then create another number which is a truncation of the first operand which preserves all but the most significant digit. The malformed number and the truncated number represent the result of adding the power of ten to the first operand. So after creating these two numbers, perform the first calculation by subtracting the second operand from the malformed number digit by digit. Then the second calculation is to add the result from the first calculation to the truncated number. Then the final calcuation is to subtract the power of ten determined in the beginning from the result of the second calculation, by subtracting only the 1 digit in the power of ten from either the first 2 digits or the first digit of the last calculation result, depending on if power of ten is shorter or equal in length to the last calculation result respectively.
+  - Ten's complement method - basically invert second operand by subtracting each digit from 9, turn subtraction into addition with an unusual initial carry of 1 (unlike normal addition in which initial carry is zero), and discard final carry (unlike normal addition in which final carry is retained as part of the answer). Like shopkeeper's method, ten's complement avoids the need for the student to know or remember that subtraction is not commutative, and it completely avoids the step of borrowing.
 - Alternative/Precursor to long multiplication procedure of whole numbers
-  - Variant of partial sums method - This variant requires multiplier to be a single digit, and assumes it will be used with grid multiplication with partial decomposition mentioned below. And it works just like partial sums method of addition.
-    - NB: this method is intentionally called "partial sums" rather than "partial products", to indicate its exact identification with the partial sums method of addition. And also partial products have come to mean grid multiplication in which addition of partial products is done explicitly as a separate step. But in this method, the partial products are added implicitly via the propagation of carries as done in addition algorithms.
-  - grid multiplication - i.e. with full decomposition of both multiplicand and multiplier. has advantage of more directly demonstrating distributive property of multiplication over addition compared to long multiplication procedure.
-  - grid multiplication with partial decomposition method - i.e. in which only multiplicand is decomposed. has advantage of enabling a smoother transition to long multiplication procedure. *Can replace long multiplication procedure*.
+  - grid multiplication with full decomposition - i.e. with full decomposition of both multiplicand and multiplier. has advantage of more directly demonstrating distributive property of multiplication over addition compared to long multiplication procedure.
+  - grid multiplication with partial decomposition method - i.e. in which only multiplicand is decomposed. has advantage of enabling a smoother transition to long multiplication procedure. _Can replace long multiplication procedure_.
   - Russian peasant multiplication, aka ancient Egyptian multiplication - has advantage of not depending on multiplication tables and not depending on positional number system, and rather depends only on doubling, halving, addition, and differentiating even numbers from odd numbers. It works as follows: Have table of 2 columns, and double in right column, but halve in the left column until it becomes 1 while dropping remainders. Then cross out rows with even numbers in the left column, and add up numbers in right column which have not been crossed.
-    - NB: for division by 2 using positional number system, can work it out by transforming dividend from left to right into a malformed number in which all digits except last one are even numbers. Then divide that malformed number by 2 digit by digit. E.g. to divide 7354 by 2, first change 7354 into 7m 3c 5x 4i, then into 6m 13c 5x 4i, then 6m 12c 15x 4i, then finally 6m 12c 14x 14i. Then divide this by 2 digit by digit to obtain 3m 6c 7x 7i. Final answer becomes 3677.
+    - NB: for division by 2 using positional number system, can use short division.
 - Alternative/Precursor to long division
-  - short division - assumes divisor is a single digit.
+  - short division - assumes divisor is a single digit. leverages positional numeral system.
   - Russian peasant division, aka ancient Egyptian division - has same advantages of Russian peasant multiplication. Also, it shows connection between multiplication and division, by recasting division as: by how much should the divisor be multiplied to obtain the dividend? It works as follows: Have a doubling table, filled with products resulting from doubling divisor up to maximum product greater than or equal to the dividend. Then use repeated subtraction to identify subset of products whose sum is the dividend.
     - NB: can be seen as a kind of division by chunking which does not depend on or leverage positional number system.
+    - for single digit divisors, skip peasant division in favour of a counterpart of short division for non-positional numeral systems. That counterpart is obtained by extending the short division performed during peasant multiplication, from division by 2 to division by single-digit divisors.
   - division by chunking (aka division by partial quotients method, "Big 7" method)
     - NB: can be seen as a kind of Russian peasant division which leverages positional number system and multiplication tables to obtain a faster algorithm.
   - custom conversion of fraction to decimal. It works as follows: by repeated multiplication of mixed/proper fraction by 10, until either there is no proper fraction in multiplication result (in which case decimal expansion terminates), or the proper fraction in the multiplication result is the same as one of the mixed/proper fractions being multiplied by 10 (in which case decimal expansion will repeat indefinitely).
   - NB: above two division methods of Big 7 and times 10, will work even for positive fractions and positive decimals.
-
 
 ## Algebra Topics
 
 - justification for any unproven arithmetic procedures and rules, following lead of Kiselev's Arithmetic.
 - the optimized versions of the arithmetic procedures for large counting numbers.
 - swapping "of" operator with overloaded meaning of multiplication which covers fraction and negative multipliers. And use bare times symbol and retire use of circled times symbol for multiplication.
-- standard formulas for multiplication and division of fractions - i.e. if they were skipped in favour of the more intutive but less efficient alternatives earlier on.
+- the optimized versions of the arithmetic procedures for fractions.
 - Divisibility Rules and Prime Factorization
 - developing proficiency in arithmetic of integers and rational numbers involving negative numbers.
 - Conversion of positive fractions from and to decimal expansions
