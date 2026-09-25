@@ -76,14 +76,15 @@ Early algebra proposal for adults depends on using formulas to perform arithmeti
 
 NB: can serve as precursors and/or crosschecking avenues to the ones approved in school, given that the school procedures are often faster.
 
-- Alternative/Precursor to standard subtraction procedure of whole numbers based on USA/British old school way of borrowing
-  - Austrian method - involves simpler borrowing procedure. _Can replace standard procedure based on USA/British old school way of borrowing_.
+- Alternative/Precursor to borrow and regroup procedure of whole numbers
+  - Austrian method, aka borrow and pay back - resembles the addition procedure, with ordering of operands and sum turned upside down. recasts subtraction digit by digit subtraction as, what should be added to second operand to obtain first operand. has advantage of being historically predominant in Europe prior from 16th to 20th centuries, and still predominant in Continental Europe. also has advantage of being more optimized than borrow and regroup. Although less intuitive than borrow and regroup, borrow and pay back has less messy borrowing by avoiding cascading trades. _Can replace method of borrow and regroup_.
   - Ancient Egyptian subtraction - has advantage of not depending on positional number system. It works by cancelling on both sides, and expanding higher token into tens of next smaller token if needed.
   - Method of complements - Like shopkeeper's method, method of complements omits borrowing and avoids the need for the student to know or remember that subtraction is not commutative. To make transitioning to optimized procedures easier, the following guidelines are recommended. Note that the algorithm will work correctly without any of these steps.
     - cancel out the common prefix of both operands. If no digits remain after this step, then it means the operands were equal and hence the final answer is zero.
     - if the first operand has only a single digit, perform subtraction directly and the result is the final answer.
     - any direct subtraction should be done in order of last to first digit of second operand.
     - populate an empty row in between the operands, consisting of 10 written out as 9+1 in the last position, and 9 in all other positions before computing nine's complement.
+    - nine's complement should contain as many digits as the second operand, rather than contain as many digits as the first operand.
     - copy the first operand below the nine's complement before performing addition, instead of performing addition directly with original copy of first operand. then make use of space below this copy for carries (this is in contrast to normal addition in which carries are written above rather than below first operand).
     - prefer ten's complement method to nine's complement method but perform ten's complement method indirectly, by performing addition of first operand with nine's complement of second operand, and using the +1 as an initial carry (this is in contrast to normal addition in which there is no initial carry). So in the end cancel the most significant digit in the addition result, which has to be 1, to obtain the final answer.
 - Alternative/Precursor to long multiplication procedure of whole numbers
