@@ -21,14 +21,13 @@ Nevertheless this archive serves as reference for
 Early algebra refers to arithmetic and the subset of algebra topics taught in primary and secondary schools. Strictly speaking, it excludes
 
 - arithmetic of small whole numbers by manual counting.
-- arithmetic of small whole numbers by table lookup.
-- arithmetic of whole numbers by non-positional numeral systems. Examples of such systems are the following two systems I first heard of from Prof N. J. Wildberger:
+- arithmetic of whole numbers represented by non-positional numeral systems. Examples of such systems are the following two systems I first heard of from Prof N. J. Wildberger:
   - use of I as symbol for 1, and use of mutiple Is for every other number.
   - use of a simplified Roman numeral system, in which I stands for one, X for ten, C for hundred, and M for thousand. In canonical form, the symbols are listed in
     decreasing order of value, and each symbol occurs less than 10 times.
     - E.g. I for 1, IIII for 4, IIIIIIIII for 9, X for 10, XI for 11, XXXXIIIII for 45, XXXXX for 50, CII for 102, MXXXXIII for 1043
     - NB: use of this system may require circling times symbol of multiplication in order to differentiate multiplication operator from numeral for ten.
-    - NB: use of this system will require teaching full roman numeral system later on, independently of arithmetic, ie for use as labels.
+    - NB: use of this system may require teaching full roman numeral system later on for completeness sake, but independently of arithmetic application, ie for use as labels.
 - the topics of simplification of algebraic expressions, generation of algebraic expressions and other susbsequent topics in algebra.
 
 For teens and adults, this proposal permits the introduction of less optimal but more intuitive arithmetic procedures to the students. It also permits the presentation of the early algebra topics in a different arrangement from that for pre-teens, in order to better suit the challenges and opportunities presented by teens and adults.
@@ -87,17 +86,17 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 - Alternative/Precursor to long multiplication procedure of whole numbers
   - grid multiplication with full decomposition - i.e. with full decomposition of both multiplicand and multiplier. has advantage of more directly demonstrating distributive property of multiplication over addition compared to long multiplication procedure.
   - grid multiplication with partial decomposition method - i.e. in which only multiplicand is decomposed. has advantage of enabling a smoother transition to long multiplication procedure. _Can replace long multiplication procedure_.
-  - Russian peasant multiplication, aka ancient Egyptian multiplication - has advantage of not depending on multiplication tables and not depending on positional number system, and rather depends only on doubling, halving, addition, and differentiating even numbers from odd numbers. It works as follows: Have table of 2 columns, and double in right column, but halve in the left column until it becomes 1 while dropping remainders. Then cross out rows with even numbers in the left column, and add up numbers in right column which have not been crossed. NB:
+  - Russian peasant multiplication, aka ancient Egyptian multiplication - has advantage of not depending on multiplication tables and not depending on positional number system, and rather depends only on doubling, halving, addition, and differentiating even numbers from odd numbers. It works as follows: Have table of 2 columns, and double in right column, but halve in the left column until it becomes 1 while dropping remainders. Then mark out rows with odd numbers in the left column, and add up numbers in right column which have been marked. NB:
     - for division by 2 using positional number system, can use short division.
     - at any point that one knows what the product of a row is, one can just skip the doubling and halving and just write out the final row of 1 and the product.
 - Alternative/Precursor to long division
   - short division - assumes divisor is a single digit. leverages positional numeral system.
   - Russian peasant division, aka ancient Egyptian division - has same advantages of Russian peasant multiplication. It works as follows: Have a division table, filled with products resulting from doubling divisor up to maximum product greater than or equal to the dividend. Then use repeated subtraction to identify subset of products whose sum is the dividend. NB:
     - can be seen as a kind of division by chunking which does not depend on or leverage positional number system.
-    - for single digit divisors, skip peasant division in favour of a counterpart of short division for non-positional numeral systems. That counterpart is obtained by extending the short division performed during peasant multiplication, from division by 2 to division by single-digit divisors.
+    - for division by 1 and 2, skip peasant division in favour of the short division performed during peasant multiplication.
   - division by chunking (aka division by partial quotients method, "Big 7" method). NB:
     - Division by chunking may employ arbitrary contents or employ a specific kind of contents (e.g. first 5 multiples) for its division tables.
-    - Peasant division and long division can be seen as variants of division by chunking which employ different contents of division tables (all powers of 2 which may be needed versus first 9 multiples).
+    - Peasant division and long division can be seen as variants of division by chunking which employ different contents of division tables (all powers of 2 which may be needed versus first 9 multiples). Long division also differs in being unforgiving if a chunk is selected for reducing the current remainder which is less than the maximum chunk possible.
   - custom conversion of fraction to decimal. It works as follows: by repeated multiplication of mixed/proper fraction by 10, until either there is no proper fraction in multiplication result (in which case decimal expansion terminates), or the proper fraction in the multiplication result is the same as one of the mixed/proper fractions being multiplied by 10 (in which case decimal expansion will repeat indefinitely).
   - NB: above two division methods of Big 7 and times 10, will work even for positive fractions and positive decimals.
 
