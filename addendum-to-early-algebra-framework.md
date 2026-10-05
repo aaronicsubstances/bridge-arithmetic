@@ -19,56 +19,58 @@ The ability to cross-check answers becomes critical in the study of many science
 
 1. Can emulate Singapore math curriculum, in which Grades 1-3 are taught wholly with manipulatives.
 
-2. Can modify standard long multiplication procedure to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition.
+2. Can introduce this precursor to subtraction procedure (whether decomposition method or Austrian method) - a custom upgrade to Equal additions method that adopts scripting of Austrian method but modifies the common notation of both as follows: It swaps the order of the operands in the vertical stack arrangement, and places the minus with the top operand, so that the minus sign is still with the second operand. With this notation change, this custom method seeks to be an upgrade to Equal additions method that subsumes the advantages of the Austrian method, and goes further than the Austrian method in suitability for children by offering better protection against inversion errors while keeping switching errors from filling the void.
 
-3. Note that each variant of the multiplication procedure for whole numbers is an application of the distributive property of multiplication over addition.
+3. Can modify standard long multiplication procedure to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition.
 
-4. Can modify standard long division procedure to be easier to recall, by placing a digit on top of each digit of the dividend. In the case of long division beyond the decimal places available in the dividend, manually add a zero (preceded by adding a decimal point if necessary) to the dividend, for each digit in the partial quotient answer generated after the decimal point. Overall, this means that the modification is meant to ensure a one-to-one correspondence between the digits and optional decimal point of the dividend, and the digits and optional decimal point of the quotient answer above it.
+4. Note that each variant of the multiplication procedure for whole numbers is an application of the distributive property of multiplication over addition.
 
-5. Can make another modification to long division, by leveraging the explicit creation of times table for divisor that is used with peasant division and Big 7 division, and setting table size to 9 entries.
+5. Can modify standard long division procedure to be easier to recall, by placing a digit on top of each digit of the dividend. In the case of long division beyond the decimal places available in the dividend, manually add a zero (preceded by adding a decimal point if necessary) to the dividend, for each digit in the partial quotient answer generated after the decimal point. Overall, this means that the modification is meant to ensure a one-to-one correspondence between the digits and optional decimal point of the dividend, and the digits and optional decimal point of the quotient answer above it.
 
-6. correctness of long division in converting fractions to decimals, can be demonstrated with this custom conversion to decimal from fractions (or quotients of positive fractions, or quotients of positive decimals), which works as follows: by repeated multiplication of mixed/proper fraction by 10, until either there is no proper fraction in multiplication result (in which case decimal expansion terminates), or the proper fraction in the multiplication result is the same as one of the mixed/proper fractions being multiplied by 10 (in which case decimal expansion will repeat indefinitely).
+6. Can make another modification to long division, by leveraging the explicit creation of times table for divisor that is used with peasant division and Big 7 division, and setting table size to 9 entries.
 
-7. If misconceptions about commutativity of the four basic arithmetic operations prove too enduring to be rooted out by proficiency in arithmetic of non-whole numbers alone, then these exercises may be employed in experiments to try forestalling the misconceptions:
+7. correctness of long division in converting fractions to decimals, can be demonstrated with this custom conversion to decimal from fractions (or quotients of positive fractions, or quotients of positive decimals), which works as follows: by repeated multiplication of mixed/proper fraction by 10, until either there is no proper fraction in multiplication result (in which case decimal expansion terminates), or the proper fraction in the multiplication result is the same as one of the mixed/proper fractions being multiplied by 10 (in which case decimal expansion will repeat indefinitely).
+
+8. If misconceptions about commutativity of the four basic arithmetic operations prove too enduring to be rooted out by proficiency in arithmetic of non-whole numbers alone, then these exercises may be employed in experiments to try forestalling the misconceptions:
    - asking subtraction questions in which result can be negative, and accepting "undefined", "unexpected number", "negative",
      or actual negative result as valid answers, to show that subtraction is not commutative even before teaching integer arithmetic.
    - asking division questions in which there is division by zero and division which yields zero, and accepting "undefined" as possible result.
    - asking division questions in which quotient can be zero, to show that division is not commutative before teaching fractions.
    - exposing students to calculations involving number zero in operands or answers, before and after teaching integers and fractions.
 
-8. Leverage simplification of fractions for several benefits, including getting students to notice structures related to multiplication,
+9. Leverage simplification of fractions for several benefits, including getting students to notice structures related to multiplication,
    division, factors, multiples, and divisors.
    - Students can see pictorially what simplification of fractions is.
    - Serves as counterpart to simplification of algebraic expressions in the future.
 
-9. Curricular activities for applying mathematics in the real world.
-   - synthetic, Euclidean geometry based on paper folding and compass and straight edge.
-   - susu-box (aka piggy bank) management
-   - cash-based accounting
-   - sports league standings
-   - cooking recipes
-   - interpreting pharmacists' instructions on frequency of taking pills and syrups, as an application of multiplication.
-   - distance measurement, including anatomy-based (inch/thumb, foot, yard/arm span)
-   - weight/mass measurement, including balances/scales used throughout history.
-   - wall clock readings
-   - descriptive statistics
-   - sharing money in ratios (determining whether I received correct amount).
-   - picking largest of large whole numbers or fractions, representing monetary amounts or physical quantities
-   - integer division from sharing perspective - sharing money without bias for any recipient (hence a common quotient) or cheating by distributor (hence remainder must be smaller than divisor).
+10. Curricular activities for applying mathematics in the real world.
+    - synthetic, Euclidean geometry based on paper folding and compass and straight edge.
+    - susu-box (aka piggy bank) management
+    - cash-based accounting
+    - sports league standings
+    - cooking recipes
+    - interpreting pharmacists' instructions on frequency of taking pills and syrups, as an application of multiplication.
+    - distance measurement, including anatomy-based (inch/thumb, foot, yard/arm span)
+    - weight/mass measurement, including balances/scales used throughout history.
+    - wall clock readings
+    - descriptive statistics
+    - sharing money in ratios (determining whether I received correct amount).
+    - picking largest of large whole numbers or fractions, representing monetary amounts or physical quantities
+    - integer division from sharing perspective - sharing money without bias for any recipient (hence a common quotient) or cheating by distributor (hence remainder must be smaller than divisor).
 
-10. Ways of adopting textbook "forward-only" exercises for early algebra.
+11. Ways of adopting textbook "forward-only" exercises for early algebra.
     - Can adapt for generalization by re-asking the question with large whole numbers, non-whole numbers and unknown numbers.
     - Can adapt for equation solving by "reversing the question".
 
-11. Introduce enough variety of arithmetic expression evaluation exercises in order to avoid using BODMAS mnemonic in unintended situations. Note also that they end up demonstrating associativity of addition and multiplication.
+12. Introduce enough variety of arithmetic expression evaluation exercises in order to avoid using BODMAS mnemonic in unintended situations. Note also that they end up demonstrating associativity of addition and multiplication.
 
-12. HCF/GCD do not seem to be used directly in practice; instead common factors (CF) are used directly to iteratively reduce fractions to their simplest forms. On the other hand direct use of LCM seems unavoidable in understanding fraction arithmetic, becase the alternative use of common multiples (CM) will make arithmetic involving denominators which are not relatively prime unnecessarily complex.
+13. HCF/GCD do not seem to be used directly in practice; instead common factors (CF) are used directly to iteratively reduce fractions to their simplest forms. On the other hand direct use of LCM seems unavoidable in understanding fraction arithmetic, becase the alternative use of common multiples (CM) will make arithmetic involving denominators which are not relatively prime unnecessarily complex.
     - why not teach Euclid's algorithm directly to compute HCF(a, b), and also to compute LCM(a, b) as a &times; b / HCF(a, b)?
     - can use counting and aligning objects to compute HCF(a, b) via Euclid's algorithm without explicity referencing Euclid's name. E.g. To compute HCF(8, 6), first lay out a row of 8 objects since 8 is the larger one, then beneath it lay out a row of 6
       objects. Next repeat 6 for as long as possible until alignment or overflow occurs. If alignment occurs, count of objects in unit repeated in last row is the GCD. Else fetch the remainder, and lay out a new row with it, and repeat it with the goal of getting alignment or overflow with the immediate row above it.
     - can use counting to teach LCM(a, b), by aligning objects in rows of counts _a_ and _b_, and repeating each count until an alignment is observed. The total number of objects in one row, which will be equal to the number in the other row, is the LCM of _a_ and _b_.
 
-13. Quadratic factorization
+14. Quadratic factorization
     - instead of looking for factors of ac which add up to b, can rather teach almighty formula and use product of roots by -a as the desired factors.
     - as a help to quadratic factorization in algebra, can train students to identify coefficients of linear and quadratic expressions and equations in early algebra.
 
