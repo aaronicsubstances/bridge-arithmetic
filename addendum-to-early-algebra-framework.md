@@ -17,9 +17,9 @@ The ability to cross-check answers becomes critical in the study of many science
 
 ## Curriculum Design Tips
 
-1. Can emulate Singapore math curriculum, in which Grades 1-3 are taught wholly with manipulatives.
+1. Can emulate Singapore math curriculum, in which Grades 1-3 are taught wholly with manipulatives. Or can just have the teaching dominated by manipulatives rather than rigidly barring pictures and symbols.
 
-2. Can introduce this precursor to subtraction procedure (whether decomposition method or Austrian method) - a custom upgrade to Equal additions method that adopts scripting of Austrian method but modifies the common notation of both as follows: It swaps the order of the operands in the vertical stack arrangement, and places the minus with the top operand, so that the minus sign is still with the second operand. With this notation change, this custom method seeks to be an upgrade to Equal additions method that subsumes the advantages of the Austrian method, and goes further than the Austrian method in suitability for children by offering better protection against inversion errors while keeping switching errors from filling the void.
+2. Can introduce this precursor to subtraction procedure (whether Austrian method or Russian variant of decomposition method) - a custom upgrade to Equal additions method that adopts scripting of Austrian method but modifies the common notation of both as follows: It swaps the order of the operands in the vertical stack arrangement, and places the minus with the top operand, so that the minus sign is still with the second operand. With this notation change, this custom method seeks to be an upgrade to Equal additions method that subsumes the advantages of the Austrian method, and goes further than the Austrian method in suitability for children by offering better protection against inversion errors while keeping switching errors from filling the void.
 
 3. Can modify standard long multiplication procedure to be more intuitive by fillng the bottom right hand spaces with zeros, and introducing the '+' sign to indicate the final addition.
 
