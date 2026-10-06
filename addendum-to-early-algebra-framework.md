@@ -27,7 +27,7 @@ The ability to cross-check answers becomes critical in the study of many science
 
 5. Can modify standard long division procedure to be easier to recall, by placing a digit on top of each digit of the dividend. In the case of long division beyond the decimal places available in the dividend, manually add a zero (preceded by adding a decimal point if necessary) to the dividend, for each digit in the partial quotient answer generated after the decimal point. Overall, this means that the modification is meant to ensure a one-to-one correspondence between the digits and optional decimal point of the dividend, and the digits and optional decimal point of the quotient answer above it.
 
-6. Can make another modification to long division, by leveraging the explicit creation of times table for divisor that is used with peasant division and Big 7 division, and setting table size to 9 entries.
+6. Can make another modification to long division, by leveraging the explicit creation of times table for divisor that is used with division by chunking, and setting table size to 9 entries.
 
 7. correctness of long division in converting fractions to decimals, can be demonstrated with this custom conversion to decimal from fractions (or quotients of positive fractions, or quotients of positive decimals), which works as follows: by repeated multiplication of mixed/proper fraction by 10, until either there is no proper fraction in multiplication result (in which case decimal expansion terminates), or the proper fraction in the multiplication result is the same as one of the mixed/proper fractions being multiplied by 10 (in which case decimal expansion will repeat indefinitely).
 
