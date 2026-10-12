@@ -99,19 +99,21 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
     - for division by 2 using positional numeral system, can use short division.
     - at any point that one knows what the product of a row is, one can just skip the doubling and halving and just write out the final row of 1 and the product.
 - Alternative/Precursor to long division
-  - Long division without partial products - copied from russian variant of long division, in which partial products are not written out. Rather partial dividends are underlined, and the remainders right aligned with the partial dividends. Not writing partial products is a feature reminiscent of galley method. _Can replace long division and partial products_.
-  - Short division - assumes divisor is a single digit. leverages positional numeral system. _Can complement long division._
-  - Ancient Egyptian division - has advantage of not depending on multiplication tables. It works as follows: Have a times table, initially with 1 in left column, and divisor in right column. Then continue filling with products resulting from first multiplying divisor by 10 up to maximum product less than or equal to the dividend, then continue by successive doubling up to maximum product less than or equal to the dividend. Then use repeated subtraction of entries in the right column from dividend, to identify partial quotients in left column to add up to obtain final answer. NB:
-    - can be seen as a kind of division by chunking which does not depend on or leverage positional number system.
-  - Division by chunking (aka division by partial quotients method, "Big 7" method). NB:
-    - may employ first 5 multiples of divisor for its times tables.
-    - ancient Egyptian division and long division can be seen as variants of division by chunking which employ different contents of times tables (multiples of divisor by 10 and 2 which are less than or equal to divided, versus first 9 multiples). Long division also differs in being unforgiving if a chunk is selected for reducing the current remainder which is less than the maximum chunk possible.
+  - Division by chunking, aka division by partial quotients method, "Big 7" method - _Can replace long division involving multi-digit divisors._ NB:
+    - may employ first 5 multiples of divisor for its table of chunks.
+    - ancient Egyptian division and long division can be seen as variants of division by chunking which employ different contents of table of chunks (multiples of divisor by 10 and 2 which are less than or equal to divided, versus first 9 multiples). Long division also differs in being unforgiving if a chunk is selected for reducing the current remainder which is less than the maximum chunk possible.
     - can work even for operands which are positive fractions or positive decimals.
+  - Short division - assumes divisor is a single digit. leverages positional numeral system and multiplication tables. _Can be complementary method introduced before or after any division procedure involving multi-digit divisors._
+  - Ancient Egyptian division - has advantage of not depending on multiplication tables and not depending on positional number system. It works as follows: Have a table of chunks, initially with 1 in left column, and divisor in right column. Then continue filling with products resulting from first multiplying divisor by 10 up to maximum product less than or equal to the dividend, then continue by successive doubling up to maximum product less than or equal to the dividend. Then use repeated subtraction of entries in the right column from dividend, to identify partial quotients in left column to add up to obtain final answer.
 
 ## Algebra Topics
 
 - justification for any unproven arithmetic procedures and rules, following lead of Kiselev's Arithmetic.
 - the optimized versions of the arithmetic procedures for large counting numbers.
+  - standard addition procedure
+  - standard decomposition method and/or austrian method of subtraction
+  - long multiplication or lattice method
+  - short division for single digit divisors, and either long division or "Big 7" method for multi-digit divisors
 - swapping "of" operator with overloaded meaning of multiplication which covers fraction and negative multipliers. And use bare times symbol and retire use of circled times symbol for multiplication.
 - the optimized versions of the arithmetic procedures for fractions.
 - Divisibility Rules and Prime Factorization
