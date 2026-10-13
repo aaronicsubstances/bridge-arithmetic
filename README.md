@@ -1,4 +1,4 @@
-**NB: This project was discontinued, after the discovery of certain historical ways of teaching math.**
+**NB: The original goal of this project, which was developing the framework document in it, has been abandoned, after the discovery of certain historical ways of teaching math.**
 
 It is the discovery of
 
@@ -9,8 +9,9 @@ It is the discovery of
 5. galley division, the venerable division procedure for ink and paper medium, before long division was invented and promoted over it because the latter eliminates the messiness of the former.
 6. Russian peasant multiplication, one of two ancient Egyptian multiplication procedures preserved by Russian peasants in the 19th century.
 7. Austrian method of subtraction, which is the longest-lasting of the subtraction procedures invented specifically to suit primary school math education. It is a 19th century variant of the Equal additions method still in use in Germany and Austria. The variant maintained the notation, but reversed the scripted question of "first operand minus second operand equals what?" to asking "second operand plus what equals the first?"
-8. former Russian math curriculum based on A. P. Kiselev's books in the early 20th century for junior and senior secondary school, and its long-term teaching of Euclidean/synthetic geometry;
-9. the backlash to the attempted rewriting of the foundations of modern math in 1930s and 1960s, from counting numbers and Euclidean/synthetic geometry to infinite set theory.
+8. former Russian math curriculum based on A. P. Kiselev's books in the early 20th century for junior and senior secondary school, and its long-term teaching of Euclidean/synthetic geometry
+9. Russian variant of standard decomposition procedure - invented in Kiselev's Arithmetic, the variant uses dots above digits of the first operand, instead of cancelling and writing 10s and 9s on top of first operand. it only requires student to remember that a dot on top of a non-zero digit means to decrease digit by 1, but a dot on top of a zero digit means to interpret digit as a 9. Has advantage that the exact same annotations can be reinterpreted with Austrian method, in which a dot on top of any column means to increase bottom digit by 1.
+10. the backlash to the attempted rewriting of the foundations of modern math in 1930s and 1960s, from counting numbers and Euclidean/synthetic geometry to infinite set theory.
 
 Here modern math refers to math
 
@@ -60,7 +61,8 @@ For students who are teens or adults, there is an additional goal which is to be
 
 The following activities are assumed to constitute arithmetic for rational numbers as taught in school or online:
 
-- Standard numeral system, ie Hindu-Arabic numeral system.
+- Decimal nature of almost numeral systems invented by humans, ie number base is equal to 10, or a multiple of 10 (i.e. 20 and 60).
+- Positional nature of standard numeral system, ie Hindu-Arabic numeral system.
 - Addition
 - Subtraction
 - Multiplication with counting number multiplier
@@ -89,8 +91,7 @@ Early algebra proposal for adults depends on using formulas to perform arithmeti
 NB: can serve as precursors and/or crosschecking avenues to the ones approved in school, given that the school procedures are often faster.
 
 - Alternative/Precursor to standard decomposition procedure of whole numbers
-  - Equal Additions methods - critics in USA (Chauncey Lee, Warren Colburn, William Brownell) have long noted that equal additions methods are less straightforward to demonstrate with manipulatives, compared with decomposition method. This Early Algebra proposal considers addition to be more fundamental than subtraction, especially in positional numeral systems (by contrast in non-positional numeral system, one can more easily get away with treating subtraction as fundamental), and so prefers relying on faith in students and teachers to learn and teach subtraction (and the other non-fundamental arithmetic operations of multiplication and division) with the goal of proficiency now, and fill in gaps in conceptual understanding later. _Can be complementary method introduced before or after standard decomposition procedure_.
-  - Russian variant of standard decomposition procedure - invented in Kiselev's Arithmetic, the variant uses dots above digits of the first operand, instead of cancelling and writing 10s and 9s on top of first operand. it only requires student to remember that a dot on top of a non-zero digit means to decrease digit by 1, but a dot on top of a zero digit means to interpret digit as a 9. Has advantage that the exact same annotations can be reinterpreted with Austrian method, in which a dot on top of any column means to increase bottom digit by 1. _Can replace standard decomposition procedure._
+  - Equal Additions methods, i.e. either original method or Austrian method or a custom variant described in addendum document - this Early Algebra proposal considers the greater opposition this method offers to treating subtraction as a "take away from" operation which is as fundamental as addition rather than treating addition as more fundamental than subtraction, the greater opposition this method offers to treating base 10 as an arbitrary number base rather than as a necessary feature of arithmetic, and the greater opposition this method offers to treating place value concept as fundamental rather than as abstraction of the workings of base 10, compared to decomposition worthwhile tradeoffs for higher time and space efficiency, elimination of cascading trades, and greater protection against inversion errors. _Can be complementary method introduced before or after standard decomposition procedure done with positional numeral system, and done on paper rather than with manipulatives_.
   - Ancient Egyptian subtraction - basically the equivalent of standard decomposition procedure for non-positional numeral system. It works by cancelling on both sides, and expanding higher token into tens of next smaller token if needed.
 - Alternative/Precursor to long multiplication procedure of whole numbers
   - lattice multiplication - leverages multiplication tables and positional numeral system. this Early Algebra proposal considers the lower space efficiency of this method compared to long multiplication as a worthwhile tradeoff for higher time efficiency, greater traceability of carries and lower demands on working memory for primary school children. _Can replace long multiplication procedure._
@@ -111,7 +112,7 @@ NB: can serve as precursors and/or crosschecking avenues to the ones approved in
 - justification for any unproven arithmetic procedures and rules, following lead of Kiselev's Arithmetic.
 - the optimized versions of the arithmetic procedures for large counting numbers.
   - standard addition procedure
-  - standard decomposition method and/or austrian method of subtraction
+  - standard decomposition method, austrian method of subtraction, or original equal additions method
   - long multiplication or lattice method
   - short division for single digit divisors, and either long division or "Big 7" method for multi-digit divisors
 - swapping "of" operator with overloaded meaning of multiplication which covers fraction and negative multipliers. And use bare times symbol and retire use of circled times symbol for multiplication.
